@@ -28,3 +28,16 @@ Non retrouvé : une RPC du CNGOF « de 2015 » sur la GEU (ne pas la citer). ESH
 | βhCG > 1 500 UI/L + utérus vide = fortement évocateur (zone discriminatoire) | usage étudiant uniquement ; à vérifier ; non dit dans la vidéo grand public |
 | Critères d'expectative (βhCG < 1 000, masse < 35 mm…) | provenance : fiche tierce 2026 ; **ne pas utiliser** sans le texte de la RPC |
 | Protocole méthotrexate (1 mg/kg IM, etc.) | hors vidéo grand public |
+
+## Épisode 4 — AVC (consulté le 2026-10-25, niveau B : résumés de recherche)
+| ID | Source | Appuie | Niveau |
+|----|--------|--------|--------|
+| S7 | HAS — « Accident vasculaire cérébral : des signes d'alerte… » | Mémo FAST (visage, bras, parole, Time) ; appeler le 15 immédiatement, même si les signes disparaissent | B |
+| S8 | Campagne « AVC VITE le 15 » (France AVC / ministère) | Libellés VITE | B |
+| — | Délai de 4 h 30 (thrombolyse) | Cité par sources secondaires, **non utilisé** dans la vidéo | à vérifier |
+
+## Épisode 2 — Cœur (niveau B)
+| S9 | AHA — « How the Healthy Heart Works » ; NHLBI — « How the Heart Works » | 4 cavités, septum, 4 valves (tricuspide, pulmonaire, mitrale, aortique), circuit corps→cœur→poumons→cœur→corps | B |
+
+## Épisode 6 — Appendicite (niveau B)
+| S10 | SFCD/SIAD — RPC « Appendicite de l'adulte » (2021, méthodologie HAS) | Fièvre peu discriminante ; aucun signe isolé ne suffit ; diagnostic clinico-biologique et radiologique ; triade défense FID/leucocytose/CRP (étudiants) | B (texte intégral non lu) |
