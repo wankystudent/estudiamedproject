@@ -20,11 +20,11 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 | Ép. | Sujet | Statut | Fichier |
 |-----|-------|--------|---------|
 | 01 | Grossesse extra-utérine : 5 signes d'alerte | **généré (brouillon HeyGen, non publié, 2 min 11 s)** — page https://app.heygen.com/videos/f961be91b377fe035191a600d1a8e765 — video_id `f961be91b377fe035191a600d1a8e765` | `episodes/ep01/` |
-| 02 | Comment fonctionne le cœur ? | **généré (brouillon HeyGen en cours)** — video_id `91fd93c3b89abe8a47c13c75040be6e4` | `episodes/ep02/EPISODE.md` |
+| 02 | Comment fonctionne le cœur ? | **généré (brouillon HeyGen, 1 min 50 s)** — https://app.heygen.com/videos/91fd93c3b89abe8a47c13c75040be6e4 — video_id `91fd93c3b89abe8a47c13c75040be6e4` | `episodes/ep02/EPISODE.md` |
 | 03 | Placenta accreta : comprendre les risques | à rédiger | — |
-| 04 | AVC : reconnaître les signes FAST | **généré (brouillon HeyGen en cours)** — video_id `7cb9fc36392e558c9f79256ea7e2f1e9` | `episodes/ep04/EPISODE.md` |
+| 04 | AVC : reconnaître les signes FAST | **généré (brouillon HeyGen, 1 min 46 s)** — https://app.heygen.com/videos/7cb9fc36392e558c9f79256ea7e2f1e9 — video_id `7cb9fc36392e558c9f79256ea7e2f1e9` | `episodes/ep04/EPISODE.md` |
 | 05 | NFS : comprendre les résultats | à rédiger | — |
-| 06 | Appendicite : comment la reconnaître ? | **généré (brouillon HeyGen en cours)** — video_id `5d122e919a6cb928474272bffc6178b8` | `episodes/ep06/EPISODE.md` |
+| 06 | Appendicite : comment la reconnaître ? | **généré (brouillon HeyGen, 1 min 44 s)** — https://app.heygen.com/videos/5d122e919a6cb928474272bffc6178b8 — video_id `5d122e919a6cb928474272bffc6178b8` | `episodes/ep06/EPISODE.md` |
 | 07 | Les reins : leur rôle | à rédiger | — |
 | 08 | Diabète : pourquoi le glucose augmente-t-il ? | à rédiger | — |
 | 09 | Constantes vitales en stage | à rédiger | — |
@@ -41,6 +41,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-25 12:09 UTC — Rendu terminé : durée 130,6 s (plus court que les 2 min 30 estimées → recaler les minutages du storyboard). Sous-titres .srt générés côté HeyGen (liens signés temporaires ; à retélécharger via get_video). Contrôle qualité humain à faire.
 - 2026-10-25 — Montage ép. 1 réalisé (ffmpeg + Chromium, scripts dans `montage/ep01/`) : 11 scènes, illustrations originales, sous-titres incrustés, durée 2 min 11 s. Fichier : `montage/ep01_montage_v1.mp4` (hors dépôt, voir note). Scripts des ép. 2, 4, 6 rédigés (à vérifier, non générés dans HeyGen : aucun crédit dépensé).
 - 2026-10-25 — Sur demande explicite de l'utilisateur : génération HeyGen des ép. 2, 4, 6 lancée (mêmes réglages que l'ép. 1). IDs dans le tableau. Contrôle des rendus à faire.
+- 2026-10-25 12:35 UTC — Ép. 2, 4, 6 rendus terminés (durées 1:50, 1:46, 1:44, un peu sous la cible 2–3 min). Crédits premium : 454 → 328 (≈ 31 par vidéo de ~2 min). Montage non lancé (en attente de demande).
 
 ## Prochaines actions autonomes (ordre)
 
