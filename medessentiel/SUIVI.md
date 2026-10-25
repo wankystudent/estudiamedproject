@@ -9,7 +9,7 @@
 |---|----------|----------|--------|
 | D1 | Valider le nom MedEssentiel (domaine, YouTube, Facebook, marque INPI/OMPI) | Vérification légale non faite | OUVERT |
 | D2 | Choisir le look HeyGen principal | Plusieurs looks dans le compte | **RÉSOLU 2026-10-25** : look `37d8ceaf22a64f23832965cb2cf3dcaf` (« Photo Avatar », portrait) + voix `06027f8821064073bf88d2a660173bc1` |
-| D3 | Autoriser la génération HeyGen de l'épisode 1 (consomme des crédits premium, 454 restants) | Règle : aucune dépense sans accord | OUVERT |
+| D3 | Génération HeyGen ép. 1 | Accord donné (« premier vidéo à produire ») | **RÉSOLU 2026-10-25** : 1 génération lancée (16:9, 1080p, fond #0B2545) |
 | D4 | Relecture scientifique finale du script ép. 1 par le Dr Massenat | Contrôle qualité obligatoire avant génération | OUVERT |
 | D5 | Pays/numéro d'urgence à citer à l'écran (15/112 France ? autre ?) | Audience francophone multi-pays | OUVERT |
 
@@ -19,7 +19,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 
 | Ép. | Sujet | Statut | Fichier |
 |-----|-------|--------|---------|
-| 01 | Grossesse extra-utérine : 5 signes d'alerte | **à vérifier** | `episodes/ep01/` |
+| 01 | Grossesse extra-utérine : 5 signes d'alerte | **généré (brouillon HeyGen, non publié)** — video_id `f961be91b377fe035191a600d1a8e765` | `episodes/ep01/` |
 | 02 | Comment fonctionne le cœur ? | à rédiger | — |
 | 03 | Placenta accreta : comprendre les risques | à rédiger | — |
 | 04 | AVC : reconnaître les signes FAST | à rédiger | — |
@@ -36,6 +36,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 
 - 2026-10-25 — Utilisateur fixe l'avatar `37d8ceaf22a64f23832965cb2cf3dcaf` et la voix `06027f8821064073bf88d2a660173bc1` (D2 résolu). Look en portrait : le storyboard 16:9 de l'ép. 1 est à adapter (avatar centré/à gauche sur fond uni, schémas en incrustation). Toujours aucune génération (D3 ouvert).
 - 2026-10-25 — Dépôt vide analysé. Compte HeyGen inspecté en lecture seule (aucune génération, aucune dépense). Sources de l'ép. 1 recherchées (voir `SOURCES.md`) : textes intégraux non accessibles depuis ce poste (réseau limité) → **sources à confirmer manuellement avant publication**. Dossier de lancement, script, storyboard, métadonnées de l'ép. 1 rédigés.
+
+- 2026-10-25 — Génération lancée : `f961be91b377fe035191a600d1a8e765`. Brouillon à contrôler (voix, prononciation, lip-sync, cadrage portrait en 16:9) ; D4 toujours requise avant publication.
 
 ## Prochaines actions autonomes (ordre)
 
