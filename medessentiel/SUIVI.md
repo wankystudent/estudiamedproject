@@ -8,7 +8,7 @@
 | # | Décision | Pourquoi | Statut |
 |---|----------|----------|--------|
 | D1 | Valider le nom MedEssentiel (domaine, YouTube, Facebook, marque INPI/OMPI) | Vérification légale non faite | OUVERT |
-| D2 | Choisir le look HeyGen principal (voir `heygen-config.md`) | Plusieurs looks dans le compte | OUVERT |
+| D2 | Choisir le look HeyGen principal | Plusieurs looks dans le compte | **RÉSOLU 2026-10-25** : look `37d8ceaf22a64f23832965cb2cf3dcaf` (« Photo Avatar », portrait) + voix `06027f8821064073bf88d2a660173bc1` |
 | D3 | Autoriser la génération HeyGen de l'épisode 1 (consomme des crédits premium, 454 restants) | Règle : aucune dépense sans accord | OUVERT |
 | D4 | Relecture scientifique finale du script ép. 1 par le Dr Massenat | Contrôle qualité obligatoire avant génération | OUVERT |
 | D5 | Pays/numéro d'urgence à citer à l'écran (15/112 France ? autre ?) | Audience francophone multi-pays | OUVERT |
@@ -34,6 +34,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 
 ## Journal
 
+- 2026-10-25 — Utilisateur fixe l'avatar `37d8ceaf22a64f23832965cb2cf3dcaf` et la voix `06027f8821064073bf88d2a660173bc1` (D2 résolu). Look en portrait : le storyboard 16:9 de l'ép. 1 est à adapter (avatar centré/à gauche sur fond uni, schémas en incrustation). Toujours aucune génération (D3 ouvert).
 - 2026-10-25 — Dépôt vide analysé. Compte HeyGen inspecté en lecture seule (aucune génération, aucune dépense). Sources de l'ép. 1 recherchées (voir `SOURCES.md`) : textes intégraux non accessibles depuis ce poste (réseau limité) → **sources à confirmer manuellement avant publication**. Dossier de lancement, script, storyboard, métadonnées de l'ép. 1 rédigés.
 
 ## Prochaines actions autonomes (ordre)

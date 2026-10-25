@@ -6,6 +6,12 @@ Aucun avatar créé, aucun avatar modifié, aucune vidéo générée.
 - Groupe d'avatar existant : « Wanky Massenat » — `group_id c5123edbcfe148edb1d200e02a9c10eb` (8 looks).
 - Voix française privée : « Wanky Massenat » — `voice_id 06027f8821064073bf88d2a660173bc1` (par défaut du groupe).
 
+## ✅ Configuration retenue (choix de l'utilisateur, 2026-10-25)
+
+- **Avatar (look) ID :** `37d8ceaf22a64f23832965cb2cf3dcaf` — « Photo Avatar », photo avatar, portrait (1214×1295), moteurs : avatar_v / avatar_iv / avatar_iii, groupe « Wanky Massenat ».
+- **Voix ID :** `06027f8821064073bf88d2a660173bc1` — « Wanky Massenat », français, privée.
+- Conséquence : look portrait → pour YouTube 16:9, composer le plan avec l'avatar sur fond uni bleu et les schémas en incrustation ; la version verticale est native.
+
 ## Looks pertinents (existants)
 
 | Look | ID | Type | Format | Usage proposé |

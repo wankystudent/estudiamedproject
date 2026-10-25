@@ -1,6 +1,6 @@
 # Épisode 01 — Storyboard (YouTube 16:9, avatar HeyGen existant)
 
-Look recommandé : digital twin `0a03736a70684414a195ffe798e10d29` (à valider D2). Voix : `06027f8821064073bf88d2a660173bc1`. Fond : bleu foncé `#0B2545`, accents turquoise `#13A8A8`. Avatar à gauche ou plein cadre ; schémas à droite.
+Look retenu : `37d8ceaf22a64f23832965cb2cf3dcaf` (portrait ; en 16:9, avatar à gauche sur fond uni, schémas à droite). Voix : `06027f8821064073bf88d2a660173bc1`. Fond : bleu foncé `#0B2545`, accents turquoise `#13A8A8`. Avatar à gauche ou plein cadre ; schémas à droite.
 
 | # | Durée | Script | Visuel | Texte à l'écran |
 |---|-------|--------|--------|-----------------|
