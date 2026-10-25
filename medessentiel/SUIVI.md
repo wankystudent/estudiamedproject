@@ -19,7 +19,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 
 | Ép. | Sujet | Statut | Fichier |
 |-----|-------|--------|---------|
-| 01 | Grossesse extra-utérine : 5 signes d'alerte | **généré (brouillon HeyGen, non publié)** — video_id `f961be91b377fe035191a600d1a8e765` | `episodes/ep01/` |
+| 01 | Grossesse extra-utérine : 5 signes d'alerte | **généré (brouillon HeyGen, non publié, 2 min 11 s)** — page https://app.heygen.com/videos/f961be91b377fe035191a600d1a8e765 — video_id `f961be91b377fe035191a600d1a8e765` | `episodes/ep01/` |
 | 02 | Comment fonctionne le cœur ? | à rédiger | — |
 | 03 | Placenta accreta : comprendre les risques | à rédiger | — |
 | 04 | AVC : reconnaître les signes FAST | à rédiger | — |
@@ -38,6 +38,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-25 — Dépôt vide analysé. Compte HeyGen inspecté en lecture seule (aucune génération, aucune dépense). Sources de l'ép. 1 recherchées (voir `SOURCES.md`) : textes intégraux non accessibles depuis ce poste (réseau limité) → **sources à confirmer manuellement avant publication**. Dossier de lancement, script, storyboard, métadonnées de l'ép. 1 rédigés.
 
 - 2026-10-25 — Génération lancée : `f961be91b377fe035191a600d1a8e765`. Brouillon à contrôler (voix, prononciation, lip-sync, cadrage portrait en 16:9) ; D4 toujours requise avant publication.
+- 2026-10-25 12:09 UTC — Rendu terminé : durée 130,6 s (plus court que les 2 min 30 estimées → recaler les minutages du storyboard). Sous-titres .srt générés côté HeyGen (liens signés temporaires ; à retélécharger via get_video). Contrôle qualité humain à faire.
 
 ## Prochaines actions autonomes (ordre)
 
