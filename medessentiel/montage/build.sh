@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 # Montage ép. 1 : fonds de scène (PNG) + avatar HeyGen brut + sous-titres .srt -> MP4 1080p
-# Usage: build.sh <scenes_dir> <raw.mp4> <subs.srt> <out.mp4>
+# Usage: build.sh <scenes_dir> <raw.mp4> <subs.srt> <out.mp4> "<scene:début:fin ...>" "<scènes plein cadre>"
+# (la liste des scènes est produite par timing.py)
 set -euo pipefail
-SC=$1; RAW=$2; SRT=$3; OUT=$4
-# scène:début:fin (s) — minutages issus du .srt HeyGen
-SCENES="s01:0:10.0 s02:10.0:20.2 s03:20.2:39.2 s04:39.2:51.1 s05:51.1:57.8 s06:57.8:66.0 s07:66.0:75.8 s08:75.8:85.5 s09:85.5:101.5 s10:101.5:120.0 s11:120.0:130.64"
-FULL="s01 s02 s11"
+SC=$1; RAW=$2; SRT=$3; OUT=$4; SCENES=$5; FULL=$6
 inputs=(); fc=""; i=0; concat=""
 for sc in $SCENES; do
   IFS=: read n a b <<<"$sc"; d=$(python3 -c "print(round($b-$a,3))")

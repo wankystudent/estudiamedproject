@@ -42,6 +42,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-25 — Montage ép. 1 réalisé (ffmpeg + Chromium, scripts dans `montage/ep01/`) : 11 scènes, illustrations originales, sous-titres incrustés, durée 2 min 11 s. Fichier : `montage/ep01_montage_v1.mp4` (hors dépôt, voir note). Scripts des ép. 2, 4, 6 rédigés (à vérifier, non générés dans HeyGen : aucun crédit dépensé).
 - 2026-10-25 — Sur demande explicite de l'utilisateur : génération HeyGen des ép. 2, 4, 6 lancée (mêmes réglages que l'ép. 1). IDs dans le tableau. Contrôle des rendus à faire.
 - 2026-10-25 12:35 UTC — Ép. 2, 4, 6 rendus terminés (durées 1:50, 1:46, 1:44, un peu sous la cible 2–3 min). Crédits premium : 454 → 328 (≈ 31 par vidéo de ~2 min). Montage non lancé (en attente de demande).
+- 2026-10-25 — Montages v1 des ép. 2 (1:50), 4 (1:46), 6 (1:44) réalisés avec le pipeline `montage/` (lib.mjs, scenes_epXX.mjs, timing.py, build.sh). Fichiers locaux `ep0X_montage_v1.mp4` (hors dépôt). Aucun crédit HeyGen utilisé. Contrôle humain (voix, lip-sync, cadrage) toujours à faire ; D4 requise.
 
 ## Prochaines actions autonomes (ordre)
 
