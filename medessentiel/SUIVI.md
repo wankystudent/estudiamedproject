@@ -48,6 +48,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-28 — Réponse « Non, les autres » : pas de rallonge des ép. 1/2/4/6 ; génération HeyGen des ép. restants. Budget : 328 crédits ≈ 6 vidéos de 3 min (~50 chacune, estimation) → lancés d'abord ép. 3, 5, 7, 8, 9 ; ép. 10, 11, 12 en attente du solde réel après rendu (les crédits sont débités à la fin du rendu).
 - 2026-10-28 13:55 UTC — Ép. 3 (3:30) et 5 (3:12) rendus et montés (montage v1 : `montage/ep03`, `ep05`). Ép. 7, 8, 9 : rendus HeyGen encore en cours ; scènes de montage déjà écrites (`montage/ep07..09/scenes_*.mjs`), montage à lancer dès rendu terminé. Crédits : 328 → 115 après les 5 générations (≈ 43 / vidéo) → solde suffisant pour ~2 vidéos de 3 min (ép. 10 et 11), pas 3 ; ép. 12 après le 25/11 ou sur décision de l'utilisateur.
 - 2026-10-28 14:20 UTC — Ép. 7 (3:08), 8 (3:10), 9 (3:23) rendus HeyGen terminés et montés (montage v1). Fichiers locaux `ep0X_montage_v1.mp4` (hors dépôt). Contrôle humain (voix, lip-sync, cadrage) et D4 toujours requis ; ép. 10–12 non générés (solde 115 crédits).
+- 2026-10-28 14:12 UTC — Contrôle final des crédits : **59 restants** (328 → 59 = 269 pour les 5 vidéos de 3 min ≈ 54 chacune ; le solde de 115 relevé plus tôt était intermédiaire, les débits se sont faits au fur et à mesure des rendus). Correction : le solde ne couvre plus qu'**1 vidéo de 3 min** (ép. 10, 11 ou 12), pas 2. Renouvellement le 25/11.
 
 ## Prochaines actions autonomes (ordre)
 
