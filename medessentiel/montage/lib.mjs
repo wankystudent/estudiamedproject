@@ -108,3 +108,16 @@ export async function render(out, scenes) {
   await browser.close();
   console.log('ok', Object.keys(scenes).length);
 }
+
+// ---------- Gabarits communs (accroche, introduction, fin) ----------
+export const hookScene = (leftHtml, rightHtml) => `${brand}
+ <div style="position:absolute;left:34px;top:260px;width:400px;font-size:44px;font-weight:900;line-height:1.25">${leftHtml}</div>
+ <div style="position:absolute;right:34px;top:300px;width:400px;font-size:50px;font-weight:900;line-height:1.1">${rightHtml}</div>`;
+export const introScene = (n, titleHtml) => `${brand}
+ <div style="position:absolute;left:34px;top:330px;width:400px"><div style="font-size:30px;font-weight:700;color:${TEAL};letter-spacing:2px">SÉRIE 1 · ÉPISODE ${n}</div><div style="font-size:48px;font-weight:900;line-height:1.1;margin-top:14px">La médecine en 3 minutes</div></div>
+ <div style="position:absolute;right:34px;top:300px;width:400px;font-size:52px;font-weight:900;line-height:1.1">${titleHtml}</div>`;
+export const outroScene = (sourcesHtml) => `${brand}
+ <div style="position:absolute;left:34px;top:270px;width:400px"><div style="font-size:46px;font-weight:900;line-height:1.1">Abonnez-vous</div><div style="font-size:32px;font-weight:600;margin-top:18px;color:#cfe0f3">Quel sujet médical voulez-vous voir expliqué&nbsp;?<br>Dites-le en commentaire.</div></div>
+ <div style="position:absolute;right:34px;top:250px;width:400px"><div style="font-size:26px;font-weight:800;color:${TEAL};letter-spacing:1px">SOURCES</div>
+  <div style="font-size:26px;font-weight:600;margin-top:10px;line-height:1.35;color:#cfe0f3">${sourcesHtml}</div>
+  <div style="font-size:23px;font-weight:600;margin-top:34px;line-height:1.35;color:#9fb4cf">Information éducative — ne remplace pas une consultation médicale.</div></div>`;
