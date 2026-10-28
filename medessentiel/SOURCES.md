@@ -41,3 +41,15 @@ Non retrouvé : une RPC du CNGOF « de 2015 » sur la GEU (ne pas la citer). ESH
 
 ## Épisode 6 — Appendicite (niveau B)
 | S10 | SFCD/SIAD — RPC « Appendicite de l'adulte » (2021, méthodologie HAS) | Fièvre peu discriminante ; aucun signe isolé ne suffit ; diagnostic clinico-biologique et radiologique ; triade défense FID/leucocytose/CRP (étudiants) | B (texte intégral non lu) |
+
+## Épisodes 3, 5, 7–12 (consultés le 2026-10-28, niveau B : résumés de recherche, textes intégraux non lus)
+| ID | Source | Appuie | Remarque |
+|----|--------|--------|----------|
+| S11 | CMAJ 2020 « Placenta accreta spectrum describes abnormally adherent or invasive placentas » ; consensus FIGO (diagnostic prénatal) ; réf. citées : SOGC n° 383 (2019), ACOG OCC n° 7 (2018) | Ép. 3 : définitions accreta/increta/percreta, facteurs de risque, centre expert | CNGOF non retrouvé ; chiffres (11 % → 60 % avec prævia) non utilisés |
+| S12 | Cours universitaires français (hématologie), Revue du Praticien, MSD/Merck | Ép. 5 : NFS ; GB 4–10 G/L ; plaquettes 150–400 G/L | Non officiel ; aucun document HAS retrouvé ; Hb non chiffrée |
+| S13 | NIDDK « The Kidneys and How They Work » (archive 2012–13) ; Lecturio | Ép. 7 : néphron (~1 M/rein), DFG, créatinine, filtration/réabsorption/sécrétion/excrétion | Érythropoïétine/vitamine D : extrait Wikipédia seulement → à confirmer |
+| S14 | Sites citant la HAS (Qare, etc.) ; La Revue du Praticien | Ép. 8 : seuils 1,10 / 1,26 g/L ; type 1 (cellules bêta) / type 2 | Pas de page HAS ; acidocétose, HbA1c non sourcés |
+| S15 | Fiches pédagogiques/IDE (walter-learning, lonasante, etc.) | Ép. 9 : valeurs repères adulte | Non officiel ; seuils variables |
+| S16 | ESC 2019 (via ACC) « Diagnosis and Management of Acute PE » | Ép. 10 : probabilité clinique, D-dimères, angioscanner, anticoagulants | Symptômes/facteurs de risque non couverts par la recherche |
+| S17 | Kenhub, cours en ligne | Ép. 11 : ordre I–XII, 3 sensoriels / 5 moteurs / 4 mixtes | Fonctions détaillées V/VII/IX/X/XI : connaissances générales non vérifiées |
+| S18 | HAS/CNGOF/CNSF (présentation), CNGOF ancien, MSD Manuel | Ép. 12 : stades, latence/active, délivrance | Seuil fin de latence : 4 cm (EN) vs 5–6 cm (HAS/CNGOF/CNSF) ; OMS non retrouvé |
