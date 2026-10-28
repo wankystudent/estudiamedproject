@@ -44,3 +44,41 @@ Une douleur qui commence près du nombril puis descend en bas à droite : est-ce
 Les signes évocateurs, quand consulter en urgence, et pourquoi aucun signe seul ne suffit.
 Contenu éducatif — ne remplace pas une consultation médicale.
 **Hashtags :** #appendicite #douleurabdominale #santé #médecine #MedEssentiel
+
+---
+
+## Ép. 3 — Placenta accreta : comprendre les risques (3 min 30 — contenu étudiants)
+**Texte :**
+Utérus cicatriciel + placenta prævia : y penser, toujours. 🩺
+Accreta, increta, percreta : les 3 degrés, les facteurs de risque, le diagnostic échographique et pourquoi l'accouchement se prépare en centre expert.
+Partagez avec vos collègues et étudiants.
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #placentaaccreta #obstétrique #étudiantsenmédecine #MedEssentiel
+
+## Ép. 5 — NFS : comprendre vos résultats de prise de sang (3 min 12)
+**Texte :**
+Une NFS, ce n'est pas qu'une liste de chiffres. 🔬
+Globules rouges, globules blancs, plaquettes : comment lire une NFS, et les 4 règles d'or pour ne pas la sur-interpréter. (Valeurs de référence : selon votre laboratoire.)
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #NFS #hémogramme #priseDeSang #santé #MedEssentiel
+
+## Ép. 7 — Les reins : 6 fonctions essentielles (3 min 08)
+**Texte :**
+Deux reins, un million de néphrons chacun, et aucun symptôme quand ça va mal. 💧
+Les 6 fonctions des reins, comment on mesure leur fonction, et 5 gestes pour les protéger.
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #reins #néphrologie #santé #prévention #MedEssentiel
+
+## Ép. 8 — Diabète : pourquoi la glycémie augmente (3 min 10)
+**Texte :**
+Après un repas, le sucre monte. Chez une personne diabétique, il reste élevé : pourquoi ? 🍬
+Insuline, type 1, type 2, seuils de diagnostic, complications et prévention. (Seuils à discuter avec votre médecin.)
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #diabète #insuline #glycémie #santé #MedEssentiel
+
+## Ép. 9 — Les constantes vitales à connaître en stage (3 min 23 — étudiants)
+**Texte :**
+Tension ✔ Pouls ✔ Fréquence respiratoire ? C'est l'erreur n°1 en stage. 🩺
+Les 5 constantes + conscience et douleur : valeurs repères adultes, méthodes de mesure et quand alerter. (À adapter au protocole de votre service.)
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #constantesvitales #stage #étudiantsenmédecine #sémiologie #MedEssentiel
