@@ -117,12 +117,13 @@ body{background:radial-gradient(1200px 900px at 50% 55%,#6b2a12 0%,#2e1206 55%,#
 `;
 export async function render(out, scenes) {
   fs.mkdirSync(out, { recursive: true });
-  const dark = process.env.THEME === 'dark';
+  const dark = process.env.THEME === 'dark' || process.env.THEME === 'brand';
+  const brandCss = (c) => c.replace(/#6b2a12/g, '#0F5FA8').replace(/#2e1206/g, '#06295c').replace(/#170803/g, '#031634').replace(/#140804/g, '#051a3a').replace(/#5b3523/g, '#1c5a96').replace(/#1f0e07/g, '#0a2a55').replace(/#6b4430/g, '#2a6fb0').replace(/#e3cdbd/g, '#bcd6ee').replace(/#F5B82E/g, '#19D3C5').replace(/#2a1206/g, '#01214a');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
   const titles = {};
   for (const [k, body] of Object.entries(scenes)) {
-    await page.setContent(`<html><head><meta charset="utf-8"><style>${css}${dark ? darkCss : ''}</style></head><body>${body}</body></html>`);
+    await page.setContent(`<html><head><meta charset="utf-8"><style>${css}${dark ? (process.env.THEME === 'brand' ? brandCss(darkCss) : darkCss) : ''}</style></head><body>${body}</body></html>`);
     await page.screenshot({ path: `${out}/${k}.png` });
     titles[k] = await page.evaluate(() => {
       const h = document.querySelector('.card h1');
