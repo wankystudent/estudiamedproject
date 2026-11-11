@@ -61,3 +61,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 1. Après validation D4 : passer ép. 1 « prêt pour HeyGen » (génération uniquement après D3).
 2. Rédiger ép. 2, 4, 6 (pack des 4 premières vidéos avec ép. 1) : même gabarit que `episodes/ep01/`.
 3. Modèles intro/outro et gabarit miniature.
+
+## Journal — 2026-11-11
+- 12 vidéos animées (HyperFrames, 9:16) rendues ; ép. 10 validée par l'utilisateur (30 fps), les autres en 24 fps.
+- ZIP `MedEssentiel_Saison1.zip` (234 Mo) : 4 catégories (URGENCES, CLINIQUE_etudiants, GRAND_PUBLIC, PREVENTION) + SRT, scripts/sources, textes Facebook, logo, LISEZ-MOI. Envoyé à l'utilisateur.
+- Reste ouvert : D4 relecture médicale, D5 numéro d'urgence, D1 nom de marque, sources niveau B, voix Turbo Free ép. 10–12 non écoutée, sous-titres ép. 1–9 approximatifs, crédits HeyGen 59 (renouvellement 2026-11-25). Aucune publication faite.
