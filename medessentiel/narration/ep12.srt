@@ -1,0 +1,508 @@
+1
+00:00:00,256 --> 00:00:01,403
+Les contractions arrivent
+
+2
+00:00:01,877 --> 00:00:03,318
+Que se passe t il exactement
+
+3
+00:00:03,328 --> 00:00:03,835
+dans le corps
+
+4
+00:00:04,224 --> 00:00:05,366
+Combien de temps cela dure t
+
+5
+00:00:05,376 --> 00:00:05,499
+il
+
+6
+00:00:05,845 --> 00:00:06,693
+Et à quel moment
+
+7
+00:00:06,784 --> 00:00:08,187
+faut il partir à la maternité
+
+8
+00:00:08,619 --> 00:00:09,979
+Voici les étapes de l'accouchement
+
+9
+00:00:10,155 --> 00:00:11,003
+expliquées simplement
+
+10
+00:00:11,496 --> 00:00:11,917
+Bonjour
+
+11
+00:00:12,136 --> 00:00:13,624
+je suis le docteur Wanky Massenat
+
+12
+00:00:13,757 --> 00:00:15,800
+Bienvenue sur MedEssentiel la médecine
+
+13
+00:00:16,061 --> 00:00:18,654
+clairement expliquée Aujourd'hui les étapes de
+
+14
+00:00:18,664 --> 00:00:19,981
+l'accouchement par voie basse
+
+15
+00:00:20,157 --> 00:00:22,029
+On distingue trois grandes étapes
+
+16
+00:00:22,565 --> 00:00:23,200
+La dilatation
+
+17
+00:00:23,717 --> 00:00:24,394
+l'expulsion
+
+18
+00:00:24,656 --> 00:00:25,333
+et la délivrance
+
+19
+00:00:25,765 --> 00:00:27,083
+Première étape le travail
+
+20
+00:00:27,216 --> 00:00:28,320
+ou dilatation du col
+
+21
+00:00:28,624 --> 00:00:29,898
+Elle commence avec des contractions
+
+22
+00:00:29,989 --> 00:00:31,051
+utérines régulières
+
+23
+00:00:31,269 --> 00:00:32,757
+qui modifient le col de l'utérus
+
+24
+00:00:32,976 --> 00:00:33,653
+Il s'efface
+
+25
+00:00:33,957 --> 00:00:34,634
+puis il s'ouvre
+
+26
+00:00:35,086 --> 00:00:36,659
+Cette étape comporte deux phases
+
+27
+00:00:37,091 --> 00:00:38,195
+La phase de latence
+
+28
+00:00:38,371 --> 00:00:40,238
+les contractions sont irrégulières puis plus
+
+29
+00:00:40,248 --> 00:00:40,798
+régulières
+
+30
+00:00:41,059 --> 00:00:42,675
+et le col s'ouvre progressivement
+
+31
+00:00:43,022 --> 00:00:44,467
+jusqu'à environ cinq centimètres
+
+32
+00:00:44,836 --> 00:00:46,020
+C'est souvent la phase la plus
+
+33
+00:00:46,030 --> 00:00:46,366
+longue
+
+34
+00:00:46,798 --> 00:00:47,940
+et elle peut se passer en
+
+35
+00:00:47,950 --> 00:00:49,182
+grande partie à domicile
+
+36
+00:00:49,566 --> 00:00:50,072
+Ensuite
+
+37
+00:00:50,291 --> 00:00:50,968
+la phase active
+
+38
+00:00:51,443 --> 00:00:53,097
+les contractions sont plus fortes et
+
+39
+00:00:53,107 --> 00:00:54,804
+plus rapprochées et le col se
+
+40
+00:00:54,814 --> 00:00:56,174
+dilate jusqu'à la dilatation
+
+41
+00:00:56,307 --> 00:00:56,856
+complète
+
+42
+00:00:57,118 --> 00:00:58,307
+soit dix centimètres
+
+43
+00:00:58,697 --> 00:01:00,308
+Les seuils exacts varient un peu
+
+44
+00:01:00,318 --> 00:01:01,251
+selon les références
+
+45
+00:01:01,862 --> 00:01:03,478
+Deuxième étape l'expulsion
+
+46
+00:01:03,953 --> 00:01:05,142
+Elle commence à dilatation
+
+47
+00:01:05,233 --> 00:01:06,716
+complète et se termine par la
+
+48
+00:01:06,726 --> 00:01:07,532
+naissance du bébé
+
+49
+00:01:07,921 --> 00:01:09,324
+La tête descend dans le bassin
+
+50
+00:01:09,789 --> 00:01:11,571
+Les contractions s'accompagnent d'une envie de
+
+51
+00:01:11,581 --> 00:01:12,045
+pousser
+
+52
+00:01:12,307 --> 00:01:13,449
+et la sage femme ou le
+
+53
+00:01:13,459 --> 00:01:14,733
+médecin guide les efforts
+
+54
+00:01:15,165 --> 00:01:15,843
+Puis la tête
+
+55
+00:01:16,104 --> 00:01:16,781
+les épaules
+
+56
+00:01:16,957 --> 00:01:18,185
+et le corps du bébé sont
+
+57
+00:01:18,195 --> 00:01:18,787
+expulsés
+
+58
+00:01:19,198 --> 00:01:20,852
+Le bébé est ensuite souvent placé
+
+59
+00:01:20,862 --> 00:01:22,009
+sur le ventre de sa mère
+
+60
+00:01:22,228 --> 00:01:22,948
+en peau à peau
+
+61
+00:01:23,209 --> 00:01:24,351
+si son état et celui de
+
+62
+00:01:24,361 --> 00:01:25,294
+la mère le permettent
+
+63
+00:01:25,982 --> 00:01:26,702
+Troisième étape
+
+64
+00:01:26,921 --> 00:01:27,726
+la délivrance
+
+65
+00:01:28,116 --> 00:01:29,732
+C'est l'expulsion du placenta
+
+66
+00:01:29,822 --> 00:01:30,585
+et des membranes
+
+67
+00:01:31,077 --> 00:01:32,645
+Elle survient en général dans les
+
+68
+00:01:32,655 --> 00:01:33,930
+minutes qui suivent la naissance
+
+69
+00:01:34,319 --> 00:01:35,845
+et peut parfois durer jusqu'à une
+
+70
+00:01:35,855 --> 00:01:36,703
+trentaine de minutes
+
+71
+00:01:37,378 --> 00:01:39,160
+L'équipe vérifie que le placenta est
+
+72
+00:01:39,170 --> 00:01:39,677
+complet
+
+73
+00:01:39,981 --> 00:01:41,341
+et surveille les saignements
+
+74
+00:01:41,602 --> 00:01:43,555
+car l'utérus doit se contracter pour
+
+75
+00:01:43,565 --> 00:01:44,285
+se refermer
+
+76
+00:01:44,802 --> 00:01:45,394
+Et la douleur
+
+77
+00:01:45,812 --> 00:01:47,087
+L'accouchement est douloureux
+
+78
+00:01:47,263 --> 00:01:48,324
+mais il existe des solutions
+
+79
+00:01:48,585 --> 00:01:49,220
+la respiration
+
+80
+00:01:49,823 --> 00:01:50,628
+la mobilité
+
+81
+00:01:51,017 --> 00:01:52,377
+le soutien d'un accompagnant
+
+82
+00:01:52,553 --> 00:01:54,170
+et l'analgésie péridurale
+
+83
+00:01:54,431 --> 00:01:55,663
+proposée selon les situations
+
+84
+00:01:55,882 --> 00:01:57,071
+et les souhaits de la patiente
+
+85
+00:01:57,567 --> 00:01:58,969
+Quand partir à la maternité
+
+86
+00:01:59,444 --> 00:02:01,828
+Les consignes varient selon la maternité
+
+87
+00:02:02,169 --> 00:02:02,847
+En général
+
+88
+00:02:03,065 --> 00:02:04,335
+il faut les contacter quand les
+
+89
+00:02:04,345 --> 00:02:05,791
+contractions deviennent régulières
+
+90
+00:02:05,967 --> 00:02:07,749
+rapprochées et de plus en plus
+
+91
+00:02:07,759 --> 00:02:08,223
+douloureuses
+
+92
+00:02:08,399 --> 00:02:09,801
+ou si vous perdez du liquide
+
+93
+00:02:09,935 --> 00:02:10,991
+c'est la rupture de la poche
+
+94
+00:02:11,001 --> 00:02:11,423
+des eaux
+
+95
+00:02:11,706 --> 00:02:13,317
+Appelez aussi dès la perte du
+
+96
+00:02:13,327 --> 00:02:14,047
+bouchon muqueux
+
+97
+00:02:14,309 --> 00:02:15,157
+si vous avez un doute
+
+98
+00:02:15,503 --> 00:02:16,987
+Suivez les consignes données par votre
+
+99
+00:02:16,997 --> 00:02:17,589
+maternité
+
+100
+00:02:18,021 --> 00:02:19,333
+Quand faut il aller aux urgences
+
+101
+00:02:19,343 --> 00:02:19,935
+sans attendre
+
+102
+00:02:20,353 --> 00:02:22,438
+En cas de saignement vaginal abondant
+
+103
+00:02:22,785 --> 00:02:23,462
+de diminution
+
+104
+00:02:23,638 --> 00:02:24,913
+nette des mouvements du bébé
+
+105
+00:02:25,217 --> 00:02:27,383
+de fièvre de liquide verdâtre ou
+
+106
+00:02:27,393 --> 00:02:27,985
+malodorant
+
+107
+00:02:28,289 --> 00:02:29,563
+de douleur très intense
+
+108
+00:02:29,612 --> 00:02:30,075
+et continue
+
+109
+00:02:30,380 --> 00:02:31,953
+ou de contractions avant le terme
+
+110
+00:02:32,401 --> 00:02:33,249
+Dans ces situations
+
+111
+00:02:33,639 --> 00:02:34,359
+n'attendez pas
+
+112
+00:02:34,620 --> 00:02:35,895
+Retenez la dilatation
+
+113
+00:02:36,625 --> 00:02:37,388
+l'expulsion
+
+114
+00:02:37,778 --> 00:02:38,497
+la délivrance
+
+115
+00:02:39,015 --> 00:02:40,375
+Chaque accouchement est différent
+
+116
+00:02:40,508 --> 00:02:42,295
+avec sa durée et son rythme
+
+117
+00:02:42,751 --> 00:02:43,428
+Une préparation
+
+118
+00:02:44,074 --> 00:02:45,050
+un suivi régulier
+
+119
+00:02:45,482 --> 00:02:47,050
+et un projet de naissance discuté
+
+120
+00:02:47,060 --> 00:02:49,098
+avec l'équipe permettent de mieux vivre
+
+121
+00:02:49,108 --> 00:02:49,572
+cette étape
+
+122
+00:02:50,047 --> 00:02:51,322
+Cette vidéo est éducative
+
+123
+00:02:51,668 --> 00:02:53,199
+et ne remplace pas une consultation
+
+124
+00:02:53,821 --> 00:02:55,474
+Abonnez vous et dites nous en
+
+125
+00:02:55,484 --> 00:02:57,100
+commentaire quel sujet médical
+
+126
+00:02:57,276 --> 00:02:58,594
+vous voulez voir expliqué
+
+127
+00:02:59,069 --> 00:03:00,343
+À bientôt sur MedEssentiel
+

@@ -16,7 +16,8 @@ for p in pairs:
     n, ph = p.split('=', 1)
     if not starts: starts.append((n, 0.0)); continue
     for i in range(pos, len(cues)):
-        if ph.lower() in cues[i][1].lower():
+        joined = (cues[i][1] + ' ' + (cues[i+1][1] if i+1 < len(cues) else '')).lower()
+        if ph.lower() in joined and ph.lower().split()[0] in cues[i][1].lower():
             starts.append((n, max(cues[i][0]-0.1, 0))); pos = i; break
     else: sys.exit(f'phrase introuvable: {ph}')
 out = []

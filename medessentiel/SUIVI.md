@@ -28,9 +28,9 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 | 07 | Les reins : leur rôle | **généré (brouillon HeyGen, 3 min 08 s ; montage v1 fait)** — https://app.heygen.com/videos/23bff6c2db1622fe6fa7f02fe09891c0 — video_id `23bff6c2db1622fe6fa7f02fe09891c0` | `episodes/ep07/EPISODE.md` |
 | 08 | Diabète : pourquoi le glucose augmente-t-il ? | **généré (brouillon HeyGen, 3 min 10 s ; montage v1 fait)** — https://app.heygen.com/videos/ab0a599b5e35ab5d3d553fe10a1a3ba7 — video_id `ab0a599b5e35ab5d3d553fe10a1a3ba7` | `episodes/ep08/EPISODE.md` |
 | 09 | Constantes vitales en stage | **généré (brouillon HeyGen, 3 min 23 s ; montage v1 fait)** — https://app.heygen.com/videos/94bcf319d63a48e1ce2da5b6b63dbff0 — video_id `94bcf319d63a48e1ce2da5b6b63dbff0` | `episodes/ep09/EPISODE.md` |
-| 10 | Embolie pulmonaire : signes d'urgence | **script 3 min rédigé (à vérifier, non généré)** | `episodes/ep10/EPISODE.md` |
-| 11 | Les 12 nerfs crâniens | **script 3 min rédigé (à vérifier, non généré)** | `episodes/ep11/EPISODE.md` |
-| 12 | Étapes de l'accouchement | **script 3 min rédigé (à vérifier, non généré)** | `episodes/ep12/EPISODE.md` |
+| 10 | Embolie pulmonaire : signes d'urgence | **vidéo sans avatar (style marque) : narration HeyGen Turbo Free (3 min 12 s, 0 crédit) + montage v1** | `episodes/ep10/EPISODE.md` |
+| 11 | Les 12 nerfs crâniens | **vidéo sans avatar (style marque) : narration HeyGen Turbo Free (3 min 26 s, 0 crédit) + montage v1** | `episodes/ep11/EPISODE.md` |
+| 12 | Étapes de l'accouchement | **vidéo sans avatar (style marque) : narration HeyGen Turbo Free (3 min 01 s, 0 crédit) + montage v1** | `episodes/ep12/EPISODE.md` |
 
 ## Journal
 
@@ -52,6 +52,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-28 — Versions Facebook 9:16 des ép. 3, 5, 7, 8, 9 produites (`montage/vertical.sh`) ; textes ajoutés dans `facebook/POSTS.md`. Toutes les vidéos générées (ép. 1–9) ont maintenant un montage 16:9 et une version Facebook verticale. Aucune publication effectuée ; D4/D5/D1 toujours ouverts.
 - 2026-11-11 — Demande : vidéos « dans le style » d'un Reel de référence (fond brun, grand titre blanc, carte sombre, accents jaunes), en français, **sans avatar**. Pilote réalisé sur l'ép. 4 : `montage/faceless_frames.mjs` + `faceless.sh` (thème sombre via `THEME=dark`), 1080×1920, narration = audio des vidéos HeyGen déjà générées (voix de l'utilisateur, **aucun crédit**), sous-titres incrustés. Fichier local `ep04_style_reels.mp4`. En attente du retour de l'utilisateur avant déploiement sur les autres épisodes. Rappel crédits HeyGen : 59.
 - 2026-11-11 — Retour utilisateur : utiliser les **couleurs de la marque** (logo bleu/turquoise) plutôt que le fond brun. Logo ajouté (`brand/logo.jpg`, `brand/logo_icon.png`), thème `THEME=brand` créé, pilote ép. 4 refait (`ep04_style_brand.mp4`). Plan éditorial reçu enregistré dans `PLAN_EDITORIAL.md` (5 séries, 4 rubriques, trame 130 s). Voix ElevenLabs du texte reçu non retenue sans autorisation.
+- 2026-11-11 — Décisions utilisateur : signature = « La médecine, clairement expliquée. » ; vidéos **sans avatar**, narration ~3 min, moins chères. Narration des ép. 10, 11, 12 générée avec la voix HeyGen de l'utilisateur via le modèle **heygen-voice-1-turbo-free** (aucun crédit débité ; limites quotidiennes) + minutages mot à mot → sous-titres (`narration/epXX.srt`). Montages 9:16 aux couleurs de la marque (`THEME=brand`). Crédits HeyGen inchangés : 59. Voix potentiellement un peu différente de celle des vidéos avatar (moteur différent) : à écouter.
 
 ## Prochaines actions autonomes (ordre)
 

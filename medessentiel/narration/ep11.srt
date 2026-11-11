@@ -1,0 +1,624 @@
+1
+00:00:00,213 --> 00:00:01,232
+Douze nerfs crâniens
+
+2
+00:00:01,536 --> 00:00:02,213
+douze noms
+
+3
+00:00:02,517 --> 00:00:03,067
+douze fonctions
+
+4
+00:00:03,669 --> 00:00:04,645
+Pour beaucoup d'étudiants
+
+5
+00:00:04,864 --> 00:00:06,309
+c'est un casse tête avant l'examen
+
+6
+00:00:06,571 --> 00:00:08,187
+Aujourd'hui une méthode simple
+
+7
+00:00:08,277 --> 00:00:09,296
+pour les retenir pour de bon
+
+8
+00:00:09,813 --> 00:00:10,192
+Bonjour
+
+9
+00:00:10,368 --> 00:00:11,771
+je suis le docteur Wanky Massenat
+
+10
+00:00:11,952 --> 00:00:13,269
+Bienvenue sur MedEssentiel
+
+11
+00:00:13,445 --> 00:00:14,122
+la médecine
+
+12
+00:00:14,298 --> 00:00:17,104
+clairement expliquée Aujourd'hui les douze nerfs
+
+13
+00:00:17,114 --> 00:00:18,304
+crâniens Étape un
+
+14
+00:00:18,480 --> 00:00:18,986
+l'ordre
+
+15
+00:00:19,290 --> 00:00:20,859
+Les nerfs sont numérotés de un
+
+16
+00:00:20,869 --> 00:00:22,096
+à douze selon leur point de
+
+17
+00:00:22,106 --> 00:00:23,893
+sortie du crâne d'avant en arrière
+
+18
+00:00:24,263 --> 00:00:25,069
+Voici la liste
+
+19
+00:00:25,245 --> 00:00:26,349
+Un olfactif
+
+20
+00:00:26,695 --> 00:00:27,501
+Deux optique
+
+21
+00:00:27,805 --> 00:00:29,037
+Trois oculomoteur
+
+22
+00:00:29,341 --> 00:00:30,487
+Quatre trochléaire
+
+23
+00:00:30,706 --> 00:00:31,810
+Cinq trijumeau
+
+24
+00:00:32,029 --> 00:00:33,090
+Six abducens
+
+25
+00:00:33,437 --> 00:00:34,413
+Sept facial
+
+26
+00:00:34,674 --> 00:00:35,138
+Huit
+
+27
+00:00:35,314 --> 00:00:36,546
+vestibulo cochléaire
+
+28
+00:00:36,765 --> 00:00:37,143
+Neuf
+
+29
+00:00:37,319 --> 00:00:38,125
+glosso pharyngien
+
+30
+00:00:38,483 --> 00:00:38,862
+Dix
+
+31
+00:00:39,123 --> 00:00:41,336
+vague ou pneumogastrique Onze
+
+32
+00:00:41,470 --> 00:00:42,104
+accessoire
+
+33
+00:00:42,280 --> 00:00:42,830
+ou spinal
+
+34
+00:00:43,304 --> 00:00:44,408
+Douze hypoglosse
+
+35
+00:00:44,798 --> 00:00:46,456
+Une phrase pour retenir les initiales
+
+36
+00:00:46,504 --> 00:00:48,120
+Oh Oh Oh Tout Tremble
+
+37
+00:00:48,168 --> 00:00:49,528
+Alors Fuyons Vers Grand père
+
+38
+00:00:49,619 --> 00:00:50,510
+Vite Au Hangar
+
+39
+00:00:50,957 --> 00:00:51,720
+Olfactif
+
+40
+00:00:51,896 --> 00:00:53,512
+Optique Oculomoteur
+
+41
+00:00:53,773 --> 00:00:54,493
+Trochléaire
+
+42
+00:00:54,712 --> 00:00:56,200
+Trijumeau Abducens
+
+43
+00:00:56,547 --> 00:00:57,181
+Facial
+
+44
+00:00:57,443 --> 00:00:58,674
+Vestibulo cochléaire
+
+45
+00:00:58,850 --> 00:00:59,826
+Glosso pharyngien
+
+46
+00:01:00,002 --> 00:01:01,362
+Vague Accessoire
+
+47
+00:01:01,538 --> 00:01:02,258
+Hypoglosse
+
+48
+00:01:02,673 --> 00:01:04,071
+Vous pouvez bien sûr inventer votre
+
+49
+00:01:04,081 --> 00:01:05,948
+propre phrase la meilleure est celle
+
+50
+00:01:05,958 --> 00:01:06,508
+qui vous marque
+
+51
+00:01:07,025 --> 00:01:08,556
+Étape deux la classification
+
+52
+00:01:09,116 --> 00:01:10,518
+Trois nerfs sont sensoriels
+
+53
+00:01:10,694 --> 00:01:11,372
+l'olfactif
+
+54
+00:01:11,590 --> 00:01:12,097
+l'optique
+
+55
+00:01:12,273 --> 00:01:13,676
+et le vestibulo cochléaire
+
+56
+00:01:14,126 --> 00:01:15,102
+Pensez à l'odorat
+
+57
+00:01:15,406 --> 00:01:15,955
+la vue
+
+58
+00:01:16,259 --> 00:01:16,723
+l'audition
+
+59
+00:01:17,027 --> 00:01:17,832
+et l'équilibre
+
+60
+00:01:18,179 --> 00:01:19,155
+Cinq sont moteurs
+
+61
+00:01:19,331 --> 00:01:20,136
+l'oculomoteur
+
+62
+00:01:20,440 --> 00:01:21,288
+le trochléaire
+
+63
+00:01:21,507 --> 00:01:22,184
+l'abducens
+
+64
+00:01:22,616 --> 00:01:24,232
+l'accessoire et l'hypoglosse
+
+65
+00:01:24,641 --> 00:01:26,343
+Quatre sont mixtes le trijumeau
+
+66
+00:01:26,561 --> 00:01:27,281
+le facial
+
+67
+00:01:27,671 --> 00:01:29,329
+le glosso pharyngien et le vague
+
+68
+00:01:29,591 --> 00:01:30,439
+Retenez simplement
+
+69
+00:01:30,828 --> 00:01:31,164
+trois
+
+70
+00:01:31,383 --> 00:01:31,804
+cinq
+
+71
+00:01:32,023 --> 00:01:32,444
+quatre
+
+72
+00:01:32,663 --> 00:01:34,193
+Étape trois les fonctions
+
+73
+00:01:34,497 --> 00:01:35,047
+par groupes
+
+74
+00:01:35,351 --> 00:01:35,985
+Premier groupe
+
+75
+00:01:36,204 --> 00:01:37,052
+les nerfs des sens
+
+76
+00:01:37,228 --> 00:01:37,607
+le un
+
+77
+00:01:37,783 --> 00:01:38,289
+l'odorat
+
+78
+00:01:38,691 --> 00:01:39,795
+Le deux la vision
+
+79
+00:01:40,440 --> 00:01:40,904
+Le huit
+
+80
+00:01:41,165 --> 00:01:41,629
+l'audition
+
+81
+00:01:41,805 --> 00:01:42,440
+et l'équilibre
+
+82
+00:01:43,128 --> 00:01:43,933
+Deuxième groupe
+
+83
+00:01:44,109 --> 00:01:45,683
+les nerfs qui bougent les yeux
+
+84
+00:01:45,731 --> 00:01:46,237
+le trois
+
+85
+00:01:46,413 --> 00:01:47,560
+le quatre et le six
+
+86
+00:01:48,143 --> 00:01:50,266
+L'oculomoteur commande la plupart des muscles
+
+87
+00:01:50,276 --> 00:01:50,740
+de l'œil
+
+88
+00:01:50,916 --> 00:01:52,101
+ainsi que la paupière et la
+
+89
+00:01:52,111 --> 00:01:52,575
+pupille
+
+90
+00:01:53,092 --> 00:01:55,130
+Le trochléaire commande le muscle oblique
+
+91
+00:01:55,140 --> 00:01:55,775
+supérieur
+
+92
+00:01:56,036 --> 00:01:58,804
+L'abducens commande le muscle droit latéral
+
+93
+00:01:58,980 --> 00:02:00,511
+qui écarte l'œil vers l'extérieur
+
+94
+00:02:01,004 --> 00:02:01,766
+Troisième groupe
+
+95
+00:02:02,028 --> 00:02:02,492
+la face
+
+96
+00:02:02,796 --> 00:02:03,814
+le cinq et le sept
+
+97
+00:02:04,289 --> 00:02:05,137
+Le trijumeau
+
+98
+00:02:05,313 --> 00:02:06,630
+la sensibilité du visage
+
+99
+00:02:06,934 --> 00:02:08,337
+et les muscles de la mastication
+
+100
+00:02:09,025 --> 00:02:09,660
+Le facial
+
+101
+00:02:09,921 --> 00:02:10,940
+les muscles de l'expression
+
+102
+00:02:11,030 --> 00:02:11,537
+du visage
+
+103
+00:02:11,756 --> 00:02:13,282
+et le goût des deux tiers
+
+104
+00:02:13,292 --> 00:02:14,268
+antérieurs de la langue
+
+105
+00:02:14,759 --> 00:02:15,564
+Quatrième groupe
+
+106
+00:02:15,868 --> 00:02:16,930
+la gorge et le cou
+
+107
+00:02:17,063 --> 00:02:17,612
+le neuf
+
+108
+00:02:17,874 --> 00:02:19,191
+le dix et le onze
+
+109
+00:02:19,580 --> 00:02:21,704
+Le glosso pharyngien la sensibilité du
+
+110
+00:02:21,714 --> 00:02:22,220
+pharynx
+
+111
+00:02:22,482 --> 00:02:24,306
+le goût du tiers postérieur de
+
+112
+00:02:24,316 --> 00:02:24,695
+la langue
+
+113
+00:02:25,023 --> 00:02:25,530
+Le vague
+
+114
+00:02:25,749 --> 00:02:26,426
+la déglutition
+
+115
+00:02:26,858 --> 00:02:27,450
+la voix
+
+116
+00:02:27,711 --> 00:02:29,626
+et la régulation de nombreux organes
+
+117
+00:02:29,802 --> 00:02:30,901
+comme le cœur et le tube
+
+118
+00:02:30,911 --> 00:02:31,461
+digestif
+
+119
+00:02:32,021 --> 00:02:32,698
+L'accessoire
+
+120
+00:02:32,917 --> 00:02:35,296
+les muscles sterno cléido mastoïdien et
+
+121
+00:02:35,306 --> 00:02:35,770
+trapèze
+
+122
+00:02:36,348 --> 00:02:36,770
+Enfin
+
+123
+00:02:36,988 --> 00:02:38,476
+le douze l'hypoglosse
+
+124
+00:02:38,695 --> 00:02:39,842
+les muscles de la langue
+
+125
+00:02:40,401 --> 00:02:41,505
+Prenons deux exemples
+
+126
+00:02:41,724 --> 00:02:42,994
+Un patient qui n'arrive plus à
+
+127
+00:02:43,004 --> 00:02:44,578
+écarter un œil vers l'extérieur
+
+128
+00:02:44,668 --> 00:02:45,815
+on pense à l'abducens
+
+129
+00:02:46,119 --> 00:02:46,711
+le nerf six
+
+130
+00:02:47,038 --> 00:02:48,607
+Un patient dont la langue dévie
+
+131
+00:02:48,617 --> 00:02:49,508
+quand il la tire
+
+132
+00:02:49,556 --> 00:02:50,745
+on pense à l'hypoglosse
+
+133
+00:02:50,964 --> 00:02:51,641
+le nerf douze
+
+134
+00:02:52,201 --> 00:02:53,476
+Pourquoi est ce utile en clinique
+
+135
+00:02:53,865 --> 00:02:55,604
+Parce que l'examen des nerfs crâniens
+
+136
+00:02:55,614 --> 00:02:57,785
+permet de localiser une lésion neurologique
+
+137
+00:02:58,325 --> 00:02:59,642
+Une paralysie faciale
+
+138
+00:02:59,861 --> 00:03:00,836
+une diplopie
+
+139
+00:03:01,055 --> 00:03:02,543
+une déviation de la langue
+
+140
+00:03:02,634 --> 00:03:04,335
+chaque signe correspond à un nerf
+
+141
+00:03:04,796 --> 00:03:05,644
+Votre plan de révision
+
+142
+00:03:05,991 --> 00:03:07,944
+récitez l'ordre classez les nerfs en
+
+143
+00:03:07,954 --> 00:03:08,332
+trois
+
+144
+00:03:08,636 --> 00:03:09,143
+cinq
+
+145
+00:03:09,362 --> 00:03:11,234
+quatre puis revoyez les fonctions
+
+146
+00:03:11,367 --> 00:03:12,343
+par quatre groupes
+
+147
+00:03:12,860 --> 00:03:14,429
+Dix minutes par jour pendant une
+
+148
+00:03:14,439 --> 00:03:15,372
+semaine suffisent
+
+149
+00:03:15,742 --> 00:03:17,059
+Cette vidéo est éducative
+
+150
+00:03:17,363 --> 00:03:18,676
+et ne remplace pas un manuel
+
+151
+00:03:18,686 --> 00:03:19,235
+d'anatomie
+
+152
+00:03:19,625 --> 00:03:20,217
+Abonnez vous
+
+153
+00:03:20,435 --> 00:03:21,582
+et dites nous en commentaire
+
+154
+00:03:21,673 --> 00:03:22,649
+quel sujet médical
+
+155
+00:03:22,825 --> 00:03:23,929
+vous voulez voir expliqué
+
+156
+00:03:24,403 --> 00:03:25,678
+À bientôt sur MedEssentiel
+

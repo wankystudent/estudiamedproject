@@ -1,0 +1,524 @@
+1
+00:00:00,256 --> 00:00:01,488
+Une femme de quarante ans
+
+2
+00:00:01,621 --> 00:00:02,981
+opérée il y a deux semaines
+
+3
+00:00:03,200 --> 00:00:03,707
+se lève
+
+4
+00:00:03,968 --> 00:00:06,134
+et ressent soudain un essoufflement brutal
+
+5
+00:00:06,144 --> 00:00:07,547
+avec une douleur dans la poitrine
+
+6
+00:00:07,893 --> 00:00:08,741
+Est ce de l'anxiété
+
+7
+00:00:09,259 --> 00:00:09,808
+Peut être pas
+
+8
+00:00:10,069 --> 00:00:11,643
+Cela peut être une embolie pulmonaire
+
+9
+00:00:12,134 --> 00:00:12,598
+Bonjour
+
+10
+00:00:12,817 --> 00:00:14,348
+je suis le docteur Wanky Massenat
+
+11
+00:00:14,694 --> 00:00:16,865
+Bienvenue sur MedEssentiel la médecine
+
+12
+00:00:17,041 --> 00:00:19,980
+clairement expliquée Aujourd'hui l'embolie pulmonaire
+
+13
+00:00:20,198 --> 00:00:21,217
+ses signes d'urgence
+
+14
+00:00:21,393 --> 00:00:22,962
+et pourquoi il ne faut jamais
+
+15
+00:00:22,972 --> 00:00:23,606
+la minimiser
+
+16
+00:00:23,935 --> 00:00:24,356
+D'abord
+
+17
+00:00:24,618 --> 00:00:25,466
+de quoi parle t on
+
+18
+00:00:25,941 --> 00:00:27,087
+Une embolie pulmonaire
+
+19
+00:00:27,306 --> 00:00:28,538
+c'est un caillot de sang
+
+20
+00:00:28,586 --> 00:00:30,245
+qui bloque une artère des poumons
+
+21
+00:00:30,705 --> 00:00:31,425
+Le plus souvent
+
+22
+00:00:31,729 --> 00:00:33,554
+ce caillot vient d'une veine profonde
+
+23
+00:00:33,564 --> 00:00:34,198
+de la jambe
+
+24
+00:00:34,374 --> 00:00:35,094
+c'est la phlébite
+
+25
+00:00:35,313 --> 00:00:37,057
+ou thrombose veineuse profonde
+
+26
+00:00:37,606 --> 00:00:38,497
+Le caillot migre
+
+27
+00:00:38,673 --> 00:00:39,692
+remonte vers le cœur
+
+28
+00:00:39,910 --> 00:00:41,271
+puis se bloque dans les poumons
+
+29
+00:00:41,489 --> 00:00:42,593
+et gêne le passage
+
+30
+00:00:42,641 --> 00:00:43,873
+du sang et de l'oxygène
+
+31
+00:00:44,305 --> 00:00:45,452
+Quels sont les signes d'alerte
+
+32
+00:00:45,884 --> 00:00:47,969
+Un essoufflement brutal ou inexpliqué
+
+33
+00:00:48,145 --> 00:00:49,335
+c'est le signe le plus fréquent
+
+34
+00:00:49,783 --> 00:00:50,844
+Une douleur thoracique
+
+35
+00:00:51,105 --> 00:00:52,679
+souvent augmentée par la respiration
+
+36
+00:00:52,769 --> 00:00:53,276
+profonde
+
+37
+00:00:53,623 --> 00:00:54,769
+Un cœur qui s'emballe
+
+38
+00:00:55,159 --> 00:00:55,708
+Une toux
+
+39
+00:00:55,927 --> 00:00:57,457
+parfois avec des crachats sanglants
+
+40
+00:00:57,633 --> 00:00:58,225
+Un malaise
+
+41
+00:00:58,444 --> 00:00:59,761
+ou une perte de connaissance
+
+42
+00:01:00,299 --> 00:01:00,677
+Attention
+
+43
+00:01:01,024 --> 00:01:02,597
+les signes peuvent être discrets
+
+44
+00:01:02,731 --> 00:01:04,389
+ou ressembler à d'autres maladies
+
+45
+00:01:04,736 --> 00:01:05,627
+Un indice important
+
+46
+00:01:05,888 --> 00:01:07,073
+des signes de phlébite à la
+
+47
+00:01:07,083 --> 00:01:07,419
+jambe
+
+48
+00:01:07,808 --> 00:01:08,912
+Une jambe gonflée
+
+49
+00:01:09,131 --> 00:01:09,595
+chaude
+
+50
+00:01:09,771 --> 00:01:10,491
+rouge
+
+51
+00:01:10,709 --> 00:01:11,387
+douloureuse
+
+52
+00:01:11,691 --> 00:01:13,264
+le plus souvent d'un seul côté
+
+53
+00:01:13,675 --> 00:01:15,760
+Si ces signes accompagnent un essoufflement
+
+54
+00:01:16,021 --> 00:01:17,211
+la suspicion augmente
+
+55
+00:01:17,600 --> 00:01:18,405
+Qui est à risque
+
+56
+00:01:18,965 --> 00:01:19,685
+Toute situation
+
+57
+00:01:19,861 --> 00:01:21,136
+qui favorise la formation
+
+58
+00:01:21,227 --> 00:01:21,691
+de caillots
+
+59
+00:01:21,867 --> 00:01:23,355
+Une chirurgie récente
+
+60
+00:01:23,531 --> 00:01:24,635
+surtout orthopédique
+
+61
+00:01:25,127 --> 00:01:26,658
+Une immobilisation prolongée
+
+62
+00:01:26,876 --> 00:01:28,236
+par exemple une hospitalisation
+
+63
+00:01:28,412 --> 00:01:29,090
+ou un plâtre
+
+64
+00:01:29,479 --> 00:01:30,156
+Un cancer
+
+65
+00:01:30,546 --> 00:01:32,204
+Un antécédent personnel de thrombose
+
+66
+00:01:32,508 --> 00:01:34,034
+La grossesse et les semaines qui
+
+67
+00:01:34,044 --> 00:01:34,764
+suivent l'accouchement
+
+68
+00:01:35,225 --> 00:01:36,585
+Certains traitements hormonaux
+
+69
+00:01:36,804 --> 00:01:38,676
+dont la contraception œstroprogestative
+
+70
+00:01:39,278 --> 00:01:40,553
+Et de façon plus modérée
+
+71
+00:01:40,814 --> 00:01:41,748
+les très longs voyages
+
+72
+00:01:42,222 --> 00:01:43,834
+Mais l'embolie peut aussi survenir sans
+
+73
+00:01:43,844 --> 00:01:44,478
+cause évidente
+
+74
+00:01:44,825 --> 00:01:46,185
+Quand faut il appeler les secours
+
+75
+00:01:46,639 --> 00:01:48,212
+Devant un essoufflement brutal
+
+76
+00:01:48,516 --> 00:01:49,706
+une douleur thoracique
+
+77
+00:01:49,967 --> 00:01:51,408
+un malaise ou une perte de
+
+78
+00:01:51,418 --> 00:01:51,967
+connaissance
+
+79
+00:01:52,271 --> 00:01:53,844
+appelez immédiatement les services
+
+80
+00:01:53,892 --> 00:01:54,356
+d'urgence
+
+81
+00:01:54,788 --> 00:01:56,020
+Ne conduisez pas vous même
+
+82
+00:01:56,196 --> 00:01:57,642
+et n'attendez pas que cela passe
+
+83
+00:01:58,177 --> 00:01:59,404
+Comment le médecin fait il le
+
+84
+00:01:59,414 --> 00:02:00,006
+diagnostic
+
+85
+00:02:00,481 --> 00:02:00,945
+D'abord
+
+86
+00:02:01,206 --> 00:02:03,206
+il évalue la probabilité clinique
+
+87
+00:02:03,382 --> 00:02:04,273
+grâce à des scores
+
+88
+00:02:04,406 --> 00:02:05,510
+comme le score de Wells
+
+89
+00:02:05,601 --> 00:02:06,619
+ou le score de Genève
+
+90
+00:02:07,175 --> 00:02:08,706
+Si la probabilité est faible
+
+91
+00:02:08,754 --> 00:02:09,602
+ou intermédiaire
+
+92
+00:02:09,778 --> 00:02:11,778
+un dosage sanguin les D dimères
+
+93
+00:02:12,039 --> 00:02:13,698
+peut aider à écarter le diagnostic
+
+94
+00:02:14,044 --> 00:02:15,020
+S'il est positif
+
+95
+00:02:15,196 --> 00:02:16,727
+ou si la probabilité est forte
+
+96
+00:02:16,818 --> 00:02:18,988
+on réalise un angioscanner thoracique
+
+97
+00:02:19,503 --> 00:02:21,455
+L'échographie cardiaque seule ne permet pas
+
+98
+00:02:21,465 --> 00:02:22,442
+d'écarter une embolie
+
+99
+00:02:22,916 --> 00:02:23,764
+Quel est le traitement
+
+100
+00:02:24,154 --> 00:02:25,002
+Le traitement de base
+
+101
+00:02:25,434 --> 00:02:26,836
+ce sont les anticoagulants
+
+102
+00:02:27,097 --> 00:02:28,628
+qui empêchent le caillot de grossir
+
+103
+00:02:28,719 --> 00:02:29,610
+et d'autres de se former
+
+104
+00:02:30,189 --> 00:02:31,250
+Dans les formes graves
+
+105
+00:02:31,469 --> 00:02:32,744
+avec une chute de la tension
+
+106
+00:02:33,389 --> 00:02:34,872
+des traitements plus lourds peuvent être
+
+107
+00:02:34,882 --> 00:02:36,541
+nécessaires en milieu hospitalier
+
+108
+00:02:37,144 --> 00:02:38,290
+La durée du traitement
+
+109
+00:02:38,338 --> 00:02:39,229
+dépend de la cause
+
+110
+00:02:39,405 --> 00:02:40,680
+et du risque de récidive
+
+111
+00:02:40,984 --> 00:02:41,746
+Et la prévention
+
+112
+00:02:42,110 --> 00:02:44,025
+Se mobiliser tôt après une chirurgie
+
+113
+00:02:44,201 --> 00:02:45,091
+selon les consignes
+
+114
+00:02:45,395 --> 00:02:47,139
+Une prévention par anticoagulant
+
+115
+00:02:47,187 --> 00:02:48,078
+ou par bas de contention
+
+116
+00:02:48,254 --> 00:02:49,823
+peut être prescrite pour les patients
+
+117
+00:02:49,833 --> 00:02:50,254
+à risque
+
+118
+00:02:50,558 --> 00:02:51,444
+Et en cas de signes à
+
+119
+00:02:51,454 --> 00:02:52,985
+la jambe consultez rapidement
+
+120
+00:02:53,272 --> 00:02:54,845
+Retenez essoufflement brutal
+
+121
+00:02:55,235 --> 00:02:56,211
+douleur thoracique
+
+122
+00:02:56,429 --> 00:02:58,429
+jambe gonflée urgence médicale
+
+123
+00:02:58,776 --> 00:03:00,217
+Mieux vaut une fausse alerte qu'une
+
+124
+00:03:00,227 --> 00:03:01,160
+embolie non traitée
+
+125
+00:03:01,592 --> 00:03:02,781
+Cette vidéo est éducative
+
+126
+00:03:03,085 --> 00:03:04,573
+et ne remplace pas une consultation
+
+127
+00:03:05,073 --> 00:03:05,708
+Abonnez vous
+
+128
+00:03:05,884 --> 00:03:07,116
+et dites nous en commentaire
+
+129
+00:03:07,206 --> 00:03:08,140
+quel sujet médical
+
+130
+00:03:08,316 --> 00:03:09,462
+vous voulez voir expliqué
+
+131
+00:03:09,937 --> 00:03:11,297
+À bientôt sur MedEssentiel
+
