@@ -20,7 +20,9 @@ fs.copyFileSync(`${logoDir}logo_icon.png`, `${proj}/assets/logo_icon.png`);
 const libSrc = fs.readFileSync(new URL('./lib.mjs', import.meta.url), 'utf-8');
 const baseCss = libSrc.match(/export const css = `([\s\S]*?)`;/)[1].replace(/\bbody\{[^}]*\}\n/, '').replace(/\$\{TEAL\}/g, '#13A8A8').replace(/\$\{RED\}/g, '#E5484D').replace(/\$\{NAVY\}/g, '#0B2545').replace(/\$\{INK\}/g, '#0B2545').replace(/\$\{GREEN\}/g, '#2EAD6B');
 const darkRaw = libSrc.match(/const darkCss = `([\s\S]*?)`;/)[1];
-const brandCss = darkRaw.replace(/#6b2a12/g, '#0F5FA8').replace(/#2e1206/g, '#06295c').replace(/#170803/g, '#031634').replace(/#140804/g, '#051a3a').replace(/#5b3523/g, '#1c5a96').replace(/#1f0e07/g, '#0a2a55').replace(/#6b4430/g, '#2a6fb0').replace(/#e3cdbd/g, '#bcd6ee').replace(/#F5B82E/g, '#19D3C5').replace(/#2a1206/g, '#01214a').replace(/^body\{[^}]*\}\n/m, '');
+const brandCss = darkRaw.replace(/#6b2a12/g, '#0F5FA8').replace(/#2e1206/g, '#06295c').replace(/#170803/g, '#031634').replace(/#140804/g, '#051a3a').replace(/#5b3523/g, '#1c5a96').replace(/#1f0e07/g, '#0a2a55').replace(/#6b4430/g, '#2a6fb0').replace(/#e3cdbd/g, '#bcd6ee').replace(/#F5B82E/g, '#19D3C5').replace(/#2a1206/g, '#01214a').replace(/^body\{[^}]*\}\n/m, '').split('\n').filter(l => !l.includes('[style*=')).join('\n');
+// Le lint HyperFrames interdit les sélecteurs sur l'attribut style : on réécrit les styles inline au build.
+const fixInline = (h) => h.replace(/background:#fff([;"])/g, 'background:#0a2a55;border-color:#2a6fb0$1').replace(/color:#4a5f7a|color:#34495e/g, 'color:#bcd6ee').replace(/color:#8f1d22|color:#6a2a2e/g, 'color:#ff9a9a').replace(/color:#0B2545/g, 'color:#ffffff').replace(/background:#FFF3F3/g, 'background:#2a0d0a').replace(/background:#FFF8EC/g, 'background:#2a1f0a');
 
 // ---- scènes plein cadre (accroche / intro / fin) : lignes animées ----
 function fullHTML(t) {
@@ -56,7 +58,7 @@ scenes.forEach((s, i) => {
     const fsz = t.title.length > 34 ? 76 : 90;
     const hw = esc(t.title).split(' ').map(w => `<span class="hw">${w}</span>`).join(' ');
     const sc = 980 / t.rect.w;
-    inner = `<div class="head" style="font-size:${fsz}px">${hw}</div><div class="cardzone"><div class="cardscale" style="zoom:${sc.toFixed(3)}">${t.cardHTML.replace(/class="card"/, 'class="card cardx"')}</div></div>`;
+    inner = `<div class="head" style="font-size:${fsz}px">${hw}</div><div class="cardzone"><div class="cardscale" style="zoom:${sc.toFixed(3)}">${fixInline(t.cardHTML).replace(/class="card"/, 'class="card cardx"')}</div></div>`;
     js += `tl.from("#s${i} .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},${(o + .05).toFixed(2)});
 tl.from("#s${i} .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},${(o + .3).toFixed(2)});
 tl.from("#s${i} .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},${(o + .55).toFixed(2)});

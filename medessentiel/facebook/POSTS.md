@@ -82,3 +82,26 @@ Tension ✔ Pouls ✔ Fréquence respiratoire ? C'est l'erreur n°1 en stage. �
 Les 5 constantes + conscience et douleur : valeurs repères adultes, méthodes de mesure et quand alerter. (À adapter au protocole de votre service.)
 Contenu éducatif — ne remplace pas une consultation médicale.
 **Hashtags :** #constantesvitales #stage #étudiantsenmédecine #sémiologie #MedEssentiel
+
+---
+
+## Ép. 10 — Embolie pulmonaire : les signes d'urgence (3 min 12)
+**Texte :**
+Essoufflement brutal + douleur thoracique : ce n'est pas toujours de l'anxiété. 🫁
+Les signes de l'embolie pulmonaire, les facteurs de risque, le parcours diagnostique et pourquoi il faut appeler les secours.
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #emboliepulmonaire #urgence #santé #médecine #MedEssentiel
+
+## Ép. 11 — Les 12 nerfs crâniens : une méthode pour les retenir (3 min 26 — étudiants)
+**Texte :**
+12 nerfs, 12 fonctions : la méthode 3 · 5 · 4 pour les retenir pour de bon. 🧠
+Ordre I–XII, classification (sensoriels, moteurs, mixtes), fonctions par groupes et exemples cliniques.
+Contenu éducatif — à compléter avec votre manuel d'anatomie.
+**Hashtags :** #nerfscrâniens #anatomie #étudiantsenmédecine #MedEssentiel
+
+## Ép. 12 — Les étapes de l'accouchement expliquées simplement (3 min 01)
+**Texte :**
+Dilatation, expulsion, délivrance : que se passe-t-il vraiment ? 👶
+Les 3 étapes de l'accouchement par voie basse, quand contacter la maternité et quand aller aux urgences. (Suivez les consignes de votre maternité.)
+Contenu éducatif — ne remplace pas une consultation médicale.
+**Hashtags :** #accouchement #grossesse #maternité #santé #MedEssentiel

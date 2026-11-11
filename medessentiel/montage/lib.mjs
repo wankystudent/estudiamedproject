@@ -130,7 +130,7 @@ export async function render(out, scenes) {
       const chip = document.querySelector('.card .chip');
       const raw = document.body.innerText.replace(/MedEssentiel/g, '').replace(/\n{2,}/g, '\n').trim();
       const c = document.querySelector('.card'); const r = c ? c.getBoundingClientRect() : null;
-      return { card: !!c, title: h ? (() => { const t = document.createElement('div'); t.innerHTML = h.innerHTML.replace(/<br\s*\/?>/gi, ' '); return t.textContent.replace(/\s+/g, ' ').trim(); })() : raw, chip: chip ? chip.innerText : '', rect: r ? { x: r.x, y: r.y, w: r.width, h: r.height } : null, cardHTML: c ? c.outerHTML : '' };
+      return { card: !!c, title: h ? (() => { const t = document.createElement('div'); t.innerHTML = h.innerHTML.replace(/<br\s*\/?>/gi, ' '); return t.textContent.replace(/\s+/g, ' ').trim(); })() : (c && chip ? (chip.innerText.toLowerCase().replace(/^./, (m) => m.toUpperCase())) : raw), chip: chip ? chip.innerText : '', rect: r ? { x: r.x, y: r.y, w: r.width, h: r.height } : null, cardHTML: c ? c.outerHTML : '' };
     });
   }
   fs.writeFileSync(`${out}/titles.json`, JSON.stringify(titles, null, 1));

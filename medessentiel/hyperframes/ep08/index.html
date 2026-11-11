@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;position:relative;overflow:hidden;font-family:'Inter',sans-serif;color:#fff;
+ background:radial-gradient(1200px 800px at 75% 20%,#14396b 0%,#0B2545 60%,#071a33 100%)}
+.brand{position:absolute;left:60px;top:38px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:34px;letter-spacing:.2px}
+.brand b{color:#13A8A8}
+.logo{width:46px;height:46px;border-radius:12px;background:#13A8A8;display:grid;place-items:center}
+.card{position:absolute;left:880px;top:120px;width:990px;height:790px;background:#F4F8FB;border-radius:28px;color:#0B2545;
+ box-shadow:0 30px 80px rgba(0,0,0,.45);padding:40px 48px;overflow:hidden}
+.chip{display:inline-block;background:#13A8A8;color:#fff;font-weight:800;font-size:26px;padding:8px 22px;border-radius:999px;letter-spacing:1px}
+.chip.red{background:#E5484D}
+h1{font-size:50px;line-height:1.1;font-weight:800;margin:18px 0 10px}
+h2{font-size:38px;line-height:1.15;font-weight:800}
+p,li{font-size:33px;line-height:1.3;font-weight:500}
+.sub{color:#4a5f7a}
+.frame{position:absolute;border-radius:28px;border:6px solid #13A8A8;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.foot{position:absolute;right:50px;top:50px;font-size:22px;color:#9fb4cf;font-weight:600}
+.row{display:flex;align-items:center;gap:22px}
+.pill{border-radius:20px;padding:20px 26px;background:#fff;border:2px solid #dbe6f0;font-weight:700;font-size:32px}
+
+
+.card{background:#051a3a!important;color:#fff!important;border:2px solid #1c5a96;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.card h1,.card h2{color:#fff!important}
+.chip{background:#19D3C5!important;color:#01214a!important}.chip.red{background:#E5484D!important;color:#fff!important}
+.sub{color:#bcd6ee!important}
+.pill{background:#0a2a55!important;color:#fff!important;border-color:#2a6fb0}
+[style*="background:#fff"]{background:#0a2a55!important;border-color:#2a6fb0!important;color:#fff!important}
+[style*="color:#4a5f7a"],[style*="color:#34495e"]{color:#bcd6ee!important}
+[style*="color:#8f1d22"],[style*="color:#6a2a2e"]{color:#ff9a9a!important}
+.card[style*="FFF3F3"],.card[style*="FFF8EC"]{background:#2a0d0a!important}
+.card h1{display:none!important}
+.card{height:auto!important;min-height:300px;padding:34px 36px 44px!important;width:780px!important}
+[style*="color:#0B2545"]{color:#fff!important}
+.chip{font-size:24px!important}
+.card svg{max-width:100%;height:auto}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#031634;font-family:'Inter',sans-serif;color:#fff}
+#root{position:absolute;inset:0;overflow:hidden;background:linear-gradient(180deg,#06295c 0%,#031634 100%)}
+.glow{position:absolute;border-radius:50%;filter:blur(90px)}
+#g1{width:900px;height:900px;left:-200px;top:380px;background:#0F5FA8;opacity:.55}
+#g2{width:700px;height:700px;right:-250px;top:1000px;background:#0195B1;opacity:.35}
+.scene{position:absolute;inset:0}.inner{position:absolute;inset:0}
+.head{position:absolute;left:60px;right:60px;top:190px;height:330px;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;text-align:center;font-weight:900;line-height:1.1;gap:0 22px}
+.hw{display:inline-block}
+.cardzone{position:absolute;left:50px;top:560px;width:980px}
+.cardscale{width:780px}
+.cardx{position:relative!important;left:auto!important;top:auto!important;box-shadow:0 20px 70px rgba(0,0,0,.5)}
+.big{position:absolute;left:60px;right:60px;text-align:center}
+.ln{display:block}.biglogo{width:520px;height:auto;margin:0 auto 34px;background:#fff;border-radius:32px;padding:8px}.biglogo img{width:100%;display:block}
+.top{position:absolute;left:44px;top:46px;display:flex;align-items:center;gap:16px;font-weight:900;font-size:34px}.top b{color:#19D3C5}
+.badge{width:92px;height:76px;border-radius:18px;background:#fff;display:grid;place-items:center}.badge img{width:78px}
+.cap{position:absolute;left:40px;right:40px;top:1390px;text-align:center;font-weight:900;font-size:64px;line-height:1.15;text-shadow:0 4px 18px rgba(0,0,0,.65)}
+.cw{display:inline-block;margin:0 .14em}
+.cta{position:absolute;left:60px;right:60px;top:1640px;text-align:center;font-size:42px;font-weight:700;line-height:1.2;color:#fff;opacity:.9}.cta b{color:#19D3C5}
+#bar{position:absolute;left:0;bottom:0;height:10px;width:1080px;background:#19D3C5;transform-origin:left center}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="189.99" data-width="1080" data-height="1920">
+<div id="g1" class="glow"></div><div id="g2" class="glow"></div>
+<div class="top"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div id="s0" class="clip scene" data-start="0" data-duration="10.22" data-track-index="1"><div id="i0" class="inner"><div class="big" style="top:300px"><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">Repas</div><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">↓</div><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">Glycémie ↑</div>
+   <div class="ln" style="font-size:92px;font-weight:900;margin-top:64px;line-height:1.08;color:#19D3C5">Chez le diabétique,<br>elle reste élevée.</div></div></div></div>
+<div id="s1" class="clip scene" data-start="10.22" data-duration="10.79" data-track-index="1"><div id="i1" class="inner"><div class="big" style="top:420px"><div class="ln" style="font-size:40px;font-weight:900;color:#19D3C5;letter-spacing:3px">SÉRIE 1 · ÉPISODE 8</div>
+     <div class="ln" style="font-size:48px;font-weight:700;margin-top:18px;color:#bcd6ee">La médecine en 3 minutes</div>
+     <div class="ln" style="font-size:104px;font-weight:900;margin-top:60px;line-height:1.05">Diabète : pourquoi la glycémie augmente</div></div></div></div>
+<div id="s2" class="clip scene" data-start="21.01" data-duration="23.1" data-track-index="1"><div id="i2" class="inner"><div class="head" style="font-size:90px"><span class="hw">L'insuline,</span> <span class="hw">la</span> <span class="hw">clé</span> <span class="hw">du</span> <span class="hw">glucose</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">FONCTIONNEMENT NORMAL</span><h1>L'insuline, la clé du glucose</h1>
+  <div style="display:flex;justify-content:center">
+<svg viewBox="0 0 560 300" width="560" height="300">
+ <rect x="300" y="30" width="230" height="240" rx="26" fill="#F4C6CC" stroke="#B9495A" stroke-width="5"></rect>
+ <text x="415" y="62" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#0B2545">cellule</text>
+ <rect x="285" y="120" width="30" height="80" rx="10" fill="#0B2545"></rect>
+ <g fill="#E8A33D"><circle cx="60" cy="70" r="20"></circle><circle cx="110" cy="130" r="20"></circle><circle cx="60" cy="190" r="20"></circle><circle cx="130" cy="230" r="20"></circle></g>
+ <text x="90" y="285" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#0B2545">glucose</text>
+ <path d="M175 160 H262" stroke="#13A8A8" stroke-width="12" stroke-linecap="round"></path><circle cx="170" cy="160" r="18" fill="#13A8A8"></circle>
+ <path d="M240 140 L272 160 L240 180" fill="none" stroke="#13A8A8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+ <text x="215" y="125" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#13A8A8">insuline</text>
+</svg></div>
+  <p class="sub" style="font-size:27px;margin-top:-4px">Pancréas (cellules bêta) → insuline → les cellules captent le glucose.</p></div></div></div></div></div>
+<div id="s3" class="clip scene" data-start="44.11" data-duration="7.05" data-track-index="1"><div id="i3" class="inner"><div class="head" style="font-size:90px"><span class="hw">Deux</span> <span class="hw">types</span> <span class="hw">principaux</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">LA RÉGULATION EST PERTURBÉE</span><h1>Deux types principaux</h1>
+  <div style="display:flex;gap:22px;margin-top:20px"><div class="pill" style="flex:1;border-color:#E5484D;padding:26px"><div style="font-size:42px;font-weight:900;color:#E5484D">Type 1</div><div style="font-size:28px;font-weight:600;margin-top:12px;color:#34495e">Cellules bêta détruites</div><div style="font-size:28px;font-weight:600;margin-top:12px;color:#34495e">Peu d'insuline</div></div><div class="pill" style="flex:1;border-color:#E8A33D;padding:26px"><div style="font-size:42px;font-weight:900;color:#E8A33D">Type 2</div><div style="font-size:28px;font-weight:600;margin-top:12px;color:#34495e">Insulinorésistance</div><div style="font-size:28px;font-weight:600;margin-top:12px;color:#34495e">Le plus fréquent</div></div></div></div></div></div></div></div>
+<div id="s4" class="clip scene" data-start="51.16" data-duration="15.21" data-track-index="1"><div id="i4" class="inner"><div class="head" style="font-size:90px"><span class="hw">Destruction</span> <span class="hw">des</span> <span class="hw">cellules</span> <span class="hw">bêta</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">TYPE 1</span><h1>Destruction des cellules bêta</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3"></path></svg></div><div style="font-size:36px;font-weight:700">Origine auto-immune</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div><div style="font-size:36px;font-weight:700">Souvent chez l'enfant ou le jeune adulte</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 8h10"></path><path d="M6 21h12"></path></svg></div><div style="font-size:36px;font-weight:700">Insuline tous les jours, à vie</div></div></div></div></div></div></div>
+<div id="s5" class="clip scene" data-start="66.37" data-duration="21.91" data-track-index="1"><div id="i5" class="inner"><div class="head" style="font-size:90px"><span class="hw">Insulinorésistance</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">TYPE 2</span><h1>Insulinorésistance</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E8A33D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"></path><path d="M12 10v5M12 18v.5"></path></svg></div><div style="font-size:36px;font-weight:700">Cellules qui répondent mal à l'insuline</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E8A33D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"></path><path d="M12 10v5M12 18v.5"></path></svg></div><div style="font-size:36px;font-weight:700">Production d'insuline insuffisante avec le temps</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E8A33D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div><div style="font-size:36px;font-weight:700">Surpoids · sédentarité · âge · antécédents</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E8A33D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9 10h.01M15 10h.01M9 16h6"></path></svg></div><div style="font-size:36px;font-weight:700">Souvent silencieux pendant des années</div></div></div></div></div></div></div>
+<div id="s6" class="clip scene" data-start="88.28" data-duration="23.76" data-track-index="1"><div id="i6" class="inner"><div class="head" style="font-size:90px"><span class="hw">Glycémie</span> <span class="hw">à</span> <span class="hw">jeun</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">DIAGNOSTIC</span><h1>Glycémie à jeun</h1>
+<div style="display:flex;height:70px;border-radius:18px;overflow:hidden;margin-top:30px;font-weight:800;font-size:26px;color:#fff;text-align:center">
+ <div style="flex:1.1;background:#2EAD6B;display:grid;place-items:center">Normal</div><div style="flex:.9;background:#E8A33D;display:grid;place-items:center">Prédiabète</div><div style="flex:1.2;background:#E5484D;display:grid;place-items:center">Diabète</div></div>
+<div style="display:flex;font-size:28px;font-weight:800;margin-top:10px"><div style="flex:1.1">&lt; 1,10 g/L</div><div style="flex:.9">1,10 – 1,25</div><div style="flex:1.2">≥ 1,26 g/L (2 prélèvements)</div></div>
+  <p class="sub" style="font-size:26px;margin-top:20px">Ou &gt; 2 g/L avec symptômes. Seuils à discuter avec votre médecin.</p></div></div></div></div></div>
+<div id="s7" class="clip scene" data-start="112.04" data-duration="13.03" data-track-index="1"><div id="i7" class="inner"><div class="head" style="font-size:90px"><span class="hw">Ce</span> <span class="hw">qui</span> <span class="hw">doit</span> <span class="hw">alerter</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">SIGNES D'ALERTE</span><h1>Ce qui doit alerter</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3"></path></svg></div><div style="font-size:36px;font-weight:700">Soif intense</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 6-8 11-8 11z"></path></svg></div><div style="font-size:36px;font-weight:700">Urines abondantes</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9 10h.01M15 10h.01M9 16h6"></path></svg></div><div style="font-size:36px;font-weight:700">Fatigue inhabituelle</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"></path><path d="M12 10v5M12 18v.5"></path></svg></div><div style="font-size:36px;font-weight:700">Amaigrissement · infections répétées</div></div>
+  <p class="sub" style="font-size:26px;margin-top:6px">Beaucoup n'ont aucun symptôme au début.</p></div></div></div></div></div>
+<div id="s8" class="clip scene" data-start="125.07" data-duration="19.47" data-track-index="1"><div id="i8" class="inner"><div class="head" style="font-size:90px"><span class="hw">Les</span> <span class="hw">vaisseaux</span> <span class="hw">abîmés</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">COMPLICATIONS</span><h1>Les vaisseaux abîmés</h1>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:6px"><div class="pill" style="font-size:28px;padding:18px;border-color:#E5484D">Rétinopathie (yeux)</div><div class="pill" style="font-size:28px;padding:18px;border-color:#E5484D">Néphropathie (reins)</div><div class="pill" style="font-size:28px;padding:18px;border-color:#E5484D">Neuropathie (nerfs)</div><div class="pill" style="font-size:28px;padding:18px;border-color:#8f1d22">Infarctus · AVC</div><div class="pill" style="font-size:28px;padding:18px;border-color:#8f1d22">Artérite des jambes</div></div></div></div></div></div></div>
+<div id="s9" class="clip scene" data-start="144.54" data-duration="12.78" data-track-index="1"><div id="i9" class="inner"><div class="head" style="font-size:90px"><span class="hw">Acidocétose</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx" style="background:#FFF3F3"><span class="chip red">URGENCE</span><h1 style="color:#8f1d22">Acidocétose</h1>
+  <p class="sub" style="font-size:30px;color:#6a2a2e">Surtout dans le type 1</p>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3"></path></svg></div><div style="font-size:36px;font-weight:700">Soif extrême · nausées · vomissements</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"></path><path d="M12 10v5M12 18v.5"></path></svg></div><div style="font-size:36px;font-weight:700">Douleurs du ventre · respiration rapide</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg></div><div style="font-size:36px;font-weight:700">Haleine à odeur de fruit → consulter immédiatement</div></div></div></div></div></div></div>
+<div id="s10" class="clip scene" data-start="157.32" data-duration="15.21" data-track-index="1"><div id="i10" class="inner"><div class="head" style="font-size:90px"><span class="hw">Que</span> <span class="hw">faire</span> <span class="hw">?</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">TRAITEMENT ET SUIVI</span><h1>Que faire ?</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 6-8 11-8 11z"></path></svg></div><div style="font-size:36px;font-weight:700">Alimentation · activité physique</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg></div><div style="font-size:36px;font-weight:700">Suivi médical</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 8h10"></path><path d="M6 21h12"></path></svg></div><div style="font-size:36px;font-weight:700">Médicaments ou insuline si besoin</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div><div style="font-size:36px;font-weight:700">HbA1c : glycémie moyenne des 2–3 derniers mois</div></div></div></div></div></div></div>
+<div id="s11" class="clip scene" data-start="172.53" data-duration="7.31" data-track-index="1"><div id="i11" class="inner"><div class="head" style="font-size:90px"><span class="hw">Le</span> <span class="hw">glucose</span> <span class="hw">augmente</span> <span class="hw">quand…</span></div><div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">À RETENIR</span><h1>Le glucose augmente quand…</h1>
+  <div class="pill" style="margin-top:24px;font-size:36px">l'insuline manque, ou n'agit plus.</div>
+  <div class="pill" style="margin-top:20px;font-size:36px;border-color:#13A8A8">Dépister tôt = prévenir les complications.</div></div></div></div></div></div>
+<div id="s12" class="clip scene" data-start="179.84" data-duration="10.15" data-track-index="1"><div id="i12" class="inner"><div class="big" style="top:230px"><div class="ln biglogo"><img src="assets/logo.jpg"></div>
+     <div class="ln" style="font-size:104px;font-weight:900;color:#19D3C5;line-height:1">Abonnez-vous</div>
+     <div class="ln" style="font-size:58px;font-weight:700;margin-top:26px">pour plus de médecine simple</div>
+     <div class="ln" style="font-size:40px;font-weight:400;margin-top:36px;color:#bcd6ee">Quel sujet médical voulez-vous voir expliqué ? Dites-le en commentaire.</div>
+     <div class="ln" style="font-size:28px;font-weight:700;margin-top:56px;color:#19D3C5;letter-spacing:2px">SOURCES</div>
+     <div class="ln" style="font-size:30px;font-weight:400;margin-top:8px;color:#bcd6ee;line-height:1.3">HAS (seuils cités par sources secondaires)<br>La Revue du Praticien<br>À vérifier sur texte officiel</div>
+     <div class="ln" style="font-size:26px;font-weight:400;margin-top:30px;color:#8fb3d6">Information éducative — ne remplace pas une consultation médicale.</div></div></div></div>
+
+<div class="cta" id="cta">Suivez <b>MedEssentiel</b><br>pour plus de médecine simple</div>
+<div id="c0" class="cap clip" data-start="0.21" data-duration="1.36" data-track-index="3"><span id="w0" class="cw">Après</span> <span id="w1" class="cw">un</span> <span id="w2" class="cw">repas,</span> <span id="w3" class="cw">le</span> <span id="w4" class="cw">sucre</span></div>
+<div id="c1" class="cap clip" data-start="1.44" data-duration="1.59" data-track-index="3"><span id="w5" class="cw">dans</span> <span id="w6" class="cw">le</span> <span id="w7" class="cw">sang</span> <span id="w8" class="cw">monte.</span> <span id="w9" class="cw">Chez</span></div>
+<div id="c2" class="cap clip" data-start="2.90" data-duration="1.19" data-track-index="3"><span id="w10" class="cw">la</span> <span id="w11" class="cw">plupart</span> <span id="w12" class="cw">des</span> <span id="w13" class="cw">gens,</span> <span id="w14" class="cw">il</span></div>
+<div id="c3" class="cap clip" data-start="3.95" data-duration="1.75" data-track-index="3"><span id="w15" class="cw">redescend</span> <span id="w16" class="cw">tout</span> <span id="w17" class="cw">seul.</span> <span id="w18" class="cw">Chez</span> <span id="w19" class="cw">une</span></div>
+<div id="c4" class="cap clip" data-start="5.56" data-duration="2.01" data-track-index="3"><span id="w20" class="cw">personne</span> <span id="w21" class="cw">diabétique,</span> <span id="w22" class="cw">il</span> <span id="w23" class="cw">reste</span> <span id="w24" class="cw">élevé.</span></div>
+<div id="c5" class="cap clip" data-start="7.54" data-duration="0.66" data-track-index="3"><span id="w25" class="cw">Pourquoi</span> <span id="w26" class="cw">?</span></div>
+<div id="c6" class="cap clip" data-start="8.65" data-duration="1.58" data-track-index="3"><span id="w27" class="cw">Voilà</span> <span id="w28" class="cw">tout</span> <span id="w29" class="cw">l'enjeu</span> <span id="w30" class="cw">de</span> <span id="w31" class="cw">l'insuline.</span></div>
+<div id="c7" class="cap clip" data-start="10.27" data-duration="1.59" data-track-index="3"><span id="w32" class="cw">Bonjour,</span> <span id="w33" class="cw">je</span> <span id="w34" class="cw">suis</span> <span id="w35" class="cw">le</span> <span id="w36" class="cw">docteur</span></div>
+<div id="c8" class="cap clip" data-start="11.74" data-duration="2.87" data-track-index="3"><span id="w37" class="cw">Wanky</span> <span id="w38" class="cw">Massenat.</span> <span id="w39" class="cw">Bienvenue</span> <span id="w40" class="cw">sur</span> <span id="w41" class="cw">MedEssentiel</span></div>
+<div id="c9" class="cap clip" data-start="14.53" data-duration="2.18" data-track-index="3"><span id="w42" class="cw">:</span> <span id="w43" class="cw">la</span> <span id="w44" class="cw">médecine,</span> <span id="w45" class="cw">clairement</span> <span id="w46" class="cw">expliquée.</span></div>
+<div id="c10" class="cap clip" data-start="16.76" data-duration="2.53" data-track-index="3"><span id="w47" class="cw">Aujourd'hui</span> <span id="w48" class="cw">:</span> <span id="w49" class="cw">pourquoi</span> <span id="w50" class="cw">la</span> <span id="w51" class="cw">glycémie</span></div>
+<div id="c11" class="cap clip" data-start="19.23" data-duration="1.58" data-track-index="3"><span id="w52" class="cw">augmente</span> <span id="w53" class="cw">dans</span> <span id="w54" class="cw">le</span> <span id="w55" class="cw">diabète.</span></div>
+<div id="c12" class="cap clip" data-start="21.06" data-duration="1.90" data-track-index="3"><span id="w56" class="cw">Commençons</span> <span id="w57" class="cw">par</span> <span id="w58" class="cw">le</span> <span id="w59" class="cw">fonctionnement</span> <span id="w60" class="cw">normal.</span></div>
+<div id="c13" class="cap clip" data-start="23.17" data-duration="1.51" data-track-index="3"><span id="w61" class="cw">Les</span> <span id="w62" class="cw">aliments</span> <span id="w63" class="cw">sont</span> <span id="w64" class="cw">transformés</span> <span id="w65" class="cw">en</span></div>
+<div id="c14" class="cap clip" data-start="24.58" data-duration="1.72" data-track-index="3"><span id="w66" class="cw">glucose,</span> <span id="w67" class="cw">qui</span> <span id="w68" class="cw">passe</span> <span id="w69" class="cw">dans</span> <span id="w70" class="cw">le</span></div>
+<div id="c15" class="cap clip" data-start="26.17" data-duration="1.57" data-track-index="3"><span id="w71" class="cw">sang.</span> <span id="w72" class="cw">Le</span> <span id="w73" class="cw">glucose</span> <span id="w74" class="cw">est</span> <span id="w75" class="cw">le</span></div>
+<div id="c16" class="cap clip" data-start="27.59" data-duration="1.55" data-track-index="3"><span id="w76" class="cw">carburant</span> <span id="w77" class="cw">de</span> <span id="w78" class="cw">nos</span> <span id="w79" class="cw">cellules.</span></div>
+<div id="c17" class="cap clip" data-start="29.37" data-duration="1.03" data-track-index="3"><span id="w80" class="cw">Mais</span> <span id="w81" class="cw">pour</span> <span id="w82" class="cw">entrer</span> <span id="w83" class="cw">dans</span> <span id="w84" class="cw">la</span></div>
+<div id="c18" class="cap clip" data-start="30.25" data-duration="1.34" data-track-index="3"><span id="w85" class="cw">plupart</span> <span id="w86" class="cw">d'entre</span> <span id="w87" class="cw">elles,</span> <span id="w88" class="cw">il</span> <span id="w89" class="cw">a</span></div>
+<div id="c19" class="cap clip" data-start="31.46" data-duration="1.97" data-track-index="3"><span id="w90" class="cw">besoin</span> <span id="w91" class="cw">d'une</span> <span id="w92" class="cw">clé</span> <span id="w93" class="cw">:</span> <span id="w94" class="cw">l'insuline,</span></div>
+<div id="c20" class="cap clip" data-start="33.33" data-duration="1.77" data-track-index="3"><span id="w95" class="cw">une</span> <span id="w96" class="cw">hormone</span> <span id="w97" class="cw">fabriquée</span> <span id="w98" class="cw">par</span> <span id="w99" class="cw">le</span></div>
+<div id="c21" class="cap clip" data-start="35.00" data-duration="2.14" data-track-index="3"><span id="w100" class="cw">pancréas,</span> <span id="w101" class="cw">dans</span> <span id="w102" class="cw">les</span> <span id="w103" class="cw">cellules</span> <span id="w104" class="cw">bêta.</span></div>
+<div id="c22" class="cap clip" data-start="37.24" data-duration="1.63" data-track-index="3"><span id="w105" class="cw">Quand</span> <span id="w106" class="cw">la</span> <span id="w107" class="cw">glycémie</span> <span id="w108" class="cw">monte,</span> <span id="w109" class="cw">le</span></div>
+<div id="c23" class="cap clip" data-start="38.73" data-duration="2.07" data-track-index="3"><span id="w110" class="cw">pancréas</span> <span id="w111" class="cw">libère</span> <span id="w112" class="cw">de</span> <span id="w113" class="cw">l'insuline,</span> <span id="w114" class="cw">les</span></div>
+<div id="c24" class="cap clip" data-start="40.67" data-duration="1.89" data-track-index="3"><span id="w115" class="cw">cellules</span> <span id="w116" class="cw">captent</span> <span id="w117" class="cw">le</span> <span id="w118" class="cw">glucose,</span> <span id="w119" class="cw">et</span></div>
+<div id="c25" class="cap clip" data-start="42.42" data-duration="1.48" data-track-index="3"><span id="w120" class="cw">la</span> <span id="w121" class="cw">glycémie</span> <span id="w122" class="cw">redescend.</span></div>
+<div id="c26" class="cap clip" data-start="44.16" data-duration="1.67" data-track-index="3"><span id="w123" class="cw">Dans</span> <span id="w124" class="cw">le</span> <span id="w125" class="cw">diabète,</span> <span id="w126" class="cw">cette</span> <span id="w127" class="cw">régulation</span></div>
+<div id="c27" class="cap clip" data-start="45.72" data-duration="1.63" data-track-index="3"><span id="w128" class="cw">est</span> <span id="w129" class="cw">perturbée.</span> <span id="w130" class="cw">Il</span> <span id="w131" class="cw">en</span> <span id="w132" class="cw">existe</span></div>
+<div id="c28" class="cap clip" data-start="47.22" data-duration="0.90" data-track-index="3"><span id="w133" class="cw">plusieurs</span> <span id="w134" class="cw">types.</span></div>
+<div id="c29" class="cap clip" data-start="48.27" data-duration="1.56" data-track-index="3"><span id="w135" class="cw">Les</span> <span id="w136" class="cw">deux</span> <span id="w137" class="cw">principaux</span> <span id="w138" class="cw">sont</span> <span id="w139" class="cw">le</span></div>
+<div id="c30" class="cap clip" data-start="49.70" data-duration="1.21" data-track-index="3"><span id="w140" class="cw">type</span> <span id="w141" class="cw">1</span> <span id="w142" class="cw">et</span> <span id="w143" class="cw">le</span> <span id="w144" class="cw">type</span></div>
+<div id="c31" class="cap clip" data-start="50.79" data-duration="1.51" data-track-index="3"><span id="w145" class="cw">2.</span> <span id="w146" class="cw">Le</span> <span id="w147" class="cw">diabète</span> <span id="w148" class="cw">de</span> <span id="w149" class="cw">type</span></div>
+<div id="c32" class="cap clip" data-start="52.17" data-duration="1.10" data-track-index="3"><span id="w150" class="cw">1</span> <span id="w151" class="cw">est</span> <span id="w152" class="cw">causé</span> <span id="w153" class="cw">par</span> <span id="w154" class="cw">la</span></div>
+<div id="c33" class="cap clip" data-start="53.17" data-duration="1.72" data-track-index="3"><span id="w155" class="cw">destruction</span> <span id="w156" class="cw">des</span> <span id="w157" class="cw">cellules</span> <span id="w158" class="cw">bêta</span> <span id="w159" class="cw">du</span></div>
+<div id="c34" class="cap clip" data-start="54.79" data-duration="2.20" data-track-index="3"><span id="w160" class="cw">pancréas,</span> <span id="w161" class="cw">d'origine</span> <span id="w162" class="cw">auto-immune.</span></div>
+<div id="c35" class="cap clip" data-start="57.14" data-duration="1.67" data-track-index="3"><span id="w163" class="cw">Le</span> <span id="w164" class="cw">pancréas</span> <span id="w165" class="cw">ne</span> <span id="w166" class="cw">fabrique</span> <span id="w167" class="cw">presque</span></div>
+<div id="c36" class="cap clip" data-start="58.69" data-duration="1.09" data-track-index="3"><span id="w168" class="cw">plus</span> <span id="w169" class="cw">d'insuline.</span></div>
+<div id="c37" class="cap clip" data-start="59.98" data-duration="1.84" data-track-index="3"><span id="w170" class="cw">Il</span> <span id="w171" class="cw">débute</span> <span id="w172" class="cw">souvent</span> <span id="w173" class="cw">chez</span> <span id="w174" class="cw">l'enfant</span></div>
+<div id="c38" class="cap clip" data-start="61.71" data-duration="1.70" data-track-index="3"><span id="w175" class="cw">ou</span> <span id="w176" class="cw">le</span> <span id="w177" class="cw">jeune</span> <span id="w178" class="cw">adulte,</span> <span id="w179" class="cw">parfois</span></div>
+<div id="c39" class="cap clip" data-start="63.29" data-duration="1.06" data-track-index="3"><span id="w180" class="cw">de</span> <span id="w181" class="cw">façon</span> <span id="w182" class="cw">rapide.</span></div>
+<div id="c40" class="cap clip" data-start="64.55" data-duration="1.81" data-track-index="3"><span id="w183" class="cw">Le</span> <span id="w184" class="cw">traitement</span> <span id="w185" class="cw">repose</span> <span id="w186" class="cw">sur</span> <span id="w187" class="cw">l'insuline,</span></div>
+<div id="c41" class="cap clip" data-start="66.42" data-duration="1.44" data-track-index="3"><span id="w188" class="cw">tous</span> <span id="w189" class="cw">les</span> <span id="w190" class="cw">jours,</span> <span id="w191" class="cw">à</span> <span id="w192" class="cw">vie.</span></div>
+<div id="c42" class="cap clip" data-start="67.96" data-duration="1.38" data-track-index="3"><span id="w193" class="cw">Le</span> <span id="w194" class="cw">diabète</span> <span id="w195" class="cw">de</span> <span id="w196" class="cw">type</span> <span id="w197" class="cw">2</span></div>
+<div id="c43" class="cap clip" data-start="69.20" data-duration="1.31" data-track-index="3"><span id="w198" class="cw">est</span> <span id="w199" class="cw">de</span> <span id="w200" class="cw">loin</span> <span id="w201" class="cw">le</span> <span id="w202" class="cw">plus</span></div>
+<div id="c44" class="cap clip" data-start="70.44" data-duration="2.78" data-track-index="3"><span id="w203" class="cw">fréquent.</span> <span id="w204" class="cw">Ici,</span> <span id="w205" class="cw">l'insuline</span> <span id="w206" class="cw">existe,</span> <span id="w207" class="cw">mais</span></div>
+<div id="c45" class="cap clip" data-start="73.10" data-duration="1.64" data-track-index="3"><span id="w208" class="cw">les</span> <span id="w209" class="cw">cellules</span> <span id="w210" class="cw">y</span> <span id="w211" class="cw">répondent</span> <span id="w212" class="cw">mal</span></div>
+<div id="c46" class="cap clip" data-start="74.60" data-duration="2.65" data-track-index="3"><span id="w213" class="cw">:</span> <span id="w214" class="cw">c'est</span> <span id="w215" class="cw">l'insulinorésistance,</span> <span id="w216" class="cw">souvent</span> <span id="w217" class="cw">associée</span></div>
+<div id="c47" class="cap clip" data-start="77.13" data-duration="1.46" data-track-index="3"><span id="w218" class="cw">à</span> <span id="w219" class="cw">une</span> <span id="w220" class="cw">production</span> <span id="w221" class="cw">d'insuline</span> <span id="w222" class="cw">qui</span></div>
+<div id="c48" class="cap clip" data-start="78.46" data-duration="2.12" data-track-index="3"><span id="w223" class="cw">devient</span> <span id="w224" class="cw">insuffisante</span> <span id="w225" class="cw">avec</span> <span id="w226" class="cw">le</span> <span id="w227" class="cw">temps.</span></div>
+<div id="c49" class="cap clip" data-start="80.74" data-duration="1.36" data-track-index="3"><span id="w228" class="cw">Il</span> <span id="w229" class="cw">est</span> <span id="w230" class="cw">favorisé</span> <span id="w231" class="cw">par</span> <span id="w232" class="cw">le</span></div>
+<div id="c50" class="cap clip" data-start="81.97" data-duration="2.30" data-track-index="3"><span id="w233" class="cw">surpoids,</span> <span id="w234" class="cw">la</span> <span id="w235" class="cw">sédentarité,</span> <span id="w236" class="cw">l'âge</span> <span id="w237" class="cw">et</span></div>
+<div id="c51" class="cap clip" data-start="84.14" data-duration="2.27" data-track-index="3"><span id="w238" class="cw">les</span> <span id="w239" class="cw">antécédents</span> <span id="w240" class="cw">familiaux.</span> <span id="w241" class="cw">Il</span> <span id="w242" class="cw">peut</span></div>
+<div id="c52" class="cap clip" data-start="86.27" data-duration="1.91" data-track-index="3"><span id="w243" class="cw">rester</span> <span id="w244" class="cw">silencieux</span> <span id="w245" class="cw">pendant</span> <span id="w246" class="cw">des</span> <span id="w247" class="cw">années.</span></div>
+<div id="c53" class="cap clip" data-start="88.33" data-duration="1.47" data-track-index="3"><span id="w248" class="cw">Comment</span> <span id="w249" class="cw">fait-on</span> <span id="w250" class="cw">le</span> <span id="w251" class="cw">diagnostic</span> <span id="w252" class="cw">?</span></div>
+<div id="c54" class="cap clip" data-start="89.83" data-duration="1.14" data-track-index="3"><span id="w253" class="cw">Par</span> <span id="w254" class="cw">une</span> <span id="w255" class="cw">prise</span> <span id="w256" class="cw">de</span> <span id="w257" class="cw">sang.</span></div>
+<div id="c55" class="cap clip" data-start="91.05" data-duration="2.38" data-track-index="3"><span id="w258" class="cw">Une</span> <span id="w259" class="cw">glycémie</span> <span id="w260" class="cw">à</span> <span id="w261" class="cw">jeun</span> <span id="w262" class="cw">inférieure</span></div>
+<div id="c56" class="cap clip" data-start="93.35" data-duration="1.59" data-track-index="3"><span id="w263" class="cw">à</span> <span id="w264" class="cw">1,10</span> <span id="w265" class="cw">gramme</span> <span id="w266" class="cw">par</span> <span id="w267" class="cw">litre</span></div>
+<div id="c57" class="cap clip" data-start="94.82" data-duration="2.32" data-track-index="3"><span id="w268" class="cw">est</span> <span id="w269" class="cw">normale.</span> <span id="w270" class="cw">Entre</span> <span id="w271" class="cw">1,10</span> <span id="w272" class="cw">et</span></div>
+<div id="c58" class="cap clip" data-start="97.01" data-duration="2.68" data-track-index="3"><span id="w273" class="cw">1,25,</span> <span id="w274" class="cw">on</span> <span id="w275" class="cw">parle</span> <span id="w276" class="cw">de</span> <span id="w277" class="cw">prédiabète.</span></div>
+<div id="c59" class="cap clip" data-start="99.86" data-duration="1.72" data-track-index="3"><span id="w278" class="cw">À</span> <span id="w279" class="cw">partir</span> <span id="w280" class="cw">de</span> <span id="w281" class="cw">1,26</span> <span id="w282" class="cw">gramme</span></div>
+<div id="c60" class="cap clip" data-start="101.47" data-duration="1.92" data-track-index="3"><span id="w283" class="cw">par</span> <span id="w284" class="cw">litre,</span> <span id="w285" class="cw">confirmée</span> <span id="w286" class="cw">sur</span> <span id="w287" class="cw">deux</span></div>
+<div id="c61" class="cap clip" data-start="103.26" data-duration="1.84" data-track-index="3"><span id="w288" class="cw">prélèvements,</span> <span id="w289" class="cw">on</span> <span id="w290" class="cw">parle</span> <span id="w291" class="cw">de</span> <span id="w292" class="cw">diabète.</span></div>
+<div id="c62" class="cap clip" data-start="105.11" data-duration="1.66" data-track-index="3"><span id="w293" class="cw">Une</span> <span id="w294" class="cw">glycémie</span> <span id="w295" class="cw">supérieure</span> <span id="w296" class="cw">à</span> <span id="w297" class="cw">2</span></div>
+<div id="c63" class="cap clip" data-start="106.63" data-duration="1.72" data-track-index="3"><span id="w298" class="cw">grammes</span> <span id="w299" class="cw">avec</span> <span id="w300" class="cw">des</span> <span id="w301" class="cw">symptômes</span> <span id="w302" class="cw">peut</span></div>
+<div id="c64" class="cap clip" data-start="108.21" data-duration="1.84" data-track-index="3"><span id="w303" class="cw">suffire.</span> <span id="w304" class="cw">Ces</span> <span id="w305" class="cw">seuils</span> <span id="w306" class="cw">sont</span> <span id="w307" class="cw">à</span></div>
+<div id="c65" class="cap clip" data-start="109.91" data-duration="2.03" data-track-index="3"><span id="w308" class="cw">discuter</span> <span id="w309" class="cw">avec</span> <span id="w310" class="cw">votre</span> <span id="w311" class="cw">médecin.</span></div>
+<div id="c66" class="cap clip" data-start="112.09" data-duration="1.15" data-track-index="3"><span id="w312" class="cw">Quels</span> <span id="w313" class="cw">sont</span> <span id="w314" class="cw">les</span> <span id="w315" class="cw">signes</span> <span id="w316" class="cw">qui</span></div>
+<div id="c67" class="cap clip" data-start="113.10" data-duration="1.00" data-track-index="3"><span id="w317" class="cw">doivent</span> <span id="w318" class="cw">alerter</span> <span id="w319" class="cw">?</span></div>
+<div id="c68" class="cap clip" data-start="114.39" data-duration="1.97" data-track-index="3"><span id="w320" class="cw">Une</span> <span id="w321" class="cw">soif</span> <span id="w322" class="cw">intense,</span> <span id="w323" class="cw">des</span> <span id="w324" class="cw">urines</span></div>
+<div id="c69" class="cap clip" data-start="116.24" data-duration="2.80" data-track-index="3"><span id="w325" class="cw">abondantes,</span> <span id="w326" class="cw">une</span> <span id="w327" class="cw">fatigue</span> <span id="w328" class="cw">inhabituelle,</span> <span id="w329" class="cw">un</span></div>
+<div id="c70" class="cap clip" data-start="118.95" data-duration="2.46" data-track-index="3"><span id="w330" class="cw">amaigrissement,</span> <span id="w331" class="cw">des</span> <span id="w332" class="cw">infections</span> <span id="w333" class="cw">à</span> <span id="w334" class="cw">répétition.</span></div>
+<div id="c71" class="cap clip" data-start="121.63" data-duration="1.47" data-track-index="3"><span id="w335" class="cw">Mais</span> <span id="w336" class="cw">attention</span> <span id="w337" class="cw">:</span> <span id="w338" class="cw">beaucoup</span> <span id="w339" class="cw">de</span></div>
+<div id="c72" class="cap clip" data-start="122.96" data-duration="1.78" data-track-index="3"><span id="w340" class="cw">personnes</span> <span id="w341" class="cw">n'ont</span> <span id="w342" class="cw">aucun</span> <span id="w343" class="cw">symptôme</span> <span id="w344" class="cw">au</span></div>
+<div id="c73" class="cap clip" data-start="124.61" data-duration="1.77" data-track-index="3"><span id="w345" class="cw">début.</span> <span id="w346" class="cw">Pourquoi</span> <span id="w347" class="cw">est-ce</span> <span id="w348" class="cw">important</span> <span id="w349" class="cw">de</span></div>
+<div id="c74" class="cap clip" data-start="126.23" data-duration="1.78" data-track-index="3"><span id="w350" class="cw">contrôler</span> <span id="w351" class="cw">la</span> <span id="w352" class="cw">glycémie</span> <span id="w353" class="cw">?</span> <span id="w354" class="cw">Parce</span></div>
+<div id="c75" class="cap clip" data-start="127.88" data-duration="1.56" data-track-index="3"><span id="w355" class="cw">qu'une</span> <span id="w356" class="cw">glycémie</span> <span id="w357" class="cw">élevée</span> <span id="w358" class="cw">pendant</span> <span id="w359" class="cw">des</span></div>
+<div id="c76" class="cap clip" data-start="129.35" data-duration="2.07" data-track-index="3"><span id="w360" class="cw">années</span> <span id="w361" class="cw">abîme</span> <span id="w362" class="cw">les</span> <span id="w363" class="cw">vaisseaux.</span></div>
+<div id="c77" class="cap clip" data-start="131.55" data-duration="1.37" data-track-index="3"><span id="w364" class="cw">Les</span> <span id="w365" class="cw">petits</span> <span id="w366" class="cw">vaisseaux</span> <span id="w367" class="cw">:</span> <span id="w368" class="cw">c'est</span></div>
+<div id="c78" class="cap clip" data-start="132.79" data-duration="1.89" data-track-index="3"><span id="w369" class="cw">la</span> <span id="w370" class="cw">rétinopathie,</span> <span id="w371" class="cw">qui</span> <span id="w372" class="cw">touche</span> <span id="w373" class="cw">les</span></div>
+<div id="c79" class="cap clip" data-start="134.55" data-duration="1.97" data-track-index="3"><span id="w374" class="cw">yeux,</span> <span id="w375" class="cw">la</span> <span id="w376" class="cw">néphropathie,</span> <span id="w377" class="cw">qui</span> <span id="w378" class="cw">touche</span></div>
+<div id="c80" class="cap clip" data-start="136.41" data-duration="1.72" data-track-index="3"><span id="w379" class="cw">les</span> <span id="w380" class="cw">reins,</span> <span id="w381" class="cw">et</span> <span id="w382" class="cw">la</span> <span id="w383" class="cw">neuropathie,</span></div>
+<div id="c81" class="cap clip" data-start="138.03" data-duration="1.71" data-track-index="3"><span id="w384" class="cw">qui</span> <span id="w385" class="cw">touche</span> <span id="w386" class="cw">les</span> <span id="w387" class="cw">nerfs.</span> <span id="w388" class="cw">Les</span></div>
+<div id="c82" class="cap clip" data-start="139.60" data-duration="1.28" data-track-index="3"><span id="w389" class="cw">gros</span> <span id="w390" class="cw">vaisseaux</span> <span id="w391" class="cw">:</span> <span id="w392" class="cw">c'est</span> <span id="w393" class="cw">le</span></div>
+<div id="c83" class="cap clip" data-start="140.74" data-duration="2.78" data-track-index="3"><span id="w394" class="cw">risque</span> <span id="w395" class="cw">d'infarctus,</span> <span id="w396" class="cw">d'AVC,</span> <span id="w397" class="cw">et</span> <span id="w398" class="cw">d'artérite</span></div>
+<div id="c84" class="cap clip" data-start="143.43" data-duration="0.99" data-track-index="3"><span id="w399" class="cw">des</span> <span id="w400" class="cw">jambes.</span></div>
+<div id="c85" class="cap clip" data-start="144.59" data-duration="1.80" data-track-index="3"><span id="w401" class="cw">Une</span> <span id="w402" class="cw">urgence</span> <span id="w403" class="cw">à</span> <span id="w404" class="cw">connaître,</span> <span id="w405" class="cw">surtout</span></div>
+<div id="c86" class="cap clip" data-start="146.27" data-duration="1.29" data-track-index="3"><span id="w406" class="cw">dans</span> <span id="w407" class="cw">le</span> <span id="w408" class="cw">type</span> <span id="w409" class="cw">1</span> <span id="w410" class="cw">:</span></div>
+<div id="c87" class="cap clip" data-start="147.42" data-duration="1.21" data-track-index="3"><span id="w411" class="cw">l'acidocétose.</span></div>
+<div id="c88" class="cap clip" data-start="148.84" data-duration="3.55" data-track-index="3"><span id="w412" class="cw">Soif</span> <span id="w413" class="cw">extrême,</span> <span id="w414" class="cw">nausées,</span> <span id="w415" class="cw">vomissements,</span> <span id="w416" class="cw">douleurs</span></div>
+<div id="c89" class="cap clip" data-start="152.27" data-duration="2.35" data-track-index="3"><span id="w417" class="cw">du</span> <span id="w418" class="cw">ventre,</span> <span id="w419" class="cw">respiration</span> <span id="w420" class="cw">rapide,</span> <span id="w421" class="cw">haleine</span></div>
+<div id="c90" class="cap clip" data-start="154.51" data-duration="1.55" data-track-index="3"><span id="w422" class="cw">à</span> <span id="w423" class="cw">l'odeur</span> <span id="w424" class="cw">de</span> <span id="w425" class="cw">fruit.</span> <span id="w426" class="cw">Il</span></div>
+<div id="c91" class="cap clip" data-start="155.92" data-duration="2.01" data-track-index="3"><span id="w427" class="cw">faut</span> <span id="w428" class="cw">consulter</span> <span id="w429" class="cw">immédiatement.</span> <span id="w430" class="cw">Que</span> <span id="w431" class="cw">faire</span></div>
+<div id="c92" class="cap clip" data-start="157.80" data-duration="2.55" data-track-index="3"><span id="w432" class="cw">?</span> <span id="w433" class="cw">Le</span> <span id="w434" class="cw">traitement</span> <span id="w435" class="cw">associe</span> <span id="w436" class="cw">l'alimentation,</span></div>
+<div id="c93" class="cap clip" data-start="160.52" data-duration="2.18" data-track-index="3"><span id="w437" class="cw">l'activité</span> <span id="w438" class="cw">physique</span> <span id="w439" class="cw">régulière,</span> <span id="w440" class="cw">le</span> <span id="w441" class="cw">suivi</span></div>
+<div id="c94" class="cap clip" data-start="162.61" data-duration="1.54" data-track-index="3"><span id="w442" class="cw">médical,</span> <span id="w443" class="cw">et</span> <span id="w444" class="cw">si</span> <span id="w445" class="cw">besoin</span> <span id="w446" class="cw">des</span></div>
+<div id="c95" class="cap clip" data-start="164.02" data-duration="1.68" data-track-index="3"><span id="w447" class="cw">médicaments</span> <span id="w448" class="cw">ou</span> <span id="w449" class="cw">de</span> <span id="w450" class="cw">l'insuline.</span></div>
+<div id="c96" class="cap clip" data-start="165.84" data-duration="3.01" data-track-index="3"><span id="w451" class="cw">L'hémoglobine</span> <span id="w452" class="cw">glyquée,</span> <span id="w453" class="cw">ou</span> <span id="w454" class="cw">HbA1c,</span> <span id="w455" class="cw">reflète</span></div>
+<div id="c97" class="cap clip" data-start="168.78" data-duration="1.44" data-track-index="3"><span id="w456" class="cw">la</span> <span id="w457" class="cw">glycémie</span> <span id="w458" class="cw">moyenne</span> <span id="w459" class="cw">des</span> <span id="w460" class="cw">deux</span></div>
+<div id="c98" class="cap clip" data-start="170.09" data-duration="1.51" data-track-index="3"><span id="w461" class="cw">à</span> <span id="w462" class="cw">trois</span> <span id="w463" class="cw">derniers</span> <span id="w464" class="cw">mois,</span> <span id="w465" class="cw">et</span></div>
+<div id="c99" class="cap clip" data-start="171.47" data-duration="0.93" data-track-index="3"><span id="w466" class="cw">sert</span> <span id="w467" class="cw">au</span> <span id="w468" class="cw">suivi.</span></div>
+<div id="c100" class="cap clip" data-start="172.58" data-duration="1.88" data-track-index="3"><span id="w469" class="cw">Retenez</span> <span id="w470" class="cw">:</span> <span id="w471" class="cw">le</span> <span id="w472" class="cw">glucose</span> <span id="w473" class="cw">augmente</span></div>
+<div id="c101" class="cap clip" data-start="174.35" data-duration="1.72" data-track-index="3"><span id="w474" class="cw">quand</span> <span id="w475" class="cw">l'insuline</span> <span id="w476" class="cw">manque,</span> <span id="w477" class="cw">ou</span> <span id="w478" class="cw">quand</span></div>
+<div id="c102" class="cap clip" data-start="175.95" data-duration="2.03" data-track-index="3"><span id="w479" class="cw">elle</span> <span id="w480" class="cw">n'agit</span> <span id="w481" class="cw">plus.</span> <span id="w482" class="cw">Dépister</span> <span id="w483" class="cw">tôt,</span></div>
+<div id="c103" class="cap clip" data-start="177.85" data-duration="1.90" data-track-index="3"><span id="w484" class="cw">c'est</span> <span id="w485" class="cw">prévenir</span> <span id="w486" class="cw">les</span> <span id="w487" class="cw">complications.</span></div>
+<div id="c104" class="cap clip" data-start="179.89" data-duration="1.71" data-track-index="3"><span id="w488" class="cw">Cette</span> <span id="w489" class="cw">vidéo</span> <span id="w490" class="cw">est</span> <span id="w491" class="cw">éducative</span> <span id="w492" class="cw">et</span></div>
+<div id="c105" class="cap clip" data-start="181.46" data-duration="1.79" data-track-index="3"><span id="w493" class="cw">ne</span> <span id="w494" class="cw">remplace</span> <span id="w495" class="cw">pas</span> <span id="w496" class="cw">une</span> <span id="w497" class="cw">consultation.</span></div>
+<div id="c106" class="cap clip" data-start="183.43" data-duration="2.20" data-track-index="3"><span id="w498" class="cw">Abonnez-vous,</span> <span id="w499" class="cw">et</span> <span id="w500" class="cw">dites-nous</span> <span id="w501" class="cw">en</span> <span id="w502" class="cw">commentaire</span></div>
+<div id="c107" class="cap clip" data-start="185.53" data-duration="1.81" data-track-index="3"><span id="w503" class="cw">quel</span> <span id="w504" class="cw">sujet</span> <span id="w505" class="cw">médical</span> <span id="w506" class="cw">vous</span> <span id="w507" class="cw">voulez</span></div>
+<div id="c108" class="cap clip" data-start="187.23" data-duration="1.01" data-track-index="3"><span id="w508" class="cw">voir</span> <span id="w509" class="cw">expliqué.</span></div>
+<div id="c109" class="cap clip" data-start="188.38" data-duration="1.41" data-track-index="3"><span id="w510" class="cw">À</span> <span id="w511" class="cw">bientôt</span> <span id="w512" class="cw">sur</span> <span id="w513" class="cw">MedEssentiel.</span></div>
+
+<div id="bar"></div>
+<audio id="vo" src="assets/vo.wav" data-start="0" data-duration="189.99" data-track-index="0"></audio>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.to("#g1",{x:260,y:-160,duration:189.99,ease:"none"},0);
+tl.to("#g2",{x:-220,y:140,duration:189.99,ease:"none"},0);
+tl.fromTo("#bar",{scaleX:0},{scaleX:1,duration:189.99,ease:"none"},0);
+tl.to("#cta",{opacity:0,duration:.3},179.79);
+tl.from("#s0 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},0.10);
+tl.to("#i0",{opacity:0,duration:.25,ease:"power2.in"},9.95);
+tl.from("#s1 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},10.32);
+tl.to("#i1",{opacity:0,duration:.25,ease:"power2.in"},20.74);
+tl.from("#s2 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},21.06);
+tl.from("#s2 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},21.31);
+tl.from("#s2 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},21.56);
+tl.from("#s2 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},21.76);
+tl.to("#s2 .cardzone",{y:-10,duration:21.90,ease:"sine.inOut"},21.91);
+tl.to("#i2",{opacity:0,duration:.25,ease:"power2.in"},43.84);
+tl.from("#s3 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},44.16);
+tl.from("#s3 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},44.41);
+tl.from("#s3 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},44.66);
+tl.from("#s3 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},44.86);
+tl.to("#s3 .cardzone",{y:-10,duration:5.85,ease:"sine.inOut"},45.01);
+tl.to("#i3",{opacity:0,duration:.25,ease:"power2.in"},50.89);
+tl.from("#s4 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},51.21);
+tl.from("#s4 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},51.46);
+tl.from("#s4 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},51.71);
+tl.from("#s4 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},51.91);
+tl.to("#s4 .cardzone",{y:-10,duration:14.01,ease:"sine.inOut"},52.06);
+tl.to("#i4",{opacity:0,duration:.25,ease:"power2.in"},66.10);
+tl.from("#s5 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},66.42);
+tl.from("#s5 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},66.67);
+tl.from("#s5 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},66.92);
+tl.from("#s5 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},67.12);
+tl.to("#s5 .cardzone",{y:-10,duration:20.71,ease:"sine.inOut"},67.27);
+tl.to("#i5",{opacity:0,duration:.25,ease:"power2.in"},88.01);
+tl.from("#s6 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},88.33);
+tl.from("#s6 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},88.58);
+tl.from("#s6 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},88.83);
+tl.from("#s6 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},89.03);
+tl.to("#s6 .cardzone",{y:-10,duration:22.56,ease:"sine.inOut"},89.18);
+tl.to("#i6",{opacity:0,duration:.25,ease:"power2.in"},111.77);
+tl.from("#s7 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},112.09);
+tl.from("#s7 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},112.34);
+tl.from("#s7 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},112.59);
+tl.from("#s7 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},112.79);
+tl.to("#s7 .cardzone",{y:-10,duration:11.83,ease:"sine.inOut"},112.94);
+tl.to("#i7",{opacity:0,duration:.25,ease:"power2.in"},124.80);
+tl.from("#s8 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},125.12);
+tl.from("#s8 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},125.37);
+tl.from("#s8 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},125.62);
+tl.from("#s8 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},125.82);
+tl.to("#s8 .cardzone",{y:-10,duration:18.27,ease:"sine.inOut"},125.97);
+tl.to("#i8",{opacity:0,duration:.25,ease:"power2.in"},144.27);
+tl.from("#s9 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},144.59);
+tl.from("#s9 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},144.84);
+tl.from("#s9 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},145.09);
+tl.from("#s9 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},145.29);
+tl.to("#s9 .cardzone",{y:-10,duration:11.58,ease:"sine.inOut"},145.44);
+tl.to("#i9",{opacity:0,duration:.25,ease:"power2.in"},157.05);
+tl.from("#s10 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},157.37);
+tl.from("#s10 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},157.62);
+tl.from("#s10 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},157.87);
+tl.from("#s10 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},158.07);
+tl.to("#s10 .cardzone",{y:-10,duration:14.01,ease:"sine.inOut"},158.22);
+tl.to("#i10",{opacity:0,duration:.25,ease:"power2.in"},172.26);
+tl.from("#s11 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},172.58);
+tl.from("#s11 .cardx",{y:110,scale:.88,opacity:0,duration:.6,ease:"back.out(1.5)"},172.83);
+tl.from("#s11 .cardx .chip",{scale:.5,opacity:0,duration:.35,ease:"back.out(2.4)"},173.08);
+tl.from("#s11 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},173.28);
+tl.to("#s11 .cardzone",{y:-10,duration:6.11,ease:"sine.inOut"},173.43);
+tl.to("#i11",{opacity:0,duration:.25,ease:"power2.in"},179.57);
+tl.from("#s12 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},179.94);
+tl.to("#i12",{opacity:0,duration:.25,ease:"power2.in"},189.72);
+
+tl.from("#c0",{y:24,opacity:0,duration:.14,ease:"power2.out"},0.21);
+tl.fromTo("#w0",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.26);tl.to("#w0",{color:"#ffffff",scale:1,duration:.12},0.53);
+tl.fromTo("#w1",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.56);tl.to("#w1",{color:"#ffffff",scale:1,duration:.12},0.69);
+tl.fromTo("#w2",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.70);tl.to("#w2",{color:"#ffffff",scale:1,duration:.12},1.02);
+tl.fromTo("#w3",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.05);tl.to("#w3",{color:"#ffffff",scale:1,duration:.12},1.18);
+tl.fromTo("#w4",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.20);tl.to("#w4",{color:"#ffffff",scale:1,duration:.12},1.47);
+tl.to("#c0",{opacity:0,duration:.1,ease:"power2.in"},1.47);
+tl.from("#c1",{y:24,opacity:0,duration:.14,ease:"power2.out"},1.44);
+tl.fromTo("#w5",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.49);tl.to("#w5",{color:"#ffffff",scale:1,duration:.12},1.72);
+tl.fromTo("#w6",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.74);tl.to("#w6",{color:"#ffffff",scale:1,duration:.12},1.87);
+tl.fromTo("#w7",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.88);tl.to("#w7",{color:"#ffffff",scale:1,duration:.12},2.11);
+tl.fromTo("#w8",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.18);tl.to("#w8",{color:"#ffffff",scale:1,duration:.12},2.51);
+tl.fromTo("#w9",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.73);tl.to("#w9",{color:"#ffffff",scale:1,duration:.12},2.93);
+tl.to("#c1",{opacity:0,duration:.1,ease:"power2.in"},2.93);
+tl.from("#c2",{y:24,opacity:0,duration:.14,ease:"power2.out"},2.90);
+tl.fromTo("#w10",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.95);tl.to("#w10",{color:"#ffffff",scale:1,duration:.12},3.07);
+tl.fromTo("#w11",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.08);tl.to("#w11",{color:"#ffffff",scale:1,duration:.12},3.40);
+tl.fromTo("#w12",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.43);tl.to("#w12",{color:"#ffffff",scale:1,duration:.12},3.59);
+tl.fromTo("#w13",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.61);tl.to("#w13",{color:"#ffffff",scale:1,duration:.12},3.85);
+tl.fromTo("#w14",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.87);tl.to("#w14",{color:"#ffffff",scale:1,duration:.12},3.99);
+tl.to("#c2",{opacity:0,duration:.1,ease:"power2.in"},3.99);
+tl.from("#c3",{y:24,opacity:0,duration:.14,ease:"power2.out"},3.95);
+tl.fromTo("#w15",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},4.00);tl.to("#w15",{color:"#ffffff",scale:1,duration:.12},4.41);
+tl.fromTo("#w16",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},4.52);tl.to("#w16",{color:"#ffffff",scale:1,duration:.12},4.75);
+tl.fromTo("#w17",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},4.76);tl.to("#w17",{color:"#ffffff",scale:1,duration:.12},5.04);
+tl.fromTo("#w18",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.21);tl.to("#w18",{color:"#ffffff",scale:1,duration:.12},5.42);
+tl.fromTo("#w19",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.43);tl.to("#w19",{color:"#ffffff",scale:1,duration:.12},5.60);
+tl.to("#c3",{opacity:0,duration:.1,ease:"power2.in"},5.60);
+tl.from("#c4",{y:24,opacity:0,duration:.14,ease:"power2.out"},5.56);
+tl.fromTo("#w20",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.61);tl.to("#w20",{color:"#ffffff",scale:1,duration:.12},5.98);
+tl.fromTo("#w21",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},6.01);tl.to("#w21",{color:"#ffffff",scale:1,duration:.12},6.51);
+tl.fromTo("#w22",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},6.55);tl.to("#w22",{color:"#ffffff",scale:1,duration:.12},6.67);
+tl.fromTo("#w23",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},6.68);tl.to("#w23",{color:"#ffffff",scale:1,duration:.12},6.93);
+tl.fromTo("#w24",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.04);tl.to("#w24",{color:"#ffffff",scale:1,duration:.12},7.47);
+tl.to("#c4",{opacity:0,duration:.1,ease:"power2.in"},7.47);
+tl.from("#c5",{y:24,opacity:0,duration:.14,ease:"power2.out"},7.54);
+tl.fromTo("#w25",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.59);tl.to("#w25",{color:"#ffffff",scale:1,duration:.12},7.98);
+tl.fromTo("#w26",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.02);tl.to("#w26",{color:"#ffffff",scale:1,duration:.12},8.13);
+tl.to("#c5",{opacity:0,duration:.1,ease:"power2.in"},8.10);
+tl.from("#c6",{y:24,opacity:0,duration:.14,ease:"power2.out"},8.65);
+tl.fromTo("#w27",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.70);tl.to("#w27",{color:"#ffffff",scale:1,duration:.12},8.94);
+tl.fromTo("#w28",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.96);tl.to("#w28",{color:"#ffffff",scale:1,duration:.12},9.16);
+tl.fromTo("#w29",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},9.18);tl.to("#w29",{color:"#ffffff",scale:1,duration:.12},9.49);
+tl.fromTo("#w30",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},9.52);tl.to("#w30",{color:"#ffffff",scale:1,duration:.12},9.64);
+tl.fromTo("#w31",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},9.65);tl.to("#w31",{color:"#ffffff",scale:1,duration:.12},10.13);
+tl.to("#c6",{opacity:0,duration:.1,ease:"power2.in"},10.13);
+tl.from("#c7",{y:24,opacity:0,duration:.14,ease:"power2.out"},10.27);
+tl.fromTo("#w32",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},10.32);tl.to("#w32",{color:"#ffffff",scale:1,duration:.12},10.76);
+tl.fromTo("#w33",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},10.79);tl.to("#w33",{color:"#ffffff",scale:1,duration:.12},10.94);
+tl.fromTo("#w34",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},10.95);tl.to("#w34",{color:"#ffffff",scale:1,duration:.12},11.19);
+tl.fromTo("#w35",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},11.21);tl.to("#w35",{color:"#ffffff",scale:1,duration:.12},11.36);
+tl.fromTo("#w36",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},11.37);tl.to("#w36",{color:"#ffffff",scale:1,duration:.12},11.76);
+tl.to("#c7",{opacity:0,duration:.1,ease:"power2.in"},11.76);
+tl.from("#c8",{y:24,opacity:0,duration:.14,ease:"power2.out"},11.74);
+tl.fromTo("#w37",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},11.79);tl.to("#w37",{color:"#ffffff",scale:1,duration:.12},12.09);
+tl.fromTo("#w38",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},12.15);tl.to("#w38",{color:"#ffffff",scale:1,duration:.12},12.70);
+tl.fromTo("#w39",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},12.92);tl.to("#w39",{color:"#ffffff",scale:1,duration:.12},13.49);
+tl.fromTo("#w40",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},13.54);tl.to("#w40",{color:"#ffffff",scale:1,duration:.12},13.76);
+tl.fromTo("#w41",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},13.78);tl.to("#w41",{color:"#ffffff",scale:1,duration:.12},14.52);
+tl.to("#c8",{opacity:0,duration:.1,ease:"power2.in"},14.52);
+tl.from("#c9",{y:24,opacity:0,duration:.14,ease:"power2.out"},14.53);
+tl.fromTo("#w42",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.58);tl.to("#w42",{color:"#ffffff",scale:1,duration:.12},14.70);
+tl.fromTo("#w43",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.71);tl.to("#w43",{color:"#ffffff",scale:1,duration:.12},14.88);
+tl.fromTo("#w44",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.93);tl.to("#w44",{color:"#ffffff",scale:1,duration:.12},15.43);
+tl.fromTo("#w45",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},15.47);tl.to("#w45",{color:"#ffffff",scale:1,duration:.12},16.02);
+tl.fromTo("#w46",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},16.07);tl.to("#w46",{color:"#ffffff",scale:1,duration:.12},16.61);
+tl.to("#c9",{opacity:0,duration:.1,ease:"power2.in"},16.61);
+tl.from("#c10",{y:24,opacity:0,duration:.14,ease:"power2.out"},16.76);
+tl.fromTo("#w47",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},16.81);tl.to("#w47",{color:"#ffffff",scale:1,duration:.12},17.58);
+tl.fromTo("#w48",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},17.64);tl.to("#w48",{color:"#ffffff",scale:1,duration:.12},17.77);
+tl.fromTo("#w49",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},17.78);tl.to("#w49",{color:"#ffffff",scale:1,duration:.12},18.36);
+tl.fromTo("#w50",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},18.41);tl.to("#w50",{color:"#ffffff",scale:1,duration:.12},18.60);
+tl.fromTo("#w51",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},18.61);tl.to("#w51",{color:"#ffffff",scale:1,duration:.12},19.19);
+tl.to("#c10",{opacity:0,duration:.1,ease:"power2.in"},19.19);
+tl.from("#c11",{y:24,opacity:0,duration:.14,ease:"power2.out"},19.23);
+tl.fromTo("#w52",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},19.28);tl.to("#w52",{color:"#ffffff",scale:1,duration:.12},19.75);
+tl.fromTo("#w53",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},19.79);tl.to("#w53",{color:"#ffffff",scale:1,duration:.12},20.05);
+tl.fromTo("#w54",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},20.07);tl.to("#w54",{color:"#ffffff",scale:1,duration:.12},20.23);
+tl.fromTo("#w55",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},20.24);tl.to("#w55",{color:"#ffffff",scale:1,duration:.12},20.71);
+tl.to("#c11",{opacity:0,duration:.1,ease:"power2.in"},20.71);
+tl.from("#c12",{y:24,opacity:0,duration:.14,ease:"power2.out"},21.06);
+tl.fromTo("#w56",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.11);tl.to("#w56",{color:"#ffffff",scale:1,duration:.12},21.55);
+tl.fromTo("#w57",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.59);tl.to("#w57",{color:"#ffffff",scale:1,duration:.12},21.75);
+tl.fromTo("#w58",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.76);tl.to("#w58",{color:"#ffffff",scale:1,duration:.12},21.88);
+tl.fromTo("#w59",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.89);tl.to("#w59",{color:"#ffffff",scale:1,duration:.12},22.49);
+tl.fromTo("#w60",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},22.54);tl.to("#w60",{color:"#ffffff",scale:1,duration:.12},22.86);
+tl.to("#c12",{opacity:0,duration:.1,ease:"power2.in"},22.86);
+tl.from("#c13",{y:24,opacity:0,duration:.14,ease:"power2.out"},23.17);
+tl.fromTo("#w61",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.22);tl.to("#w61",{color:"#ffffff",scale:1,duration:.12},23.37);
+tl.fromTo("#w62",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.39);tl.to("#w62",{color:"#ffffff",scale:1,duration:.12},23.73);
+tl.fromTo("#w63",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.76);tl.to("#w63",{color:"#ffffff",scale:1,duration:.12},23.95);
+tl.fromTo("#w64",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.97);tl.to("#w64",{color:"#ffffff",scale:1,duration:.12},24.43);
+tl.fromTo("#w65",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},24.46);tl.to("#w65",{color:"#ffffff",scale:1,duration:.12},24.59);
+tl.to("#c13",{opacity:0,duration:.1,ease:"power2.in"},24.58);
+tl.from("#c14",{y:24,opacity:0,duration:.14,ease:"power2.out"},24.58);
+tl.fromTo("#w66",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},24.63);tl.to("#w66",{color:"#ffffff",scale:1,duration:.12},25.12);
+tl.fromTo("#w67",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.16);tl.to("#w67",{color:"#ffffff",scale:1,duration:.12},25.38);
+tl.fromTo("#w68",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.39);tl.to("#w68",{color:"#ffffff",scale:1,duration:.12},25.72);
+tl.fromTo("#w69",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.75);tl.to("#w69",{color:"#ffffff",scale:1,duration:.12},26.02);
+tl.fromTo("#w70",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.04);tl.to("#w70",{color:"#ffffff",scale:1,duration:.12},26.20);
+tl.to("#c14",{opacity:0,duration:.1,ease:"power2.in"},26.20);
+tl.from("#c15",{y:24,opacity:0,duration:.14,ease:"power2.out"},26.17);
+tl.fromTo("#w71",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.22);tl.to("#w71",{color:"#ffffff",scale:1,duration:.12},26.54);
+tl.fromTo("#w72",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.81);tl.to("#w72",{color:"#ffffff",scale:1,duration:.12},26.94);
+tl.fromTo("#w73",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.95);tl.to("#w73",{color:"#ffffff",scale:1,duration:.12},27.29);
+tl.fromTo("#w74",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.32);tl.to("#w74",{color:"#ffffff",scale:1,duration:.12},27.49);
+tl.fromTo("#w75",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.50);tl.to("#w75",{color:"#ffffff",scale:1,duration:.12},27.63);
+tl.to("#c15",{opacity:0,duration:.1,ease:"power2.in"},27.63);
+tl.from("#c16",{y:24,opacity:0,duration:.14,ease:"power2.out"},27.59);
+tl.fromTo("#w76",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.64);tl.to("#w76",{color:"#ffffff",scale:1,duration:.12},28.07);
+tl.fromTo("#w77",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},28.11);tl.to("#w77",{color:"#ffffff",scale:1,duration:.12},28.23);
+tl.fromTo("#w78",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},28.25);tl.to("#w78",{color:"#ffffff",scale:1,duration:.12},28.41);
+tl.fromTo("#w79",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},28.47);tl.to("#w79",{color:"#ffffff",scale:1,duration:.12},29.04);
+tl.to("#c16",{opacity:0,duration:.1,ease:"power2.in"},29.04);
+tl.from("#c17",{y:24,opacity:0,duration:.14,ease:"power2.out"},29.37);
+tl.fromTo("#w80",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.42);tl.to("#w80",{color:"#ffffff",scale:1,duration:.12},29.58);
+tl.fromTo("#w81",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.60);tl.to("#w81",{color:"#ffffff",scale:1,duration:.12},29.76);
+tl.fromTo("#w82",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.77);tl.to("#w82",{color:"#ffffff",scale:1,duration:.12},30.00);
+tl.fromTo("#w83",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.02);tl.to("#w83",{color:"#ffffff",scale:1,duration:.12},30.18);
+tl.fromTo("#w84",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.20);tl.to("#w84",{color:"#ffffff",scale:1,duration:.12},30.32);
+tl.to("#c17",{opacity:0,duration:.1,ease:"power2.in"},30.30);
+tl.from("#c18",{y:24,opacity:0,duration:.14,ease:"power2.out"},30.25);
+tl.fromTo("#w85",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.30);tl.to("#w85",{color:"#ffffff",scale:1,duration:.12},30.56);
+tl.fromTo("#w86",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.59);tl.to("#w86",{color:"#ffffff",scale:1,duration:.12},30.85);
+tl.fromTo("#w87",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.91);tl.to("#w87",{color:"#ffffff",scale:1,duration:.12},31.23);
+tl.fromTo("#w88",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.26);tl.to("#w88",{color:"#ffffff",scale:1,duration:.12},31.39);
+tl.fromTo("#w89",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.41);tl.to("#w89",{color:"#ffffff",scale:1,duration:.12},31.53);
+tl.to("#c18",{opacity:0,duration:.1,ease:"power2.in"},31.50);
+tl.from("#c19",{y:24,opacity:0,duration:.14,ease:"power2.out"},31.46);
+tl.fromTo("#w90",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.51);tl.to("#w90",{color:"#ffffff",scale:1,duration:.12},31.83);
+tl.fromTo("#w91",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.85);tl.to("#w91",{color:"#ffffff",scale:1,duration:.12},32.13);
+tl.fromTo("#w92",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.15);tl.to("#w92",{color:"#ffffff",scale:1,duration:.12},32.34);
+tl.fromTo("#w93",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.35);tl.to("#w93",{color:"#ffffff",scale:1,duration:.12},32.47);
+tl.fromTo("#w94",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.70);tl.to("#w94",{color:"#ffffff",scale:1,duration:.12},33.32);
+tl.to("#c19",{opacity:0,duration:.1,ease:"power2.in"},33.32);
+tl.from("#c20",{y:24,opacity:0,duration:.14,ease:"power2.out"},33.33);
+tl.fromTo("#w95",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},33.38);tl.to("#w95",{color:"#ffffff",scale:1,duration:.12},33.58);
+tl.fromTo("#w96",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},33.60);tl.to("#w96",{color:"#ffffff",scale:1,duration:.12},34.02);
+tl.fromTo("#w97",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.05);tl.to("#w97",{color:"#ffffff",scale:1,duration:.12},34.57);
+tl.fromTo("#w98",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.62);tl.to("#w98",{color:"#ffffff",scale:1,duration:.12},34.82);
+tl.fromTo("#w99",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.84);tl.to("#w99",{color:"#ffffff",scale:1,duration:.12},35.00);
+tl.to("#c20",{opacity:0,duration:.1,ease:"power2.in"},35.00);
+tl.from("#c21",{y:24,opacity:0,duration:.14,ease:"power2.out"},35.00);
+tl.fromTo("#w100",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},35.05);tl.to("#w100",{color:"#ffffff",scale:1,duration:.12},35.60);
+tl.fromTo("#w101",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},35.64);tl.to("#w101",{color:"#ffffff",scale:1,duration:.12},35.92);
+tl.fromTo("#w102",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},35.94);tl.to("#w102",{color:"#ffffff",scale:1,duration:.12},36.16);
+tl.fromTo("#w103",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},36.18);tl.to("#w103",{color:"#ffffff",scale:1,duration:.12},36.67);
+tl.fromTo("#w104",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},36.71);tl.to("#w104",{color:"#ffffff",scale:1,duration:.12},37.04);
+tl.to("#c21",{opacity:0,duration:.1,ease:"power2.in"},37.04);
+tl.from("#c22",{y:24,opacity:0,duration:.14,ease:"power2.out"},37.24);
+tl.fromTo("#w105",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.29);tl.to("#w105",{color:"#ffffff",scale:1,duration:.12},37.58);
+tl.fromTo("#w106",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.61);tl.to("#w106",{color:"#ffffff",scale:1,duration:.12},37.76);
+tl.fromTo("#w107",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.77);tl.to("#w107",{color:"#ffffff",scale:1,duration:.12},38.21);
+tl.fromTo("#w108",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.25);tl.to("#w108",{color:"#ffffff",scale:1,duration:.12},38.59);
+tl.fromTo("#w109",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.62);tl.to("#w109",{color:"#ffffff",scale:1,duration:.12},38.77);
+tl.to("#c22",{opacity:0,duration:.1,ease:"power2.in"},38.77);
+tl.from("#c23",{y:24,opacity:0,duration:.14,ease:"power2.out"},38.73);
+tl.fromTo("#w110",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.78);tl.to("#w110",{color:"#ffffff",scale:1,duration:.12},39.22);
+tl.fromTo("#w111",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.38);tl.to("#w111",{color:"#ffffff",scale:1,duration:.12},39.71);
+tl.fromTo("#w112",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.74);tl.to("#w112",{color:"#ffffff",scale:1,duration:.12},39.88);
+tl.fromTo("#w113",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.89);tl.to("#w113",{color:"#ffffff",scale:1,duration:.12},40.46);
+tl.fromTo("#w114",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},40.51);tl.to("#w114",{color:"#ffffff",scale:1,duration:.12},40.70);
+tl.to("#c23",{opacity:0,duration:.1,ease:"power2.in"},40.70);
+tl.from("#c24",{y:24,opacity:0,duration:.14,ease:"power2.out"},40.67);
+tl.fromTo("#w115",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},40.72);tl.to("#w115",{color:"#ffffff",scale:1,duration:.12},41.14);
+tl.fromTo("#w116",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.26);tl.to("#w116",{color:"#ffffff",scale:1,duration:.12},41.65);
+tl.fromTo("#w117",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.68);tl.to("#w117",{color:"#ffffff",scale:1,duration:.12},41.83);
+tl.fromTo("#w118",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.84);tl.to("#w118",{color:"#ffffff",scale:1,duration:.12},42.27);
+tl.fromTo("#w119",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},42.31);tl.to("#w119",{color:"#ffffff",scale:1,duration:.12},42.46);
+tl.to("#c24",{opacity:0,duration:.1,ease:"power2.in"},42.46);
+tl.from("#c25",{y:24,opacity:0,duration:.14,ease:"power2.out"},42.42);
+tl.fromTo("#w120",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},42.47);tl.to("#w120",{color:"#ffffff",scale:1,duration:.12},42.61);
+tl.fromTo("#w121",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},42.63);tl.to("#w121",{color:"#ffffff",scale:1,duration:.12},43.06);
+tl.fromTo("#w122",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},43.14);tl.to("#w122",{color:"#ffffff",scale:1,duration:.12},43.80);
+tl.to("#c25",{opacity:0,duration:.1,ease:"power2.in"},43.80);
+tl.from("#c26",{y:24,opacity:0,duration:.14,ease:"power2.out"},44.16);
+tl.fromTo("#w123",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.21);tl.to("#w123",{color:"#ffffff",scale:1,duration:.12},44.42);
+tl.fromTo("#w124",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.44);tl.to("#w124",{color:"#ffffff",scale:1,duration:.12},44.56);
+tl.fromTo("#w125",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.58);tl.to("#w125",{color:"#ffffff",scale:1,duration:.12},44.95);
+tl.fromTo("#w126",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.99);tl.to("#w126",{color:"#ffffff",scale:1,duration:.12},45.24);
+tl.fromTo("#w127",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},45.26);tl.to("#w127",{color:"#ffffff",scale:1,duration:.12},45.73);
+tl.to("#c26",{opacity:0,duration:.1,ease:"power2.in"},45.73);
+tl.from("#c27",{y:24,opacity:0,duration:.14,ease:"power2.out"},45.72);
+tl.fromTo("#w128",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},45.77);tl.to("#w128",{color:"#ffffff",scale:1,duration:.12},45.94);
+tl.fromTo("#w129",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},46.00);tl.to("#w129",{color:"#ffffff",scale:1,duration:.12},46.57);
+tl.fromTo("#w130",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},46.68);tl.to("#w130",{color:"#ffffff",scale:1,duration:.12},46.81);
+tl.fromTo("#w131",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},46.82);tl.to("#w131",{color:"#ffffff",scale:1,duration:.12},46.94);
+tl.fromTo("#w132",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},46.95);tl.to("#w132",{color:"#ffffff",scale:1,duration:.12},47.25);
+tl.to("#c27",{opacity:0,duration:.1,ease:"power2.in"},47.25);
+tl.from("#c28",{y:24,opacity:0,duration:.14,ease:"power2.out"},47.22);
+tl.fromTo("#w133",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},47.27);tl.to("#w133",{color:"#ffffff",scale:1,duration:.12},47.69);
+tl.fromTo("#w134",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},47.73);tl.to("#w134",{color:"#ffffff",scale:1,duration:.12},48.02);
+tl.to("#c28",{opacity:0,duration:.1,ease:"power2.in"},48.02);
+tl.from("#c29",{y:24,opacity:0,duration:.14,ease:"power2.out"},48.27);
+tl.fromTo("#w135",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.32);tl.to("#w135",{color:"#ffffff",scale:1,duration:.12},48.51);
+tl.fromTo("#w136",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.52);tl.to("#w136",{color:"#ffffff",scale:1,duration:.12},48.76);
+tl.fromTo("#w137",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.78);tl.to("#w137",{color:"#ffffff",scale:1,duration:.12},49.30);
+tl.fromTo("#w138",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.34);tl.to("#w138",{color:"#ffffff",scale:1,duration:.12},49.57);
+tl.fromTo("#w139",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.59);tl.to("#w139",{color:"#ffffff",scale:1,duration:.12},49.73);
+tl.to("#c29",{opacity:0,duration:.1,ease:"power2.in"},49.73);
+tl.from("#c30",{y:24,opacity:0,duration:.14,ease:"power2.out"},49.70);
+tl.fromTo("#w140",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.75);tl.to("#w140",{color:"#ffffff",scale:1,duration:.12},49.98);
+tl.fromTo("#w141",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.00);tl.to("#w141",{color:"#ffffff",scale:1,duration:.12},50.12);
+tl.fromTo("#w142",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.10);tl.to("#w142",{color:"#ffffff",scale:1,duration:.12},50.24);
+tl.fromTo("#w143",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.26);tl.to("#w143",{color:"#ffffff",scale:1,duration:.12},50.40);
+tl.fromTo("#w144",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.45);tl.to("#w144",{color:"#ffffff",scale:1,duration:.12},50.81);
+tl.to("#c30",{opacity:0,duration:.1,ease:"power2.in"},50.81);
+tl.from("#c31",{y:24,opacity:0,duration:.14,ease:"power2.out"},50.79);
+tl.fromTo("#w145",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.84);tl.to("#w145",{color:"#ffffff",scale:1,duration:.12},51.05);
+tl.fromTo("#w146",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.26);tl.to("#w146",{color:"#ffffff",scale:1,duration:.12},51.40);
+tl.fromTo("#w147",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.41);tl.to("#w147",{color:"#ffffff",scale:1,duration:.12},51.78);
+tl.fromTo("#w148",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.82);tl.to("#w148",{color:"#ffffff",scale:1,duration:.12},51.95);
+tl.fromTo("#w149",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.97);tl.to("#w149",{color:"#ffffff",scale:1,duration:.12},52.20);
+tl.to("#c31",{opacity:0,duration:.1,ease:"power2.in"},52.20);
+tl.from("#c32",{y:24,opacity:0,duration:.14,ease:"power2.out"},52.17);
+tl.fromTo("#w150",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.22);tl.to("#w150",{color:"#ffffff",scale:1,duration:.12},52.34);
+tl.fromTo("#w151",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.32);tl.to("#w151",{color:"#ffffff",scale:1,duration:.12},52.51);
+tl.fromTo("#w152",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.52);tl.to("#w152",{color:"#ffffff",scale:1,duration:.12},52.80);
+tl.fromTo("#w153",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.83);tl.to("#w153",{color:"#ffffff",scale:1,duration:.12},53.01);
+tl.fromTo("#w154",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.03);tl.to("#w154",{color:"#ffffff",scale:1,duration:.12},53.17);
+tl.to("#c32",{opacity:0,duration:.1,ease:"power2.in"},53.17);
+tl.from("#c33",{y:24,opacity:0,duration:.14,ease:"power2.out"},53.17);
+tl.fromTo("#w155",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.22);tl.to("#w155",{color:"#ffffff",scale:1,duration:.12},53.75);
+tl.fromTo("#w156",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.80);tl.to("#w156",{color:"#ffffff",scale:1,duration:.12},53.97);
+tl.fromTo("#w157",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.99);tl.to("#w157",{color:"#ffffff",scale:1,duration:.12},54.38);
+tl.fromTo("#w158",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},54.42);tl.to("#w158",{color:"#ffffff",scale:1,duration:.12},54.64);
+tl.fromTo("#w159",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},54.66);tl.to("#w159",{color:"#ffffff",scale:1,duration:.12},54.79);
+tl.to("#c33",{opacity:0,duration:.1,ease:"power2.in"},54.79);
+tl.from("#c34",{y:24,opacity:0,duration:.14,ease:"power2.out"},54.79);
+tl.fromTo("#w160",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},54.84);tl.to("#w160",{color:"#ffffff",scale:1,duration:.12},55.43);
+tl.fromTo("#w161",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},55.48);tl.to("#w161",{color:"#ffffff",scale:1,duration:.12},56.07);
+tl.fromTo("#w162",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},56.13);tl.to("#w162",{color:"#ffffff",scale:1,duration:.12},56.89);
+tl.to("#c34",{opacity:0,duration:.1,ease:"power2.in"},56.89);
+tl.from("#c35",{y:24,opacity:0,duration:.14,ease:"power2.out"},57.14);
+tl.fromTo("#w163",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.19);tl.to("#w163",{color:"#ffffff",scale:1,duration:.12},57.32);
+tl.fromTo("#w164",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.34);tl.to("#w164",{color:"#ffffff",scale:1,duration:.12},57.74);
+tl.fromTo("#w165",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.77);tl.to("#w165",{color:"#ffffff",scale:1,duration:.12},57.90);
+tl.fromTo("#w166",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.92);tl.to("#w166",{color:"#ffffff",scale:1,duration:.12},58.32);
+tl.fromTo("#w167",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},58.35);tl.to("#w167",{color:"#ffffff",scale:1,duration:.12},58.71);
+tl.to("#c35",{opacity:0,duration:.1,ease:"power2.in"},58.71);
+tl.from("#c36",{y:24,opacity:0,duration:.14,ease:"power2.out"},58.69);
+tl.fromTo("#w168",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},58.74);tl.to("#w168",{color:"#ffffff",scale:1,duration:.12},58.96);
+tl.fromTo("#w169",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},59.03);tl.to("#w169",{color:"#ffffff",scale:1,duration:.12},59.68);
+tl.to("#c36",{opacity:0,duration:.1,ease:"power2.in"},59.68);
+tl.from("#c37",{y:24,opacity:0,duration:.14,ease:"power2.out"},59.98);
+tl.fromTo("#w170",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},60.03);tl.to("#w170",{color:"#ffffff",scale:1,duration:.12},60.18);
+tl.fromTo("#w171",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},60.19);tl.to("#w171",{color:"#ffffff",scale:1,duration:.12},60.54);
+tl.fromTo("#w172",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},60.57);tl.to("#w172",{color:"#ffffff",scale:1,duration:.12},60.97);
+tl.fromTo("#w173",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.00);tl.to("#w173",{color:"#ffffff",scale:1,duration:.12},61.25);
+tl.fromTo("#w174",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.27);tl.to("#w174",{color:"#ffffff",scale:1,duration:.12},61.72);
+tl.to("#c37",{opacity:0,duration:.1,ease:"power2.in"},61.72);
+tl.from("#c38",{y:24,opacity:0,duration:.14,ease:"power2.out"},61.71);
+tl.fromTo("#w175",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.76);tl.to("#w175",{color:"#ffffff",scale:1,duration:.12},61.91);
+tl.fromTo("#w176",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.92);tl.to("#w176",{color:"#ffffff",scale:1,duration:.12},62.07);
+tl.fromTo("#w177",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},62.12);tl.to("#w177",{color:"#ffffff",scale:1,duration:.12},62.43);
+tl.fromTo("#w178",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},62.45);tl.to("#w178",{color:"#ffffff",scale:1,duration:.12},62.86);
+tl.fromTo("#w179",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},62.90);tl.to("#w179",{color:"#ffffff",scale:1,duration:.12},63.30);
+tl.to("#c38",{opacity:0,duration:.1,ease:"power2.in"},63.30);
+tl.from("#c39",{y:24,opacity:0,duration:.14,ease:"power2.out"},63.29);
+tl.fromTo("#w180",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},63.34);tl.to("#w180",{color:"#ffffff",scale:1,duration:.12},63.49);
+tl.fromTo("#w181",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},63.51);tl.to("#w181",{color:"#ffffff",scale:1,duration:.12},63.81);
+tl.fromTo("#w182",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},63.84);tl.to("#w182",{color:"#ffffff",scale:1,duration:.12},64.25);
+tl.to("#c39",{opacity:0,duration:.1,ease:"power2.in"},64.25);
+tl.from("#c40",{y:24,opacity:0,duration:.14,ease:"power2.out"},64.55);
+tl.fromTo("#w183",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},64.60);tl.to("#w183",{color:"#ffffff",scale:1,duration:.12},64.73);
+tl.fromTo("#w184",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},64.74);tl.to("#w184",{color:"#ffffff",scale:1,duration:.12},65.20);
+tl.fromTo("#w185",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.24);tl.to("#w185",{color:"#ffffff",scale:1,duration:.12},65.54);
+tl.fromTo("#w186",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.56);tl.to("#w186",{color:"#ffffff",scale:1,duration:.12},65.73);
+tl.fromTo("#w187",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.75);tl.to("#w187",{color:"#ffffff",scale:1,duration:.12},66.26);
+tl.to("#c40",{opacity:0,duration:.1,ease:"power2.in"},66.26);
+tl.from("#c41",{y:24,opacity:0,duration:.14,ease:"power2.out"},66.42);
+tl.fromTo("#w188",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.47);tl.to("#w188",{color:"#ffffff",scale:1,duration:.12},66.73);
+tl.fromTo("#w189",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.75);tl.to("#w189",{color:"#ffffff",scale:1,duration:.12},66.96);
+tl.fromTo("#w190",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.98);tl.to("#w190",{color:"#ffffff",scale:1,duration:.12},67.35);
+tl.fromTo("#w191",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},67.38);tl.to("#w191",{color:"#ffffff",scale:1,duration:.12},67.50);
+tl.fromTo("#w192",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},67.50);tl.to("#w192",{color:"#ffffff",scale:1,duration:.12},67.76);
+tl.to("#c41",{opacity:0,duration:.1,ease:"power2.in"},67.76);
+tl.from("#c42",{y:24,opacity:0,duration:.14,ease:"power2.out"},67.96);
+tl.fromTo("#w193",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.01);tl.to("#w193",{color:"#ffffff",scale:1,duration:.12},68.17);
+tl.fromTo("#w194",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.19);tl.to("#w194",{color:"#ffffff",scale:1,duration:.12},68.62);
+tl.fromTo("#w195",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.66);tl.to("#w195",{color:"#ffffff",scale:1,duration:.12},68.83);
+tl.fromTo("#w196",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.84);tl.to("#w196",{color:"#ffffff",scale:1,duration:.12},69.11);
+tl.fromTo("#w197",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.14);tl.to("#w197",{color:"#ffffff",scale:1,duration:.12},69.26);
+tl.to("#c42",{opacity:0,duration:.1,ease:"power2.in"},69.25);
+tl.from("#c43",{y:24,opacity:0,duration:.14,ease:"power2.out"},69.20);
+tl.fromTo("#w198",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.25);tl.to("#w198",{color:"#ffffff",scale:1,duration:.12},69.47);
+tl.fromTo("#w199",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.49);tl.to("#w199",{color:"#ffffff",scale:1,duration:.12},69.66);
+tl.fromTo("#w200",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.67);tl.to("#w200",{color:"#ffffff",scale:1,duration:.12},69.94);
+tl.fromTo("#w201",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.97);tl.to("#w201",{color:"#ffffff",scale:1,duration:.12},70.13);
+tl.fromTo("#w202",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},70.14);tl.to("#w202",{color:"#ffffff",scale:1,duration:.12},70.42);
+tl.to("#c43",{opacity:0,duration:.1,ease:"power2.in"},70.42);
+tl.from("#c44",{y:24,opacity:0,duration:.14,ease:"power2.out"},70.44);
+tl.fromTo("#w203",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},70.49);tl.to("#w203",{color:"#ffffff",scale:1,duration:.12},70.97);
+tl.fromTo("#w204",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},71.23);tl.to("#w204",{color:"#ffffff",scale:1,duration:.12},71.53);
+tl.fromTo("#w205",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},71.56);tl.to("#w205",{color:"#ffffff",scale:1,duration:.12},72.23);
+tl.fromTo("#w206",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},72.29);tl.to("#w206",{color:"#ffffff",scale:1,duration:.12},72.77);
+tl.fromTo("#w207",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},72.81);tl.to("#w207",{color:"#ffffff",scale:1,duration:.12},73.12);
+tl.to("#c44",{opacity:0,duration:.1,ease:"power2.in"},73.12);
+tl.from("#c45",{y:24,opacity:0,duration:.14,ease:"power2.out"},73.10);
+tl.fromTo("#w208",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.15);tl.to("#w208",{color:"#ffffff",scale:1,duration:.12},73.39);
+tl.fromTo("#w209",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.45);tl.to("#w209",{color:"#ffffff",scale:1,duration:.12},73.85);
+tl.fromTo("#w210",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.88);tl.to("#w210",{color:"#ffffff",scale:1,duration:.12},74.00);
+tl.fromTo("#w211",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.98);tl.to("#w211",{color:"#ffffff",scale:1,duration:.12},74.42);
+tl.fromTo("#w212",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.45);tl.to("#w212",{color:"#ffffff",scale:1,duration:.12},74.63);
+tl.to("#c45",{opacity:0,duration:.1,ease:"power2.in"},74.63);
+tl.from("#c46",{y:24,opacity:0,duration:.14,ease:"power2.out"},74.60);
+tl.fromTo("#w213",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.65);tl.to("#w213",{color:"#ffffff",scale:1,duration:.12},74.77);
+tl.fromTo("#w214",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.74);tl.to("#w214",{color:"#ffffff",scale:1,duration:.12},75.01);
+tl.fromTo("#w215",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},75.07);tl.to("#w215",{color:"#ffffff",scale:1,duration:.12},76.17);
+tl.fromTo("#w216",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},76.26);tl.to("#w216",{color:"#ffffff",scale:1,duration:.12},76.66);
+tl.fromTo("#w217",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},76.69);tl.to("#w217",{color:"#ffffff",scale:1,duration:.12},77.14);
+tl.to("#c46",{opacity:0,duration:.1,ease:"power2.in"},77.14);
+tl.from("#c47",{y:24,opacity:0,duration:.14,ease:"power2.out"},77.13);
+tl.fromTo("#w218",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},77.18);tl.to("#w218",{color:"#ffffff",scale:1,duration:.12},77.30);
+tl.fromTo("#w219",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},77.33);tl.to("#w219",{color:"#ffffff",scale:1,duration:.12},77.47);
+tl.fromTo("#w220",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},77.49);tl.to("#w220",{color:"#ffffff",scale:1,duration:.12},77.88);
+tl.fromTo("#w221",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},77.92);tl.to("#w221",{color:"#ffffff",scale:1,duration:.12},78.31);
+tl.fromTo("#w222",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.35);tl.to("#w222",{color:"#ffffff",scale:1,duration:.12},78.49);
+tl.to("#c47",{opacity:0,duration:.1,ease:"power2.in"},78.49);
+tl.from("#c48",{y:24,opacity:0,duration:.14,ease:"power2.out"},78.46);
+tl.fromTo("#w223",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.51);tl.to("#w223",{color:"#ffffff",scale:1,duration:.12},78.80);
+tl.fromTo("#w224",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.87);tl.to("#w224",{color:"#ffffff",scale:1,duration:.12},79.57);
+tl.fromTo("#w225",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},79.63);tl.to("#w225",{color:"#ffffff",scale:1,duration:.12},79.90);
+tl.fromTo("#w226",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},79.92);tl.to("#w226",{color:"#ffffff",scale:1,duration:.12},80.09);
+tl.fromTo("#w227",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.10);tl.to("#w227",{color:"#ffffff",scale:1,duration:.12},80.48);
+tl.to("#c48",{opacity:0,duration:.1,ease:"power2.in"},80.48);
+tl.from("#c49",{y:24,opacity:0,duration:.14,ease:"power2.out"},80.74);
+tl.fromTo("#w228",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.79);tl.to("#w228",{color:"#ffffff",scale:1,duration:.12},80.94);
+tl.fromTo("#w229",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.95);tl.to("#w229",{color:"#ffffff",scale:1,duration:.12},81.15);
+tl.fromTo("#w230",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.16);tl.to("#w230",{color:"#ffffff",scale:1,duration:.12},81.61);
+tl.fromTo("#w231",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.64);tl.to("#w231",{color:"#ffffff",scale:1,duration:.12},81.84);
+tl.fromTo("#w232",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.86);tl.to("#w232",{color:"#ffffff",scale:1,duration:.12},82.00);
+tl.to("#c49",{opacity:0,duration:.1,ease:"power2.in"},82.00);
+tl.from("#c50",{y:24,opacity:0,duration:.14,ease:"power2.out"},81.97);
+tl.fromTo("#w233",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.02);tl.to("#w233",{color:"#ffffff",scale:1,duration:.12},82.51);
+tl.fromTo("#w234",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.55);tl.to("#w234",{color:"#ffffff",scale:1,duration:.12},82.70);
+tl.fromTo("#w235",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.75);tl.to("#w235",{color:"#ffffff",scale:1,duration:.12},83.53);
+tl.fromTo("#w236",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},83.60);tl.to("#w236",{color:"#ffffff",scale:1,duration:.12},83.96);
+tl.fromTo("#w237",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},83.99);tl.to("#w237",{color:"#ffffff",scale:1,duration:.12},84.17);
+tl.to("#c50",{opacity:0,duration:.1,ease:"power2.in"},84.17);
+tl.from("#c51",{y:24,opacity:0,duration:.14,ease:"power2.out"},84.14);
+tl.fromTo("#w238",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.19);tl.to("#w238",{color:"#ffffff",scale:1,duration:.12},84.43);
+tl.fromTo("#w239",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.45);tl.to("#w239",{color:"#ffffff",scale:1,duration:.12},85.17);
+tl.fromTo("#w240",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.31);tl.to("#w240",{color:"#ffffff",scale:1,duration:.12},85.84);
+tl.fromTo("#w241",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.99);tl.to("#w241",{color:"#ffffff",scale:1,duration:.12},86.11);
+tl.fromTo("#w242",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.11);tl.to("#w242",{color:"#ffffff",scale:1,duration:.12},86.31);
+tl.to("#c51",{opacity:0,duration:.1,ease:"power2.in"},86.31);
+tl.from("#c52",{y:24,opacity:0,duration:.14,ease:"power2.out"},86.27);
+tl.fromTo("#w243",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.32);tl.to("#w243",{color:"#ffffff",scale:1,duration:.12},86.59);
+tl.fromTo("#w244",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.61);tl.to("#w244",{color:"#ffffff",scale:1,duration:.12},87.03);
+tl.fromTo("#w245",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.07);tl.to("#w245",{color:"#ffffff",scale:1,duration:.12},87.38);
+tl.fromTo("#w246",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.40);tl.to("#w246",{color:"#ffffff",scale:1,duration:.12},87.56);
+tl.fromTo("#w247",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.61);tl.to("#w247",{color:"#ffffff",scale:1,duration:.12},88.09);
+tl.to("#c52",{opacity:0,duration:.1,ease:"power2.in"},88.09);
+tl.from("#c53",{y:24,opacity:0,duration:.14,ease:"power2.out"},88.33);
+tl.fromTo("#w248",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},88.38);tl.to("#w248",{color:"#ffffff",scale:1,duration:.12},88.69);
+tl.fromTo("#w249",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},88.71);tl.to("#w249",{color:"#ffffff",scale:1,duration:.12},89.02);
+tl.fromTo("#w250",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.05);tl.to("#w250",{color:"#ffffff",scale:1,duration:.12},89.17);
+tl.fromTo("#w251",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.17);tl.to("#w251",{color:"#ffffff",scale:1,duration:.12},89.59);
+tl.fromTo("#w252",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.63);tl.to("#w252",{color:"#ffffff",scale:1,duration:.12},89.75);
+tl.to("#c53",{opacity:0,duration:.1,ease:"power2.in"},89.70);
+tl.from("#c54",{y:24,opacity:0,duration:.14,ease:"power2.out"},89.83);
+tl.fromTo("#w253",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.88);tl.to("#w253",{color:"#ffffff",scale:1,duration:.12},90.04);
+tl.fromTo("#w254",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.06);tl.to("#w254",{color:"#ffffff",scale:1,duration:.12},90.22);
+tl.fromTo("#w255",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.23);tl.to("#w255",{color:"#ffffff",scale:1,duration:.12},90.47);
+tl.fromTo("#w256",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.50);tl.to("#w256",{color:"#ffffff",scale:1,duration:.12},90.62);
+tl.fromTo("#w257",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.63);tl.to("#w257",{color:"#ffffff",scale:1,duration:.12},90.87);
+tl.to("#c54",{opacity:0,duration:.1,ease:"power2.in"},90.87);
+tl.from("#c55",{y:24,opacity:0,duration:.14,ease:"power2.out"},91.05);
+tl.fromTo("#w258",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.10);tl.to("#w258",{color:"#ffffff",scale:1,duration:.12},91.37);
+tl.fromTo("#w259",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.40);tl.to("#w259",{color:"#ffffff",scale:1,duration:.12},92.01);
+tl.fromTo("#w260",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},92.06);tl.to("#w260",{color:"#ffffff",scale:1,duration:.12},92.20);
+tl.fromTo("#w261",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},92.21);tl.to("#w261",{color:"#ffffff",scale:1,duration:.12},92.56);
+tl.fromTo("#w262",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},92.58);tl.to("#w262",{color:"#ffffff",scale:1,duration:.12},93.33);
+tl.to("#c55",{opacity:0,duration:.1,ease:"power2.in"},93.33);
+tl.from("#c56",{y:24,opacity:0,duration:.14,ease:"power2.out"},93.35);
+tl.fromTo("#w263",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},93.40);tl.to("#w263",{color:"#ffffff",scale:1,duration:.12},93.54);
+tl.fromTo("#w264",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},93.55);tl.to("#w264",{color:"#ffffff",scale:1,duration:.12},93.89);
+tl.fromTo("#w265",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},93.96);tl.to("#w265",{color:"#ffffff",scale:1,duration:.12},94.30);
+tl.fromTo("#w266",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},94.33);tl.to("#w266",{color:"#ffffff",scale:1,duration:.12},94.53);
+tl.fromTo("#w267",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},94.55);tl.to("#w267",{color:"#ffffff",scale:1,duration:.12},94.84);
+tl.to("#c56",{opacity:0,duration:.1,ease:"power2.in"},94.84);
+tl.from("#c57",{y:24,opacity:0,duration:.14,ease:"power2.out"},94.82);
+tl.fromTo("#w268",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},94.87);tl.to("#w268",{color:"#ffffff",scale:1,duration:.12},95.06);
+tl.fromTo("#w269",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},95.08);tl.to("#w269",{color:"#ffffff",scale:1,duration:.12},95.52);
+tl.fromTo("#w270",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},95.75);tl.to("#w270",{color:"#ffffff",scale:1,duration:.12},96.27);
+tl.fromTo("#w271",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},96.31);tl.to("#w271",{color:"#ffffff",scale:1,duration:.12},96.74);
+tl.fromTo("#w272",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},96.78);tl.to("#w272",{color:"#ffffff",scale:1,duration:.12},97.04);
+tl.to("#c57",{opacity:0,duration:.1,ease:"power2.in"},97.04);
+tl.from("#c58",{y:24,opacity:0,duration:.14,ease:"power2.out"},97.01);
+tl.fromTo("#w273",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.06);tl.to("#w273",{color:"#ffffff",scale:1,duration:.12},97.57);
+tl.fromTo("#w274",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.62);tl.to("#w274",{color:"#ffffff",scale:1,duration:.12},97.88);
+tl.fromTo("#w275",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.90);tl.to("#w275",{color:"#ffffff",scale:1,duration:.12},98.42);
+tl.fromTo("#w276",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},98.46);tl.to("#w276",{color:"#ffffff",scale:1,duration:.12},98.72);
+tl.fromTo("#w277",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},98.78);tl.to("#w277",{color:"#ffffff",scale:1,duration:.12},99.59);
+tl.to("#c58",{opacity:0,duration:.1,ease:"power2.in"},99.59);
+tl.from("#c59",{y:24,opacity:0,duration:.14,ease:"power2.out"},99.86);
+tl.fromTo("#w278",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},99.91);tl.to("#w278",{color:"#ffffff",scale:1,duration:.12},100.03);
+tl.fromTo("#w279",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},100.04);tl.to("#w279",{color:"#ffffff",scale:1,duration:.12},100.48);
+tl.fromTo("#w280",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},100.51);tl.to("#w280",{color:"#ffffff",scale:1,duration:.12},100.70);
+tl.fromTo("#w281",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},100.72);tl.to("#w281",{color:"#ffffff",scale:1,duration:.12},101.03);
+tl.fromTo("#w282",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.05);tl.to("#w282",{color:"#ffffff",scale:1,duration:.12},101.48);
+tl.to("#c59",{opacity:0,duration:.1,ease:"power2.in"},101.48);
+tl.from("#c60",{y:24,opacity:0,duration:.14,ease:"power2.out"},101.47);
+tl.fromTo("#w283",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.52);tl.to("#w283",{color:"#ffffff",scale:1,duration:.12},101.77);
+tl.fromTo("#w284",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.79);tl.to("#w284",{color:"#ffffff",scale:1,duration:.12},102.22);
+tl.fromTo("#w285",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},102.43);tl.to("#w285",{color:"#ffffff",scale:1,duration:.12},102.85);
+tl.fromTo("#w286",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},102.89);tl.to("#w286",{color:"#ffffff",scale:1,duration:.12},103.06);
+tl.fromTo("#w287",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},103.08);tl.to("#w287",{color:"#ffffff",scale:1,duration:.12},103.29);
+tl.to("#c60",{opacity:0,duration:.1,ease:"power2.in"},103.29);
+tl.from("#c61",{y:24,opacity:0,duration:.14,ease:"power2.out"},103.26);
+tl.fromTo("#w288",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},103.31);tl.to("#w288",{color:"#ffffff",scale:1,duration:.12},103.90);
+tl.fromTo("#w289",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},103.95);tl.to("#w289",{color:"#ffffff",scale:1,duration:.12},104.08);
+tl.fromTo("#w290",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},104.13);tl.to("#w290",{color:"#ffffff",scale:1,duration:.12},104.41);
+tl.fromTo("#w291",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},104.43);tl.to("#w291",{color:"#ffffff",scale:1,duration:.12},104.57);
+tl.fromTo("#w292",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},104.58);tl.to("#w292",{color:"#ffffff",scale:1,duration:.12},104.99);
+tl.to("#c61",{opacity:0,duration:.1,ease:"power2.in"},104.99);
+tl.from("#c62",{y:24,opacity:0,duration:.14,ease:"power2.out"},105.11);
+tl.fromTo("#w293",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.16);tl.to("#w293",{color:"#ffffff",scale:1,duration:.12},105.36);
+tl.fromTo("#w294",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.38);tl.to("#w294",{color:"#ffffff",scale:1,duration:.12},105.83);
+tl.fromTo("#w295",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.86);tl.to("#w295",{color:"#ffffff",scale:1,duration:.12},106.41);
+tl.fromTo("#w296",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},106.46);tl.to("#w296",{color:"#ffffff",scale:1,duration:.12},106.58);
+tl.fromTo("#w297",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},106.57);tl.to("#w297",{color:"#ffffff",scale:1,duration:.12},106.69);
+tl.to("#c62",{opacity:0,duration:.1,ease:"power2.in"},106.67);
+tl.from("#c63",{y:24,opacity:0,duration:.14,ease:"power2.out"},106.63);
+tl.fromTo("#w298",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},106.68);tl.to("#w298",{color:"#ffffff",scale:1,duration:.12},107.08);
+tl.fromTo("#w299",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},107.11);tl.to("#w299",{color:"#ffffff",scale:1,duration:.12},107.36);
+tl.fromTo("#w300",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},107.42);tl.to("#w300",{color:"#ffffff",scale:1,duration:.12},107.58);
+tl.fromTo("#w301",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},107.60);tl.to("#w301",{color:"#ffffff",scale:1,duration:.12},108.00);
+tl.fromTo("#w302",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},108.04);tl.to("#w302",{color:"#ffffff",scale:1,duration:.12},108.24);
+tl.to("#c63",{opacity:0,duration:.1,ease:"power2.in"},108.24);
+tl.from("#c64",{y:24,opacity:0,duration:.14,ease:"power2.out"},108.21);
+tl.fromTo("#w303",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},108.26);tl.to("#w303",{color:"#ffffff",scale:1,duration:.12},108.63);
+tl.fromTo("#w304",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},108.83);tl.to("#w304",{color:"#ffffff",scale:1,duration:.12},109.06);
+tl.fromTo("#w305",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.08);tl.to("#w305",{color:"#ffffff",scale:1,duration:.12},109.49);
+tl.fromTo("#w306",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.52);tl.to("#w306",{color:"#ffffff",scale:1,duration:.12},109.81);
+tl.fromTo("#w307",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.84);tl.to("#w307",{color:"#ffffff",scale:1,duration:.12},109.96);
+tl.to("#c64",{opacity:0,duration:.1,ease:"power2.in"},109.95);
+tl.from("#c65",{y:24,opacity:0,duration:.14,ease:"power2.out"},109.91);
+tl.fromTo("#w308",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.96);tl.to("#w308",{color:"#ffffff",scale:1,duration:.12},110.48);
+tl.fromTo("#w309",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},110.53);tl.to("#w309",{color:"#ffffff",scale:1,duration:.12},110.82);
+tl.fromTo("#w310",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},110.84);tl.to("#w310",{color:"#ffffff",scale:1,duration:.12},111.19);
+tl.fromTo("#w311",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},111.30);tl.to("#w311",{color:"#ffffff",scale:1,duration:.12},111.84);
+tl.to("#c65",{opacity:0,duration:.1,ease:"power2.in"},111.84);
+tl.from("#c66",{y:24,opacity:0,duration:.14,ease:"power2.out"},112.09);
+tl.fromTo("#w312",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.14);tl.to("#w312",{color:"#ffffff",scale:1,duration:.12},112.35);
+tl.fromTo("#w313",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.37);tl.to("#w313",{color:"#ffffff",scale:1,duration:.12},112.55);
+tl.fromTo("#w314",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.57);tl.to("#w314",{color:"#ffffff",scale:1,duration:.12},112.71);
+tl.fromTo("#w315",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.72);tl.to("#w315",{color:"#ffffff",scale:1,duration:.12},112.97);
+tl.fromTo("#w316",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.99);tl.to("#w316",{color:"#ffffff",scale:1,duration:.12},113.14);
+tl.to("#c66",{opacity:0,duration:.1,ease:"power2.in"},113.14);
+tl.from("#c67",{y:24,opacity:0,duration:.14,ease:"power2.out"},113.10);
+tl.fromTo("#w317",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},113.15);tl.to("#w317",{color:"#ffffff",scale:1,duration:.12},113.44);
+tl.fromTo("#w318",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},113.50);tl.to("#w318",{color:"#ffffff",scale:1,duration:.12},113.88);
+tl.fromTo("#w319",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},113.91);tl.to("#w319",{color:"#ffffff",scale:1,duration:.12},114.03);
+tl.to("#c67",{opacity:0,duration:.1,ease:"power2.in"},114.00);
+tl.from("#c68",{y:24,opacity:0,duration:.14,ease:"power2.out"},114.39);
+tl.fromTo("#w320",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},114.44);tl.to("#w320",{color:"#ffffff",scale:1,duration:.12},114.67);
+tl.fromTo("#w321",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},114.70);tl.to("#w321",{color:"#ffffff",scale:1,duration:.12},114.99);
+tl.fromTo("#w322",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.02);tl.to("#w322",{color:"#ffffff",scale:1,duration:.12},115.54);
+tl.fromTo("#w323",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.59);tl.to("#w323",{color:"#ffffff",scale:1,duration:.12},115.83);
+tl.fromTo("#w324",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.85);tl.to("#w324",{color:"#ffffff",scale:1,duration:.12},116.26);
+tl.to("#c68",{opacity:0,duration:.1,ease:"power2.in"},116.26);
+tl.from("#c69",{y:24,opacity:0,duration:.14,ease:"power2.out"},116.24);
+tl.fromTo("#w325",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},116.29);tl.to("#w325",{color:"#ffffff",scale:1,duration:.12},117.00);
+tl.fromTo("#w326",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.17);tl.to("#w326",{color:"#ffffff",scale:1,duration:.12},117.40);
+tl.fromTo("#w327",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.42);tl.to("#w327",{color:"#ffffff",scale:1,duration:.12},117.87);
+tl.fromTo("#w328",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.91);tl.to("#w328",{color:"#ffffff",scale:1,duration:.12},118.71);
+tl.fromTo("#w329",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},118.78);tl.to("#w329",{color:"#ffffff",scale:1,duration:.12},118.94);
+tl.to("#c69",{opacity:0,duration:.1,ease:"power2.in"},118.94);
+tl.from("#c70",{y:24,opacity:0,duration:.14,ease:"power2.out"},118.95);
+tl.fromTo("#w330",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},119.00);tl.to("#w330",{color:"#ffffff",scale:1,duration:.12},119.76);
+tl.fromTo("#w331",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},119.83);tl.to("#w331",{color:"#ffffff",scale:1,duration:.12},120.02);
+tl.fromTo("#w332",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},120.04);tl.to("#w332",{color:"#ffffff",scale:1,duration:.12},120.56);
+tl.fromTo("#w333",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},120.61);tl.to("#w333",{color:"#ffffff",scale:1,duration:.12},120.73);
+tl.fromTo("#w334",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},120.71);tl.to("#w334",{color:"#ffffff",scale:1,duration:.12},121.31);
+tl.to("#c70",{opacity:0,duration:.1,ease:"power2.in"},121.31);
+tl.from("#c71",{y:24,opacity:0,duration:.14,ease:"power2.out"},121.63);
+tl.fromTo("#w335",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.68);tl.to("#w335",{color:"#ffffff",scale:1,duration:.12},121.89);
+tl.fromTo("#w336",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.91);tl.to("#w336",{color:"#ffffff",scale:1,duration:.12},122.33);
+tl.fromTo("#w337",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.37);tl.to("#w337",{color:"#ffffff",scale:1,duration:.12},122.49);
+tl.fromTo("#w338",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.46);tl.to("#w338",{color:"#ffffff",scale:1,duration:.12},122.84);
+tl.fromTo("#w339",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.87);tl.to("#w339",{color:"#ffffff",scale:1,duration:.12},123.00);
+tl.to("#c71",{opacity:0,duration:.1,ease:"power2.in"},123.00);
+tl.from("#c72",{y:24,opacity:0,duration:.14,ease:"power2.out"},122.96);
+tl.fromTo("#w340",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.01);tl.to("#w340",{color:"#ffffff",scale:1,duration:.12},123.43);
+tl.fromTo("#w341",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.55);tl.to("#w341",{color:"#ffffff",scale:1,duration:.12},123.81);
+tl.fromTo("#w342",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.83);tl.to("#w342",{color:"#ffffff",scale:1,duration:.12},124.08);
+tl.fromTo("#w343",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},124.10);tl.to("#w343",{color:"#ffffff",scale:1,duration:.12},124.48);
+tl.fromTo("#w344",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},124.52);tl.to("#w344",{color:"#ffffff",scale:1,duration:.12},124.65);
+tl.to("#c72",{opacity:0,duration:.1,ease:"power2.in"},124.65);
+tl.from("#c73",{y:24,opacity:0,duration:.14,ease:"power2.out"},124.61);
+tl.fromTo("#w345",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},124.66);tl.to("#w345",{color:"#ffffff",scale:1,duration:.12},124.95);
+tl.fromTo("#w346",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},125.17);tl.to("#w346",{color:"#ffffff",scale:1,duration:.12},125.49);
+tl.fromTo("#w347",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},125.52);tl.to("#w347",{color:"#ffffff",scale:1,duration:.12},125.76);
+tl.fromTo("#w348",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},125.78);tl.to("#w348",{color:"#ffffff",scale:1,duration:.12},126.14);
+tl.fromTo("#w349",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.17);tl.to("#w349",{color:"#ffffff",scale:1,duration:.12},126.29);
+tl.to("#c73",{opacity:0,duration:.1,ease:"power2.in"},126.28);
+tl.from("#c74",{y:24,opacity:0,duration:.14,ease:"power2.out"},126.23);
+tl.fromTo("#w350",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.28);tl.to("#w350",{color:"#ffffff",scale:1,duration:.12},126.64);
+tl.fromTo("#w351",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.71);tl.to("#w351",{color:"#ffffff",scale:1,duration:.12},126.86);
+tl.fromTo("#w352",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.88);tl.to("#w352",{color:"#ffffff",scale:1,duration:.12},127.33);
+tl.fromTo("#w353",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},127.37);tl.to("#w353",{color:"#ffffff",scale:1,duration:.12},127.49);
+tl.fromTo("#w354",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},127.69);tl.to("#w354",{color:"#ffffff",scale:1,duration:.12},127.92);
+tl.to("#c74",{opacity:0,duration:.1,ease:"power2.in"},127.92);
+tl.from("#c75",{y:24,opacity:0,duration:.14,ease:"power2.out"},127.88);
+tl.fromTo("#w355",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},127.93);tl.to("#w355",{color:"#ffffff",scale:1,duration:.12},128.20);
+tl.fromTo("#w356",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.22);tl.to("#w356",{color:"#ffffff",scale:1,duration:.12},128.56);
+tl.fromTo("#w357",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.59);tl.to("#w357",{color:"#ffffff",scale:1,duration:.12},128.85);
+tl.fromTo("#w358",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.87);tl.to("#w358",{color:"#ffffff",scale:1,duration:.12},129.17);
+tl.fromTo("#w359",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},129.20);tl.to("#w359",{color:"#ffffff",scale:1,duration:.12},129.35);
+tl.to("#c75",{opacity:0,duration:.1,ease:"power2.in"},129.35);
+tl.from("#c76",{y:24,opacity:0,duration:.14,ease:"power2.out"},129.35);
+tl.fromTo("#w360",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},129.40);tl.to("#w360",{color:"#ffffff",scale:1,duration:.12},129.85);
+tl.fromTo("#w361",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},129.90);tl.to("#w361",{color:"#ffffff",scale:1,duration:.12},130.28);
+tl.fromTo("#w362",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},130.32);tl.to("#w362",{color:"#ffffff",scale:1,duration:.12},130.58);
+tl.fromTo("#w363",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},130.60);tl.to("#w363",{color:"#ffffff",scale:1,duration:.12},131.32);
+tl.to("#c76",{opacity:0,duration:.1,ease:"power2.in"},131.32);
+tl.from("#c77",{y:24,opacity:0,duration:.14,ease:"power2.out"},131.55);
+tl.fromTo("#w364",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.60);tl.to("#w364",{color:"#ffffff",scale:1,duration:.12},131.76);
+tl.fromTo("#w365",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.77);tl.to("#w365",{color:"#ffffff",scale:1,duration:.12},132.05);
+tl.fromTo("#w366",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.07);tl.to("#w366",{color:"#ffffff",scale:1,duration:.12},132.47);
+tl.fromTo("#w367",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.50);tl.to("#w367",{color:"#ffffff",scale:1,duration:.12},132.62);
+tl.fromTo("#w368",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.59);tl.to("#w368",{color:"#ffffff",scale:1,duration:.12},132.82);
+tl.to("#c77",{opacity:0,duration:.1,ease:"power2.in"},132.82);
+tl.from("#c78",{y:24,opacity:0,duration:.14,ease:"power2.out"},132.79);
+tl.fromTo("#w369",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.84);tl.to("#w369",{color:"#ffffff",scale:1,duration:.12},132.96);
+tl.fromTo("#w370",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.01);tl.to("#w370",{color:"#ffffff",scale:1,duration:.12},133.72);
+tl.fromTo("#w371",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.78);tl.to("#w371",{color:"#ffffff",scale:1,duration:.12},133.98);
+tl.fromTo("#w372",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.00);tl.to("#w372",{color:"#ffffff",scale:1,duration:.12},134.35);
+tl.fromTo("#w373",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.38);tl.to("#w373",{color:"#ffffff",scale:1,duration:.12},134.59);
+tl.to("#c78",{opacity:0,duration:.1,ease:"power2.in"},134.59);
+tl.from("#c79",{y:24,opacity:0,duration:.14,ease:"power2.out"},134.55);
+tl.fromTo("#w374",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.60);tl.to("#w374",{color:"#ffffff",scale:1,duration:.12},134.91);
+tl.fromTo("#w375",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.94);tl.to("#w375",{color:"#ffffff",scale:1,duration:.12},135.09);
+tl.fromTo("#w376",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},135.15);tl.to("#w376",{color:"#ffffff",scale:1,duration:.12},135.82);
+tl.fromTo("#w377",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},135.88);tl.to("#w377",{color:"#ffffff",scale:1,duration:.12},136.07);
+tl.fromTo("#w378",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},136.09);tl.to("#w378",{color:"#ffffff",scale:1,duration:.12},136.43);
+tl.to("#c79",{opacity:0,duration:.1,ease:"power2.in"},136.43);
+tl.from("#c80",{y:24,opacity:0,duration:.14,ease:"power2.out"},136.41);
+tl.fromTo("#w379",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},136.46);tl.to("#w379",{color:"#ffffff",scale:1,duration:.12},136.65);
+tl.fromTo("#w380",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},136.67);tl.to("#w380",{color:"#ffffff",scale:1,duration:.12},137.00);
+tl.fromTo("#w381",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},137.03);tl.to("#w381",{color:"#ffffff",scale:1,duration:.12},137.18);
+tl.fromTo("#w382",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},137.24);tl.to("#w382",{color:"#ffffff",scale:1,duration:.12},137.38);
+tl.fromTo("#w383",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},137.40);tl.to("#w383",{color:"#ffffff",scale:1,duration:.12},138.02);
+tl.to("#c80",{opacity:0,duration:.1,ease:"power2.in"},138.02);
+tl.from("#c81",{y:24,opacity:0,duration:.14,ease:"power2.out"},138.03);
+tl.fromTo("#w384",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},138.08);tl.to("#w384",{color:"#ffffff",scale:1,duration:.12},138.27);
+tl.fromTo("#w385",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},138.29);tl.to("#w385",{color:"#ffffff",scale:1,duration:.12},138.63);
+tl.fromTo("#w386",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},138.65);tl.to("#w386",{color:"#ffffff",scale:1,duration:.12},138.85);
+tl.fromTo("#w387",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},138.86);tl.to("#w387",{color:"#ffffff",scale:1,duration:.12},139.20);
+tl.fromTo("#w388",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.48);tl.to("#w388",{color:"#ffffff",scale:1,duration:.12},139.64);
+tl.to("#c81",{opacity:0,duration:.1,ease:"power2.in"},139.64);
+tl.from("#c82",{y:24,opacity:0,duration:.14,ease:"power2.out"},139.60);
+tl.fromTo("#w389",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.66);tl.to("#w389",{color:"#ffffff",scale:1,duration:.12},139.86);
+tl.fromTo("#w390",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.87);tl.to("#w390",{color:"#ffffff",scale:1,duration:.12},140.28);
+tl.fromTo("#w391",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.31);tl.to("#w391",{color:"#ffffff",scale:1,duration:.12},140.43);
+tl.fromTo("#w392",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.40);tl.to("#w392",{color:"#ffffff",scale:1,duration:.12},140.64);
+tl.fromTo("#w393",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.66);tl.to("#w393",{color:"#ffffff",scale:1,duration:.12},140.78);
+tl.to("#c82",{opacity:0,duration:.1,ease:"power2.in"},140.78);
+tl.from("#c83",{y:24,opacity:0,duration:.14,ease:"power2.out"},140.74);
+tl.fromTo("#w394",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.79);tl.to("#w394",{color:"#ffffff",scale:1,duration:.12},141.07);
+tl.fromTo("#w395",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},141.19);tl.to("#w395",{color:"#ffffff",scale:1,duration:.12},142.00);
+tl.fromTo("#w396",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},142.07);tl.to("#w396",{color:"#ffffff",scale:1,duration:.12},142.50);
+tl.fromTo("#w397",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},142.54);tl.to("#w397",{color:"#ffffff",scale:1,duration:.12},142.72);
+tl.fromTo("#w398",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},142.74);tl.to("#w398",{color:"#ffffff",scale:1,duration:.12},143.42);
+tl.to("#c83",{opacity:0,duration:.1,ease:"power2.in"},143.42);
+tl.from("#c84",{y:24,opacity:0,duration:.14,ease:"power2.out"},143.43);
+tl.fromTo("#w399",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},143.48);tl.to("#w399",{color:"#ffffff",scale:1,duration:.12},143.73);
+tl.fromTo("#w400",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},143.79);tl.to("#w400",{color:"#ffffff",scale:1,duration:.12},144.32);
+tl.to("#c84",{opacity:0,duration:.1,ease:"power2.in"},144.32);
+tl.from("#c85",{y:24,opacity:0,duration:.14,ease:"power2.out"},144.59);
+tl.fromTo("#w401",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},144.64);tl.to("#w401",{color:"#ffffff",scale:1,duration:.12},144.83);
+tl.fromTo("#w402",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},144.84);tl.to("#w402",{color:"#ffffff",scale:1,duration:.12},145.22);
+tl.fromTo("#w403",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},145.25);tl.to("#w403",{color:"#ffffff",scale:1,duration:.12},145.37);
+tl.fromTo("#w404",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},145.35);tl.to("#w404",{color:"#ffffff",scale:1,duration:.12},145.87);
+tl.fromTo("#w405",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},145.91);tl.to("#w405",{color:"#ffffff",scale:1,duration:.12},146.29);
+tl.to("#c85",{opacity:0,duration:.1,ease:"power2.in"},146.29);
+tl.from("#c86",{y:24,opacity:0,duration:.14,ease:"power2.out"},146.27);
+tl.fromTo("#w406",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},146.32);tl.to("#w406",{color:"#ffffff",scale:1,duration:.12},146.56);
+tl.fromTo("#w407",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},146.58);tl.to("#w407",{color:"#ffffff",scale:1,duration:.12},146.72);
+tl.fromTo("#w408",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},146.78);tl.to("#w408",{color:"#ffffff",scale:1,duration:.12},147.13);
+tl.fromTo("#w409",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.16);tl.to("#w409",{color:"#ffffff",scale:1,duration:.12},147.30);
+tl.fromTo("#w410",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.32);tl.to("#w410",{color:"#ffffff",scale:1,duration:.12},147.46);
+tl.to("#c86",{opacity:0,duration:.1,ease:"power2.in"},147.46);
+tl.from("#c87",{y:24,opacity:0,duration:.14,ease:"power2.out"},147.42);
+tl.fromTo("#w411",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.47);tl.to("#w411",{color:"#ffffff",scale:1,duration:.12},148.53);
+tl.to("#c87",{opacity:0,duration:.1,ease:"power2.in"},148.53);
+tl.from("#c88",{y:24,opacity:0,duration:.14,ease:"power2.out"},148.84);
+tl.fromTo("#w412",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},148.89);tl.to("#w412",{color:"#ffffff",scale:1,duration:.12},149.23);
+tl.fromTo("#w413",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},149.26);tl.to("#w413",{color:"#ffffff",scale:1,duration:.12},149.88);
+tl.fromTo("#w414",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},149.94);tl.to("#w414",{color:"#ffffff",scale:1,duration:.12},150.56);
+tl.fromTo("#w415",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},150.61);tl.to("#w415",{color:"#ffffff",scale:1,duration:.12},151.58);
+tl.fromTo("#w416",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},151.83);tl.to("#w416",{color:"#ffffff",scale:1,duration:.12},152.28);
+tl.to("#c88",{opacity:0,duration:.1,ease:"power2.in"},152.28);
+tl.from("#c89",{y:24,opacity:0,duration:.14,ease:"power2.out"},152.27);
+tl.fromTo("#w417",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},152.32);tl.to("#w417",{color:"#ffffff",scale:1,duration:.12},152.48);
+tl.fromTo("#w418",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},152.49);tl.to("#w418",{color:"#ffffff",scale:1,duration:.12},152.90);
+tl.fromTo("#w419",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},152.93);tl.to("#w419",{color:"#ffffff",scale:1,duration:.12},153.54);
+tl.fromTo("#w420",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},153.59);tl.to("#w420",{color:"#ffffff",scale:1,duration:.12},154.00);
+tl.fromTo("#w421",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},154.14);tl.to("#w421",{color:"#ffffff",scale:1,duration:.12},154.53);
+tl.to("#c89",{opacity:0,duration:.1,ease:"power2.in"},154.53);
+tl.from("#c90",{y:24,opacity:0,duration:.14,ease:"power2.out"},154.51);
+tl.fromTo("#w422",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},154.56);tl.to("#w422",{color:"#ffffff",scale:1,duration:.12},154.68);
+tl.fromTo("#w423",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},154.66);tl.to("#w423",{color:"#ffffff",scale:1,duration:.12},155.05);
+tl.fromTo("#w424",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},155.09);tl.to("#w424",{color:"#ffffff",scale:1,duration:.12},155.23);
+tl.fromTo("#w425",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},155.24);tl.to("#w425",{color:"#ffffff",scale:1,duration:.12},155.58);
+tl.fromTo("#w426",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},155.84);tl.to("#w426",{color:"#ffffff",scale:1,duration:.12},155.96);
+tl.to("#c90",{opacity:0,duration:.1,ease:"power2.in"},155.96);
+tl.from("#c91",{y:24,opacity:0,duration:.14,ease:"power2.out"},155.92);
+tl.fromTo("#w427",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},155.97);tl.to("#w427",{color:"#ffffff",scale:1,duration:.12},156.18);
+tl.fromTo("#w428",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},156.20);tl.to("#w428",{color:"#ffffff",scale:1,duration:.12},156.61);
+tl.fromTo("#w429",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},156.65);tl.to("#w429",{color:"#ffffff",scale:1,duration:.12},157.27);
+tl.fromTo("#w430",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},157.42);tl.to("#w430",{color:"#ffffff",scale:1,duration:.12},157.58);
+tl.fromTo("#w431",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},157.59);tl.to("#w431",{color:"#ffffff",scale:1,duration:.12},157.83);
+tl.to("#c91",{opacity:0,duration:.1,ease:"power2.in"},157.83);
+tl.from("#c92",{y:24,opacity:0,duration:.14,ease:"power2.out"},157.80);
+tl.fromTo("#w432",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},157.85);tl.to("#w432",{color:"#ffffff",scale:1,duration:.12},157.97);
+tl.fromTo("#w433",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},158.14);tl.to("#w433",{color:"#ffffff",scale:1,duration:.12},158.30);
+tl.fromTo("#w434",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},158.31);tl.to("#w434",{color:"#ffffff",scale:1,duration:.12},158.90);
+tl.fromTo("#w435",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},158.95);tl.to("#w435",{color:"#ffffff",scale:1,duration:.12},159.37);
+tl.fromTo("#w436",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},159.41);tl.to("#w436",{color:"#ffffff",scale:1,duration:.12},160.26);
+tl.to("#c92",{opacity:0,duration:.1,ease:"power2.in"},160.26);
+tl.from("#c93",{y:24,opacity:0,duration:.14,ease:"power2.out"},160.52);
+tl.fromTo("#w437",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},160.57);tl.to("#w437",{color:"#ffffff",scale:1,duration:.12},161.09);
+tl.fromTo("#w438",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},161.13);tl.to("#w438",{color:"#ffffff",scale:1,duration:.12},161.56);
+tl.fromTo("#w439",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},161.59);tl.to("#w439",{color:"#ffffff",scale:1,duration:.12},162.11);
+tl.fromTo("#w440",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},162.16);tl.to("#w440",{color:"#ffffff",scale:1,duration:.12},162.30);
+tl.fromTo("#w441",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},162.31);tl.to("#w441",{color:"#ffffff",scale:1,duration:.12},162.59);
+tl.to("#c93",{opacity:0,duration:.1,ease:"power2.in"},162.59);
+tl.from("#c94",{y:24,opacity:0,duration:.14,ease:"power2.out"},162.61);
+tl.fromTo("#w442",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},162.66);tl.to("#w442",{color:"#ffffff",scale:1,duration:.12},163.11);
+tl.fromTo("#w443",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},163.15);tl.to("#w443",{color:"#ffffff",scale:1,duration:.12},163.30);
+tl.fromTo("#w444",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},163.31);tl.to("#w444",{color:"#ffffff",scale:1,duration:.12},163.46);
+tl.fromTo("#w445",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},163.47);tl.to("#w445",{color:"#ffffff",scale:1,duration:.12},163.82);
+tl.fromTo("#w446",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},163.85);tl.to("#w446",{color:"#ffffff",scale:1,duration:.12},164.05);
+tl.to("#c94",{opacity:0,duration:.1,ease:"power2.in"},164.05);
+tl.from("#c95",{y:24,opacity:0,duration:.14,ease:"power2.out"},164.02);
+tl.fromTo("#w447",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},164.07);tl.to("#w447",{color:"#ffffff",scale:1,duration:.12},164.67);
+tl.fromTo("#w448",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},164.72);tl.to("#w448",{color:"#ffffff",scale:1,duration:.12},164.87);
+tl.fromTo("#w449",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},164.92);tl.to("#w449",{color:"#ffffff",scale:1,duration:.12},165.05);
+tl.fromTo("#w450",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},165.06);tl.to("#w450",{color:"#ffffff",scale:1,duration:.12},165.59);
+tl.to("#c95",{opacity:0,duration:.1,ease:"power2.in"},165.59);
+tl.from("#c96",{y:24,opacity:0,duration:.14,ease:"power2.out"},165.84);
+tl.fromTo("#w451",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},165.89);tl.to("#w451",{color:"#ffffff",scale:1,duration:.12},166.80);
+tl.fromTo("#w452",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},166.88);tl.to("#w452",{color:"#ffffff",scale:1,duration:.12},167.47);
+tl.fromTo("#w453",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},167.52);tl.to("#w453",{color:"#ffffff",scale:1,duration:.12},167.71);
+tl.fromTo("#w454",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},167.73);tl.to("#w454",{color:"#ffffff",scale:1,duration:.12},168.19);
+tl.fromTo("#w455",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},168.22);tl.to("#w455",{color:"#ffffff",scale:1,duration:.12},168.75);
+tl.to("#c96",{opacity:0,duration:.1,ease:"power2.in"},168.75);
+tl.from("#c97",{y:24,opacity:0,duration:.14,ease:"power2.out"},168.78);
+tl.fromTo("#w456",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},168.83);tl.to("#w456",{color:"#ffffff",scale:1,duration:.12},168.96);
+tl.fromTo("#w457",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},168.97);tl.to("#w457",{color:"#ffffff",scale:1,duration:.12},169.34);
+tl.fromTo("#w458",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},169.37);tl.to("#w458",{color:"#ffffff",scale:1,duration:.12},169.70);
+tl.fromTo("#w459",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},169.73);tl.to("#w459",{color:"#ffffff",scale:1,duration:.12},169.90);
+tl.fromTo("#w460",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},169.91);tl.to("#w460",{color:"#ffffff",scale:1,duration:.12},170.12);
+tl.to("#c97",{opacity:0,duration:.1,ease:"power2.in"},170.12);
+tl.from("#c98",{y:24,opacity:0,duration:.14,ease:"power2.out"},170.09);
+tl.fromTo("#w461",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},170.14);tl.to("#w461",{color:"#ffffff",scale:1,duration:.12},170.26);
+tl.fromTo("#w462",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},170.23);tl.to("#w462",{color:"#ffffff",scale:1,duration:.12},170.48);
+tl.fromTo("#w463",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},170.54);tl.to("#w463",{color:"#ffffff",scale:1,duration:.12},170.99);
+tl.fromTo("#w464",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},171.03);tl.to("#w464",{color:"#ffffff",scale:1,duration:.12},171.33);
+tl.fromTo("#w465",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},171.35);tl.to("#w465",{color:"#ffffff",scale:1,duration:.12},171.50);
+tl.to("#c98",{opacity:0,duration:.1,ease:"power2.in"},171.50);
+tl.from("#c99",{y:24,opacity:0,duration:.14,ease:"power2.out"},171.47);
+tl.fromTo("#w466",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},171.52);tl.to("#w466",{color:"#ffffff",scale:1,duration:.12},171.77);
+tl.fromTo("#w467",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},171.79);tl.to("#w467",{color:"#ffffff",scale:1,duration:.12},171.94);
+tl.fromTo("#w468",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},171.95);tl.to("#w468",{color:"#ffffff",scale:1,duration:.12},172.30);
+tl.to("#c99",{opacity:0,duration:.1,ease:"power2.in"},172.30);
+tl.from("#c100",{y:24,opacity:0,duration:.14,ease:"power2.out"},172.58);
+tl.fromTo("#w469",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},172.63);tl.to("#w469",{color:"#ffffff",scale:1,duration:.12},173.06);
+tl.fromTo("#w470",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},173.10);tl.to("#w470",{color:"#ffffff",scale:1,duration:.12},173.22);
+tl.fromTo("#w471",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},173.22);tl.to("#w471",{color:"#ffffff",scale:1,duration:.12},173.38);
+tl.fromTo("#w472",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},173.40);tl.to("#w472",{color:"#ffffff",scale:1,duration:.12},173.84);
+tl.fromTo("#w473",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},173.87);tl.to("#w473",{color:"#ffffff",scale:1,duration:.12},174.36);
+tl.to("#c100",{opacity:0,duration:.1,ease:"power2.in"},174.36);
+tl.from("#c101",{y:24,opacity:0,duration:.14,ease:"power2.out"},174.35);
+tl.fromTo("#w474",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},174.41);tl.to("#w474",{color:"#ffffff",scale:1,duration:.12},174.73);
+tl.fromTo("#w475",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},174.81);tl.to("#w475",{color:"#ffffff",scale:1,duration:.12},175.24);
+tl.fromTo("#w476",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},175.28);tl.to("#w476",{color:"#ffffff",scale:1,duration:.12},175.59);
+tl.fromTo("#w477",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},175.62);tl.to("#w477",{color:"#ffffff",scale:1,duration:.12},175.74);
+tl.fromTo("#w478",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},175.75);tl.to("#w478",{color:"#ffffff",scale:1,duration:.12},175.98);
+tl.to("#c101",{opacity:0,duration:.1,ease:"power2.in"},175.98);
+tl.from("#c102",{y:24,opacity:0,duration:.14,ease:"power2.out"},175.95);
+tl.fromTo("#w479",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},176.00);tl.to("#w479",{color:"#ffffff",scale:1,duration:.12},176.20);
+tl.fromTo("#w480",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},176.21);tl.to("#w480",{color:"#ffffff",scale:1,duration:.12},176.49);
+tl.fromTo("#w481",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},176.51);tl.to("#w481",{color:"#ffffff",scale:1,duration:.12},176.85);
+tl.fromTo("#w482",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},177.09);tl.to("#w482",{color:"#ffffff",scale:1,duration:.12},177.57);
+tl.fromTo("#w483",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},177.61);tl.to("#w483",{color:"#ffffff",scale:1,duration:.12},177.88);
+tl.to("#c102",{opacity:0,duration:.1,ease:"power2.in"},177.88);
+tl.from("#c103",{y:24,opacity:0,duration:.14,ease:"power2.out"},177.85);
+tl.fromTo("#w484",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},177.91);tl.to("#w484",{color:"#ffffff",scale:1,duration:.12},178.23);
+tl.fromTo("#w485",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},178.25);tl.to("#w485",{color:"#ffffff",scale:1,duration:.12},178.74);
+tl.fromTo("#w486",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},178.78);tl.to("#w486",{color:"#ffffff",scale:1,duration:.12},178.99);
+tl.fromTo("#w487",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},179.05);tl.to("#w487",{color:"#ffffff",scale:1,duration:.12},179.66);
+tl.to("#c103",{opacity:0,duration:.1,ease:"power2.in"},179.66);
+tl.from("#c104",{y:24,opacity:0,duration:.14,ease:"power2.out"},179.89);
+tl.fromTo("#w488",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},179.94);tl.to("#w488",{color:"#ffffff",scale:1,duration:.12},180.24);
+tl.fromTo("#w489",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},180.26);tl.to("#w489",{color:"#ffffff",scale:1,duration:.12},180.56);
+tl.fromTo("#w490",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},180.59);tl.to("#w490",{color:"#ffffff",scale:1,duration:.12},180.79);
+tl.fromTo("#w491",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},180.81);tl.to("#w491",{color:"#ffffff",scale:1,duration:.12},181.30);
+tl.fromTo("#w492",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},181.35);tl.to("#w492",{color:"#ffffff",scale:1,duration:.12},181.50);
+tl.to("#c104",{opacity:0,duration:.1,ease:"power2.in"},181.50);
+tl.from("#c105",{y:24,opacity:0,duration:.14,ease:"power2.out"},181.46);
+tl.fromTo("#w493",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},181.51);tl.to("#w493",{color:"#ffffff",scale:1,duration:.12},181.66);
+tl.fromTo("#w494",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},181.67);tl.to("#w494",{color:"#ffffff",scale:1,duration:.12},182.12);
+tl.fromTo("#w495",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},182.25);tl.to("#w495",{color:"#ffffff",scale:1,duration:.12},182.41);
+tl.fromTo("#w496",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},182.42);tl.to("#w496",{color:"#ffffff",scale:1,duration:.12},182.58);
+tl.fromTo("#w497",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},182.59);tl.to("#w497",{color:"#ffffff",scale:1,duration:.12},183.15);
+tl.to("#c105",{opacity:0,duration:.1,ease:"power2.in"},183.15);
+tl.from("#c106",{y:24,opacity:0,duration:.14,ease:"power2.out"},183.43);
+tl.fromTo("#w498",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},183.48);tl.to("#w498",{color:"#ffffff",scale:1,duration:.12},184.08);
+tl.fromTo("#w499",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},184.13);tl.to("#w499",{color:"#ffffff",scale:1,duration:.12},184.26);
+tl.fromTo("#w500",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},184.28);tl.to("#w500",{color:"#ffffff",scale:1,duration:.12},184.75);
+tl.fromTo("#w501",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},184.79);tl.to("#w501",{color:"#ffffff",scale:1,duration:.12},184.92);
+tl.fromTo("#w502",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},184.97);tl.to("#w502",{color:"#ffffff",scale:1,duration:.12},185.53);
+tl.to("#c106",{opacity:0,duration:.1,ease:"power2.in"},185.53);
+tl.from("#c107",{y:24,opacity:0,duration:.14,ease:"power2.out"},185.53);
+tl.fromTo("#w503",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},185.58);tl.to("#w503",{color:"#ffffff",scale:1,duration:.12},185.82);
+tl.fromTo("#w504",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},185.84);tl.to("#w504",{color:"#ffffff",scale:1,duration:.12},186.12);
+tl.fromTo("#w505",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},186.15);tl.to("#w505",{color:"#ffffff",scale:1,duration:.12},186.52);
+tl.fromTo("#w506",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},186.55);tl.to("#w506",{color:"#ffffff",scale:1,duration:.12},186.79);
+tl.fromTo("#w507",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},186.85);tl.to("#w507",{color:"#ffffff",scale:1,duration:.12},187.24);
+tl.to("#c107",{opacity:0,duration:.1,ease:"power2.in"},187.24);
+tl.from("#c108",{y:24,opacity:0,duration:.14,ease:"power2.out"},187.23);
+tl.fromTo("#w508",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},187.28);tl.to("#w508",{color:"#ffffff",scale:1,duration:.12},187.56);
+tl.fromTo("#w509",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},187.58);tl.to("#w509",{color:"#ffffff",scale:1,duration:.12},188.14);
+tl.to("#c108",{opacity:0,duration:.1,ease:"power2.in"},188.14);
+tl.from("#c109",{y:24,opacity:0,duration:.14,ease:"power2.out"},188.38);
+tl.fromTo("#w510",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},188.43);tl.to("#w510",{color:"#ffffff",scale:1,duration:.12},188.55);
+tl.fromTo("#w511",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},188.52);tl.to("#w511",{color:"#ffffff",scale:1,duration:.12},188.87);
+tl.fromTo("#w512",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},188.90);tl.to("#w512",{color:"#ffffff",scale:1,duration:.12},189.07);
+tl.fromTo("#w513",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},189.09);tl.to("#w513",{color:"#ffffff",scale:1,duration:.12},189.69);
+tl.to("#c109",{opacity:0,duration:.1,ease:"power2.in"},189.69);
+
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>
