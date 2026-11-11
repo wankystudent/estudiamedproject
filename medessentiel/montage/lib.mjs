@@ -97,14 +97,42 @@ export const I = {
 export const item = (icon, text, c) => `<div class="row" style="margin:14px 0">${ico(icon, c)}<div style="font-size:36px;font-weight:700">${text}</div></div>`;
 
 
+// Thème sombre « Reels sans avatar » (THEME=dark) : fond brun, cartes sombres, accent jaune.
+const darkCss = `
+body{background:radial-gradient(1200px 900px at 50% 55%,#6b2a12 0%,#2e1206 55%,#170803 100%)!important}
+.card{background:#140804!important;color:#fff!important;border:2px solid #5b3523;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.card h1,.card h2{color:#fff!important}
+.chip{background:#F5B82E!important;color:#2a1206!important}.chip.red{background:#E5484D!important;color:#fff!important}
+.sub{color:#e3cdbd!important}
+.pill{background:#1f0e07!important;color:#fff!important;border-color:#6b4430}
+[style*="background:#fff"]{background:#1f0e07!important;border-color:#6b4430!important;color:#fff!important}
+[style*="color:#4a5f7a"],[style*="color:#34495e"]{color:#e3cdbd!important}
+[style*="color:#8f1d22"],[style*="color:#6a2a2e"]{color:#ff9a9a!important}
+.card[style*="FFF3F3"],.card[style*="FFF8EC"]{background:#2a0d0a!important}
+.card h1{display:none!important}
+.card{height:auto!important;min-height:300px;padding:34px 36px 44px!important;width:780px!important}
+[style*="color:#0B2545"]{color:#fff!important}
+.chip{font-size:24px!important}
+.card svg{max-width:100%;height:auto}
+`;
 export async function render(out, scenes) {
   fs.mkdirSync(out, { recursive: true });
+  const dark = process.env.THEME === 'dark';
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+  const titles = {};
   for (const [k, body] of Object.entries(scenes)) {
-    await page.setContent(`<html><head><meta charset="utf-8"><style>${css}</style></head><body>${body}</body></html>`);
+    await page.setContent(`<html><head><meta charset="utf-8"><style>${css}${dark ? darkCss : ''}</style></head><body>${body}</body></html>`);
     await page.screenshot({ path: `${out}/${k}.png` });
+    titles[k] = await page.evaluate(() => {
+      const h = document.querySelector('.card h1');
+      const chip = document.querySelector('.card .chip');
+      const raw = document.body.innerText.replace(/MedEssentiel/g, '').replace(/\n{2,}/g, '\n').trim();
+      const c = document.querySelector('.card'); const r = c ? c.getBoundingClientRect() : null;
+      return { card: !!c, title: h ? (() => { const t = document.createElement('div'); t.innerHTML = h.innerHTML.replace(/<br\s*\/?>/gi, ' '); return t.textContent.replace(/\s+/g, ' ').trim(); })() : raw, chip: chip ? chip.innerText : '', rect: r ? { x: r.x, y: r.y, w: r.width, h: r.height } : null };
+    });
   }
+  fs.writeFileSync(`${out}/titles.json`, JSON.stringify(titles, null, 1));
   await browser.close();
   console.log('ok', Object.keys(scenes).length);
 }

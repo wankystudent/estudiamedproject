@@ -50,6 +50,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 2026-10-28 14:20 UTC — Ép. 7 (3:08), 8 (3:10), 9 (3:23) rendus HeyGen terminés et montés (montage v1). Fichiers locaux `ep0X_montage_v1.mp4` (hors dépôt). Contrôle humain (voix, lip-sync, cadrage) et D4 toujours requis ; ép. 10–12 non générés (solde 115 crédits).
 - 2026-10-28 14:12 UTC — Contrôle final des crédits : **59 restants** (328 → 59 = 269 pour les 5 vidéos de 3 min ≈ 54 chacune ; le solde de 115 relevé plus tôt était intermédiaire, les débits se sont faits au fur et à mesure des rendus). Correction : le solde ne couvre plus qu'**1 vidéo de 3 min** (ép. 10, 11 ou 12), pas 2. Renouvellement le 25/11.
 - 2026-10-28 — Versions Facebook 9:16 des ép. 3, 5, 7, 8, 9 produites (`montage/vertical.sh`) ; textes ajoutés dans `facebook/POSTS.md`. Toutes les vidéos générées (ép. 1–9) ont maintenant un montage 16:9 et une version Facebook verticale. Aucune publication effectuée ; D4/D5/D1 toujours ouverts.
+- 2026-11-11 — Demande : vidéos « dans le style » d'un Reel de référence (fond brun, grand titre blanc, carte sombre, accents jaunes), en français, **sans avatar**. Pilote réalisé sur l'ép. 4 : `montage/faceless_frames.mjs` + `faceless.sh` (thème sombre via `THEME=dark`), 1080×1920, narration = audio des vidéos HeyGen déjà générées (voix de l'utilisateur, **aucun crédit**), sous-titres incrustés. Fichier local `ep04_style_reels.mp4`. En attente du retour de l'utilisateur avant déploiement sur les autres épisodes. Rappel crédits HeyGen : 59.
 
 ## Prochaines actions autonomes (ordre)
 
