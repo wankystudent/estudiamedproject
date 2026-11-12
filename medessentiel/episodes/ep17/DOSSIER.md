@@ -238,7 +238,7 @@ Pour conclure. Avant quatre mois : lait seul. Entre quatre et six mois : une fen
 6. Chaise haute + adulte présent ; icônes barrées (noix, raisins entiers, pop-corn, morceaux).
 7. Graphiques : PROBIT (13,2 % → 9,1 %), LEAP (13,7 % → 1,9 %) — reconstruits à partir des chiffres publiés.
 8. Tableau < 4 mois / 4–6 mois ; cartes « Idée reçue / Réalité » ; liste de 6 conseils.
-Style : couleurs du logo (marine #022F72, bleu #0274BB, turquoise #0195B1/#19D3C5), police Inter, mise en page « étapes » validée sur l'épisode 14. Aucun contenu explicite.
+Style : couleurs du logo (marine #022F72, bleu #0274BB, turquoise #0195B1/#19D3C5), police Inter, mise en page « étapes » du pilote de l’épisode 14 (en attente de votre validation). Aucun contenu explicite.
 
 ---
 
