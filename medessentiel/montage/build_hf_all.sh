@@ -29,8 +29,8 @@ for ep in "$@"; do
   (cd $M/ep$ep && THEME=brand node scenes_ep$ep.mjs $S/brand_$ep >/dev/null)
   ARGS=(); for kv in ${PH[$ep]}; do ARGS+=("${kv//_/ }"); done
   T=$(python3 $M/timing.py $SRT ${DUR[$ep]} "${ARGS[@]}")
-  PR=$ROOT/hyperframes/ep$ep; mkdir -p $PR
-  node $M/hf_build.mjs $S/brand_$ep $PR $WORDS $WAV "$T" $ep
+  PR=$ROOT/${PROJ:-hyperframes}/ep$ep; mkdir -p $PR
+  node $M/${BUILDER:-hf_build.mjs} $S/brand_$ep $PR $WORDS $WAV "$T" $ep
   cp $ROOT/hyperframes/ep10/hyperframes.json $PR/; sed "s/medessentiel-ep10/medessentiel-ep$ep/" $ROOT/hyperframes/ep10/package.json > $PR/package.json
   printf 'assets/vo.wav\nrenders/\n*.mp4\n.hyperframes/\nnode_modules/\n' > $PR/.gitignore
 done
