@@ -1,0 +1,1048 @@
+1
+00:00:00,299 --> 00:00:00,775
+Docteur
+
+2
+00:00:01,280 --> 00:00:02,567
+mon bébé a trois mois et demi
+
+3
+00:00:02,816 --> 00:00:04,701
+Il pleure après son biberon Je crois
+
+4
+00:00:04,693 --> 00:00:05,426
+qu'il a encore faim
+
+5
+00:00:05,845 --> 00:00:06,791
+Je peux lui donner de la bouillie
+
+6
+00:00:07,296 --> 00:00:09,266
+C'est une situation très fréquente en consultation
+
+7
+00:00:09,774 --> 00:00:11,360
+Et la réponse n'est pas aussi simple
+
+8
+00:00:11,480 --> 00:00:12,640
+qu'un oui ou un non
+
+9
+00:00:13,099 --> 00:00:14,771
+Dans cette vidéo nous allons voir ce
+
+10
+00:00:14,763 --> 00:00:17,075
+que dit réellement la science sur l'introduction
+
+11
+00:00:17,238 --> 00:00:19,165
+des aliments avant six mois ce qui
+
+12
+00:00:19,158 --> 00:00:21,341
+est démontré ce qui est seulement suspecté
+
+13
+00:00:21,505 --> 00:00:23,133
+et ce que vous pouvez faire dès
+
+14
+00:00:23,126 --> 00:00:23,603
+aujourd'hui
+
+15
+00:00:24,132 --> 00:00:26,230
+Bonjour je suis le docteur Wanky Massenat
+
+16
+00:00:26,607 --> 00:00:30,156
+Bienvenue sur MedEssentiel la médecine clairement expliquée
+
+17
+00:00:30,575 --> 00:00:32,801
+Cette vidéo s'adresse aux parents aux étudiants
+
+18
+00:00:32,794 --> 00:00:34,721
+en médecine et aux professionnels de santé
+
+19
+00:00:35,159 --> 00:00:37,556
+Elle s'appuie sur des recommandations officielles et
+
+20
+00:00:37,548 --> 00:00:39,518
+des études publiées que vous trouverez en
+
+21
+00:00:39,511 --> 00:00:39,817
+description
+
+22
+00:00:40,450 --> 00:00:42,676
+Je distinguerai toujours les faits établis des
+
+23
+00:00:42,668 --> 00:00:44,169
+simples associations statistiques
+
+24
+00:00:44,704 --> 00:00:45,906
+Commençons par les recommandations
+
+25
+00:00:46,709 --> 00:00:49,319
+L'Organisation mondiale de la santé et l'UNICEF
+
+26
+00:00:49,482 --> 00:00:52,732
+recommandent l'allaitement exclusif pendant les six premiers
+
+27
+00:00:52,725 --> 00:00:53,287
+mois de la vie
+
+28
+00:00:53,782 --> 00:00:56,350
+puis l'introduction d'aliments complémentaires à partir de
+
+29
+00:00:56,343 --> 00:00:58,995
+six mois en poursuivant l'allaitement jusqu'à deux
+
+30
+00:00:58,988 --> 00:00:59,464
+ans ou plus
+
+31
+00:01:00,268 --> 00:01:02,152
+L'Académie américaine de pédiatrie aussi
+
+32
+00:01:02,812 --> 00:01:03,204
+En Europe
+
+33
+00:01:03,708 --> 00:01:08,025
+la société européenne de gastroentérologie pédiatrique l'ESPGHAN
+
+34
+00:01:08,487 --> 00:01:11,310
+précise une fenêtre les aliments complémentaires ne
+
+35
+00:01:11,303 --> 00:01:13,614
+doivent pas être introduits avant quatre mois
+
+36
+00:01:13,906 --> 00:01:15,748
+ni retardés au delà de six mois
+
+37
+00:01:16,103 --> 00:01:18,969
+avec un allaitement exclusif ou prédominant d'environ
+
+38
+00:01:19,047 --> 00:01:21,060
+six mois comme objectif souhaitable
+
+39
+00:01:21,863 --> 00:01:24,601
+En France l'Anses recommande de débuter la
+
+40
+00:01:24,594 --> 00:01:26,905
+diversification entre quatre et six mois
+
+41
+00:01:27,308 --> 00:01:29,833
+Retenez donc deux messages jamais avant quatre
+
+42
+00:01:29,825 --> 00:01:31,923
+mois et idéalement autour de six mois
+
+43
+00:01:32,087 --> 00:01:34,441
+selon le développement de l'enfant Pourquoi attendre
+
+44
+00:01:34,860 --> 00:01:37,470
+Première raison le système digestif À la
+
+45
+00:01:37,463 --> 00:01:39,347
+naissance l'intestin est immature
+
+46
+00:01:39,821 --> 00:01:41,065
+Il mûrit progressivement
+
+47
+00:01:41,485 --> 00:01:43,071
+et le lait maternel comme le lait
+
+48
+00:01:43,063 --> 00:01:45,460
+infantile sont parfaitement adaptés à cette étape
+
+49
+00:01:46,135 --> 00:01:47,764
+Les selles du bébé qui débute les
+
+50
+00:01:47,757 --> 00:01:50,367
+solides montrent parfois des fragments d'aliments non
+
+51
+00:01:50,359 --> 00:01:50,879
+digérés
+
+52
+00:01:51,316 --> 00:01:52,774
+Cela ne signifie pas qu'il ne peut
+
+53
+00:01:52,767 --> 00:01:54,566
+rien digérer c'est pour cela qu'il existe
+
+54
+00:01:54,559 --> 00:01:55,121
+une fenêtre
+
+55
+00:01:55,583 --> 00:01:57,339
+Mais la physiologie ne fournit pas une
+
+56
+00:01:57,332 --> 00:01:57,937
+date exacte
+
+57
+00:01:58,356 --> 00:02:00,369
+Elle explique surtout pourquoi le lait doit
+
+58
+00:02:00,361 --> 00:02:01,478
+rester l'aliment principal
+
+59
+00:02:02,041 --> 00:02:03,627
+Deuxième argument les reins
+
+60
+00:02:04,089 --> 00:02:06,358
+Chez le très jeune nourrisson la capacité
+
+61
+00:02:06,350 --> 00:02:08,235
+à concentrer les urines est plus limitée
+
+62
+00:02:08,483 --> 00:02:10,198
+Les aliments riches en protéines ou en
+
+63
+00:02:10,190 --> 00:02:12,246
+sel augmentent la quantité de solutés que
+
+64
+00:02:12,238 --> 00:02:13,312
+les reins doivent éliminer
+
+65
+00:02:13,757 --> 00:02:15,257
+Soyons honnêtes sur le niveau de preuve
+
+66
+00:02:15,335 --> 00:02:17,647
+il s'agit surtout d'un raisonnement physiologique
+
+67
+00:02:18,104 --> 00:02:20,287
+Une petite étude ancienne sur trente neuf
+
+68
+00:02:20,280 --> 00:02:22,293
+nourrissons de moins de trois mois a
+
+69
+00:02:22,285 --> 00:02:24,255
+montré que les solides augmentent bien la
+
+70
+00:02:24,248 --> 00:02:27,157
+charge rénale en solutés sans modifier l'osmolalité
+
+71
+00:02:27,149 --> 00:02:29,076
+plasmatique ni le sodium dans le sang
+
+72
+00:02:29,479 --> 00:02:30,809
+Le risque est donc plausible
+
+73
+00:02:31,228 --> 00:02:32,900
+mais pas démontré chez le bébé sain
+
+74
+00:02:33,234 --> 00:02:35,502
+Et par prudence on ne sale jamais
+
+75
+00:02:35,495 --> 00:02:36,569
+les aliments du nourrisson
+
+76
+00:02:37,705 --> 00:02:39,888
+Troisième argument le développement neuromoteur
+
+77
+00:02:40,307 --> 00:02:42,107
+Avaler une purée à la cuillère demande
+
+78
+00:02:42,099 --> 00:02:43,003
+de tenir sa tête
+
+79
+00:02:43,422 --> 00:02:44,709
+de rester assis avec un peu de
+
+80
+00:02:44,702 --> 00:02:46,800
+soutien de coordonner la langue et la
+
+81
+00:02:46,793 --> 00:02:47,227
+déglutition
+
+82
+00:02:47,681 --> 00:02:49,736
+Chez le tout petit un réflexe pousse
+
+83
+00:02:49,771 --> 00:02:51,955
+la langue vers l'avant et fait ressortir
+
+84
+00:02:51,947 --> 00:02:54,259
+la cuillère il s'estompe en général entre
+
+85
+00:02:54,251 --> 00:02:55,197
+quatre et six mois
+
+86
+00:02:55,650 --> 00:02:57,663
+Les signes de maturité décrits par l'Académie
+
+87
+00:02:57,655 --> 00:02:59,839
+américaine le bébé tient bien sa tête
+
+88
+00:03:00,215 --> 00:03:02,911
+s'assoit avec un soutien regarde votre repas
+
+89
+00:03:03,458 --> 00:03:05,257
+tend la main vers la nourriture et
+
+90
+00:03:05,250 --> 00:03:06,751
+ouvre la bouche quand on la lui
+
+91
+00:03:06,743 --> 00:03:07,049
+approche
+
+92
+00:03:07,613 --> 00:03:08,816
+Doubler son poids de naissance
+
+93
+00:03:09,235 --> 00:03:11,205
+souvent vers quatre mois peut être un
+
+94
+00:03:11,197 --> 00:03:13,466
+indice parmi d'autres mais l'âge seul ne
+
+95
+00:03:13,459 --> 00:03:13,978
+suffit pas
+
+96
+00:03:14,568 --> 00:03:15,514
+Parlons de sécurité
+
+97
+00:03:15,920 --> 00:03:17,463
+Un nourrisson qui n'est pas prêt est
+
+98
+00:03:17,456 --> 00:03:19,980
+plus exposé à l'étouffement c'est un raisonnement
+
+99
+00:03:19,973 --> 00:03:20,322
+logique
+
+100
+00:03:20,784 --> 00:03:23,095
+mais les chiffres disponibles concernent des bébés
+
+101
+00:03:23,088 --> 00:03:23,991
+de six mois et plus
+
+102
+00:03:24,620 --> 00:03:26,377
+Dans un essai contrôlé en Nouvelle Zélande
+
+103
+00:03:26,754 --> 00:03:29,022
+sur deux cent six nourrissons trente cinq
+
+104
+00:03:29,015 --> 00:03:30,473
+pour cent ont eu au moins un
+
+105
+00:03:30,466 --> 00:03:32,820
+épisode d'étouffement entre six et huit mois
+
+106
+00:03:33,111 --> 00:03:34,526
+quelle que soit l'approche alimentaire
+
+107
+00:03:34,974 --> 00:03:38,352
+La leçon texture adaptée bébé assis adulte
+
+108
+00:03:38,430 --> 00:03:41,552
+présent Avant un an l'Académie américaine déconseille
+
+109
+00:03:41,544 --> 00:03:44,197
+notamment les noix les raisins entiers le
+
+110
+00:03:44,190 --> 00:03:46,074
+pop corn les morceaux de viande ou
+
+111
+00:03:46,067 --> 00:03:48,037
+de fromage et les légumes crus durs
+
+112
+00:03:48,644 --> 00:03:49,803
+Qu'en est il des infections
+
+113
+00:03:50,265 --> 00:03:52,534
+Les données montrent que l'allaitement exclusif jusqu'à
+
+114
+00:03:52,526 --> 00:03:54,710
+six mois comparé à trois ou quatre
+
+115
+00:03:54,702 --> 00:03:57,227
+mois suivis d'un allaitement mixte réduit le
+
+116
+00:03:57,262 --> 00:03:58,976
+risque d'infection gastro intestinale
+
+117
+00:03:59,415 --> 00:04:01,385
+C'est la conclusion d'une revue Cochrane
+
+118
+00:04:02,103 --> 00:04:04,500
+Un grand essai en Biélorussie a montré
+
+119
+00:04:04,492 --> 00:04:07,316
+moins d'infections digestives quand l'allaitement était mieux
+
+120
+00:04:07,308 --> 00:04:09,193
+soutenu neuf virgule un pour cent contre
+
+121
+00:04:09,228 --> 00:04:11,946
+treize virgule deux Attention ces résultats portent
+
+122
+00:04:11,939 --> 00:04:14,208
+sur la promotion de l'allaitement pas sur
+
+123
+00:04:14,200 --> 00:04:16,640
+l'effet isolé d'un aliment introduit trop tôt
+
+124
+00:04:17,092 --> 00:04:19,190
+Et une étude écossaise plus ancienne n'a
+
+125
+00:04:19,182 --> 00:04:21,622
+pas trouvé de lien entre introduction précoce
+
+126
+00:04:21,743 --> 00:04:24,822
+et gastroentérites avec seulement une hausse modérée
+
+127
+00:04:24,815 --> 00:04:25,974
+des infections respiratoires
+
+128
+00:04:26,458 --> 00:04:27,447
+Le signal existe
+
+129
+00:04:27,866 --> 00:04:29,196
+mais il n'est pas démontré pour chaque
+
+130
+00:04:29,232 --> 00:04:29,538
+bébé
+
+131
+00:04:30,170 --> 00:04:32,652
+Autre risque que le bébé boive moins
+
+132
+00:04:32,645 --> 00:04:32,908
+de lait
+
+133
+00:04:33,356 --> 00:04:34,942
+Dans trois cohortes britanniques
+
+134
+00:04:35,447 --> 00:04:38,014
+introduire des solides avant quatre mois était
+
+135
+00:04:38,007 --> 00:04:39,763
+associé à un arrêt plus précoce de
+
+136
+00:04:39,756 --> 00:04:42,281
+l'allaitement Dans la plus ancienne le risque
+
+137
+00:04:42,316 --> 00:04:44,414
+d'arrêt était environ deux fois plus élevé
+
+138
+00:04:44,859 --> 00:04:46,999
+Mais association n'est pas causalité
+
+139
+00:04:47,547 --> 00:04:49,858
+Sur la croissance la revue Cochrane ne
+
+140
+00:04:49,851 --> 00:04:52,546
+montre aucun déficit chez les bébés exclusivement
+
+141
+00:04:52,539 --> 00:04:55,254
+allaités six mois Et l'OMS rappelle qu'après
+
+142
+00:04:55,246 --> 00:04:57,430
+six mois le lait seul ne suffit
+
+143
+00:04:57,422 --> 00:04:59,606
+plus retarder trop longtemps comporte aussi des
+
+144
+00:04:59,598 --> 00:05:02,208
+risques dont une altération possible du statut
+
+145
+00:05:02,201 --> 00:05:03,531
+en fer dans certains contextes
+
+146
+00:05:04,022 --> 00:05:05,949
+D'où l'idée d'une fenêtre ni trop tôt
+
+147
+00:05:06,198 --> 00:05:06,802
+ni trop tard
+
+148
+00:05:07,435 --> 00:05:09,661
+Dès six mois tous les nourrissons devraient
+
+149
+00:05:09,654 --> 00:05:11,837
+recevoir des aliments riches en fer comme
+
+150
+00:05:11,830 --> 00:05:13,544
+la viande ou des céréales enrichies
+
+151
+00:05:14,048 --> 00:05:16,567
+Faut il craindre l'obésité Une étude américaine
+
+152
+00:05:16,560 --> 00:05:18,743
+a suivi huit cent quarante sept enfants
+
+153
+00:05:19,290 --> 00:05:20,492
+Chez ceux nourris au biberon
+
+154
+00:05:20,997 --> 00:05:23,266
+introduire des solides avant quatre mois était
+
+155
+00:05:23,258 --> 00:05:25,314
+associé à des chances multipliées par six
+
+156
+00:05:25,434 --> 00:05:26,466
+d'obésité à trois ans
+
+157
+00:05:26,953 --> 00:05:28,753
+Chez les bébés allaités au moins quatre
+
+158
+00:05:28,745 --> 00:05:29,947
+mois aucun lien
+
+159
+00:05:30,409 --> 00:05:31,910
+Mais le groupe au biberon était petit
+
+160
+00:05:32,159 --> 00:05:34,726
+et l'étude est observationnelle Une revue de
+
+161
+00:05:34,719 --> 00:05:36,731
+vingt quatre études n'a pas trouvé d'association
+
+162
+00:05:36,852 --> 00:05:37,158
+claire
+
+163
+00:05:37,686 --> 00:05:39,827
+Pour les maladies métaboliques les données ne
+
+164
+00:05:39,819 --> 00:05:40,765
+permettent pas de conclure
+
+165
+00:05:41,227 --> 00:05:43,411
+Côté allergies c'est le contraire de ce
+
+166
+00:05:43,403 --> 00:05:45,757
+que l'on croyait retarder les aliments allergènes
+
+167
+00:05:45,750 --> 00:05:46,440
+ne protège pas
+
+168
+00:05:46,844 --> 00:05:48,558
+Chez les bébés à risque avec un
+
+169
+00:05:48,550 --> 00:05:50,520
+eczéma sévère ou une allergie à l'œuf
+
+170
+00:05:51,110 --> 00:05:53,336
+introduire l'arachide entre quatre et onze mois
+
+171
+00:05:53,372 --> 00:05:54,872
+a fait passer le taux d'allergie de
+
+172
+00:05:54,865 --> 00:05:57,176
+treize virgule sept à un virgule neuf
+
+173
+00:05:57,169 --> 00:05:57,603
+pour cent
+
+174
+00:05:58,083 --> 00:05:59,669
+Cela se fait sur avis médical
+
+175
+00:06:00,174 --> 00:06:02,059
+et jamais avant quatre mois
+
+176
+00:06:03,169 --> 00:06:05,096
+Résumons la différence entre les deux périodes
+
+177
+00:06:05,388 --> 00:06:08,211
+Avant quatre mois aucun bénéfice n'est démontré
+
+178
+00:06:08,460 --> 00:06:11,624
+et on observe plusieurs associations défavorables arrêt
+
+179
+00:06:11,617 --> 00:06:13,796
+plus précoce de l'allaitement un lien possible
+
+180
+00:06:13,874 --> 00:06:15,673
+avec l'obésité chez le bébé au biberon
+
+181
+00:06:16,008 --> 00:06:19,172
+et l'immaturité digestive rénale et motrice
+
+182
+00:06:19,616 --> 00:06:21,927
+Entre quatre et six mois les autorités
+
+183
+00:06:21,920 --> 00:06:24,743
+divergent l'OMS et l'Académie américaine visent six
+
+184
+00:06:24,736 --> 00:06:28,157
+mois l'ESPGHAN et la France acceptent un
+
+185
+00:06:28,150 --> 00:06:29,949
+début dès quatre mois si le bébé
+
+186
+00:06:29,942 --> 00:06:30,248
+est prêt
+
+187
+00:06:30,682 --> 00:06:32,609
+Des chercheurs ont d'ailleurs critiqué les bases
+
+188
+00:06:32,602 --> 00:06:34,486
+scientifiques de la version précédente de la
+
+189
+00:06:34,479 --> 00:06:35,425
+position européenne
+
+190
+00:06:35,973 --> 00:06:36,534
+Le point commun
+
+191
+00:06:37,039 --> 00:06:39,350
+personne ne recommande de commencer avant quatre
+
+192
+00:06:39,386 --> 00:06:41,399
+mois Quelques idées reçues maintenant
+
+193
+00:06:41,844 --> 00:06:43,942
+Première mon bébé pleure après le biberon
+
+194
+00:06:44,191 --> 00:06:45,564
+il a faim donc je lui donne
+
+195
+00:06:45,556 --> 00:06:45,990
+une bouillie
+
+196
+00:06:46,538 --> 00:06:49,019
+Les pleurs ont de nombreuses causes mieux
+
+197
+00:06:49,012 --> 00:06:50,385
+vaut en parler à son médecin que
+
+198
+00:06:50,378 --> 00:06:51,068
+donner une bouillie
+
+199
+00:06:51,474 --> 00:06:53,956
+Deuxième mon bébé regarde mon assiette il
+
+200
+00:06:53,949 --> 00:06:54,297
+est prêt
+
+201
+00:06:54,717 --> 00:06:56,516
+C'est un signe parmi d'autres il ne
+
+202
+00:06:56,509 --> 00:06:57,540
+suffit pas à lui seul
+
+203
+00:06:58,301 --> 00:07:00,057
+Troisième je vais mettre la bouillie dans
+
+204
+00:07:00,050 --> 00:07:02,426
+le biberon Ce n'est pas recommandé sauf
+
+205
+00:07:02,419 --> 00:07:04,858
+avis médical l'Académie américaine évoque un risque
+
+206
+00:07:04,894 --> 00:07:07,163
+d'étouffement et de prise de poids excessive
+
+207
+00:07:07,454 --> 00:07:10,320
+Quatrième en attendant plus longtemps je préviens
+
+208
+00:07:10,313 --> 00:07:13,109
+les allergies C'est faux retarder les allergènes
+
+209
+00:07:13,102 --> 00:07:15,371
+ne protège pas Concrètement que faire
+
+210
+00:07:15,918 --> 00:07:18,272
+Un avant quatre mois uniquement du lait
+
+211
+00:07:18,265 --> 00:07:20,853
+maternel ou infantile Deux entre quatre et
+
+212
+00:07:20,845 --> 00:07:22,943
+six mois demandez l'avis de votre médecin
+
+213
+00:07:22,936 --> 00:07:25,205
+ou pédiatre avant de commencer surtout si
+
+214
+00:07:25,197 --> 00:07:26,186
+l'allaitement est exclusif
+
+215
+00:07:26,800 --> 00:07:29,325
+Trois commencez en petites quantités avec une
+
+216
+00:07:29,360 --> 00:07:31,928
+texture lisse bébé assis à la cuillère
+
+217
+00:07:32,390 --> 00:07:34,530
+Quatre proposez des aliments riches en fer
+
+218
+00:07:34,779 --> 00:07:36,877
+comme la viande et des légumes variés
+
+219
+00:07:36,998 --> 00:07:39,543
+sans sel ni sucre ajouté Cinq pas
+
+220
+00:07:39,536 --> 00:07:40,652
+de jus de fruits avant un an
+
+221
+00:07:40,901 --> 00:07:42,060
+pas de lait de vache comme boisson
+
+222
+00:07:42,053 --> 00:07:44,876
+principale avant un an Six continuez l'allaitement
+
+223
+00:07:44,954 --> 00:07:46,839
+ou le lait infantile en parallèle
+
+224
+00:07:47,429 --> 00:07:49,314
+Et si votre bébé est né prématuré
+
+225
+00:07:49,392 --> 00:07:51,063
+ou s'il a une maladie particulière
+
+226
+00:07:51,483 --> 00:07:53,495
+suivez les conseils de son équipe médicale
+
+227
+00:07:53,659 --> 00:07:56,140
+ces recommandations concernent les nourrissons nés à
+
+228
+00:07:56,133 --> 00:07:57,463
+terme et en bonne santé
+
+229
+00:07:57,984 --> 00:07:59,314
+Soyons clairs sur ce que nous ne
+
+230
+00:07:59,307 --> 00:07:59,826
+savons pas
+
+231
+00:08:00,331 --> 00:08:02,812
+La plupart des données sur l'introduction précoce
+
+232
+00:08:02,976 --> 00:08:05,629
+sont observationnelles elles montrent des associations
+
+233
+00:08:06,248 --> 00:08:08,431
+souvent influencées par des facteurs comme le
+
+234
+00:08:08,423 --> 00:08:11,417
+niveau d'éducation ou le mode d'alimentation initial
+
+235
+00:08:12,008 --> 00:08:14,617
+Les essais randomisés sont rares et difficiles
+
+236
+00:08:14,610 --> 00:08:14,959
+à mener
+
+237
+00:08:15,446 --> 00:08:17,757
+Les études diffèrent par leurs définitions et
+
+238
+00:08:17,750 --> 00:08:20,275
+leurs contextes pays riches ou pays pauvres
+
+239
+00:08:20,776 --> 00:08:23,344
+Enfin les recommandations évoluent la directive de
+
+240
+00:08:23,336 --> 00:08:25,776
+l'OMS sur l'alimentation complémentaire date de deux
+
+241
+00:08:25,769 --> 00:08:28,720
+mille vingt trois la position de l'ESPGHAN
+
+242
+00:08:28,841 --> 00:08:29,659
+de deux mille dix sept
+
+243
+00:08:30,279 --> 00:08:32,675
+Votre médecin reste la meilleure personne pour
+
+244
+00:08:32,668 --> 00:08:34,254
+adapter ces conseils à votre enfant
+
+245
+00:08:34,673 --> 00:08:35,278
+Pour conclure
+
+246
+00:08:35,868 --> 00:08:37,710
+Avant quatre mois lait seul
+
+247
+00:08:38,248 --> 00:08:40,218
+Entre quatre et six mois une fenêtre
+
+248
+00:08:40,211 --> 00:08:42,351
+possible selon les signes de maturité de
+
+249
+00:08:42,344 --> 00:08:44,655
+l'enfant et l'avis du médecin À partir
+
+250
+00:08:44,648 --> 00:08:46,874
+de six mois des aliments adaptés tout
+
+251
+00:08:46,867 --> 00:08:47,855
+en continuant le lait
+
+252
+00:08:48,296 --> 00:08:51,034
+Ne retardez pas inutilement et ne précipitez
+
+253
+00:08:51,026 --> 00:08:51,332
+rien
+
+254
+00:08:51,880 --> 00:08:53,722
+Le plus important c'est de répondre aux
+
+255
+00:08:53,715 --> 00:08:55,343
+signaux de faim et de satiété de
+
+256
+00:08:55,336 --> 00:08:57,093
+votre bébé et de vous appuyer sur
+
+257
+00:08:57,085 --> 00:08:58,202
+un professionnel de santé
+
+258
+00:08:58,645 --> 00:09:01,042
+Cette vidéo est éducative et ne remplace
+
+259
+00:09:01,120 --> 00:09:01,895
+pas une consultation
+
+260
+00:09:02,485 --> 00:09:04,541
+Abonnez vous et dites nous en commentaire
+
+261
+00:09:04,661 --> 00:09:06,674
+quel sujet médical vous voulez voir expliqué
+
+262
+00:09:07,008 --> 00:09:08,253
+À bientôt sur MedEssentiel
+
