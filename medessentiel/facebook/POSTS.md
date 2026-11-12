@@ -114,3 +114,6 @@ Votre tension est élevée mais vous vous sentez bien ? Justement : l'hypertensi
 
 ## Épisode 15
 Douleur dans la poitrine, bras, mâchoire : chaque minute compte. Les signes de l'infarctus et ce qu'il faut faire, en 3 minutes. Contenu éducatif. #infarctus #urgence #MedEssentiel
+
+## Épisode 16
+MEN KÈK SIY KI KA FÈ W SISPÈK OU GEN TWÒP TRIGLISERID NAN SAN W ! (version créole à publier telle quelle si souhaité) — version française : Triglycérides élevés : le plus souvent aucun symptôme. Les seuils, les signes d'alerte et comment les faire baisser, en 3 minutes. Contenu éducatif. #Triglycérides #Cholestérol #Prévention #MedEssentiel

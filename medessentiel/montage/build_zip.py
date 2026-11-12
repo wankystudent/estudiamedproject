@@ -9,7 +9,7 @@ CATS = [
  ('1_URGENCES', 'Urgences — signes d\'alerte (tout public et soignants)', [(1, 'Grossesse_extra-uterine_5_signes_d_alerte'), (4, 'AVC_signes_FAST'), (6, 'Appendicite'), (10, 'Embolie_pulmonaire'), (13, 'Preeclampsie'), (15, 'Infarctus_du_myocarde')]),
  ('2_CLINIQUE_etudiants', 'Clinique — étudiants en médecine et soignants', [(3, 'Placenta_accreta'), (5, 'NFS_comprendre_les_resultats'), (9, 'Constantes_vitales_en_stage'), (11, 'Les_12_nerfs_craniens')]),
  ('3_GRAND_PUBLIC', 'Grand public — comprendre son corps', [(2, 'Comment_fonctionne_le_coeur'), (12, 'Etapes_de_l_accouchement')]),
- ('4_PREVENTION', 'Prévention — maladies à connaître', [(7, 'Les_reins'), (8, 'Diabete_pourquoi_la_glycemie_augmente'), (14, 'Hypertension_arterielle')]),
+ ('4_PREVENTION', 'Prévention — maladies à connaître', [(7, 'Les_reins'), (8, 'Diabete_pourquoi_la_glycemie_augmente'), (14, 'Hypertension_arterielle'), (16, 'Triglycerides_eleves')]),
 ]
 def srt(ep):
     p = f'{ROOT}/narration/ep{ep:02d}.srt'
