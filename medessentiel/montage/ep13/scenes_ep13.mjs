@@ -19,11 +19,11 @@ r07: `${brand}<div class="card"><span class="chip">DIAGNOSTIC</span><h1>Comment 
 r08: `${brand}<div class="card"><span class="chip">TRAITEMENT</span><h1>Le seul qui guérit</h1>
   ${big('L\'accouchement, avec le placenta')}${item(I.clock, 'Moment décidé selon gravité et terme', TEAL)}${item(I.syringe, 'Antihypertenseurs compatibles avec la grossesse', TEAL)}${item(I.hosp, 'Forme sévère : sulfate de magnésium', TEAL)}</div>`,
 r09: `${brand}<div class="card"><span class="chip">PRÉVENTION</span><h1>Suivi prénatal</h1>
-  ${item(I.syringe, 'Haut risque : aspirine faible dose, sur avis médical', TEAL)}${item(I.warn, 'Jamais sans avis médical', RED)}${item(I.hosp, 'Consultations régulières', TEAL)}</div>`,
+  ${item(I.syringe, 'Antécédent de prééclampsie ou de complication placentaire : aspirine faible dose, avant 16 SA, sur avis médical', TEAL)}${item(I.warn, 'Jamais sans avis médical', RED)}${item(I.hosp, 'Consultations régulières', TEAL)}</div>`,
 r10: `${brand}<div class="card" style="background:#FFF3F3"><span class="chip red">URGENCES</span><h1 style="color:#8f1d22">Sans attendre</h1>
   ${item(I.dizzy, 'Maux de tête violents · troubles visuels', RED)}${item(I.warn, 'Douleur au creux de l\'estomac · visage gonflé', RED)}${item(I.faint, 'Convulsions', RED)}${item(I.phone, 'Moins de mouvements du bébé : appelez la maternité', RED)}</div>`,
 r11: `${brand}<div class="card"><span class="chip">À RETENIR</span><h1>Tension · tête · vision</h1>
   ${big('Douleur sous les côtes : appelez.')}${big('Le suivi continue après l\'accouchement.', '#0274BB')}</div>`,
-r12: outroScene(`Définitions : ACOG, ISSHP, HAS (à vérifier sur les textes intégraux)`),
+r12: outroScene(`CNGOF — RPC Pré-éclampsie 2023<br>(à vérifier sur le texte intégral)`),
 };
 await render(process.argv[2], scenes);

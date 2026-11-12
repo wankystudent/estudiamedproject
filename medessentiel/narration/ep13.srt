@@ -1,360 +1,372 @@
 1
-00:00:00,256 --> 00:00:02,141
+00:00:00,299 --> 00:00:02,013
 Une femme enceinte de trente quatre semaines
 
 2
-00:00:02,133 --> 00:00:03,378
+00:00:02,005 --> 00:00:03,207
 a mal à la tête depuis deux
 
 3
-00:00:03,371 --> 00:00:05,682
+00:00:03,200 --> 00:00:05,469
 jours voit des points brillants et ses
 
 4
-00:00:05,675 --> 00:00:07,602
+00:00:05,461 --> 00:00:07,474
 chevilles gonflent Est ce la fatigue de
 
 5
-00:00:07,595 --> 00:00:08,071
-la grossesse
+00:00:07,467 --> 00:00:09,607
+la grossesse Peut être pas Cela peut
 
 6
-00:00:08,533 --> 00:00:09,949
-Peut être pas Cela peut être une
+00:00:09,600 --> 00:00:11,866
+être une prééclampsie Bonjour je suis le
 
 7
-00:00:09,941 --> 00:00:10,631
-prééclampsie
+00:00:11,858 --> 00:00:14,767
+docteur Wanky Massenat Bienvenue sur MedEssentiel la
 
 8
-00:00:11,066 --> 00:00:13,122
-Bonjour je suis le docteur Wanky Massenat
+00:00:14,760 --> 00:00:18,650
+médecine clairement expliquée Aujourd'hui la prééclampsie une
 
 9
-00:00:13,541 --> 00:00:16,663
-Bienvenue sur MedEssentiel la médecine clairement expliquée
+00:00:18,685 --> 00:00:20,826
+complication de la grossesse à connaître Qu'est
 
 10
-00:00:16,912 --> 00:00:19,735
-Aujourd'hui la prééclampsie une complication de la
+00:00:20,818 --> 00:00:21,252
+ce que c'est
 
 11
-00:00:19,728 --> 00:00:21,314
-grossesse à connaître Qu'est ce que c'est
-
-12
-00:00:21,706 --> 00:00:23,847
+00:00:21,687 --> 00:00:23,614
 La prééclampsie est une maladie de la
 
-13
-00:00:23,839 --> 00:00:26,065
+12
+00:00:23,607 --> 00:00:25,961
 grossesse qui apparaît après vingt semaines
 
-14
-00:00:26,564 --> 00:00:29,089
+13
+00:00:26,502 --> 00:00:29,027
 Elle associe une hypertension artérielle c'est à
 
-15
-00:00:29,081 --> 00:00:31,222
+14
+00:00:29,020 --> 00:00:31,032
 dire une tension supérieure ou égale à
 
-16
-00:00:31,215 --> 00:00:33,868
+15
+00:00:31,025 --> 00:00:33,592
 quatorze sur neuf et selon les définitions
 
-17
-00:00:34,244 --> 00:00:36,257
+16
+00:00:33,926 --> 00:00:35,939
 une atteinte d'un organe le plus souvent
 
-18
-00:00:36,249 --> 00:00:37,409
+17
+00:00:35,932 --> 00:00:37,048
 des protéines dans les urines
 
-19
-00:00:37,935 --> 00:00:39,948
+18
+00:00:37,572 --> 00:00:39,584
 mais aussi le foie les reins ou
 
-20
-00:00:39,941 --> 00:00:40,417
+19
+00:00:39,577 --> 00:00:40,139
 le cerveau
 
-21
-00:00:40,965 --> 00:00:41,697
+20
+00:00:40,644 --> 00:00:41,419
 Pourquoi est ce grave
 
-22
-00:00:42,330 --> 00:00:44,215
+21
+00:00:42,094 --> 00:00:43,979
 Parce que la maladie touche le placenta
 
-23
-00:00:44,335 --> 00:00:45,324
+22
+00:00:44,142 --> 00:00:45,216
 et les vaisseaux de la mère
 
-24
-00:00:45,905 --> 00:00:47,534
+23
+00:00:45,626 --> 00:00:47,383
 Elle peut gêner la croissance du bébé
 
-25
-00:00:47,825 --> 00:00:50,563
+24
+00:00:47,760 --> 00:00:50,370
 provoquer un décollement du placenta et chez
 
-26
-00:00:50,556 --> 00:00:53,080
+25
+00:00:50,362 --> 00:00:52,930
 la mère évoluer vers l'éclampsie c'est à
 
-27
-00:00:53,073 --> 00:00:55,214
+26
+00:00:52,922 --> 00:00:54,935
 dire des convulsions ou vers un syndrome
 
-28
-00:00:55,249 --> 00:00:58,673
+27
+00:00:54,928 --> 00:00:57,843
 appelé HELLP qui associe une atteinte du
 
-29
-00:00:58,665 --> 00:01:00,209
+28
+00:00:57,836 --> 00:00:59,379
 foie et une baisse des plaquettes
 
+29
+00:00:59,883 --> 00:01:02,408
+Quels sont les signes d'alerte D'abord des
+
 30
-00:01:00,628 --> 00:01:01,702
-Quels sont les signes d'alerte
+00:01:02,401 --> 00:01:04,030
+maux de tête intenses et persistants
 
 31
-00:01:02,164 --> 00:01:04,219
-D'abord des maux de tête intenses et
+00:01:04,449 --> 00:01:06,590
+Ensuite des troubles de la vue points
 
 32
-00:01:04,212 --> 00:01:06,993
-persistants Ensuite des troubles de la vue
+00:01:06,582 --> 00:01:09,361
+brillants vision floue Puis une douleur sous
 
 33
-00:01:07,071 --> 00:01:08,785
-points brillants vision floue
+00:01:09,354 --> 00:01:10,940
+les côtes à droite ou au creux
 
 34
-00:01:09,225 --> 00:01:10,853
-Puis une douleur sous les côtes à
+00:01:10,932 --> 00:01:11,537
+de l'estomac
 
 35
-00:01:10,846 --> 00:01:12,987
-droite ou au creux de l'estomac des
+00:01:11,999 --> 00:01:14,737
+des nausées ou des vomissements un gonflement
 
 36
-00:01:12,979 --> 00:01:15,717
-nausées ou des vomissements un gonflement brutal
+00:01:14,730 --> 00:01:16,828
+brutal du visage et des mains et
 
 37
-00:01:15,753 --> 00:01:17,211
-du visage et des mains et une
+00:01:16,820 --> 00:01:17,809
+une prise de poids rapide
 
 38
-00:01:17,203 --> 00:01:18,149
-prise de poids rapide
-
-39
-00:01:18,684 --> 00:01:21,593
+00:01:18,401 --> 00:01:21,139
 Attention la prééclampsie peut aussi être silencieuse
 
-40
-00:01:22,140 --> 00:01:23,555
+39
+00:01:21,473 --> 00:01:22,846
 C'est pour cela que la tension est
 
-41
-00:01:23,548 --> 00:01:25,817
+40
+00:01:22,839 --> 00:01:24,979
 mesurée à chaque consultation prénatale
 
-42
-00:01:26,492 --> 00:01:27,481
+41
+00:01:25,441 --> 00:01:26,601
 Qui est le plus à risque
 
+42
+00:01:27,087 --> 00:01:30,038
+Une première grossesse un antécédent de prééclampsie
+
 43
-00:01:28,051 --> 00:01:28,954
-Une première grossesse
+00:01:30,287 --> 00:01:32,769
+une hypertension ou un diabète déjà présents
 
 44
-00:01:29,374 --> 00:01:32,624
-un antécédent de prééclampsie une hypertension ou
+00:01:32,975 --> 00:01:35,628
+une maladie rénale une grossesse de jumeaux
 
 45
-00:01:32,616 --> 00:01:35,141
-un diabète déjà présents une maladie rénale
+00:01:35,876 --> 00:01:38,316
+l'obésité ou un âge maternel élevé
 
 46
-00:01:35,347 --> 00:01:38,341
-une grossesse de jumeaux l'obésité ou un
-
-47
-00:01:38,334 --> 00:01:39,322
-âge maternel élevé
-
-48
-00:01:39,742 --> 00:01:41,072
+00:01:38,820 --> 00:01:40,022
 Comment fait on le diagnostic
 
-49
-00:01:41,554 --> 00:01:42,671
+47
+00:01:40,587 --> 00:01:41,661
 Par la mesure de la tension
 
-50
-00:01:43,218 --> 00:01:44,975
+48
+00:01:42,293 --> 00:01:44,093
 la recherche de protéines dans les urines
 
-51
-00:01:45,224 --> 00:01:46,852
+49
+00:01:44,341 --> 00:01:46,098
 et une prise de sang qui explore
 
-52
-00:01:46,930 --> 00:01:49,071
+50
+00:01:46,176 --> 00:01:48,445
 le foie les reins et les plaquettes
 
-53
-00:01:49,490 --> 00:01:51,418
+51
+00:01:48,864 --> 00:01:51,005
 Le bébé est surveillé par l'échographie et
 
-54
-00:01:51,410 --> 00:01:53,039
+52
+00:01:50,997 --> 00:01:52,711
 le monitoring Quel est le traitement
 
-55
-00:01:53,568 --> 00:01:55,325
+53
+00:01:53,184 --> 00:01:55,154
 Le seul traitement qui guérit la maladie
 
-56
-00:01:55,446 --> 00:01:57,288
+54
+00:01:55,360 --> 00:01:57,074
 c'est l'accouchement avec le placenta
 
-57
-00:01:57,878 --> 00:01:59,890
+55
+00:01:57,579 --> 00:01:59,549
 Le moment est décidé par l'équipe selon
 
-58
-00:01:59,883 --> 00:02:01,042
+56
+00:01:59,542 --> 00:02:00,701
 la gravité et le terme
 
-59
-00:02:01,595 --> 00:02:04,034
+57
+00:02:01,146 --> 00:02:03,500
 En attendant on surveille de près et
 
-60
-00:02:04,027 --> 00:02:06,552
+58
+00:02:03,493 --> 00:02:06,060
 on traite l'hypertension par des médicaments compatibles
 
+59
+00:02:06,053 --> 00:02:07,852
+avec la grossesse En cas de forme
+
+60
+00:02:07,845 --> 00:02:10,071
+sévère le sulfate de magnésium peut être
+
 61
-00:02:06,544 --> 00:02:07,192
-avec la grossesse
+00:02:10,063 --> 00:02:12,394
+utilisé pour prévenir les convulsions Peut on
 
 62
-00:02:07,952 --> 00:02:09,880
-En cas de forme sévère le sulfate
+00:02:12,387 --> 00:02:12,863
+la prévenir
 
 63
-00:02:09,872 --> 00:02:11,885
-de magnésium peut être utilisé pour prévenir
+00:02:13,325 --> 00:02:14,783
+Chez les femmes qui ont déjà eu
 
 64
-00:02:11,878 --> 00:02:12,440
-les convulsions
+00:02:14,776 --> 00:02:17,045
+une prééclampsie ou une complication liée au
 
 65
-00:02:12,962 --> 00:02:13,738
-Peut on la prévenir
+00:02:17,037 --> 00:02:17,514
+placenta
 
 66
-00:02:14,370 --> 00:02:15,914
-Chez les femmes à haut risque le
+00:02:17,933 --> 00:02:19,733
+le médecin peut proposer de l'aspirine à
 
 67
-00:02:15,906 --> 00:02:17,791
-médecin peut proposer de l'aspirine à faible
+00:02:19,725 --> 00:02:23,274
+faible dose débutée tôt idéalement avant seize
 
 68
-00:02:17,912 --> 00:02:19,967
-dose commencée tôt dans la grossesse
+00:02:23,309 --> 00:02:23,743
+semaines
 
 69
-00:02:20,472 --> 00:02:22,058
-Ne la prenez jamais sans avis médical
+00:02:24,183 --> 00:02:25,726
+Elle n'est pas recommandée à toutes les
 
 70
-00:02:22,758 --> 00:02:24,856
-Un bon suivi prénatal reste la meilleure
+00:02:25,719 --> 00:02:27,902
+femmes enceintes et ne se prend jamais
 
 71
-00:02:24,849 --> 00:02:25,155
-protection
+00:02:27,895 --> 00:02:28,627
+sans avis médical
 
 72
-00:02:25,873 --> 00:02:27,331
-Quand consulter sans attendre
+00:02:29,388 --> 00:02:31,699
+Un bon suivi prénatal reste la meilleure
 
 73
-00:02:27,826 --> 00:02:29,070
-Si vous êtes enceinte et que vous
+00:02:31,692 --> 00:02:32,041
+protection
 
 74
-00:02:29,063 --> 00:02:30,180
-avez des maux de tête violents
+00:02:32,716 --> 00:02:35,010
+Quand consulter sans attendre Si vous êtes
 
 75
-00:02:30,599 --> 00:02:32,867
-des troubles visuels une douleur au creux
+00:02:35,003 --> 00:02:36,333
+enceinte et que vous avez des maux
 
 76
-00:02:32,860 --> 00:02:35,427
-de l'estomac un gonflement brutal du visage
+00:02:36,326 --> 00:02:37,016
+de tête violents
 
 77
-00:02:35,847 --> 00:02:38,371
-des convulsions ou une diminution des mouvements
+00:02:37,520 --> 00:02:38,466
+des troubles visuels
 
 78
-00:02:38,364 --> 00:02:38,841
-du bébé
+00:02:38,886 --> 00:02:40,984
+une douleur au creux de l'estomac un
 
 79
-00:02:39,325 --> 00:02:42,233
-appelez votre maternité ou les urgences immédiatement
+00:02:40,976 --> 00:02:42,392
+gonflement brutal du visage
 
 80
-00:02:42,823 --> 00:02:43,641
-Retenez tension
+00:02:42,896 --> 00:02:45,421
+des convulsions ou une diminution des mouvements
 
 81
-00:02:44,231 --> 00:02:45,433
-maux de tête vision
+00:02:45,414 --> 00:02:45,848
+du bébé
 
 82
-00:02:45,938 --> 00:02:48,026
-douleur sous les côtes Et le suivi
+00:02:46,334 --> 00:02:48,987
+appelez votre maternité ou les urgences immédiatement
 
 83
-00:02:48,019 --> 00:02:50,373
-continue après l'accouchement car la maladie peut
+00:02:49,278 --> 00:02:50,224
+Retenez tension
 
 84
-00:02:50,366 --> 00:02:52,293
-apparaître ou persister dans les jours qui
+00:02:50,942 --> 00:02:52,272
+maux de tête vision
 
 85
-00:02:52,286 --> 00:02:52,677
-suivent
+00:02:52,820 --> 00:02:53,851
+douleur sous les côtes
 
 86
-00:02:53,438 --> 00:02:55,408
-Cette vidéo est éducative et ne remplace
+00:02:54,343 --> 00:02:56,185
+Et le suivi continue après l'accouchement
 
 87
-00:02:55,486 --> 00:02:56,218
-pas une consultation
+00:02:56,647 --> 00:02:58,574
+car la maladie peut apparaître ou persister
 
 88
-00:02:56,831 --> 00:02:58,801
-Abonnez vous et dites nous en commentaire
+00:02:58,823 --> 00:02:59,854
+dans les jours qui suivent
 
 89
-00:02:58,964 --> 00:03:01,489
-quel sujet médical vous voulez voir expliqué
+00:03:00,657 --> 00:03:01,774
+Cette vidéo est éducative
 
 90
-00:03:01,652 --> 00:03:02,684
+00:03:02,193 --> 00:03:03,651
+et ne remplace pas une consultation
+
+91
+00:03:04,263 --> 00:03:06,147
+Abonnez vous et dites nous en commentaire
+
+92
+00:03:06,268 --> 00:03:08,323
+quel sujet médical vous voulez voir expliqué
+
+93
+00:03:08,700 --> 00:03:09,902
 À bientôt sur MedEssentiel
 

@@ -18,7 +18,7 @@ Troisième étape : la délivrance. C'est l'expulsion du placenta et des membran
 
 Et la douleur ? L'accouchement est douloureux, mais il existe des solutions : la respiration, la mobilité, le soutien d'un accompagnant, et l'analgésie péridurale, proposée selon les situations et les souhaits de la patiente.
 
-Quand partir à la maternité ? Les consignes varient selon la maternité. En général, il faut les contacter quand les contractions deviennent régulières, rapprochées et de plus en plus douloureuses, ou si vous perdez du liquide : c'est la rupture de la poche des eaux. Appelez aussi dès la perte du bouchon muqueux, si vous avez un doute. Suivez les consignes données par votre maternité.
+Quand partir à la maternité ? Les consignes varient selon la maternité. En général, il faut les contacter quand les contractions deviennent régulières, rapprochées et de plus en plus douloureuses, ou si vous perdez du liquide : c'est la rupture de la poche des eaux. La perte du bouchon muqueux seule n'est pas une urgence ; si elle survient avant le terme, ou si vous avez un doute, appelez votre maternité. Suivez les consignes données par votre maternité.
 
 Quand faut-il aller aux urgences sans attendre ? En cas de saignement vaginal abondant, de diminution nette des mouvements du bébé, de fièvre, de liquide verdâtre ou malodorant, de douleur très intense et continue, ou de contractions avant le terme. Dans ces situations, n'attendez pas.
 

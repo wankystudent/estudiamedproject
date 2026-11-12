@@ -91,238 +91,230 @@ des vomissements et parfois une pancréatite c'est
 à dire une inflammation du pancréas
 
 24
-00:00:50,694 --> 00:00:52,195
+00:00:50,694 --> 00:00:52,238
 On peut aussi voir de petites bosses
 
 25
-00:00:52,188 --> 00:00:53,902
+00:00:52,230 --> 00:00:54,030
 jaunes sur la peau surtout sur les
 
 26
-00:00:53,894 --> 00:00:56,120
+00:00:54,022 --> 00:00:56,334
 fesses les cuisses les coudes et les
 
 27
-00:00:56,113 --> 00:00:58,254
-genoux des taches jaunes sur les paupières
+00:00:56,326 --> 00:00:58,680
+genoux et dans certains cas un foie
 
 28
-00:00:58,460 --> 00:01:00,558
-et dans certains cas un foie ou
+00:00:58,758 --> 00:01:00,600
+ou une rate augmentés de volume Quel
 
 29
-00:01:00,550 --> 00:01:01,582
-une rate augmentés de volume
+00:01:00,636 --> 00:01:02,755
+taux est considéré comme élevé Voici les
 
 30
-00:01:02,134 --> 00:01:04,403
-Quel taux est considéré comme élevé Voici
+00:01:02,748 --> 00:01:05,955
+repères en milligrammes par décilitre En France
 
 31
-00:01:04,396 --> 00:01:06,579
-les repères en milligrammes par décilitre
+00:01:06,374 --> 00:01:08,174
+les résultats sont souvent donnés en grammes
 
 32
-00:01:06,998 --> 00:01:09,096
-En France les résultats sont souvent donnés
+00:01:08,166 --> 00:01:10,051
+par litre divisez simplement par cent
 
 33
-00:01:09,089 --> 00:01:11,187
-en grammes par litre divisez simplement par
-
-34
-00:01:11,180 --> 00:01:11,443
-cent
-
-35
-00:01:11,892 --> 00:01:13,606
+00:01:10,513 --> 00:01:12,611
 Moins de cent cinquante soit un virgule
 
-36
-00:01:13,599 --> 00:01:14,886
+34
+00:01:12,604 --> 00:01:13,806
 cinq gramme par litre normal
 
-37
-00:01:15,689 --> 00:01:17,233
+35
+00:01:14,544 --> 00:01:16,172
 De cent cinquante à cent quatre vingt
 
-38
-00:01:17,225 --> 00:01:18,299
+36
+00:01:16,165 --> 00:01:17,196
 dix neuf limite haute
 
-39
-00:01:18,804 --> 00:01:20,304
+37
+00:01:17,658 --> 00:01:19,031
 De deux cents à quatre cent quatre
 
+38
+00:01:19,024 --> 00:01:21,164
+vingt dix neuf élevé Cinq cents ou
+
+39
+00:01:21,157 --> 00:01:23,596
+plus très élevé Les seuils exacts peuvent
+
 40
-00:01:20,297 --> 00:01:21,243
-vingt dix neuf élevé
+00:01:23,589 --> 00:01:24,791
+varier selon les recommandations
 
 41
-00:01:21,731 --> 00:01:24,084
-Cinq cents ou plus très élevé Les
+00:01:25,439 --> 00:01:27,196
+Pourquoi le taux monte t il Un
 
 42
-00:01:24,077 --> 00:01:26,474
-seuils exacts peuvent varier selon les recommandations
+00:01:27,188 --> 00:01:28,988
+excès de sucres et de boissons sucrées
 
 43
-00:01:26,765 --> 00:01:27,839
-Pourquoi le taux monte t il
+00:01:29,194 --> 00:01:31,761
+l'alcool une alimentation trop riche en graisses
 
 44
-00:01:28,377 --> 00:01:30,005
-Un excès de sucres et de boissons
+00:01:31,754 --> 00:01:34,236
+saturées le surpoids et le manque d'activité
 
 45
-00:01:29,998 --> 00:01:33,163
-sucrées l'alcool une alimentation trop riche en
+00:01:34,228 --> 00:01:35,260
+physique y contribuent
 
 46
-00:01:33,155 --> 00:01:35,467
-graisses saturées le surpoids et le manque
-
-47
-00:01:35,459 --> 00:01:36,917
-d'activité physique y contribuent
-
-48
-00:01:37,356 --> 00:01:40,265
+00:01:35,840 --> 00:01:38,535
 Certaines maladies comme le diabète et certains
 
-49
-00:01:40,257 --> 00:01:42,398
+47
+00:01:38,528 --> 00:01:40,626
 médicaments peuvent aussi l'augmenter c'est une raison
 
-50
-00:01:42,519 --> 00:01:43,763
+48
+00:01:40,704 --> 00:01:42,034
 de plus d'en parler à votre médecin
 
-51
-00:01:44,396 --> 00:01:47,091
+49
+00:01:42,453 --> 00:01:44,978
 Comment les faire baisser Réduisez le sucre
 
-52
-00:01:47,127 --> 00:01:49,418
+50
+00:01:44,971 --> 00:01:47,174
 et les boissons sucrées Limitez l'alcool
 
+51
+00:01:47,636 --> 00:01:50,075
+Évitez l'excès de graisses saturées Mangez du
+
+52
+00:01:50,068 --> 00:01:52,934
+poisson riche en oméga trois Bougez régulièrement
+
 53
-00:01:50,093 --> 00:01:51,722
-Évitez l'excès de graisses saturées
-
-54
-00:01:52,141 --> 00:01:54,068
-Mangez du poisson riche en oméga trois
-
-55
-00:01:54,488 --> 00:01:55,604
-Bougez régulièrement
-
-56
-00:01:56,066 --> 00:01:58,164
+00:01:53,225 --> 00:01:55,238
 Gardez un poids sain Et arrêtez de
 
-57
-00:01:58,114 --> 00:02:00,248
+54
+00:01:55,188 --> 00:01:57,359
 fumer Si le taux reste élevé ou
 
-58
-00:02:00,241 --> 00:02:02,211
+55
+00:01:57,351 --> 00:01:59,407
 s'il est très élevé le médecin peut
 
-59
-00:02:02,204 --> 00:02:04,046
+56
+00:01:59,399 --> 00:02:01,156
 proposer un traitement ne prenez pas de
 
-60
-00:02:04,038 --> 00:02:05,752
+57
+00:02:01,149 --> 00:02:02,863
 médicament de votre propre initiative
 
+58
+00:02:03,410 --> 00:02:04,313
+Le point essentiel
+
+59
+00:02:04,733 --> 00:02:07,300
+Des triglycérides élevés ne donnent souvent aucun
+
+60
+00:02:07,293 --> 00:02:07,769
+signe
+
 61
-00:02:06,385 --> 00:02:09,550
-Le point essentiel Des triglycérides élevés ne
-
-62
-00:02:09,542 --> 00:02:10,830
-donnent souvent aucun signe
-
-63
-00:02:11,303 --> 00:02:13,188
+00:02:08,212 --> 00:02:10,097
 N'attendez pas les symptômes pour faire un
 
-64
-00:02:13,180 --> 00:02:13,956
+62
+00:02:10,090 --> 00:02:10,908
 bilan lipidique
 
-65
-00:02:14,505 --> 00:02:16,261
+63
+00:02:11,414 --> 00:02:13,171
 À partir de cinq cents milligrammes par
 
-66
-00:02:16,254 --> 00:02:18,864
+64
+00:02:13,163 --> 00:02:15,901
 décilitre soit cinq grammes par litre le
 
+65
+00:02:15,894 --> 00:02:18,333
+risque de pancréatite commence à augmenter et
+
+66
+00:02:18,326 --> 00:02:20,253
+il devient surtout important au delà de
+
 67
-00:02:18,899 --> 00:02:21,467
-risque de pancréatite augmente surtout au delà
+00:02:20,246 --> 00:02:22,344
+mille soit dix grammes par litre
 
 68
-00:02:21,459 --> 00:02:23,557
-de mille soit dix grammes par litre
-
-69
-00:02:24,190 --> 00:02:25,349
+00:02:22,785 --> 00:02:23,987
 Quand consulter en urgence
 
-70
-00:02:25,795 --> 00:02:27,423
+69
+00:02:25,089 --> 00:02:27,059
 Devant une douleur intense dans le haut
 
-71
-00:02:27,416 --> 00:02:30,623
+70
+00:02:27,052 --> 00:02:30,174
 du ventre avec nausées ou vomissements surtout
 
-72
-00:02:30,616 --> 00:02:32,245
+71
+00:02:30,167 --> 00:02:31,881
 si vous savez que vos triglycérides sont
 
+72
+00:02:31,873 --> 00:02:34,142
+très élevés Dans ce cas allez aux
+
 73
-00:02:32,237 --> 00:02:32,885
-très élevés
+00:02:34,092 --> 00:02:34,526
+urgences
 
 74
-00:02:33,432 --> 00:02:34,933
-Dans ce cas allez aux urgences
+00:02:35,050 --> 00:02:37,618
+Retenez un bilan lipidique régulier moins de
 
 75
-00:02:35,502 --> 00:02:37,600
-Retenez un bilan lipidique régulier
+00:02:37,611 --> 00:02:40,348
+sucre moins d'alcool plus de mouvement Cette
 
 76
-00:02:38,105 --> 00:02:40,544
-moins de sucre moins d'alcool plus de
+00:02:40,341 --> 00:02:42,439
+vidéo est éducative et ne remplace pas
 
 77
-00:02:40,536 --> 00:02:40,928
-mouvement
+00:02:42,432 --> 00:02:42,994
+une consultation
 
 78
-00:02:41,433 --> 00:02:43,616
-Cette vidéo est éducative et ne remplace
-
-79
-00:02:43,651 --> 00:02:44,426
-pas une consultation
-
-80
-00:02:45,042 --> 00:02:47,013
+00:02:43,655 --> 00:02:45,539
 Abonnez vous et dites nous en commentaire
 
-81
-00:02:47,133 --> 00:02:49,274
+79
+00:02:45,618 --> 00:02:47,630
 quel sujet médical vous voulez voir expliqué
 
-82
-00:02:49,949 --> 00:02:51,109
+80
+00:02:48,092 --> 00:02:49,252
 À bientôt sur MedEssentiel
 

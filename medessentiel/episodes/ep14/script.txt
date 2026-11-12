@@ -2,7 +2,7 @@ Votre tension est élevée, mais vous vous sentez très bien. Pas de douleur, pa
 
 Bonjour, je suis le docteur Wanky Massenat. Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui : l'hypertension artérielle, ce que tout le monde devrait savoir.
 
-Qu'est-ce que la tension artérielle ? C'est la pression du sang sur la paroi des artères. Elle s'exprime par deux chiffres : la pression systolique, quand le cœur se contracte, et la pression diastolique, quand il se relâche. On parle d'hypertension quand, au cabinet médical, la tension reste égale ou supérieure à quatorze sur neuf, sur plusieurs mesures. À domicile, le seuil est un peu plus bas : environ treize cinq sur huit cinq. Les seuils exacts dépendent des recommandations, et c'est le médecin qui pose le diagnostic.
+Qu'est-ce que la tension artérielle ? C'est la pression du sang sur la paroi des artères. Elle s'exprime par deux chiffres : la pression systolique, quand le cœur se contracte, et la pression diastolique, quand il se relâche. On parle d'hypertension quand, au cabinet médical, la tension reste égale ou supérieure à quatorze sur neuf, sur plusieurs mesures. À domicile, le seuil est un peu plus bas : environ treize cinq sur huit cinq. Les seuils exacts dépendent des recommandations, et c'est le médecin qui pose le diagnostic, souvent après des mesures à domicile ou sur vingt-quatre heures.
 
 Pourquoi parle-t-on de tueur silencieux ? Parce que l'hypertension ne donne souvent aucun symptôme pendant des années. Pourtant, elle abîme lentement les artères, le cœur, les reins, les yeux et le cerveau. Elle augmente le risque d'accident vasculaire cérébral, d'infarctus, d'insuffisance cardiaque et d'insuffisance rénale.
 
@@ -10,7 +10,7 @@ Quelles sont les causes ? Dans la grande majorité des cas, il n'y a pas une cau
 
 Comment bien mesurer sa tension ? Restez assis cinq minutes au calme, le dos soutenu, les jambes non croisées. Posez le bras à hauteur du cœur, avec un brassard adapté. Ne parlez pas pendant la mesure, évitez le café et le tabac dans la demi-heure qui précède. Faites deux mesures, et notez les résultats.
 
-Que faire pour la faire baisser ? D'abord, les mesures de mode de vie. Réduire le sel, en évitant les produits très salés et les plats industriels. Bouger régulièrement, par exemple une marche rapide la plupart des jours. Perdre du poids si nécessaire. Limiter l'alcool, arrêter le tabac. Si cela ne suffit pas, le médecin propose un traitement. Il se prend régulièrement, même quand on se sent bien. Ne l'arrêtez jamais seul.
+Que faire pour la faire baisser ? D'abord, les mesures de mode de vie. Réduire le sel : l'OMS recommande moins de cinq grammes par jour, soit un peu moins d'une cuillère à café, en évitant les produits très salés et les plats industriels. Bouger régulièrement, par exemple une marche rapide la plupart des jours. Perdre du poids si nécessaire. Limiter l'alcool, arrêter le tabac. Si cela ne suffit pas, le médecin propose un traitement. Il se prend régulièrement, même quand on se sent bien. Ne l'arrêtez jamais seul.
 
 Quand faut-il consulter en urgence ? Si une tension très élevée s'accompagne d'une douleur dans la poitrine, d'un essoufflement, d'un mal de tête brutal, d'une faiblesse d'un côté du corps, d'un trouble de la parole ou de la vue. Dans ces cas, appelez les urgences.
 

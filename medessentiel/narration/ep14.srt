@@ -1,312 +1,344 @@
 1
-00:00:00,299 --> 00:00:02,311
+00:00:00,299 --> 00:00:02,141
 Votre tension est élevée mais vous vous
 
 2
-00:00:02,304 --> 00:00:04,445
+00:00:02,133 --> 00:00:04,274
 sentez très bien Pas de douleur pas
 
 3
-00:00:04,437 --> 00:00:04,829
+00:00:04,267 --> 00:00:04,701
 de malaise
 
 4
-00:00:05,376 --> 00:00:06,237
+00:00:05,291 --> 00:00:06,109
 Faut il s'inquiéter
 
 5
-00:00:06,912 --> 00:00:09,223
+00:00:06,699 --> 00:00:08,797
 Oui et c'est justement tout le problème
 
 6
-00:00:09,216 --> 00:00:11,893
-de l'hypertension artérielle Bonjour je suis le
+00:00:08,789 --> 00:00:10,034
+de l'hypertension artérielle
 
 7
-00:00:11,885 --> 00:00:14,581
-docteur Wanky Massenat Bienvenue sur MedEssentiel la
+00:00:10,443 --> 00:00:12,626
+Bonjour je suis le docteur Wanky Massenat
 
 8
-00:00:14,573 --> 00:00:18,890
-médecine clairement expliquée Aujourd'hui l'hypertension artérielle ce
+00:00:12,960 --> 00:00:16,039
+Bienvenue sur MedEssentiel la médecine clairement expliquée
 
 9
-00:00:18,883 --> 00:00:20,170
-que tout le monde devrait savoir
+00:00:16,160 --> 00:00:19,026
+Aujourd'hui l'hypertension artérielle ce que tout le
 
 10
-00:00:20,632 --> 00:00:22,602
-Qu'est ce que la tension artérielle C'est
+00:00:19,019 --> 00:00:19,794
+monde devrait savoir
 
 11
-00:00:22,595 --> 00:00:24,138
-la pression du sang sur la paroi
+00:00:20,299 --> 00:00:22,418
+Qu'est ce que la tension artérielle C'est
 
 12
-00:00:24,131 --> 00:00:24,650
-des artères
+00:00:22,410 --> 00:00:24,082
+la pression du sang sur la paroi
 
 13
-00:00:25,368 --> 00:00:27,381
-Elle s'exprime par deux chiffres la pression
+00:00:24,075 --> 00:00:26,386
+des artères Elle s'exprime par deux chiffres
 
 14
-00:00:27,501 --> 00:00:29,898
-systolique quand le cœur se contracte et
+00:00:26,506 --> 00:00:28,391
+la pression systolique quand le cœur se
 
 15
-00:00:29,890 --> 00:00:31,903
-la pression diastolique quand il se relâche
+00:00:28,384 --> 00:00:30,994
+contracte et la pression diastolique quand il
 
 16
-00:00:32,351 --> 00:00:34,876
-On parle d'hypertension quand au cabinet médical
+00:00:30,986 --> 00:00:31,463
+se relâche
 
 17
-00:00:35,338 --> 00:00:37,521
-la tension reste égale ou supérieure à
+00:00:31,993 --> 00:00:34,561
+On parle d'hypertension quand au cabinet médical
 
 18
-00:00:37,514 --> 00:00:40,167
-quatorze sur neuf sur plusieurs mesures À
+00:00:35,151 --> 00:00:37,248
+la tension reste égale ou supérieure à
 
 19
-00:00:40,159 --> 00:00:42,001
-domicile le seuil est un peu plus
+00:00:37,241 --> 00:00:39,894
+quatorze sur neuf sur plusieurs mesures À
 
 20
-00:00:41,994 --> 00:00:44,049
-bas environ treize cinq sur huit cinq
+00:00:39,886 --> 00:00:41,686
+domicile le seuil est un peu plus
 
 21
-00:00:44,535 --> 00:00:46,591
-Les seuils exacts dépendent des recommandations
+00:00:41,678 --> 00:00:43,905
+bas environ treize cinq sur huit cinq
 
 22
-00:00:47,095 --> 00:00:48,383
-et c'est le médecin qui pose le
+00:00:44,429 --> 00:00:46,612
+Les seuils exacts dépendent des recommandations
 
 23
-00:00:48,375 --> 00:00:48,895
-diagnostic
+00:00:47,074 --> 00:00:48,489
+et c'est le médecin qui pose le
 
 24
-00:00:49,613 --> 00:00:51,412
-Pourquoi parle t on de tueur silencieux
+00:00:48,482 --> 00:00:51,049
+diagnostic souvent après des mesures à domicile
 
 25
-00:00:51,831 --> 00:00:54,143
-Parce que l'hypertension ne donne souvent aucun
+00:00:51,085 --> 00:00:51,903
+ou sur vingt quatre heures
 
 26
-00:00:54,135 --> 00:00:57,152
-symptôme pendant des années Pourtant elle abîme
+00:00:52,578 --> 00:00:54,506
+Pourquoi parle t on de tueur silencieux
 
 27
-00:00:57,187 --> 00:00:59,797
-lentement les artères le cœur les reins
+00:00:54,778 --> 00:00:57,218
+Parce que l'hypertension ne donne souvent aucun
 
 28
-00:01:00,003 --> 00:01:02,229
-les yeux et le cerveau Elle augmente
+00:00:57,210 --> 00:00:58,626
+symptôme pendant des années
 
 29
-00:01:02,222 --> 00:01:06,368
-le risque d'accident vasculaire cérébral d'infarctus d'insuffisance
+00:00:59,130 --> 00:01:01,911
+Pourtant elle abîme lentement les artères le
 
 30
-00:01:06,403 --> 00:01:08,202
-cardiaque et d'insuffisance rénale
+00:01:01,904 --> 00:01:03,874
+cœur les reins les yeux et le
 
 31
-00:01:08,718 --> 00:01:09,621
-Quelles sont les causes
+00:01:03,824 --> 00:01:06,541
+cerveau Elle augmente le risque d'accident vasculaire
 
 32
-00:01:10,126 --> 00:01:11,968
-Dans la grande majorité des cas il
+00:01:06,576 --> 00:01:08,077
+cérébral d'infarctus
 
 33
-00:01:11,960 --> 00:01:13,461
-n'y a pas une cause unique c'est
+00:01:08,539 --> 00:01:11,021
+d'insuffisance cardiaque et d'insuffisance rénale
 
 34
-00:01:13,454 --> 00:01:14,528
-l'association de facteurs
+00:01:11,483 --> 00:01:12,343
+Quelles sont les causes
 
 35
-00:01:14,990 --> 00:01:18,751
-L'âge l'hérédité l'excès de sel le surpoids
+00:01:12,877 --> 00:01:14,847
+Dans la grande majorité des cas il
 
 36
-00:01:18,957 --> 00:01:21,866
-le manque d'activité physique l'alcool le tabac
+00:01:14,840 --> 00:01:16,639
+n'y a pas une cause unique c'est
 
 37
-00:01:22,260 --> 00:01:24,486
-Parfois une maladie des reins ou des
+00:01:16,632 --> 00:01:20,564
+l'association de facteurs L'âge l'hérédité l'excès de
 
 38
-00:01:24,478 --> 00:01:26,875
-glandes surrénales est en cause notamment chez
+00:01:20,557 --> 00:01:20,778
+sel
 
 39
-00:01:26,868 --> 00:01:27,600
-les personnes jeunes
+00:01:21,197 --> 00:01:24,447
+le surpoids le manque d'activité physique l'alcool
 
 40
-00:01:28,105 --> 00:01:29,520
-Comment bien mesurer sa tension
+00:01:24,866 --> 00:01:25,386
+le tabac
 
 41
-00:01:29,983 --> 00:01:32,166
-Restez assis cinq minutes au calme le
+00:01:25,905 --> 00:01:28,003
+Parfois une maladie des reins ou des
 
 42
-00:01:32,201 --> 00:01:34,513
-dos soutenu les jambes non croisées
+00:01:27,995 --> 00:01:30,221
+glandes surrénales est en cause notamment chez
 
 43
-00:01:34,951 --> 00:01:36,452
-Posez le bras à hauteur du cœur
+00:01:30,214 --> 00:01:30,904
+les personnes jeunes
 
 44
-00:01:36,700 --> 00:01:38,030
-avec un brassard adapté
+00:01:31,494 --> 00:01:32,696
+Comment bien mesurer sa tension
 
 45
-00:01:38,578 --> 00:01:40,548
-Ne parlez pas pendant la mesure évitez
+00:01:33,457 --> 00:01:35,853
+Restez assis cinq minutes au calme le
 
 46
-00:01:40,540 --> 00:01:41,785
-le café et le tabac dans la
+00:01:35,889 --> 00:01:38,072
+dos soutenu les jambes non croisées
 
 47
-00:01:41,778 --> 00:01:44,089
-demi heure qui précède Faites deux mesures
+00:01:38,592 --> 00:01:40,220
+Posez le bras à hauteur du cœur
 
 48
-00:01:44,210 --> 00:01:46,409
-et notez les résultats Que faire pour
+00:01:40,426 --> 00:01:41,714
+avec un brassard adapté
 
 49
-00:01:46,401 --> 00:01:47,006
-la faire baisser
+00:01:42,304 --> 00:01:44,444
+Ne parlez pas pendant la mesure évitez
 
 50
-00:01:47,510 --> 00:01:49,438
-D'abord les mesures de mode de vie
+00:01:44,437 --> 00:01:45,810
+le café et le tabac dans la
 
 51
-00:01:49,857 --> 00:01:52,168
-Réduire le sel en évitant les produits
+00:01:45,802 --> 00:01:48,199
+demi heure qui précède Faites deux mesures
 
 52
-00:01:52,204 --> 00:01:53,918
-très salés et les plats industriels
+00:01:48,320 --> 00:01:49,351
+et notez les résultats
 
 53
-00:01:54,422 --> 00:01:56,990
-Bouger régulièrement par exemple une marche rapide
+00:01:49,878 --> 00:01:51,763
+Que faire pour la faire baisser D'abord
 
 54
-00:01:56,983 --> 00:01:57,801
-la plupart des jours
+00:01:52,097 --> 00:01:53,427
+les mesures de mode de vie
 
 55
-00:01:58,244 --> 00:01:59,659
-Perdre du poids si nécessaire
+00:01:53,927 --> 00:01:56,409
+Réduire le sel l'OMS recommande moins de
 
 56
-00:02:00,079 --> 00:02:02,945
-Limiter l'alcool arrêter le tabac Si cela
+00:01:56,402 --> 00:01:57,476
+cinq grammes par jour
 
 57
-00:02:02,937 --> 00:02:04,694
-ne suffit pas le médecin propose un
+00:01:57,895 --> 00:01:59,225
+soit un peu moins d'une cuillère à
 
 58
-00:02:04,687 --> 00:02:07,254
-traitement Il se prend régulièrement même quand
+00:01:59,218 --> 00:02:01,700
+café en évitant les produits très salés
 
 59
-00:02:07,247 --> 00:02:09,131
-on se sent bien Ne l'arrêtez jamais
+00:02:01,820 --> 00:02:02,894
+et les plats industriels
 
 60
-00:02:09,124 --> 00:02:09,345
-seul
+00:02:03,340 --> 00:02:06,291
+Bouger régulièrement par exemple une marche rapide
 
 61
-00:02:09,875 --> 00:02:11,461
-Quand faut il consulter en urgence
+00:02:06,284 --> 00:02:07,145
+la plupart des jours
 
 62
-00:02:12,051 --> 00:02:14,234
-Si une tension très élevée s'accompagne d'une
+00:02:07,649 --> 00:02:09,022
+Perdre du poids si nécessaire
 
 63
-00:02:14,227 --> 00:02:15,301
-douleur dans la poitrine
+00:02:09,484 --> 00:02:12,435
+Limiter l'alcool arrêter le tabac Si cela
 
 64
-00:02:15,720 --> 00:02:18,330
-d'un essoufflement d'un mal de tête brutal
+00:02:12,428 --> 00:02:14,185
+ne suffit pas le médecin propose un
 
 65
-00:02:18,664 --> 00:02:20,335
-d'une faiblesse d'un côté du corps
+00:02:14,177 --> 00:02:14,526
+traitement
 
 66
-00:02:21,002 --> 00:02:22,545
-d'un trouble de la parole ou de
+00:02:14,963 --> 00:02:17,232
+Il se prend régulièrement même quand on
 
 67
-00:02:22,538 --> 00:02:22,929
-la vue
+00:02:17,224 --> 00:02:17,701
+se sent bien
 
 68
-00:02:23,562 --> 00:02:26,385
-Dans ces cas appelez les urgences Retenez
+00:02:18,376 --> 00:02:19,621
+Ne l'arrêtez jamais seul
 
 69
-00:02:26,634 --> 00:02:29,158
-mesurez suivez et ne comptez pas sur
+00:02:20,168 --> 00:02:21,669
+Quand faut il consulter en urgence
 
 70
-00:02:29,151 --> 00:02:29,713
-les symptômes
+00:02:22,120 --> 00:02:24,388
+Si une tension très élevée s'accompagne d'une
 
 71
-00:02:30,248 --> 00:02:32,474
-Une tension élevée se corrige et chaque
+00:02:24,424 --> 00:02:25,498
+douleur dans la poitrine
 
 72
-00:02:32,510 --> 00:02:35,034
-point gagné protège le cœur le cerveau
+00:02:26,002 --> 00:02:26,863
+d'un essoufflement
 
 73
-00:02:35,070 --> 00:02:35,760
-et les reins
+00:02:27,325 --> 00:02:28,527
+d'un mal de tête brutal
 
 74
-00:02:36,520 --> 00:02:38,362
-Cette vidéo est éducative et ne remplace
+00:02:28,946 --> 00:02:31,087
+d'une faiblesse d'un côté du corps d'un
 
 75
-00:02:38,398 --> 00:02:39,173
-pas une consultation
+00:02:31,080 --> 00:02:32,410
+trouble de la parole ou de la
 
 76
-00:02:39,789 --> 00:02:41,716
-Abonnez vous et dites nous en commentaire
+00:02:32,402 --> 00:02:32,623
+vue
 
 77
-00:02:41,880 --> 00:02:43,978
-quel sujet médical vous voulez voir expliqué
+00:02:33,143 --> 00:02:35,966
+Dans ces cas appelez les urgences Retenez
 
 78
-00:02:44,226 --> 00:02:45,428
+00:02:36,087 --> 00:02:38,739
+mesurez suivez et ne comptez pas sur
+
+79
+00:02:38,732 --> 00:02:41,086
+les symptômes Une tension élevée se corrige
+
+80
+00:02:41,292 --> 00:02:43,390
+et chaque point gagné protège le cœur
+
+81
+00:02:43,639 --> 00:02:45,838
+le cerveau et les reins Cette vidéo
+
+82
+00:02:45,831 --> 00:02:47,673
+est éducative et ne remplace pas une
+
+83
+00:02:47,666 --> 00:02:48,143
+consultation
+
+84
+00:02:48,562 --> 00:02:50,489
+Abonnez vous et dites nous en commentaire
+
+85
+00:02:50,610 --> 00:02:52,751
+quel sujet médical vous voulez voir expliqué
+
+86
+00:02:53,042 --> 00:02:54,287
 À bientôt sur MedEssentiel
 

@@ -69,3 +69,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 
 ## Journal — 2026-11-12
 - Ép. 13 (prééclampsie), 14 (HTA), 15 (infarctus) : scripts ~3 min, narration HeyGen Turbo Free (0 crédit), rendu HyperFrames 24 fps. Sources : connaissances générales, aucune lue → à vérifier (D4). ZIP mis à jour (15 vidéos, 288 Mo) et envoyé. Rien publié.
+- 2026-11-12 — Recherche + corrections (voir fin de SOURCES.md) : ép. 12, 13, 14, 16 : scripts corrigés, narration régénérée (gratuite), rendus relancés ; anciennes versions des ép. 12–14 conservées dans scratchpad `hf_final/old`.

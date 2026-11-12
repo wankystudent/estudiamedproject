@@ -10,7 +10,7 @@ y03: `${brand}<div class="card"><span class="chip">DÉFINITION</span><h1>Une gra
 y04: `${brand}<div class="card"><span class="chip red">SIGNES</span><h1>Le plus souvent : aucun</h1>
   ${item(I.syringe, 'Détectés par une prise de sang', TEAL)}${item(I.warn, 'Taux extrême : douleur du haut du ventre', RED)}${item(I.pale, 'Nausées · vomissements', RED)}${item(I.flask, 'Parfois pancréatite (inflammation du pancréas)', RED)}</div>`,
 y05: `${brand}<div class="card"><span class="chip">SIGNES VISIBLES</span><h1>Sur la peau et le foie</h1>
-  ${item(I.scan, 'Petites bosses jaunes : fesses, cuisses, coudes, genoux', TEAL)}${item(I.scan, 'Taches jaunes sur les paupières', TEAL)}${item(I.hosp, 'Parfois foie ou rate augmentés de volume', TEAL)}</div>`,
+  ${item(I.scan, 'Petites bosses jaunes : fesses, cuisses, coudes, genoux', TEAL)}${item(I.hosp, 'Parfois foie ou rate augmentés de volume', TEAL)}</div>`,
 y06: `${brand}<div class="card"><span class="chip">REPÈRES</span><h1>Quel taux&nbsp;?</h1>
   ${lvl('&lt; 150 mg/dL', 'Normal', '#2EAD6B')}${lvl('150–199', 'Limite haute', '#F5B82E')}${lvl('200–499', 'Élevé', '#E8833A')}${lvl('≥ 500', 'Très élevé', '#E5484D')}
   <p class="sub" style="font-size:24px;margin-top:8px">mg/dL ÷ 100 ≈ g/L · seuils variables selon les recommandations.</p></div>`,

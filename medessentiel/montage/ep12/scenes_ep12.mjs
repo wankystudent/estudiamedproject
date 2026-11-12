@@ -17,7 +17,7 @@ g06: `${brand}<div class="card"><span class="chip">ÉTAPE 3</span><h1>Délivranc
 g07: `${brand}<div class="card"><span class="chip">DOULEUR</span><h1>Des solutions existent</h1>
   ${item(I.rep, 'Respiration · mobilité', TEAL)}${item(I.hosp, 'Soutien d\'un accompagnant', TEAL)}${item(I.syringe, 'Péridurale, selon les situations et le souhait', TEAL)}</div>`,
 g08: `${brand}<div class="card"><span class="chip">QUAND PARTIR ?</span><h1>Contacter la maternité</h1>
-  ${item(I.clock, 'Contractions régulières, rapprochées, de plus en plus douloureuses', TEAL)}${item(I.flask, 'Perte de liquide (poche des eaux)', TEAL)}${item(I.warn, 'Perte du bouchon muqueux, si doute', TEAL)}
+  ${item(I.clock, 'Contractions régulières, rapprochées, de plus en plus douloureuses', TEAL)}${item(I.flask, 'Perte de liquide (poche des eaux)', TEAL)}${item(I.warn, 'Bouchon muqueux seul : pas une urgence ; avant le terme ou doute, appelez', TEAL)}
   <p class="sub" style="font-size:26px;margin-top:6px">Suivez les consignes de votre maternité.</p></div>`,
 g09: `${brand}<div class="card" style="background:#FFF3F3"><span class="chip red">URGENCES</span><h1 style="color:#8f1d22">Sans attendre</h1>
   ${item(I.warn, 'Saignement vaginal abondant', RED)}${item(I.dizzy, 'Diminution nette des mouvements du bébé', RED)}${item(I.pale, 'Fièvre · liquide verdâtre ou malodorant', RED)}${item(I.faint, 'Douleur très intense et continue · contractions avant le terme', RED)}</div>`,
