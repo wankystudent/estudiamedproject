@@ -66,3 +66,6 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - 12 vidéos animées (HyperFrames, 9:16) rendues ; ép. 10 validée par l'utilisateur (30 fps), les autres en 24 fps.
 - ZIP `MedEssentiel_Saison1.zip` (234 Mo) : 4 catégories (URGENCES, CLINIQUE_etudiants, GRAND_PUBLIC, PREVENTION) + SRT, scripts/sources, textes Facebook, logo, LISEZ-MOI. Envoyé à l'utilisateur.
 - Reste ouvert : D4 relecture médicale, D5 numéro d'urgence, D1 nom de marque, sources niveau B, voix Turbo Free ép. 10–12 non écoutée, sous-titres ép. 1–9 approximatifs, crédits HeyGen 59 (renouvellement 2026-11-25). Aucune publication faite.
+
+## Journal — 2026-11-12
+- Ép. 13 (prééclampsie), 14 (HTA), 15 (infarctus) : scripts ~3 min, narration HeyGen Turbo Free (0 crédit), rendu HyperFrames 24 fps. Sources : connaissances générales, aucune lue → à vérifier (D4). ZIP mis à jour (15 vidéos, 288 Mo) et envoyé. Rien publié.

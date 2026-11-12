@@ -105,3 +105,12 @@ Dilatation, expulsion, délivrance : que se passe-t-il vraiment ? 👶
 Les 3 étapes de l'accouchement par voie basse, quand contacter la maternité et quand aller aux urgences. (Suivez les consignes de votre maternité.)
 Contenu éducatif — ne remplace pas une consultation médicale.
 **Hashtags :** #accouchement #grossesse #maternité #santé #MedEssentiel
+
+## Épisode 13
+Prééclampsie : maux de tête, vision floue, douleur sous les côtes… 3 minutes pour comprendre quand alerter la maternité. Contenu éducatif ; ne remplace pas un suivi prénatal. #prééclampsie #grossesse #MedEssentiel
+
+## Épisode 14
+Votre tension est élevée mais vous vous sentez bien ? Justement : l'hypertension est silencieuse. Comment la mesurer et la faire baisser, en 3 minutes. Contenu éducatif. #hypertension #tension #MedEssentiel
+
+## Épisode 15
+Douleur dans la poitrine, bras, mâchoire : chaque minute compte. Les signes de l'infarctus et ce qu'il faut faire, en 3 minutes. Contenu éducatif. #infarctus #urgence #MedEssentiel

@@ -1,0 +1,34 @@
+# Épisode 15 — Infarctus du myocarde : reconnaître les signes et agir
+
+**Statut : à vérifier (D4)** · Rubrique : Urgences / Grand public · Format sans avatar, ~3 min · voix HeyGen Turbo Free
+
+## Script (narration exacte)
+Un homme de cinquante-cinq ans ressent une pression dans la poitrine, qui irradie vers le bras et la mâchoire. Il se dit que ça va passer. Chaque minute compte : cela peut être un infarctus du myocarde.
+
+Bonjour, je suis le docteur Wanky Massenat. Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui : l'infarctus du myocarde, ses signes d'alerte, et ce qu'il faut faire.
+
+Qu'est-ce qu'un infarctus ? Le cœur est un muscle, nourri par les artères coronaires. Dans l'infarctus, l'une d'elles se bouche, le plus souvent par un caillot qui se forme sur une plaque de cholestérol. La partie du muscle qui n'est plus irriguée souffre, puis meurt. On dit : le temps, c'est du muscle.
+
+Quels sont les signes ? Le signe typique est une douleur dans la poitrine, au milieu, comme un étau, une pression, une lourdeur. Elle dure plus de quelques minutes, ne cède pas au repos, et peut irradier vers le bras gauche, le cou, la mâchoire ou le dos. Elle s'accompagne parfois de sueurs, de nausées, d'un essoufflement, d'une grande angoisse, ou d'un malaise.
+
+Attention aux formes atypiques. Chez les femmes, les personnes âgées et les personnes diabétiques, les symptômes peuvent être moins nets : fatigue inhabituelle, essoufflement, douleur dans le haut du ventre, nausées. Dans le doute, mieux vaut appeler.
+
+Que faire ? Appelez immédiatement les secours. En France, le quinze. Ne prenez pas le volant vous-même, ne vous déplacez pas seul. Mettez-vous au repos, assis ou à demi allongé. Dites clairement : douleur dans la poitrine, depuis combien de temps. C'est le médecin régulateur qui vous dira s'il faut prendre de l'aspirine : ne le faites pas de votre propre initiative.
+
+Et si la personne s'effondre et ne respire plus ? C'est un arrêt cardiaque. Appelez les secours, commencez le massage cardiaque au centre de la poitrine, fort et vite, et utilisez un défibrillateur si on en trouve un à proximité.
+
+Comment le médecin confirme-t-il le diagnostic ? Par l'électrocardiogramme, réalisé dès que possible, et par une prise de sang qui dose la troponine, une protéine libérée par le muscle cardiaque abîmé.
+
+Quel est le traitement ? Il faut rouvrir l'artère le plus vite possible, le plus souvent par angioplastie : un petit tube est guidé jusqu'à la coronaire, et un ressort, appelé stent, la maintient ouverte. Dans certains cas, un médicament qui dissout le caillot est utilisé. Des traitements au long cours protègent ensuite le cœur.
+
+Comment éviter l'infarctus ? En contrôlant la tension, le cholestérol et le diabète, en arrêtant le tabac, en bougeant, en mangeant équilibré, et en gardant un poids sain.
+
+Retenez : douleur dans la poitrine plus de quelques minutes, appelez les secours, et ne conduisez pas seul. Quelques minutes gagnées peuvent sauver votre cœur, et votre vie.
+
+Cette vidéo est éducative et ne remplace pas une consultation. Abonnez-vous, et dites-nous en commentaire quel sujet médical vous voulez voir expliqué. À bientôt sur MedEssentiel.
+
+## Points de contrôle (D4)
+Signes, formes atypiques, conduite à tenir (appel du 15, pas de conduite, aspirine seulement sur conseil du régulateur), ECG, troponine, angioplastie : connaissances générales, **aucune source lue** (à vérifier : ESC, HAS, AHA). Numéro d'urgence à adapter au pays (D5).
+
+## Publication
+**Titre :** Infarctus du myocarde : reconnaître les signes et agir

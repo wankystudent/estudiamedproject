@@ -1,0 +1,34 @@
+# Épisode 13 — Prééclampsie : les signes à connaître pendant la grossesse
+
+**Statut : à vérifier (D4)** · Rubrique : Urgences / Gynécologie-obstétrique · Format sans avatar, ~3 min · voix HeyGen Turbo Free
+
+## Script (narration exacte)
+Une femme enceinte de trente-quatre semaines a mal à la tête depuis deux jours, voit des points brillants, et ses chevilles gonflent. Est-ce la fatigue de la grossesse ? Peut-être pas. Cela peut être une prééclampsie.
+
+Bonjour, je suis le docteur Wanky Massenat. Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui : la prééclampsie, une complication de la grossesse à connaître.
+
+Qu'est-ce que c'est ? La prééclampsie est une maladie de la grossesse, qui apparaît après vingt semaines. Elle associe une hypertension artérielle, c'est-à-dire une tension supérieure ou égale à quatorze sur neuf, et, selon les définitions, une atteinte d'un organe : le plus souvent des protéines dans les urines, mais aussi le foie, les reins, ou le cerveau.
+
+Pourquoi est-ce grave ? Parce que la maladie touche le placenta et les vaisseaux de la mère. Elle peut gêner la croissance du bébé, provoquer un décollement du placenta, et, chez la mère, évoluer vers l'éclampsie, c'est-à-dire des convulsions, ou vers un syndrome appelé HELLP, qui associe une atteinte du foie et une baisse des plaquettes.
+
+Quels sont les signes d'alerte ? D'abord, des maux de tête intenses et persistants. Ensuite, des troubles de la vue : points brillants, vision floue. Puis une douleur sous les côtes à droite, ou au creux de l'estomac, des nausées ou des vomissements, un gonflement brutal du visage et des mains, et une prise de poids rapide. Attention : la prééclampsie peut aussi être silencieuse. C'est pour cela que la tension est mesurée à chaque consultation prénatale.
+
+Qui est le plus à risque ? Une première grossesse, un antécédent de prééclampsie, une hypertension ou un diabète déjà présents, une maladie rénale, une grossesse de jumeaux, l'obésité, ou un âge maternel élevé.
+
+Comment fait-on le diagnostic ? Par la mesure de la tension, la recherche de protéines dans les urines, et une prise de sang qui explore le foie, les reins et les plaquettes. Le bébé est surveillé par l'échographie et le monitoring.
+
+Quel est le traitement ? Le seul traitement qui guérit la maladie, c'est l'accouchement, avec le placenta. Le moment est décidé par l'équipe, selon la gravité et le terme. En attendant, on surveille de près, et on traite l'hypertension par des médicaments compatibles avec la grossesse. En cas de forme sévère, le sulfate de magnésium peut être utilisé pour prévenir les convulsions.
+
+Peut-on la prévenir ? Chez les femmes à haut risque, le médecin peut proposer de l'aspirine à faible dose, commencée tôt dans la grossesse. Ne la prenez jamais sans avis médical. Un bon suivi prénatal reste la meilleure protection.
+
+Quand consulter sans attendre ? Si vous êtes enceinte et que vous avez des maux de tête violents, des troubles visuels, une douleur au creux de l'estomac, un gonflement brutal du visage, des convulsions, ou une diminution des mouvements du bébé, appelez votre maternité ou les urgences immédiatement.
+
+Retenez : tension, maux de tête, vision, douleur sous les côtes. Et le suivi continue après l'accouchement, car la maladie peut apparaître ou persister dans les jours qui suivent.
+
+Cette vidéo est éducative et ne remplace pas une consultation. Abonnez-vous, et dites-nous en commentaire quel sujet médical vous voulez voir expliqué. À bientôt sur MedEssentiel.
+
+## Points de contrôle (D4)
+Seuil 140/90, début après 20 SA, critères d'atteinte d'organe, HELLP, aspirine à faible dose chez les femmes à haut risque, sulfate de magnésium : connaissances générales, **aucune source lue** (à vérifier : ACOG, ISSHP, HAS/CNGOF). Définitions variables selon les sociétés.
+
+## Publication
+**Titre :** Prééclampsie : les signes à connaître pendant la grossesse
