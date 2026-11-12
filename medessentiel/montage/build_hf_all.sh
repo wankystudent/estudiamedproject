@@ -4,7 +4,7 @@
 set -euo pipefail
 S=$1; shift
 M=$(cd "$(dirname "$0")" && pwd); D=$S/dl; P=$S/speech; ROOT=$(dirname "$M")
-declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=180.60 )
+declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=180.60 [13]=182.97 [14]=165.72 [15]=168.24 )
 declare -A PH
 PH[01]='s01=x s02=Bonjour s03=D'"'"'abord s04=Premier_signe s05=Deuxième_signe s06=Troisième_signe s07=Quatrième_signe s08=Cinquième_signe s09=Certaines_situations s10=Que_faire s11=Cette_vidéo_est'
 PH[02]='c01=x c02=Bonjour c03=Le_cœur_est_une_pompe c04=On_peut_le_voir c05=Suivons_une_goutte c06=Comment_le_sang_évite c07=Et_le_cœur_lui-même c08=Cette_vidéo_est_éducative'
@@ -18,6 +18,9 @@ PH[09]='t01=x t02=Bonjour t03=Cinq_constantes_de_base t04=La_température. t05=L
 PH[10]='e01=x e02=Bonjour e03=quoi_parle e04=Quels_sont_les_signes e05=Un_indice_important e06=Qui_est_à_risque e07=Quand_faut_il_appeler e08=Comment_le_médecin e09=Quel_est_le_traitement e10=Et_la_prévention e11=Retenez e12=Cette_vidéo_est_éducative'
 PH[11]='m01=x m02=Bonjour m03=Étape_un m04=Une_phrase_pour m05=Étape_deux m06=Étape_trois m07=Deuxième_groupe m08=Troisième_groupe m09=Quatrième_groupe m10=Prenons_deux m11=Votre_plan m12=Cette_vidéo_est_éducative'
 PH[12]='g01=x g02=Bonjour g03=On_distingue g04=Première_étape g05=Deuxième_étape g06=Troisième_étape g07=Et_la_douleur g08=Quand_partir g09=Quand_faut_il_aller g10=Retenez g11=Cette_vidéo_est_éducative'
+PH[13]='r01=x r02=Bonjour r03=Qu'"'"'est_ce_que_c'"'"'est r04=Pourquoi_est_ce_grave r05=Quels_sont_les_signes r06=Qui_est_le_plus r07=Comment_fait_on r08=Quel_est_le_traitement r09=Peut_on_la_prévenir r10=Quand_consulter_sans_attendre r11=Retenez r12=Cette_vidéo_est_éducative'
+PH[14]='h01=x h02=Bonjour h03=Qu'"'"'est_ce_que_la_tension h04=Pourquoi_parle_t_on h05=Quelles_sont_les_causes h06=Comment_bien_mesurer h07=D'"'"'abord_les_mesures h08=Quand_faut_il_consulter h09=Retenez h10=Cette_vidéo_est_éducative'
+PH[15]='i01=x i02=Bonjour i03=Qu'"'"'est_ce i04=Quels_sont_les_signes i05=Attention_aux_formes i06=Que_faire i07=Et_si_la_personne i08=Comment_le_médecin i09=Quel_est_le_traitement i10=Comment_éviter i11=Retenez i12=Cette_vidéo_est_éducative'
 for ep in "$@"; do
   if [[ 10#$ep -ge 10 ]]; then SRT=$P/ep$ep.srt; WAV=$P/ep$ep.wav; WORDS=$P/ep${ep}_words.json
   else SRT=$D/ep$ep.srt; WAV=$S/hf_audio_$ep.wav; ffmpeg -v error -y -i $D/ep${ep}_raw.mp4 -vn -ac 1 -ar 44100 $WAV; WORDS=$S/hf_words_$ep.json; python3 $M/srt_words.py $SRT $WORDS >/dev/null; fi
