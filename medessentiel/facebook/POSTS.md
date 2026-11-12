@@ -117,3 +117,6 @@ Douleur dans la poitrine, bras, mâchoire : chaque minute compte. Les signes de 
 
 ## Épisode 16
 MEN KÈK SIY KI KA FÈ W SISPÈK OU GEN TWÒP TRIGLISERID NAN SAN W ! (version créole à publier telle quelle si souhaité) — version française : Triglycérides élevés : le plus souvent aucun symptôme. Les seuils, les signes d'alerte et comment les faire baisser, en 3 minutes. Contenu éducatif. #Triglycérides #Cholestérol #Prévention #MedEssentiel
+
+## Épisode 17
+Une bouillie avant 6 mois ? Ce que disent l'OMS, l'ESPGHAN, l'AAP et les études : jamais avant 4 mois, idéalement vers 6 mois selon la maturité de bébé, et surtout pas d'idées reçues. 9 minutes pour comprendre. Contenu éducatif ; ne remplace pas une consultation. #diversification #bébé #allaitement #MedEssentiel
