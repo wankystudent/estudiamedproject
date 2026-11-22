@@ -89,3 +89,9 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Hôte `elevenlabsusercontent.com` ajouté à la liste réseau (approuvé) pour télécharger les MP3.
 - `montage/el_post.py` : MP3 → wav + words.json (**minutages estimés** : bornes de phrases calées sur les silences, mots répartis par caractères — à vérifier à l'écoute) ; fusion `merge_speech.py` (+5,6 s de compte à rebours) → 193,29 s ; Shorts ≤3:00 : accélération ×1,09 → ≈177 s.
 - Ép. 18 (VID-018) : projet `hyperframes_cenit/ep18` construit, rendu en cours ; statut : Vidéo en cours de finalisation (non écoutée, D4 non fait). Rien de programmé ni publié.
+
+## 2026-11-22 (suite 2) — Brouillons Omnisocials
+- Sur demande de l'utilisateur (« fè brouyon yo »), **17 brouillons** créés dans Omnisocials (espace « wanky academy »), **sans date : aucun programmé, aucun publié** (vérifié par `list_posts status=draft`). Détail ID post/média/miniature : `publication/brouillons_omnisocials.json`.
+- Chaque brouillon : vidéo re-rendue sans numérotation (média ≤ 54 Mo), miniature personnalisée (`video_cover`), titre YouTube = titre public, accroche + description + mention éducative + hashtags, `contains_synthetic_media: true`. Facebook seul pour VID-003, 009, 011, 017 (> 3 min) ; Facebook + YouTube Shorts pour les 13 autres.
+- Reste : VID-018 (Apgar) — rendu en cours, à écouter par l'utilisateur avant de créer son brouillon ; programmation des créneaux (08:00/17:30 AST) seulement après validation D4 et accord explicite.
+- Numéro d'urgence : formulation générique « appelez les secours de votre pays » (D5 non tranché).
