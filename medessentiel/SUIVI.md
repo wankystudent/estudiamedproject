@@ -104,3 +104,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-22 (suite 4) — Production : Apgar à écouter, anaphylaxie (ép. 19)
 - VID-018 (Apgar) rendu : 177,4 s (×1,09), envoyé à l'utilisateur pour écoute (copie locale non versionnée `publication/ecoute/`). Brouillon/programmation en attente de son retour.
 - Ép. 19 (anaphylaxie, J2) : script sans nom en intro, 400 mots, sources EAACI 2021 (PMID 34343358, Allergy 2022;77:357), WAO 2020 (PMID 33204386), Practice Parameter 2023 (résumé PMID 38944199) — abstracts lus (niveau A pour les messages cités) ; doses volontairement non citées. Narration ElevenLabs « wanky33 » ≈ 2 727 crédits, 168,5 s. Projet `hyperframes_cenit/ep19` construit ; rendu en cours → futur VID-019.
+
+## 2026-11-22 (suite 5) — Vérification de statut demandée par l'utilisateur
+- Vérifié dans Omnisocials (`list_posts`) : **aucun post publié** ; **18 posts programmés**. Infarctus (post 100142102) = Scheduled 2026-11-23 12:00Z (08:00 AST), FB + YouTube — **non publié**. Aliments avant 6 mois (100142120) = Scheduled 2026-12-01 12:00Z, **Facebook seul** (déjà le cas). Aucune action nécessaire, aucun doublon créé.
+- Apgar (VID-018) : programmé (post 100142127) pour **2026-12-01 21:30Z = 17:30 AST**, Facebook + YouTube Shorts (177,4 s).
+- Prochain identifiant disponible : **VID-019** (anaphylaxie, rendu en cours), puis VID-020…

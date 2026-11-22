@@ -1,5 +1,5 @@
 {
- "note": "Brouillons cr\u00e9\u00e9s dans Omnisocials (workspace wanky academy) le 2026-11-22 \u2014 AUCUN programm\u00e9 ni publi\u00e9. Mis \u00e0 jour au fur et \u00e0 mesure.",
+ "note": "Brouillons puis programmations Omnisocials (workspace wanky academy) du 2026-11-22. 18 posts SCHEDULED, 0 publié (vérifié list_posts).",
  "VID-015": {
   "post": "100142102",
   "media": "272263",
@@ -84,5 +84,11 @@
   "post": "100142120",
   "media": "272292",
   "thumb": "272296"
+ },
+ "VID-018": {
+  "post": "100142127",
+  "media": "272310",
+  "thumb": "272311",
+  "note": "programmé directement 2026-12-01T21:30Z"
  }
 }
