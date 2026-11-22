@@ -1,3 +1,5 @@
+> **Mise à jour 2026-11-22 :** orientation élargie à la médecine générale, voir `DIRECTIVES_EDITORIALES.md` et `BIBLIOTHEQUE_EDITORIALE.md` (version 2). Les séries ci-dessous (couple, grossesse…) restent des idées, non prioritaires.
+
 # MedEssentiel — Plan éditorial reçu (2026-11-11) et règles d'application
 
 Source : proposition de séries fournie par l'utilisateur (texte collé avec le logo). Signature : **« MedEssentiel — La médecine, clairement expliquée. »** (le texte évoque aussi « Science médicale pour tous » : à trancher).
