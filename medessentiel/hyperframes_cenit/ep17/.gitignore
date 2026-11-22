@@ -1,6 +1,5 @@
-snapshots/
+assets/vo.wav
 renders/
 *.mp4
-assets/vo.wav
 .hyperframes/
 node_modules/
