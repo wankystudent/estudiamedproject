@@ -1,5 +1,6 @@
 # Calendrier de publication MedEssentiel (proposition — rien n'est encore programmé)
 Fuseau : République dominicaine (AST, UTC-4). Créneaux fixes : **08:00** et **17:30**, deux vidéos différentes par jour. Début proposé : 2026-11-23.
+> **2026-11-22 : les 17 posts (VID-001→017) sont PROGRAMMÉS dans Omnisocials aux créneaux ci-dessous ; VID-018 en attente.**
 Les colonnes « Programmée » / « Publiée » seront renseignées uniquement après confirmation d'Omnisocials.
 
 | Date | Heure (AST) | ID interne | Titre public | Spécialité | Plateformes | Facebook | YouTube Shorts |

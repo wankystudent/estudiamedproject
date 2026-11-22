@@ -1,5 +1,6 @@
 # Registre de production MedEssentiel
 > **Mise à jour 2026-11-22 :** 17 brouillons créés dans Omnisocials (non programmés) — voir `brouillons_omnisocials.json`. Statuts FB/YT ci-dessous = « Brouillon » jusqu’à programmation.
+> **2026-11-22 : les 17 posts (VID-001→017) sont PROGRAMMÉS dans Omnisocials aux créneaux ci-dessous ; VID-018 en attente.**
 *Numéros VID-xxx : **strictement internes** (jamais dans titres publics, descriptions, miniatures, hashtags ni vidéos). Numérotation continue et permanente ; ne jamais réattribuer un numéro. Dernier numéro attribué : VID-018.*
 *Mise à jour : 2026-11-22. Statuts réels uniquement ; rien n'est « programmé » ou « publié » sans confirmation d'Omnisocials.*
 

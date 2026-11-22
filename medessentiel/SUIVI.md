@@ -95,3 +95,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Chaque brouillon : vidéo re-rendue sans numérotation (média ≤ 54 Mo), miniature personnalisée (`video_cover`), titre YouTube = titre public, accroche + description + mention éducative + hashtags, `contains_synthetic_media: true`. Facebook seul pour VID-003, 009, 011, 017 (> 3 min) ; Facebook + YouTube Shorts pour les 13 autres.
 - Reste : VID-018 (Apgar) — rendu en cours, à écouter par l'utilisateur avant de créer son brouillon ; programmation des créneaux (08:00/17:30 AST) seulement après validation D4 et accord explicite.
 - Numéro d'urgence : formulation générique « appelez les secours de votre pays » (D5 non tranché).
+
+## 2026-11-22 (suite 3) — Programmation (sur instruction explicite de l'utilisateur)
+- Instruction reçue : « produire les vidéos puis les publier dans l'ordre ». **17 posts Omnisocials programmés** (statut « Scheduled » vérifié par `list_posts`), 2 par jour à 12:00Z (08:00 AST) et 21:30Z (17:30 AST), du 2026-11-23 08:00 AST (VID-015) au 2026-12-01 08:00 AST (VID-017). Ordre et IDs : `publication/CALENDRIER_PUBLICATION.md` + `brouillons_omnisocials.json`.
+- Réserves : D4 (relecture scientifique) non formalisée — l'utilisateur a donné l'ordre de publier ; modifiable/annulable tant que non publié (update_post/delete_post). Narration des 17 : voix HeyGen d'origine (avec « Je suis le docteur… » dans l'intro).
+- Reste : VID-018 (Apgar), slot 2026-12-01 17:30 AST — rendu en cours, à écouter ; puis brouillon/programmation. Nouveaux sujets : à produire (bibliothèque v2), voix ElevenLabs `Yr7Y7HxREJ381O9n1Gbq`, sans nom en intro.
