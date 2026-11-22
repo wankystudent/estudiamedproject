@@ -1,5 +1,5 @@
 {
- "note": "État 2026-11-22 après nettoyage demandé : 3 posts programmés seulement — VID-015 Infarctus (23/11 08:00 AST, FB+YT), VID-017 Aliments avant 6 mois (01/12 08:00 AST, FB seul), VID-018 Apgar (01/12 17:30 AST, FB+YT). 0 publié.",
+ "note": "9 posts programmés (0 publié) au 2026-11-22 : VID-015, 019, 020, 021, 022, 023, 024, 017, 018. Prochain créneau libre : 2026-11-26T21:30Z (17:30 AST).",
  "VID-015": {
   "post": "100142102",
   "media": "272263",
@@ -105,5 +105,41 @@
   "media": "272310",
   "thumb": "272311",
   "note": "programmé directement 2026-12-01T21:30Z"
+ },
+ "VID-019": {
+  "post": "100142216",
+  "media": "272428",
+  "thumb": "272435",
+  "slot": "2026-11-23T21:30Z"
+ },
+ "VID-020": {
+  "post": "100142217",
+  "media": "272429",
+  "thumb": "272436",
+  "slot": "2026-11-24T12:00Z"
+ },
+ "VID-021": {
+  "post": "100142218",
+  "media": "272430",
+  "thumb": "272437",
+  "slot": "2026-11-24T21:30Z"
+ },
+ "VID-022": {
+  "post": "100142219",
+  "media": "272431",
+  "thumb": "272438",
+  "slot": "2026-11-25T12:00Z"
+ },
+ "VID-023": {
+  "post": "100142220",
+  "media": "272433",
+  "thumb": "272440",
+  "slot": "2026-11-25T21:30Z"
+ },
+ "VID-024": {
+  "post": "100142221",
+  "media": "272434",
+  "thumb": "272441",
+  "slot": "2026-11-26T12:00Z"
  }
 }
