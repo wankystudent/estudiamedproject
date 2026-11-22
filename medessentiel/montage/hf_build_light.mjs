@@ -65,7 +65,7 @@ scenes.forEach((s, i) => {
     const sc = 980 / t.rect.w;
     const chip = esc((t.chip || '').toUpperCase());
     inner = `<div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
-<div class="lab">// ép. ${EP} · étape ${cn}/${NCARD}</div>
+<div class="lab">// étape ${cn}/${NCARD}</div>
 <div class="head" style="font-size:${fsz}px">${hw}</div>
 <div class="blk"><span class="bk">${chip}</span><span class="num">${cn}<i>......</i></span></div>
 <div class="cardzone"><div class="cardscale" style="zoom:${sc.toFixed(3)}">${fixInline(t.cardHTML).replace(/class="card"/, 'class="card cardx"')}</div></div>`;
