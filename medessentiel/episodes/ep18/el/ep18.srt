@@ -1,0 +1,460 @@
+1
+00:00:00,000 --> 00:00:02,176
+Un nouveau-né vient de naître.
+
+2
+00:00:02,345 --> 00:00:03,783
+Une minute plus tard,
+
+3
+00:00:03,753 --> 00:00:05,633
+quel score lui donnez-vous,
+
+4
+00:00:05,630 --> 00:00:06,223
+sur dix ?
+
+5
+00:00:06,674 --> 00:00:08,496
+Bienvenue sur MedEssentiel :
+
+6
+00:00:08,706 --> 00:00:11,714
+la médecine, clairement expliquée.
+
+7
+00:00:11,875 --> 00:00:13,819
+Aujourd'hui, un quiz clinique :
+
+8
+00:00:14,023 --> 00:00:14,934
+le score d'Apgar.
+
+9
+00:00:15,399 --> 00:00:16,146
+Le principe :
+
+10
+00:00:16,429 --> 00:00:19,308
+cinq critères, chacun noté de zéro à
+
+11
+00:00:19,263 --> 00:00:21,466
+deux, pour un total sur dix.
+
+12
+00:00:21,924 --> 00:00:24,368
+A, comme Appearance, la couleur de la
+
+13
+00:00:24,326 --> 00:00:24,744
+peau.
+
+14
+00:00:25,151 --> 00:00:27,697
+P, comme Pulse, la fréquence cardiaque.
+
+15
+00:00:28,420 --> 00:00:29,577
+G, comme Grimace, la réaction à la
+
+16
+00:00:29,531 --> 00:00:30,033
+stimulation.
+
+17
+00:00:30,178 --> 00:00:32,564
+A, comme Activity, le tonus.
+
+18
+00:00:32,881 --> 00:00:34,759
+R, comme Respiration.
+
+19
+00:00:35,102 --> 00:00:37,881
+Le score est noté à une minute
+
+20
+00:00:37,865 --> 00:00:40,195
+et à cinq minutes de vie.
+
+21
+00:00:40,607 --> 00:00:41,294
+Premier cas.
+
+22
+00:00:41,558 --> 00:00:42,277
+Nouveau-né à terme, une minute de vie.
+
+23
+00:00:42,403 --> 00:00:44,218
+Fréquence cardiaque :
+
+24
+00:00:44,818 --> 00:00:46,013
+cent trente par minute.
+
+25
+00:00:46,355 --> 00:00:49,652
+Il pleure vigoureusement et bouge bien ses
+
+26
+00:00:49,615 --> 00:00:50,353
+membres.
+
+27
+00:00:50,513 --> 00:00:51,940
+Le tronc est rose,
+
+28
+00:00:51,913 --> 00:00:54,373
+mais les mains et les pieds sont
+
+29
+00:00:54,342 --> 00:00:55,102
+bleutés.
+
+30
+00:00:55,396 --> 00:00:57,412
+À la stimulation de la plante du
+
+31
+00:00:57,370 --> 00:00:59,140
+pied, il grimace et pleure.
+
+32
+00:00:59,401 --> 00:01:00,512
+À vous de calculer :
+
+33
+00:01:00,565 --> 00:01:01,594
+cinq secondes.
+
+34
+00:01:07,179 --> 00:01:07,904
+Correction.
+
+35
+00:01:08,052 --> 00:01:08,748
+Apparence :
+
+36
+00:01:09,052 --> 00:01:11,072
+tronc rose, extrémités bleutées,
+
+37
+00:01:11,053 --> 00:01:12,480
+c'est une acrocyanose :
+
+38
+00:01:12,675 --> 00:01:13,072
+un point.
+
+39
+00:01:13,456 --> 00:01:13,703
+Pouls :
+
+40
+00:01:13,840 --> 00:01:15,748
+cent trente, donc au-dessus de cent :
+
+41
+00:01:15,893 --> 00:01:16,383
+deux points.
+
+42
+00:01:16,610 --> 00:01:17,203
+Grimace :
+
+43
+00:01:17,380 --> 00:01:17,898
+deux points.
+
+44
+00:01:18,305 --> 00:01:20,079
+Activité :
+
+45
+00:01:20,266 --> 00:01:20,782
+mouvements actifs :
+
+46
+00:01:20,989 --> 00:01:21,807
+deux points.
+
+47
+00:01:22,115 --> 00:01:22,907
+Respiration :
+
+48
+00:01:23,110 --> 00:01:23,650
+pleurs vigoureux :
+
+49
+00:01:24,066 --> 00:01:24,594
+deux points.
+
+50
+00:01:24,844 --> 00:01:25,669
+Total :
+
+51
+00:01:25,854 --> 00:01:26,546
+neuf sur dix.
+
+52
+00:01:26,793 --> 00:01:27,539
+Deuxième cas, plus difficile.
+
+53
+00:01:27,817 --> 00:01:28,628
+Une minute de vie.
+
+54
+00:01:28,902 --> 00:01:29,727
+L'enfant est pâle.
+
+55
+00:01:29,972 --> 00:01:31,010
+Fréquence cardiaque :
+
+56
+00:01:31,193 --> 00:01:32,300
+quatre-vingts par minute.
+
+57
+00:01:32,699 --> 00:01:34,754
+Il grimace faiblement à la stimulation.
+
+58
+00:01:35,242 --> 00:01:36,348
+Le tonus est flasque.
+
+59
+00:01:36,668 --> 00:01:38,971
+La respiration est irrégulière,
+
+60
+00:01:38,971 --> 00:01:40,065
+avec des gasps.
+
+61
+00:01:40,339 --> 00:01:40,417
+À vous :
+
+62
+00:01:40,467 --> 00:01:41,378
+cinq secondes.
+
+63
+00:01:47,121 --> 00:01:47,681
+Correction.
+
+64
+00:01:48,100 --> 00:01:48,698
+Apparence :
+
+65
+00:01:49,029 --> 00:01:49,421
+pâle, zéro.
+
+66
+00:01:49,679 --> 00:01:50,103
+Pouls :
+
+67
+00:01:50,493 --> 00:01:51,589
+quatre-vingts, sous cent :
+
+68
+00:01:51,756 --> 00:01:52,523
+un point.
+
+69
+00:01:52,805 --> 00:01:53,232
+Grimace faible :
+
+70
+00:01:53,456 --> 00:01:54,322
+un point.
+
+71
+00:01:54,557 --> 00:01:55,021
+Tonus flasque :
+
+72
+00:01:55,334 --> 00:01:55,810
+zéro.
+
+73
+00:01:55,964 --> 00:01:56,398
+Respiration irrégulière :
+
+74
+00:01:56,659 --> 00:01:58,815
+un point.
+
+75
+00:01:59,109 --> 00:01:59,548
+Total :
+
+76
+00:01:59,804 --> 00:02:00,302
+trois sur dix.
+
+77
+00:02:00,617 --> 00:02:01,401
+Mais le score ne décide pas.
+
+78
+00:02:01,716 --> 00:02:02,974
+Dans ce cas, la réanimation commence tout
+
+79
+00:02:02,931 --> 00:02:03,257
+de suite :
+
+80
+00:02:03,637 --> 00:02:07,407
+selon l'Académie américaine de pédiatrie et le
+
+81
+00:02:07,366 --> 00:02:10,427
+Collège américain des obstétriciens,
+
+82
+00:02:10,442 --> 00:02:13,186
+elle doit être débutée avant que le
+
+83
+00:02:13,146 --> 00:02:15,951
+score à une minute ne soit attribué.
+
+84
+00:02:16,400 --> 00:02:18,130
+L'Apgar ne sert pas à décider de
+
+85
+00:02:18,086 --> 00:02:19,343
+réanimer, ni comment.
+
+86
+00:02:19,531 --> 00:02:20,150
+Ses limites, maintenant.
+
+87
+00:02:20,494 --> 00:02:23,305
+C'est un moyen pratique de décrire l'état
+
+88
+00:02:23,279 --> 00:02:25,389
+du nouveau-né et sa réponse à la
+
+89
+00:02:25,347 --> 00:02:26,304
+réanimation.
+
+90
+00:02:26,563 --> 00:02:28,411
+Seul, il ne prouve pas une asphyxie
+
+91
+00:02:28,386 --> 00:02:30,535
+et ne prédit pas le devenir neurologique
+
+92
+00:02:30,523 --> 00:02:31,243
+d'un enfant.
+
+93
+00:02:31,543 --> 00:02:33,014
+Dans une grande étude,
+
+94
+00:02:32,986 --> 00:02:34,912
+chez les nouveau-nés à terme,
+
+95
+00:02:34,885 --> 00:02:37,578
+la mortalité néonatale était de deux cent
+
+96
+00:02:37,543 --> 00:02:40,324
+quarante-quatre pour mille avec un score à
+
+97
+00:02:40,278 --> 00:02:42,128
+cinq minutes de zéro à trois,
+
+98
+00:02:42,100 --> 00:02:44,718
+contre zéro virgule deux pour mille avec
+
+99
+00:02:44,683 --> 00:02:46,085
+un score de sept à dix.
+
+100
+00:02:46,248 --> 00:02:48,167
+Ce sont des chiffres de population,
+
+101
+00:02:48,152 --> 00:02:49,754
+pas un pronostic individuel.
+
+102
+00:02:49,987 --> 00:02:50,818
+Retenez :
+
+103
+00:02:51,017 --> 00:02:51,690
+A, P, G, A,
+
+104
+00:02:51,648 --> 00:02:51,852
+R ;
+
+105
+00:02:51,806 --> 00:02:53,114
+zéro à deux chacun ;
+
+106
+00:02:53,068 --> 00:02:54,060
+total sur dix ;
+
+107
+00:02:54,014 --> 00:02:55,480
+à une et cinq minutes ;
+
+108
+00:02:55,434 --> 00:02:58,748
+jamais un prétexte pour retarder la réanimation.
+
+109
+00:02:59,143 --> 00:03:01,337
+Quel score aviez-vous trouvé pour le premier
+
+110
+00:03:01,307 --> 00:03:01,581
+cas ?
+
+111
+00:03:01,989 --> 00:03:03,154
+Dites-le en commentaire.
+
+112
+00:03:03,321 --> 00:03:05,908
+Cette vidéo est éducative et ne remplace
+
+113
+00:03:05,888 --> 00:03:08,694
+ni une formation clinique ni les protocoles
+
+114
+00:03:08,682 --> 00:03:09,834
+de votre service.
+
+115
+00:03:10,185 --> 00:03:13,289
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
