@@ -527,5 +527,28 @@
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée",
   "lien": ""
+ },
+ {
+  "vid": "VID-024",
+  "ep": 24,
+  "titre": "Hypoglycémie : reconnaître les signes et agir vite",
+  "specialite": "Endocrinologie",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 146.3,
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "icone": "drop",
+  "miniature": "HYPOGLYCÉMIE|reconnaître et réagir",
+  "accroche": "Sueurs froides, tremblements, faim soudaine : et si c'était une hypoglycémie ?",
+  "description": "Définition, signes, règle des 15 grammes de sucre rapide et conduite à tenir si la personne est inconsciente.",
+  "hashtags": "#Hypoglycémie #Diabète #Urgence #Glycémie #MedEssentiel",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "statut_production": "Rendu en file (avec objet 3D en intro)",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée",
+  "lien": ""
  }
 ]

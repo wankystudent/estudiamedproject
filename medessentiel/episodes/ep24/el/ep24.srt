@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:02,554
+Sueurs froides, tremblements, faim soudaine,
+
+2
+00:00:02,532 --> 00:00:03,183
+confusion.
+
+3
+00:00:03,478 --> 00:00:06,326
+Et si c'était une hypoglycémie ?
+
+4
+00:00:07,050 --> 00:00:08,831
+Bienvenue sur MedEssentiel :
+
+5
+00:00:09,144 --> 00:00:09,858
+la médecine, clairement expliquée.
+
+6
+00:00:10,025 --> 00:00:11,254
+Aujourd'hui :
+
+7
+00:00:11,733 --> 00:00:12,337
+l'hypoglycémie, reconnaître et réagir.
+
+8
+00:00:12,717 --> 00:00:15,608
+L'hypoglycémie est une baisse du taux de
+
+9
+00:00:15,566 --> 00:00:16,936
+sucre dans le sang.
+
+10
+00:00:17,147 --> 00:00:20,089
+On parle d'hypoglycémie en dessous de soixante-dix
+
+11
+00:00:20,079 --> 00:00:23,115
+milligrammes par décilitre, soit trois virgule neuf
+
+12
+00:00:23,079 --> 00:00:24,375
+millimoles par litre.
+
+13
+00:00:24,584 --> 00:00:29,052
+Elle est considérée comme cliniquement significative en
+
+14
+00:00:29,011 --> 00:00:33,533
+dessous de cinquante-quatre milligrammes par décilitre.
+
+15
+00:00:33,699 --> 00:00:35,725
+Elle est dite sévère quand la personne
+
+16
+00:00:35,700 --> 00:00:37,488
+a besoin de l'aide d'un tiers pour
+
+17
+00:00:37,451 --> 00:00:38,160
+se resucrer.
+
+18
+00:00:38,407 --> 00:00:41,619
+Elle survient surtout chez les personnes diabétiques
+
+19
+00:00:41,607 --> 00:00:44,544
+traitées par insuline ou par certains comprimés,
+
+20
+00:00:44,529 --> 00:00:45,810
+après un repas sauté,
+
+21
+00:00:45,781 --> 00:00:48,248
+un effort inhabituel, une dose trop forte
+
+22
+00:00:48,216 --> 00:00:50,043
+ou une consommation d'alcool.
+
+23
+00:00:50,452 --> 00:00:51,090
+Les signes :
+
+24
+00:00:51,310 --> 00:00:53,451
+tremblements, sueurs, palpitations, faim,
+
+25
+00:00:53,415 --> 00:00:54,273
+pâleur, anxiété.
+
+26
+00:00:54,555 --> 00:00:57,493
+Puis, quand le cerveau manque de sucre
+
+27
+00:00:57,466 --> 00:00:57,602
+:
+
+28
+00:00:57,764 --> 00:01:00,669
+difficultés de concentration, vision trouble,
+
+29
+00:01:00,647 --> 00:01:03,050
+maux de tête, comportement inhabituel,
+
+30
+00:01:03,039 --> 00:01:05,856
+et enfin convulsions ou perte de connaissance.
+
+31
+00:01:06,302 --> 00:01:09,640
+Que faire si la personne est consciente
+
+32
+00:01:09,641 --> 00:01:11,001
+et peut avaler ?
+
+33
+00:01:11,133 --> 00:01:13,215
+Mesurez la glycémie si possible.
+
+34
+00:01:13,621 --> 00:01:15,395
+Donnez quinze grammes de sucre rapide :
+
+35
+00:01:15,526 --> 00:01:16,595
+par exemple trois morceaux de sucre,
+
+36
+00:01:16,555 --> 00:01:17,459
+ou un demi-verre de jus de fruit
+
+37
+00:01:17,418 --> 00:01:18,053
+ou de boisson sucrée.
+
+38
+00:01:18,482 --> 00:01:21,342
+Évitez le chocolat et les aliments gras,
+
+39
+00:01:21,313 --> 00:01:23,640
+qui ralentissent l'absorption.
+
+40
+00:01:23,839 --> 00:01:24,970
+Attendez quinze minutes, puis recontrôlez.
+
+41
+00:01:25,280 --> 00:01:26,948
+Si la glycémie reste basse,
+
+42
+00:01:26,919 --> 00:01:27,782
+recommencez.
+
+43
+00:01:27,981 --> 00:01:30,227
+Ensuite, une collation ou un repas aide
+
+44
+00:01:30,191 --> 00:01:31,828
+à éviter une nouvelle chute.
+
+45
+00:01:31,969 --> 00:01:33,825
+Si la personne est inconsciente,
+
+46
+00:01:33,818 --> 00:01:35,647
+convulse, ou ne peut pas avaler :
+
+47
+00:01:35,838 --> 00:01:37,104
+ne mettez rien dans sa bouche.
+
+48
+00:01:37,413 --> 00:01:39,867
+Placez-la en position latérale de sécurité et
+
+49
+00:01:39,823 --> 00:01:40,961
+appelez les secours.
+
+50
+00:01:41,311 --> 00:01:43,955
+Un proche formé peut administrer du glucagon,
+
+51
+00:01:43,935 --> 00:01:45,099
+s'il a été prescrit.
+
+52
+00:01:45,529 --> 00:01:47,585
+Après un épisode d'hypoglycémie,
+
+53
+00:01:47,588 --> 00:01:49,268
+parlez-en à votre médecin :
+
+54
+00:01:49,403 --> 00:01:51,286
+le traitement doit parfois être ajusté.
+
+55
+00:01:51,520 --> 00:01:52,994
+Ne l'arrêtez jamais de vous-même.
+
+56
+00:01:53,360 --> 00:01:55,294
+Gardez toujours du sucre sur vous,
+
+57
+00:01:55,261 --> 00:01:57,120
+et portez une carte ou un bracelet
+
+58
+00:01:57,096 --> 00:01:58,627
+qui indique votre diabète.
+
+59
+00:01:59,141 --> 00:02:01,496
+Un capteur de glucose en continu,
+
+60
+00:02:01,479 --> 00:02:04,188
+avec alarmes, peut aider à réduire les
+
+61
+00:02:04,151 --> 00:02:05,311
+hypoglycémies.
+
+62
+00:02:05,898 --> 00:02:06,991
+Retenez :
+
+63
+00:02:07,301 --> 00:02:09,795
+reconnaître les signes, quinze grammes de sucre
+
+64
+00:02:09,760 --> 00:02:12,005
+rapide, recontrôler après quinze minutes,
+
+65
+00:02:11,979 --> 00:02:13,346
+et en cas d'inconscience :
+
+66
+00:02:13,667 --> 00:02:14,661
+secours, et rien dans la bouche.
+
+67
+00:02:15,417 --> 00:02:17,542
+Quel est votre moyen de resucrage préféré
+
+68
+00:02:17,513 --> 00:02:17,620
+?
+
+69
+00:02:17,945 --> 00:02:18,852
+Dites-le en commentaire.
+
+70
+00:02:19,215 --> 00:02:21,936
+Cette vidéo est éducative et ne remplace
+
+71
+00:02:21,917 --> 00:02:23,843
+pas l'avis de votre médecin.
+
+72
+00:02:24,173 --> 00:02:26,363
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
