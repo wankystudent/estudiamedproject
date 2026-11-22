@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:02,320
+Devant vous, quelqu'un tombe et se met
+
+2
+00:00:02,281 --> 00:00:03,080
+à convulser.
+
+3
+00:00:03,477 --> 00:00:05,123
+Que faites-vous, et surtout,
+
+4
+00:00:05,099 --> 00:00:06,702
+que ne faut-il jamais faire ?
+
+5
+00:00:07,837 --> 00:00:09,624
+Bienvenue sur MedEssentiel :
+
+6
+00:00:09,817 --> 00:00:10,532
+la médecine, clairement expliquée.
+
+7
+00:00:10,711 --> 00:00:11,669
+Aujourd'hui :
+
+8
+00:00:11,986 --> 00:00:14,915
+l'épilepsie et la conduite à tenir devant
+
+9
+00:00:14,890 --> 00:00:15,661
+une crise.
+
+10
+00:00:16,135 --> 00:00:18,552
+L'épilepsie est une maladie du cerveau,
+
+11
+00:00:18,530 --> 00:00:21,934
+caractérisée par une prédisposition durable à produire
+
+12
+00:00:21,912 --> 00:00:22,642
+des crises.
+
+13
+00:00:23,114 --> 00:00:25,345
+Selon la définition pratique de la Ligue
+
+14
+00:00:25,312 --> 00:00:28,900
+internationale contre l'épilepsie, on parle d'épilepsie après
+
+15
+00:00:28,866 --> 00:00:30,885
+au moins deux crises non provoquées,
+
+16
+00:00:30,870 --> 00:00:33,160
+séparées de plus de vingt-quatre heures,
+
+17
+00:00:33,132 --> 00:00:35,050
+ou après une seule crise lorsque le
+
+18
+00:00:35,007 --> 00:00:36,653
+risque de récidive est élevé,
+
+19
+00:00:36,623 --> 00:00:39,549
+ou encore devant un syndrome épileptique identifié.
+
+20
+00:00:39,978 --> 00:00:41,395
+Une crise ne se résume pas aux
+
+21
+00:00:41,353 --> 00:00:42,057
+convulsions.
+
+22
+00:00:42,406 --> 00:00:44,739
+Elle peut aussi se manifester par une
+
+23
+00:00:44,700 --> 00:00:46,951
+rupture de contact, un regard fixe,
+
+24
+00:00:46,920 --> 00:00:50,618
+des gestes automatiques ou des sensations inhabituelles.
+
+25
+00:00:51,070 --> 00:00:52,818
+Pendant une crise convulsive,
+
+26
+00:00:52,804 --> 00:00:54,099
+voici les bons gestes.
+
+27
+00:00:54,443 --> 00:00:56,735
+Restez calme et notez l'heure de début.
+
+28
+00:00:56,955 --> 00:00:58,535
+Écartez les objets dangereux,
+
+29
+00:00:58,515 --> 00:01:00,293
+et placez quelque chose de mou sous
+
+30
+00:01:00,255 --> 00:01:00,710
+la tête.
+
+31
+00:01:00,917 --> 00:01:03,402
+Desserrez le col si c'est possible.
+
+32
+00:01:03,489 --> 00:01:05,078
+Ne retenez pas la personne.
+
+33
+00:01:05,159 --> 00:01:09,222
+Ne mettez rien dans sa bouche :
+
+34
+00:01:09,649 --> 00:01:11,040
+elle ne peut pas avaler sa langue,
+
+35
+00:01:11,007 --> 00:01:12,104
+et on risque de la blesser.
+
+36
+00:01:12,397 --> 00:01:12,964
+Ne donnez ni à boire,
+
+37
+00:01:12,923 --> 00:01:13,929
+ni à manger, ni médicament pendant la
+
+38
+00:01:13,883 --> 00:01:14,109
+crise.
+
+39
+00:01:14,639 --> 00:01:16,944
+Quand les convulsions s'arrêtent,
+
+40
+00:01:16,936 --> 00:01:18,957
+mettez la personne sur le côté,
+
+41
+00:01:18,926 --> 00:01:21,161
+en position latérale de sécurité,
+
+42
+00:01:21,146 --> 00:01:23,140
+et surveillez sa respiration.
+
+43
+00:01:23,401 --> 00:01:25,103
+Elle sera confuse, somnolente :
+
+44
+00:01:25,357 --> 00:01:25,634
+c'est normal.
+
+45
+00:01:25,691 --> 00:01:27,979
+Restez avec elle jusqu'au retour à un
+
+46
+00:01:27,936 --> 00:01:28,757
+état normal.
+
+47
+00:01:29,182 --> 00:01:30,909
+Quand appeler les secours ?
+
+48
+00:01:30,962 --> 00:01:33,235
+Si la crise dure plus de cinq
+
+49
+00:01:33,204 --> 00:01:33,995
+minutes.
+
+50
+00:01:34,212 --> 00:01:36,113
+Si les crises se répètent sans retour
+
+51
+00:01:36,081 --> 00:01:37,560
+à la conscience entre elles.
+
+52
+00:01:37,628 --> 00:01:39,672
+S'il s'agit d'une première crise.
+
+53
+00:01:39,743 --> 00:01:40,978
+Si la personne est blessée,
+
+54
+00:01:40,949 --> 00:01:42,619
+enceinte, diabétique, ou si elle a du
+
+55
+00:01:42,575 --> 00:01:43,920
+mal à respirer après la crise.
+
+56
+00:01:44,174 --> 00:01:47,531
+Le traitement de fond repose sur les
+
+57
+00:01:47,498 --> 00:01:53,044
+médicaments antiépileptiques, adaptés à chaque patient.
+
+58
+00:01:53,251 --> 00:01:54,789
+Dormir suffisamment, ne jamais oublier ses prises
+
+59
+00:01:54,749 --> 00:01:56,260
+et éviter les facteurs déclenchants réduisent le
+
+60
+00:01:56,213 --> 00:01:56,741
+risque de crise.
+
+61
+00:01:57,843 --> 00:02:01,275
+Les règles de conduite automobile et de
+
+62
+00:02:01,235 --> 00:02:03,747
+sécurité dépendent du pays :
+
+63
+00:02:04,293 --> 00:02:05,883
+demandez conseil à votre médecin.
+
+64
+00:02:06,382 --> 00:02:07,157
+Retenez :
+
+65
+00:02:07,428 --> 00:02:09,562
+protéger, chronométrer, ne rien mettre dans la
+
+66
+00:02:09,517 --> 00:02:11,320
+bouche, position latérale de sécurité,
+
+67
+00:02:11,293 --> 00:02:12,576
+secours après cinq minutes.
+
+68
+00:02:13,071 --> 00:02:15,725
+Quel geste ne faut-il jamais faire ?
+
+69
+00:02:15,846 --> 00:02:16,476
+Dites-le en commentaire.
+
+70
+00:02:16,804 --> 00:02:19,843
+Cette vidéo est éducative et ne remplace
+
+71
+00:02:19,828 --> 00:02:21,355
+pas un avis médical.
+
+72
+00:02:21,707 --> 00:02:23,993
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

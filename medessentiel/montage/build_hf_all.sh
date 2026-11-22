@@ -4,7 +4,7 @@
 set -euo pipefail
 S=$1; shift
 M=$(cd "$(dirname "$0")" && pwd); D=$S/dl; P=$S/speech; ROOT=$(dirname "$M")
-declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 )
+declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 )
 declare -A PH
 PH[01]='s01=x s02=Bonjour s03=D'"'"'abord s04=Premier_signe s05=Deuxième_signe s06=Troisième_signe s07=Quatrième_signe s08=Cinquième_signe s09=Certaines_situations s10=Que_faire s11=Cette_vidéo_est'
 PH[02]='c01=x c02=Bonjour c03=Le_cœur_est_une_pompe c04=On_peut_le_voir c05=Suivons_une_goutte c06=Comment_le_sang_évite c07=Et_le_cœur_lui-même c08=Cette_vidéo_est_éducative'
@@ -27,6 +27,7 @@ PH[18]='q01=x q02=Bienvenue_sur_MedEssentiel q03=Le_principe q04=Premier_cas q05
 PH[19]='a01=x a02=Bienvenue_sur_MedEssentiel a03=L'"'"'anaphylaxie_est_une a04=Les_signes a05=Que_faire a06=Ensuite,_la_position a07=Un_point_essentiel a08=Après_l'"'"'urgence a09=Retenez a10=Cette_vidéo_est_éducative'
 PH[20]='e01=x e02=Bienvenue_sur_MedEssentiel e03=D'"'"'abord,_le_papier e04=Étape_un e05=Étape_deux e06=Étape_trois e07=Étape_cinq e08=Dernière_étape e09=Une_règle_d'"'"'or e10=Retenez e11=Cette_vidéo_est_éducative'
 PH[21]='s01=x s02=Bienvenue_sur_MedEssentiel s03=L'"'"'asthme_est_une s04=Pour_confirmer s05=Le_traitement s06=Trois_gestes s07=Quand_s'"'"'inquiéter s08=Retenez s09=Cette_vidéo_est_éducative'
+PH[22]='p01=x p02=Bienvenue_sur_MedEssentiel p03=L'"'"'épilepsie_est_une p04=Une_crise_ne_se_résume p05=Pendant_une_crise p06=Ne_mettez_rien p07=Quand_les_convulsions p08=Quand_appeler p09=Le_traitement_de_fond p10=Cette_vidéo_est_éducative'
 for ep in "$@"; do
   if [[ 10#$ep -ge 10 ]]; then SRT=$P/ep$ep.srt; WAV=$P/ep$ep.wav; WORDS=$P/ep${ep}_words.json
   else SRT=$D/ep$ep.srt; WAV=$S/hf_audio_$ep.wav; ffmpeg -v error -y -i $D/ep${ep}_raw.mp4 -vn -ac 1 -ar 44100 $WAV; WORDS=$S/hf_words_$ep.json; python3 $M/srt_words.py $SRT $WORDS >/dev/null; fi
