@@ -69,7 +69,8 @@ scenes.forEach((s, i) => {
 <div class="head" style="font-size:${fsz}px">${hw}</div>
 <div class="blk"><span class="bk">${chip}</span><span class="num">${cn}<i>......</i></span></div>
 <div class="cardzone"><div class="cardscale" style="zoom:${sc.toFixed(3)}">${fixInline(t.cardHTML).replace(/class="card"/, 'class="card cardx"')}</div></div>`;
-    js += `tl.from("#s${i} .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},${(o + .02).toFixed(2)});
+if (t.cardHTML && t.cardHTML.includes('class="cdn"')) { const pa = s.b - 5.6; js += `tl.set("#s${i} .cdn",{opacity:.18},${(o + 1.2).toFixed(2)});\n` + [0,1,2,3,4].map(k => `tl.to("#s${i} .cdn[data-k='${k}']",{opacity:1,scale:1.12,duration:.22,ease:"back.out(2)"},${(pa + .3 + k).toFixed(2)});tl.to("#s${i} .cdn[data-k='${k}']",{scale:1,duration:.2},${(pa + .55 + k).toFixed(2)});`).join('\n') + '\n'; }
+        js += `tl.from("#s${i} .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},${(o + .02).toFixed(2)});
 tl.from("#s${i} .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},${(o + .08).toFixed(2)});
 tl.from("#s${i} .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},${(o + .45).toFixed(2)});
 tl.from("#s${i} .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},${(o + .6).toFixed(2)});

@@ -7,13 +7,19 @@ PAUSE = 0.45
 off = 0.0; words = []; lst = []
 def dur(f): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
 subprocess.run(['ffmpeg','-v','error','-y','-f','lavfi','-i','anullsrc=r=44100:cl=mono','-t',str(PAUSE),f'{d}/_pause.wav'],check=True)
-for k,p in enumerate(parts):
+pend = PAUSE
+for p in parts:
+    if p.startswith('+'): pend = float(p[1:]); continue
+    if lst:
+        pf = f'{d}/_pause_{len(lst)}.wav'
+        subprocess.run(['ffmpeg','-v','error','-y','-f','lavfi','-i','anullsrc=r=44100:cl=mono','-t',str(pend),pf],check=True)
+        lst.append(f"file '{pf}'"); off += pend
+    pend = PAUSE
     w = json.load(open(f'{d}/{p}_words.json'))
     D = dur(f'{d}/{p}.wav')
     for t,a,b in w: words.append((t,a+off,b+off))
     lst.append(f"file '{d}/{p}.wav'")
     off += D
-    if k < len(parts)-1: lst.append(f"file '{d}/_pause.wav'"); off += PAUSE
 open(f'{d}/_list.txt','w').write('\n'.join(lst))
 subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',f'{d}/_list.txt','-ar','44100','-ac','1',f'{d}/{ep}.wav'],check=True)
 json.dump(words,open(f'{d}/{ep}_words.json','w'))

@@ -1,0 +1,21 @@
+Un nouveau-né vient de naître. Une minute plus tard, quel score lui donnez-vous, sur dix ? Bonjour, je suis le docteur Wanky Massenat. Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui, un quiz clinique : le score d'Apgar.
+
+Le principe : cinq critères, chacun noté de zéro à deux, pour un total sur dix. A, comme Appearance, la couleur de la peau. P, comme Pulse, la fréquence cardiaque. G, comme Grimace, la réaction à la stimulation. A, comme Activity, le tonus. R, comme Respiration. Le score est noté à une minute et à cinq minutes de vie.
+
+Premier cas. Nouveau-né à terme, une minute de vie. Fréquence cardiaque : cent trente par minute. Il pleure vigoureusement et bouge bien ses membres. Le tronc est rose, mais les mains et les pieds sont bleutés. À la stimulation de la plante du pied, il grimace et pleure. À vous de calculer : cinq secondes.
+
+[PAUSE 5 s — compte à rebours à l'écran]
+
+Correction. Apparence : tronc rose, extrémités bleutées, c'est une acrocyanose : un point. Pouls : cent trente, donc au-dessus de cent : deux points. Grimace : deux points. Activité : mouvements actifs : deux points. Respiration : pleurs vigoureux : deux points. Total : neuf sur dix.
+
+Deuxième cas, plus difficile. Une minute de vie. L'enfant est pâle. Fréquence cardiaque : quatre-vingts par minute. Il grimace faiblement à la stimulation. Le tonus est flasque. La respiration est irrégulière, avec des gasps. À vous : cinq secondes.
+
+[PAUSE 5 s — compte à rebours à l'écran]
+
+Correction. Apparence : pâle, zéro. Pouls : quatre-vingts, sous cent : un point. Grimace faible : un point. Tonus flasque : zéro. Respiration irrégulière : un point. Total : trois sur dix.
+
+Mais le score ne décide pas. Dans ce cas, la réanimation commence tout de suite : selon l'Académie américaine de pédiatrie et le Collège américain des obstétriciens, elle doit être débutée avant que le score à une minute ne soit attribué. L'Apgar ne sert pas à décider de réanimer, ni comment.
+
+Ses limites, maintenant. C'est un moyen pratique de décrire l'état du nouveau-né et sa réponse à la réanimation. Seul, il ne prouve pas une asphyxie et ne prédit pas le devenir neurologique d'un enfant. Dans une grande étude, chez les nouveau-nés à terme, la mortalité néonatale était de deux cent quarante-quatre pour mille avec un score à cinq minutes de zéro à trois, contre zéro virgule deux pour mille avec un score de sept à dix. Ce sont des chiffres de population, pas un pronostic individuel.
+
+Retenez : A, P, G, A, R ; zéro à deux chacun ; total sur dix ; à une et cinq minutes ; jamais un prétexte pour retarder la réanimation. Quel score aviez-vous trouvé pour le premier cas ? Dites-le en commentaire. Cette vidéo est éducative et ne remplace ni une formation clinique ni les protocoles de votre service. Abonnez-vous, et à bientôt sur MedEssentiel.
