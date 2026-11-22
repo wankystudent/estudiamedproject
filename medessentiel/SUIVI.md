@@ -120,3 +120,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - **VID-020 Lire un ECG en 6 étapes** (ép. 20, J3) : script 384 mots sans nom en intro, narration ElevenLabs 163,25 s (≈ 2 340 crédits), scènes `montage/ep20`, projet `hyperframes_cenit/ep20` construit, rendu en file après VID-019 ; miniature créée. Source citée : AHA/ACCF/HRS ECG partie VI (PMID 19281933, titre/référence vérifiés, résumé non lu — niveau B) ; repères de lecture classiques (25 mm/s, PR 3–5 petits carrés, QRS < 3, 300/grands carrés) à valider en D4.
 - `publication/videos.json` mis à jour : statuts réels (VID-015/017/018 programmées ; les 15 autres « non programmées » ; VID-019/020 ajoutées, non programmées). Crédits ElevenLabs utilisés ≈ 7 800 / 131 000.
 - Aucune programmation nouvelle (en attente d'instruction pour VID-019/020).
+
+## 2026-11-22 (suite 8) — VID-021 Asthme
+- VID-019 rendu (168,5 s). **VID-021 Asthme** (ép. 21, J4) : script 370 mots sans nom en intro, sources lues (abstracts) : GINA 2021 Reddel et al. (PMID 34668278, aussi 35245179/34718211) et GINA 2022 soins primaires Levy et al. (PMID 36754956) — messages cités : pas de SABA seul, CSI-formotérol à la demande (asthme léger), MART (modéré-sévère), diagnostic par spirométrie/DEP, accès inhalateurs variable. Pas de dose citée. Narration ElevenLabs 151,7 s (≈ 2 450 crédits ; total ≈ 10 250 / 131 000). Projet `hyperframes_cenit/ep21`, rendu en file après VID-020 ; miniature créée. Non programmée.
+- Prochains : épilepsie (VID-022), fièvre, hypoglycémie… (plan 14 jours).

@@ -1,0 +1,296 @@
+1
+00:00:00,163 --> 00:00:02,981
+Elle siffle la nuit et tousse à
+
+2
+00:00:02,936 --> 00:00:03,935
+l'effort.
+
+3
+00:00:04,238 --> 00:00:06,028
+Est-ce vraiment de l'asthme ?
+
+4
+00:00:06,180 --> 00:00:06,951
+Bienvenue sur MedEssentiel :
+
+5
+00:00:07,143 --> 00:00:08,264
+la médecine, clairement expliquée.
+
+6
+00:00:08,626 --> 00:00:09,240
+Aujourd'hui :
+
+7
+00:00:09,469 --> 00:00:11,568
+l'asthme, comprendre et agir.
+
+8
+00:00:11,750 --> 00:00:14,719
+L'asthme est une maladie inflammatoire chronique des
+
+9
+00:00:14,678 --> 00:00:15,893
+voies respiratoires.
+
+10
+00:00:16,108 --> 00:00:19,023
+Les bronches se rétrécissent de façon variable,
+
+11
+00:00:19,004 --> 00:00:20,990
+ce qui provoque des sifflements,
+
+12
+00:00:20,983 --> 00:00:23,004
+de la toux, une oppression dans la
+
+13
+00:00:22,961 --> 00:00:24,799
+poitrine et un essoufflement.
+
+14
+00:00:24,992 --> 00:00:27,921
+Ces symptômes changent dans le temps et
+
+15
+00:00:27,880 --> 00:00:29,461
+dans leur intensité.
+
+16
+00:00:29,869 --> 00:00:32,080
+Ils sont souvent plus marqués la nuit
+
+17
+00:00:32,044 --> 00:00:33,126
+ou au petit matin,
+
+18
+00:00:33,097 --> 00:00:35,239
+à l'effort, ou après un contact avec
+
+19
+00:00:35,203 --> 00:00:36,723
+un facteur déclenchant :
+
+20
+00:00:37,028 --> 00:00:39,783
+allergènes, infections virales, fumée de tabac,
+
+21
+00:00:39,753 --> 00:00:40,367
+air froid.
+
+22
+00:00:40,603 --> 00:00:42,595
+Pour confirmer le diagnostic,
+
+23
+00:00:42,587 --> 00:00:45,807
+le médecin s'appuie sur l'histoire des symptômes
+
+24
+00:00:45,792 --> 00:00:47,566
+et sur la mesure du souffle,
+
+25
+00:00:47,547 --> 00:00:50,412
+par spirométrie ou par débit expiratoire de
+
+26
+00:00:50,370 --> 00:00:53,007
+pointe, qui montre une variabilité de la
+
+27
+00:00:52,964 --> 00:00:54,567
+fonction respiratoire.
+
+28
+00:00:55,017 --> 00:00:55,884
+Le traitement.
+
+29
+00:00:56,115 --> 00:00:59,353
+Les recommandations internationales de la GINA indiquent
+
+30
+00:00:59,332 --> 00:01:01,723
+que l'asthme de l'adulte et de l'adolescent
+
+31
+00:01:01,712 --> 00:01:03,299
+ne doit pas être traité par un
+
+32
+00:01:03,255 --> 00:01:05,541
+bronchodilatateur de courte durée seul.
+
+33
+00:01:05,725 --> 00:01:08,875
+Un traitement contenant un corticoïde inhalé réduit
+
+34
+00:01:08,845 --> 00:01:10,532
+le risque de crises sévères.
+
+35
+00:01:10,931 --> 00:01:13,124
+Dans l'asthme léger, une association corticoïde inhalé
+
+36
+00:01:13,088 --> 00:01:14,423
+et formotérol, prise à la demande,
+
+37
+00:01:14,391 --> 00:01:16,092
+peut remplacer le bronchodilatateur seul.
+
+38
+00:01:16,215 --> 00:01:18,379
+Dans l'asthme modéré à sévère,
+
+39
+00:01:18,358 --> 00:01:21,615
+on privilégie le traitement d'entretien et de
+
+40
+00:01:21,573 --> 00:01:24,211
+secours avec cette même association.
+
+41
+00:01:24,311 --> 00:01:25,177
+Mais attention :
+
+42
+00:01:25,230 --> 00:01:28,242
+l'accès aux inhalateurs varie beaucoup selon les
+
+43
+00:01:28,203 --> 00:01:28,589
+pays.
+
+44
+00:01:28,722 --> 00:01:31,117
+Chaque patient doit discuter de son traitement
+
+45
+00:01:31,097 --> 00:01:33,041
+avec son médecin, sans l'arrêter ni le
+
+46
+00:01:32,997 --> 00:01:33,804
+modifier seul.
+
+47
+00:01:33,976 --> 00:01:36,031
+Trois gestes améliorent le contrôle :
+
+48
+00:01:36,199 --> 00:01:37,946
+bien utiliser son inhalateur,
+
+49
+00:01:37,932 --> 00:01:40,291
+avec une chambre d'inhalation si besoin,
+
+50
+00:01:40,265 --> 00:01:42,337
+repérer et éviter ses déclencheurs,
+
+51
+00:01:42,331 --> 00:01:44,227
+et suivre un plan d'action écrit.
+
+52
+00:01:44,647 --> 00:01:45,736
+Quand s'inquiéter ?
+
+53
+00:01:45,891 --> 00:01:48,211
+Une crise est sévère si la personne
+
+54
+00:01:48,193 --> 00:01:50,980
+ne peut plus parler en phrases complètes,
+
+55
+00:01:50,970 --> 00:01:53,761
+respire très vite, a les lèvres bleutées,
+
+56
+00:01:53,747 --> 00:01:56,546
+ou si son bronchodilatateur ne la soulage
+
+57
+00:01:56,524 --> 00:01:56,876
+pas.
+
+58
+00:01:57,120 --> 00:01:58,220
+C'est une urgence :
+
+59
+00:01:58,377 --> 00:01:59,040
+appelez les secours.
+
+60
+00:01:59,378 --> 00:02:02,230
+En attendant, suivez le plan d'action prescrit,
+
+61
+00:02:02,211 --> 00:02:03,826
+gardez la personne assise,
+
+62
+00:02:03,800 --> 00:02:05,008
+et restez avec elle.
+
+63
+00:02:05,248 --> 00:02:06,015
+Retenez :
+
+64
+00:02:06,328 --> 00:02:09,872
+sifflements, toux, oppression, symptômes variables ;
+
+65
+00:02:09,826 --> 00:02:11,882
+diagnostic par la spirométrie ;
+
+66
+00:02:11,836 --> 00:02:14,710
+traitement contenant un corticoïde inhalé ;
+
+67
+00:02:14,664 --> 00:02:16,050
+plan d'action écrit ;
+
+68
+00:02:16,004 --> 00:02:18,320
+urgence si la parole est impossible.
+
+69
+00:02:18,472 --> 00:02:20,376
+Quel déclencheur connaissez-vous le mieux ?
+
+70
+00:02:20,992 --> 00:02:22,291
+Dites-le en commentaire.
+
+71
+00:02:22,464 --> 00:02:25,063
+Cette vidéo est éducative et ne remplace
+
+72
+00:02:25,044 --> 00:02:27,051
+ni un avis médical ni votre plan
+
+73
+00:02:27,016 --> 00:02:28,394
+d'action personnel.
+
+74
+00:02:28,888 --> 00:02:31,694
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
