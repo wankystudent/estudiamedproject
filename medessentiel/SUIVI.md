@@ -109,3 +109,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Vérifié dans Omnisocials (`list_posts`) : **aucun post publié** ; **18 posts programmés**. Infarctus (post 100142102) = Scheduled 2026-11-23 12:00Z (08:00 AST), FB + YouTube — **non publié**. Aliments avant 6 mois (100142120) = Scheduled 2026-12-01 12:00Z, **Facebook seul** (déjà le cas). Aucune action nécessaire, aucun doublon créé.
 - Apgar (VID-018) : programmé (post 100142127) pour **2026-12-01 21:30Z = 17:30 AST**, Facebook + YouTube Shorts (177,4 s).
 - Prochain identifiant disponible : **VID-019** (anaphylaxie, rendu en cours), puis VID-020…
+
+## 2026-11-22 (suite 6) — Nettoyage du calendrier Omnisocials (ordre explicite de l'utilisateur)
+- **15 programmations supprimées** (posts 100142103–106, 109–119 : AVC, appendicite, HTA, diabète, EP, reins, triglycérides, cœur, NFS, prééclampsie, constantes, nerfs crâniens, GEU, accouchement, placenta accreta). Aucune n'était publiée ; fichiers médias et miniatures conservés dans la bibliothèque Omnisocials et en local.
+- **Conservés** et vérifiés (`list_posts`) : Infarctus 100142102 (23/11 12:00Z = 08:00 AST, FB+YT) ; Aliments avant 6 mois 100142120 (01/12 12:00Z, FB seul) ; Apgar VID-018 100142127 (01/12 21:30Z = 17:30 AST, FB+YT). Total : 3 posts, 0 publié.
+- Les 15 vidéos retirées restent produites (non programmées) ; à reprogrammer seulement sur nouvel ordre. Nouvelles productions à partir de VID-019, sans répétition de sujets.
