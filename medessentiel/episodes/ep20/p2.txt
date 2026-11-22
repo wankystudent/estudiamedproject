@@ -1,0 +1,7 @@
+Étape trois : l'intervalle PR, du début de l'onde P au début du QRS. Il mesure normalement entre trois et cinq petits carrés. Plus long, on pense à un bloc auriculo-ventriculaire.
+
+Étape quatre : le QRS. Il est étroit, de moins de trois petits carrés, quand l'activation des ventricules est rapide et normale. Un QRS large évoque un trouble de la conduction ou un rythme d'origine ventriculaire.
+
+Étape cinq : le segment ST et l'onde T. Le segment ST est normalement proche de la ligne de base. Un sus-décalage du segment ST, dans un contexte de douleur thoracique, est une urgence : il peut signer un infarctus du myocarde.
+
+Dernière étape : l'intervalle QT. Un QT trop long expose à des troubles du rythme graves. Il faut alors chercher les médicaments et les troubles ioniques en cause.

@@ -1,0 +1,7 @@
+Ce tracé défile à vingt-cinq millimètres par seconde. Par où commencer pour le lire ? Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui : lire un électrocardiogramme, méthodiquement.
+
+D'abord, le papier. Un petit carré dure zéro virgule zéro quatre seconde. Un grand carré, cinq petits carrés, dure zéro virgule deux seconde. Et verticalement, dix millimètres correspondent à un millivolt.
+
+Étape un : le rythme. Y a-t-il une onde P avant chaque QRS, et un QRS après chaque onde P ? Si oui, et si les intervalles sont réguliers, c'est un rythme sinusal. Un rythme irrégulier sans onde P visible évoque une fibrillation atriale.
+
+Étape deux : la fréquence. Quand le rythme est régulier, comptez le nombre de grands carrés entre deux QRS, et divisez trois cents par ce nombre. Entre soixante et cent par minute, la fréquence est normale.

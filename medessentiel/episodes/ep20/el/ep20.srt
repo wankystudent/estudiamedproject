@@ -1,0 +1,320 @@
+1
+00:00:00,000 --> 00:00:02,800
+Ce tracé défile à vingt-cinq millimètres par
+
+2
+00:00:02,761 --> 00:00:03,364
+seconde.
+
+3
+00:00:03,987 --> 00:00:07,991
+Par où commencer pour le lire ?
+
+4
+00:00:08,110 --> 00:00:09,972
+Bienvenue sur MedEssentiel :
+
+5
+00:00:10,531 --> 00:00:11,187
+la médecine, clairement expliquée.
+
+6
+00:00:11,374 --> 00:00:14,166
+Aujourd'hui :
+
+7
+00:00:14,531 --> 00:00:15,122
+lire un électrocardiogramme, méthodiquement.
+
+8
+00:00:15,292 --> 00:00:15,922
+D'abord, le papier.
+
+9
+00:00:16,104 --> 00:00:18,620
+Un petit carré dure zéro virgule zéro
+
+10
+00:00:18,586 --> 00:00:19,725
+quatre seconde.
+
+11
+00:00:19,880 --> 00:00:22,990
+Un grand carré, cinq petits carrés,
+
+12
+00:00:22,976 --> 00:00:25,772
+dure zéro virgule deux seconde.
+
+13
+00:00:25,964 --> 00:00:29,298
+Et verticalement, dix millimètres correspondent à un
+
+14
+00:00:29,255 --> 00:00:29,985
+millivolt.
+
+15
+00:00:30,364 --> 00:00:31,036
+Étape un :
+
+16
+00:00:31,456 --> 00:00:32,650
+le rythme.
+
+17
+00:00:32,828 --> 00:00:34,641
+Y a-t-il une onde P avant chaque
+
+18
+00:00:34,611 --> 00:00:36,431
+QRS, et un QRS après chaque onde
+
+19
+00:00:36,395 --> 00:00:36,578
+P ?
+
+20
+00:00:36,825 --> 00:00:39,367
+Si oui, et si les intervalles sont
+
+21
+00:00:39,335 --> 00:00:42,127
+réguliers, c'est un rythme sinusal.
+
+22
+00:00:42,429 --> 00:00:45,066
+Un rythme irrégulier sans onde P visible
+
+23
+00:00:45,043 --> 00:00:47,292
+évoque une fibrillation atriale.
+
+24
+00:00:47,514 --> 00:00:48,083
+Étape deux :
+
+25
+00:00:48,643 --> 00:00:49,179
+la fréquence.
+
+26
+00:00:49,482 --> 00:00:51,594
+Quand le rythme est régulier,
+
+27
+00:00:51,582 --> 00:00:54,467
+comptez le nombre de grands carrés entre
+
+28
+00:00:54,438 --> 00:00:56,995
+deux QRS, et divisez trois cents par
+
+29
+00:00:56,958 --> 00:00:57,735
+ce nombre.
+
+30
+00:00:58,543 --> 00:01:00,664
+Entre soixante et cent par minute,
+
+31
+00:01:00,639 --> 00:01:02,251
+la fréquence est normale.
+
+32
+00:01:02,848 --> 00:01:03,566
+Étape trois :
+
+33
+00:01:03,767 --> 00:01:06,014
+l'intervalle PR, du début de l'onde P
+
+34
+00:01:05,967 --> 00:01:06,926
+au début du QRS.
+
+35
+00:01:07,094 --> 00:01:10,754
+Il mesure normalement entre trois et cinq
+
+36
+00:01:10,725 --> 00:01:12,087
+petits carrés.
+
+37
+00:01:12,410 --> 00:01:15,263
+Plus long, on pense à un bloc
+
+38
+00:01:15,237 --> 00:01:17,973
+auriculo-ventriculaire.
+
+39
+00:01:18,265 --> 00:01:19,122
+Étape quatre :
+
+40
+00:01:19,245 --> 00:01:17,160
+le QRS.
+
+41
+00:01:17,136 --> 00:01:19,149
+Il est étroit, de moins de trois
+
+42
+00:01:19,118 --> 00:01:22,738
+petits carrés, quand l'activation des ventricules est
+
+43
+00:01:22,700 --> 00:01:23,939
+rapide et normale.
+
+44
+00:01:24,488 --> 00:01:26,663
+Un QRS large évoque un trouble de
+
+45
+00:01:26,621 --> 00:01:30,171
+la conduction ou un rythme d'origine ventriculaire.
+
+46
+00:01:30,720 --> 00:01:31,495
+Étape cinq :
+
+47
+00:01:31,680 --> 00:01:33,059
+le segment ST et l'onde T.
+
+48
+00:01:33,254 --> 00:01:36,687
+Le segment ST est normalement proche de
+
+49
+00:01:36,647 --> 00:01:38,111
+la ligne de base.
+
+50
+00:01:38,359 --> 00:01:40,174
+Un sus-décalage du segment ST,
+
+51
+00:01:40,134 --> 00:01:42,467
+dans un contexte de douleur thoracique,
+
+52
+00:01:42,455 --> 00:01:43,457
+est une urgence :
+
+53
+00:01:43,715 --> 00:01:47,209
+il peut signer un infarctus du myocarde.
+
+54
+00:01:47,658 --> 00:01:48,529
+Dernière étape :
+
+55
+00:01:48,903 --> 00:01:49,683
+l'intervalle QT.
+
+56
+00:01:49,927 --> 00:01:51,059
+Un QT trop long expose à des
+
+57
+00:01:51,017 --> 00:01:52,188
+troubles du rythme graves.
+
+58
+00:01:52,552 --> 00:01:55,950
+Il faut alors chercher les médicaments et
+
+59
+00:01:55,910 --> 00:01:58,521
+les troubles ioniques en cause.
+
+60
+00:01:59,111 --> 00:02:02,676
+Une règle d'or :
+
+61
+00:02:03,020 --> 00:02:03,023
+l'électrocardiogramme ne se lit jamais seul.
+
+62
+00:02:03,073 --> 00:02:04,765
+Il se confronte aux symptômes,
+
+63
+00:02:04,747 --> 00:02:06,948
+à l'examen clinique et aux antécédents.
+
+64
+00:02:07,270 --> 00:02:10,291
+Un tracé inquiétant chez un patient sans
+
+65
+00:02:10,259 --> 00:02:13,201
+symptôme, ou un tracé rassurant chez un
+
+66
+00:02:13,160 --> 00:02:15,455
+patient qui a mal à la poitrine,
+
+67
+00:02:15,445 --> 00:02:18,448
+doivent faire demander un avis médical.
+
+68
+00:02:18,819 --> 00:02:19,305
+Retenez :
+
+69
+00:02:19,459 --> 00:02:21,151
+rythme, fréquence, intervalle PR,
+
+70
+00:02:21,110 --> 00:02:22,310
+QRS, segment ST et onde T,
+
+71
+00:02:22,265 --> 00:02:23,022
+intervalle QT.
+
+72
+00:02:23,209 --> 00:02:24,977
+Et toujours la même méthode,
+
+73
+00:02:24,956 --> 00:02:26,148
+dans le même ordre.
+
+74
+00:02:26,339 --> 00:02:29,399
+Quelle étape oubliez-vous le plus souvent ?
+
+75
+00:02:29,648 --> 00:02:30,516
+Dites-le en commentaire.
+
+76
+00:02:30,589 --> 00:02:33,222
+Cette vidéo est éducative et ne remplace
+
+77
+00:02:33,203 --> 00:02:35,529
+ni une formation ni un avis médical.
+
+78
+00:02:35,610 --> 00:02:40,748
+Une douleur thoracique est une urgence :
+
+79
+00:02:40,965 --> 00:02:40,390
+appelez les secours de votre pays.
+
+80
+00:02:40,435 --> 00:02:43,257
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
