@@ -1,0 +1,252 @@
+1
+00:00:00,167 --> 00:00:03,803
+Votre enfant a trente-neuf de fièvre.
+
+2
+00:00:04,078 --> 00:00:05,599
+Faut-il la faire baisser à tout prix
+
+3
+00:00:05,559 --> 00:00:05,656
+?
+
+4
+00:00:06,011 --> 00:00:07,513
+Bienvenue sur MedEssentiel :
+
+5
+00:00:07,780 --> 00:00:10,737
+la médecine, clairement expliquée.
+
+6
+00:00:10,956 --> 00:00:09,695
+Aujourd'hui :
+
+7
+00:00:09,739 --> 00:00:11,338
+la fièvre de l'enfant,
+
+8
+00:00:11,325 --> 00:00:12,849
+ce qu'il faut savoir.
+
+9
+00:00:13,117 --> 00:00:14,663
+D'abord, une idée essentielle.
+
+10
+00:00:14,993 --> 00:00:17,403
+La fièvre n'est pas la maladie :
+
+11
+00:00:17,744 --> 00:00:18,989
+c'est un mécanisme de défense de l'organisme,
+
+12
+00:00:18,958 --> 00:00:19,985
+qui aide à lutter contre l'infection.
+
+13
+00:00:20,494 --> 00:00:23,302
+Selon l'Académie américaine de pédiatrie,
+
+14
+00:00:23,290 --> 00:00:25,297
+il n'existe pas de preuve que la
+
+15
+00:00:25,254 --> 00:00:28,750
+fièvre elle-même aggrave l'évolution d'une maladie,
+
+16
+00:00:28,730 --> 00:00:32,026
+ni qu'elle provoque des séquelles neurologiques à
+
+17
+00:00:31,980 --> 00:00:32,763
+long terme.
+
+18
+00:00:32,996 --> 00:00:36,845
+Par conséquent, l'objectif du traitement n'est pas
+
+19
+00:00:36,808 --> 00:00:39,682
+de ramener la température à la normale.
+
+20
+00:00:39,919 --> 00:00:41,775
+L'objectif est le confort de l'enfant.
+
+21
+00:00:42,199 --> 00:00:43,629
+Que faire à la maison ?
+
+22
+00:00:43,683 --> 00:00:47,610
+Observez l'état général :
+
+23
+00:00:47,789 --> 00:00:47,810
+l'enfant joue-t-il, réagit-il, sourit-il ?
+
+24
+00:00:47,860 --> 00:00:51,079
+Proposez à boire régulièrement.
+
+25
+00:00:51,284 --> 00:00:53,060
+Ne le couvrez pas trop.
+
+26
+00:00:53,217 --> 00:00:54,478
+Si l'enfant est inconfortable,
+
+27
+00:00:54,460 --> 00:00:56,653
+le paracétamol ou l'ibuprofène peuvent être utilisés.
+
+28
+00:00:57,003 --> 00:00:58,841
+Chez un enfant en bonne santé,
+
+29
+00:00:58,813 --> 00:01:02,006
+leur efficacité et leur sécurité sont comparables.
+
+30
+00:01:02,439 --> 00:01:05,064
+Associer les deux médicaments peut être plus
+
+31
+00:01:05,027 --> 00:01:07,584
+efficace, mais c'est plus compliqué et cela
+
+32
+00:01:07,548 --> 00:01:09,822
+augmente le risque d'erreur de dosage.
+
+33
+00:01:10,463 --> 00:01:13,334
+Utilisez toujours le dispositif de dosage fourni,
+
+34
+00:01:13,307 --> 00:01:15,137
+selon le poids et les conseils du
+
+35
+00:01:15,094 --> 00:01:15,646
+médecin.
+
+36
+00:01:15,932 --> 00:01:18,531
+Pas d'aspirine chez l'enfant sans avis médical.
+
+37
+00:01:18,674 --> 00:01:20,928
+Mesurer la température aide à suivre la
+
+38
+00:01:20,884 --> 00:01:23,727
+maladie, mais le comportement de l'enfant compte
+
+39
+00:01:23,698 --> 00:01:24,993
+autant que le chiffre.
+
+40
+00:01:25,587 --> 00:01:26,473
+Quand consulter ?
+
+41
+00:01:26,807 --> 00:01:28,785
+En urgence si l'enfant a moins de
+
+42
+00:01:28,742 --> 00:01:30,343
+trois mois et de la fièvre.
+
+43
+00:01:30,760 --> 00:01:33,047
+Aussi, en cas de gêne respiratoire,
+
+44
+00:01:33,047 --> 00:01:36,142
+de somnolence anormale ou d'enfant difficile à
+
+45
+00:01:36,095 --> 00:01:38,333
+réveiller, de raideur de la nuque,
+
+46
+00:01:38,306 --> 00:01:40,634
+de taches rouges ou violacées qui ne
+
+47
+00:01:40,592 --> 00:01:42,742
+disparaissent pas à la pression,
+
+48
+00:01:42,726 --> 00:01:45,489
+de convulsions, de vomissements répétés,
+
+49
+00:01:45,470 --> 00:01:47,021
+ou s'il refuse de boire.
+
+50
+00:01:47,307 --> 00:01:49,145
+Et consultez si la fièvre dure plus
+
+51
+00:01:49,107 --> 00:01:49,946
+de trois jours.
+
+52
+00:01:50,346 --> 00:01:50,868
+Retenez :
+
+53
+00:01:51,130 --> 00:01:53,661
+la fièvre est un mécanisme de défense,
+
+54
+00:01:53,643 --> 00:01:55,074
+le but est le confort,
+
+55
+00:01:55,056 --> 00:01:57,743
+on observe l'état général et on hydrate,
+
+56
+00:01:57,725 --> 00:02:00,821
+et certains signes imposent de consulter sans
+
+57
+00:02:00,787 --> 00:02:01,508
+attendre.
+
+58
+00:02:01,775 --> 00:02:03,802
+Quel est votre réflexe devant la fièvre
+
+59
+00:02:03,770 --> 00:02:03,877
+?
+
+60
+00:02:04,061 --> 00:02:07,308
+Dites-le en commentaire.
+
+61
+00:02:07,541 --> 00:02:09,310
+Cette vidéo est éducative et ne remplace
+
+62
+00:02:09,280 --> 00:02:10,949
+pas l'avis du médecin de votre enfant.
+
+63
+00:02:11,315 --> 00:02:13,546
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
