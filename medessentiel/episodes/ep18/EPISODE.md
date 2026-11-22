@@ -6,7 +6,7 @@
 
 ## Script (narration exacte, 3 parties séparées par 2 pauses de 5 s)
 ### Partie 1
-Un nouveau-né vient de naître. Une minute plus tard, quel score lui donnez-vous, sur dix ? Bonjour, je suis le docteur Wanky Massenat. Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui, un quiz clinique : le score d'Apgar.
+Un nouveau-né vient de naître. Une minute plus tard, quel score lui donnez-vous, sur dix ? Bienvenue sur MedEssentiel : la médecine, clairement expliquée. Aujourd'hui, un quiz clinique : le score d'Apgar.
 
 Le principe : cinq critères, chacun noté de zéro à deux, pour un total sur dix. A, comme Appearance, la couleur de la peau. P, comme Pulse, la fréquence cardiaque. G, comme Grimace, la réaction à la stimulation. A, comme Activity, le tonus. R, comme Respiration. Le score est noté à une minute et à cinq minutes de vie.
 
