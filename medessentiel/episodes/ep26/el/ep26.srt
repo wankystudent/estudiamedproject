@@ -1,0 +1,316 @@
+1
+00:00:00,000 --> 00:00:03,373
+Toujours fatigué, essoufflé à l'effort,
+
+2
+00:00:03,366 --> 00:00:04,546
+le teint pâle.
+
+3
+00:00:04,944 --> 00:00:05,694
+Et si c'était une anémie ?
+
+4
+00:00:05,809 --> 00:00:06,809
+Bienvenue sur MedEssentiel :
+
+5
+00:00:06,977 --> 00:00:09,969
+la médecine, clairement expliquée.
+
+6
+00:00:10,227 --> 00:00:10,813
+Aujourd'hui :
+
+7
+00:00:11,060 --> 00:00:11,947
+l'anémie, comprendre et agir.
+
+8
+00:00:12,005 --> 00:00:14,705
+L'anémie est une baisse du taux d'hémoglobine,
+
+9
+00:00:14,702 --> 00:00:17,415
+la protéine des globules rouges qui transporte
+
+10
+00:00:17,399 --> 00:00:18,089
+l'oxygène.
+
+11
+00:00:18,272 --> 00:00:21,589
+Le seuil qui définit l'anémie dépend de
+
+12
+00:00:21,549 --> 00:00:24,329
+l'âge, du sexe et de la grossesse.
+
+13
+00:00:24,537 --> 00:00:25,345
+C'est un problème très fréquent :
+
+14
+00:00:25,589 --> 00:00:28,598
+selon l'étude Global Burden of Disease 2021,
+
+15
+00:00:28,567 --> 00:00:31,196
+environ une personne sur quatre dans le
+
+16
+00:00:31,154 --> 00:00:34,096
+monde est concernée, surtout les enfants de
+
+17
+00:00:34,054 --> 00:00:35,264
+moins de cinq ans,
+
+18
+00:00:35,230 --> 00:00:38,442
+les femmes, et les pays d'Afrique subsaharienne
+
+19
+00:00:38,443 --> 00:00:39,575
+et d'Asie du Sud.
+
+20
+00:00:39,815 --> 00:00:40,432
+Les signes :
+
+21
+00:00:40,677 --> 00:00:43,244
+fatigue, pâleur, essoufflement à l'effort,
+
+22
+00:00:43,224 --> 00:00:45,469
+palpitations, vertiges, maux de tête,
+
+23
+00:00:45,436 --> 00:00:46,605
+sensation de froid.
+
+24
+00:00:47,257 --> 00:00:49,821
+Une anémie sévère peut provoquer un malaise,
+
+25
+00:00:49,798 --> 00:00:51,714
+une douleur dans la poitrine ou un
+
+26
+00:00:51,671 --> 00:00:53,122
+essoufflement au repos :
+
+27
+00:00:53,422 --> 00:00:54,724
+c'est une urgence.
+
+28
+00:00:55,156 --> 00:00:56,249
+Quelles sont les causes ?
+
+29
+00:00:56,489 --> 00:00:58,612
+La plus fréquente dans le monde est
+
+30
+00:00:58,572 --> 00:00:59,685
+la carence en fer.
+
+31
+00:00:59,819 --> 00:01:01,801
+Il y a aussi les saignements,
+
+32
+00:01:01,801 --> 00:01:04,947
+comme des règles abondantes ou un saignement
+
+33
+00:01:04,939 --> 00:01:07,870
+digestif, les carences en vitamine B12 ou
+
+34
+00:01:07,829 --> 00:01:11,780
+en folates, les maladies chroniques et inflammatoires,
+
+35
+00:01:11,792 --> 00:01:14,864
+et les anémies par destruction des globules
+
+36
+00:01:14,848 --> 00:01:18,399
+rouges, comme la drépanocytose ou la thalassémie.
+
+37
+00:01:18,677 --> 00:01:20,706
+Dans certaines régions, le paludisme et les
+
+38
+00:01:20,664 --> 00:01:22,741
+parasites intestinaux jouent aussi un rôle.
+
+39
+00:01:23,538 --> 00:01:24,983
+Comment faire le diagnostic ?
+
+40
+00:01:25,751 --> 00:01:26,773
+Par une prise de sang :
+
+41
+00:01:27,112 --> 00:01:29,407
+la numération formule sanguine,
+
+42
+00:01:29,393 --> 00:01:31,863
+complétée selon le cas par le dosage
+
+43
+00:01:31,838 --> 00:01:34,357
+de la ferritine, des réticulocytes,
+
+44
+00:01:34,364 --> 00:01:36,663
+de la vitamine B12 et des folates.
+
+45
+00:01:37,148 --> 00:01:38,404
+Une règle essentielle :
+
+46
+00:01:38,799 --> 00:01:40,671
+il faut toujours chercher la cause.
+
+47
+00:01:40,985 --> 00:01:43,572
+Chez l'homme et chez la femme ménopausée,
+
+48
+00:01:43,563 --> 00:01:46,007
+une carence en fer impose de rechercher
+
+49
+00:01:45,993 --> 00:01:47,557
+un saignement digestif.
+
+50
+00:01:48,154 --> 00:01:49,879
+Le traitement dépend de la cause.
+
+51
+00:01:50,230 --> 00:01:51,288
+En cas de carence en fer,
+
+52
+00:01:51,248 --> 00:01:52,412
+le fer par voie orale est le
+
+53
+00:01:52,368 --> 00:01:54,537
+traitement de première intention dans la plupart
+
+54
+00:01:54,505 --> 00:01:54,901
+des cas.
+
+55
+00:01:55,032 --> 00:01:58,138
+Le fer par voie intraveineuse est une
+
+56
+00:01:58,103 --> 00:02:01,071
+option dans certaines situations.
+
+57
+00:02:01,176 --> 00:02:03,455
+Une transfusion est réservée aux formes sévères
+
+58
+00:02:03,424 --> 00:02:04,217
+ou mal tolérées.
+
+59
+00:02:04,365 --> 00:02:08,775
+Ne prenez pas de fer sans avis
+
+60
+00:02:08,761 --> 00:02:10,267
+médical :
+
+61
+00:02:10,400 --> 00:02:11,118
+traiter sans chercher la cause peut retarder
+
+62
+00:02:11,075 --> 00:02:11,506
+un diagnostic important.
+
+63
+00:02:11,565 --> 00:02:13,193
+Pour mieux absorber le fer :
+
+64
+00:02:13,246 --> 00:02:14,471
+mangez de la viande,
+
+65
+00:02:14,446 --> 00:02:17,082
+du poisson, des légumineuses et des légumes
+
+66
+00:02:17,056 --> 00:02:19,689
+verts, avec des aliments riches en vitamine
+
+67
+00:02:19,667 --> 00:02:19,851
+C.
+
+68
+00:02:20,034 --> 00:02:21,706
+Évitez de boire du thé ou du
+
+69
+00:02:21,664 --> 00:02:23,173
+café pendant les repas.
+
+70
+00:02:23,440 --> 00:02:23,882
+Retenez :
+
+71
+00:02:24,029 --> 00:02:25,680
+fatigue, pâleur, essoufflement ;
+
+72
+00:02:25,633 --> 00:02:26,343
+prise de sang ;
+
+73
+00:02:26,296 --> 00:02:27,228
+chercher la cause ;
+
+74
+00:02:27,181 --> 00:02:28,320
+traiter selon la cause.
+
+75
+00:02:28,686 --> 00:02:30,825
+Quel aliment riche en fer préférez-vous ?
+
+76
+00:02:31,127 --> 00:02:32,906
+Dites-le en commentaire.
+
+77
+00:02:33,004 --> 00:02:35,402
+Cette vidéo est éducative et ne remplace
+
+78
+00:02:35,380 --> 00:02:36,589
+pas un avis médical.
+
+79
+00:02:36,667 --> 00:02:39,266
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
