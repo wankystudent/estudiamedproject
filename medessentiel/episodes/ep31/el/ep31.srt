@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:01,475
+BCG, VPO, DTC, SAT,
+
+2
+00:00:01,443 --> 00:00:02,210
+VAA, VAR :
+
+3
+00:00:02,357 --> 00:00:06,035
+saurez-vous associer chaque sigle à sa maladie
+
+4
+00:00:06,017 --> 00:00:06,153
+?
+
+5
+00:00:06,316 --> 00:00:08,011
+Bienvenue sur MedEssentiel :
+
+6
+00:00:08,254 --> 00:00:11,185
+la médecine, clairement expliquée.
+
+7
+00:00:11,470 --> 00:00:11,502
+Aujourd'hui :
+
+8
+00:00:11,552 --> 00:00:13,946
+les vaccins du programme élargi de vaccination,
+
+9
+00:00:13,931 --> 00:00:15,745
+et les maladies qu'ils préviennent.
+
+10
+00:00:15,900 --> 00:00:18,966
+Le BCG protège contre la tuberculose,
+
+11
+00:00:18,973 --> 00:00:22,279
+surtout contre ses formes graves chez le
+
+12
+00:00:22,239 --> 00:00:26,164
+jeune enfant, comme la méningite tuberculeuse.
+
+13
+00:00:26,490 --> 00:00:29,303
+Il est donné à la naissance dans
+
+14
+00:00:29,274 --> 00:00:33,019
+les pays où la tuberculose est fréquente.
+
+15
+00:00:33,456 --> 00:00:36,867
+Le VPO est le vaccin antipoliomyélitique oral.
+
+16
+00:00:37,041 --> 00:00:39,430
+Il protège contre la poliomyélite,
+
+17
+00:00:39,432 --> 00:00:42,626
+une maladie qui peut provoquer des paralysies.
+
+18
+00:00:43,186 --> 00:00:45,549
+Le DTC protège contre trois maladies :
+
+19
+00:00:45,878 --> 00:00:47,766
+la diphtérie, le tétanos et la coqueluche.
+
+20
+00:00:47,958 --> 00:00:51,848
+Attention, le tétanos fait bien partie du
+
+21
+00:00:51,809 --> 00:00:52,278
+DTC.
+
+22
+00:00:52,684 --> 00:00:55,550
+Ce vaccin est souvent associé à l'hépatite
+
+23
+00:00:55,539 --> 00:00:58,191
+B et à l'Haemophilus influenzae de type
+
+24
+00:00:58,157 --> 00:01:00,142
+b dans un vaccin pentavalent.
+
+25
+00:01:00,755 --> 00:01:04,207
+Le vaccin contre l'hépatite B protège contre
+
+26
+00:01:04,184 --> 00:01:06,120
+le virus de l'hépatite B,
+
+27
+00:01:06,079 --> 00:01:08,918
+qui peut provoquer une cirrhose et un
+
+28
+00:01:08,877 --> 00:01:10,077
+cancer du foie.
+
+29
+00:01:10,266 --> 00:01:12,658
+Une dose à la naissance est recommandée
+
+30
+00:01:12,648 --> 00:01:13,326
+par l'OMS.
+
+31
+00:01:13,397 --> 00:01:17,692
+Attention à une confusion fréquente :
+
+32
+00:01:17,865 --> 00:01:18,749
+le SAT n'est pas un vaccin.
+
+33
+00:01:18,905 --> 00:01:20,912
+C'est le sérum antitétanique,
+
+34
+00:01:20,916 --> 00:01:23,317
+des anticorps fournis directement,
+
+35
+00:01:23,314 --> 00:01:26,589
+qui donnent une protection immédiate mais brève,
+
+36
+00:01:26,562 --> 00:01:28,678
+utilisés en cas de plaie à risque
+
+37
+00:01:28,651 --> 00:01:30,754
+chez une personne non vaccinée.
+
+38
+00:01:31,025 --> 00:01:32,932
+Le vaccin antitétanique, lui,
+
+39
+00:01:32,896 --> 00:01:34,012
+s'appelle le VAT.
+
+40
+00:01:34,534 --> 00:01:35,574
+Il protège durablement.
+
+41
+00:01:35,774 --> 00:01:37,720
+Le VAA est le vaccin antiamaril :
+
+42
+00:01:38,012 --> 00:01:40,456
+il protège contre la fièvre jaune,
+
+43
+00:01:40,431 --> 00:01:42,533
+dans les pays où elle circule.
+
+44
+00:01:42,879 --> 00:01:46,257
+Le VAR est le vaccin antirougeoleux :
+
+45
+00:01:46,384 --> 00:01:48,385
+il protège contre la rougeole,
+
+46
+00:01:48,370 --> 00:01:50,359
+une maladie très contagieuse,
+
+47
+00:01:50,355 --> 00:01:52,062
+qui nécessite deux doses.
+
+48
+00:01:52,216 --> 00:01:54,472
+Il est souvent associé à celui de
+
+49
+00:01:54,430 --> 00:01:55,267
+la rubéole.
+
+50
+00:01:55,699 --> 00:01:57,675
+Le vaccin contre le rotavirus,
+
+51
+00:01:57,663 --> 00:02:01,505
+par exemple Rotasiil, protège contre les gastro-entérites
+
+52
+00:02:01,516 --> 00:02:04,202
+sévères à rotavirus, une cause majeure de
+
+53
+00:02:04,160 --> 00:02:06,435
+diarrhée grave chez le nourrisson.
+
+54
+00:02:06,763 --> 00:02:10,240
+Et le vaccin antipneumococcique protège contre les
+
+55
+00:02:10,201 --> 00:02:12,045
+infections à pneumocoque :
+
+56
+00:02:12,222 --> 00:02:15,541
+pneumonies, méningites et infections du sang.
+
+57
+00:02:15,715 --> 00:02:16,491
+Retenez :
+
+58
+00:02:16,607 --> 00:02:18,020
+BCG, tuberculose ;
+
+59
+00:02:17,974 --> 00:02:19,472
+VPO, poliomyélite ;
+
+60
+00:02:19,427 --> 00:02:22,292
+DTC, diphtérie, tétanos, coqueluche ;
+
+61
+00:02:22,247 --> 00:02:23,147
+hépatite B ;
+
+62
+00:02:23,101 --> 00:02:24,672
+VAT, tétanos, et SAT,
+
+63
+00:02:24,639 --> 00:02:25,198
+sérum ;
+
+64
+00:02:25,152 --> 00:02:26,565
+VAA, fièvre jaune ;
+
+65
+00:02:26,519 --> 00:02:27,676
+VAR, rougeole ;
+
+66
+00:02:27,630 --> 00:02:29,594
+rotavirus et pneumocoque.
+
+67
+00:02:29,768 --> 00:02:32,357
+Les calendriers varient selon les pays :
+
+68
+00:02:32,624 --> 00:02:34,809
+suivez le carnet de vaccination,
+
+69
+00:02:34,805 --> 00:02:37,797
+et rattrapez les doses manquantes avec votre
+
+70
+00:02:37,766 --> 00:02:39,975
+médecin ou votre centre de santé.
+
+71
+00:02:40,113 --> 00:02:41,433
+Quel vaccin vous a surpris ?
+
+72
+00:02:41,983 --> 00:02:43,355
+Dites-le en commentaire.
+
+73
+00:02:43,657 --> 00:02:45,765
+Cette vidéo est éducative et ne remplace
+
+74
+00:02:45,739 --> 00:02:46,806
+pas un avis médical.
+
+75
+00:02:47,057 --> 00:02:51,358
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

@@ -4,7 +4,7 @@
 set -euo pipefail
 S=$1; shift
 M=$(cd "$(dirname "$0")" && pwd); D=$S/dl; P=$S/speech; ROOT=$(dirname "$M")
-declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 [27]=159.39 [28]=157.58 [29]=177.27 [30]=167.75 )
+declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 [27]=159.39 [28]=157.58 [29]=177.27 [30]=167.75 [31]=171.38 )
 declare -A PH
 PH[01]='s01=x s02=Bonjour s03=D'"'"'abord s04=Premier_signe s05=Deuxième_signe s06=Troisième_signe s07=Quatrième_signe s08=Cinquième_signe s09=Certaines_situations s10=Que_faire s11=Cette_vidéo_est'
 PH[02]='c01=x c02=Bonjour c03=Le_cœur_est_une_pompe c04=On_peut_le_voir c05=Suivons_une_goutte c06=Comment_le_sang_évite c07=Et_le_cœur_lui-même c08=Cette_vidéo_est_éducative'
@@ -36,6 +36,7 @@ PH[27]='m01=x m02=Bienvenue_sur_MedEssentiel m03=Le_paludisme_est_une m04=Les_si
 PH[28]='g01=x g02=Bienvenue_sur_MedEssentiel g03=La_gastrite_est_une g04=Les_symptômes g05=Quand_faut-il_consulter g06=Consultez_aussi g07=Comment_faire_le_diagnostic g08=Le_traitement g09=Retenez g10=Cette_vidéo_est_éducative'
 PH[29]='b01=x b02=Bienvenue_sur_MedEssentiel b03=Les_gaz_du_sang_artériels b04=Étape_un b05=Étape_quatre b06=Étape_cinq b07=Les_autres_tableaux b08=Retenez b09=Cette_vidéo_est_éducative'
 PH[30]='c01=x c02=Bienvenue_sur_MedEssentiel c03=Les_antibiotiques_tuent c04=Pourquoi_est-ce_si_important c05=Alors,_quand_un_antibiotique c06=Les_règles_d'"'"'or c07=Quand_faut-il_s'"'"'inquiéter c08=Comment_réduire c09=Retenez c10=Cette_vidéo_est_éducative'
+PH[31]='v01=x v02=Bienvenue_sur_MedEssentiel v03=Le_BCG_protège v04=Le_DTC_protège v05=Attention_à_une_confusion v06=Le_VAA_est v07=Le_vaccin_contre_le_rotavirus v08=Retenez v09=Cette_vidéo_est_éducative'
 for ep in "$@"; do
   if [[ 10#$ep -ge 10 ]]; then SRT=$P/ep$ep.srt; WAV=$P/ep$ep.wav; WORDS=$P/ep${ep}_words.json
   else SRT=$D/ep$ep.srt; WAV=$S/hf_audio_$ep.wav; ffmpeg -v error -y -i $D/ep${ep}_raw.mp4 -vn -ac 1 -ar 44100 $WAV; WORDS=$S/hf_words_$ep.json; python3 $M/srt_words.py $SRT $WORDS >/dev/null; fi
