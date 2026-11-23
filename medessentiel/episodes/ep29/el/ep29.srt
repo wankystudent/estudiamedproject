@@ -1,0 +1,340 @@
+1
+00:00:00,000 --> 00:00:01,091
+Un gaz du sang :
+
+2
+00:00:01,420 --> 00:00:03,323
+pH sept virgule vingt-neuf,
+
+3
+00:00:03,316 --> 00:00:04,602
+PaCO deux à trente,
+
+4
+00:00:04,580 --> 00:00:06,332
+bicarbonates à quatorze.
+
+5
+00:00:06,496 --> 00:00:07,341
+Que se passe-t-il ?
+
+6
+00:00:07,458 --> 00:00:09,273
+Bienvenue sur MedEssentiel :
+
+7
+00:00:09,562 --> 00:00:13,376
+la médecine, clairement expliquée.
+
+8
+00:00:13,686 --> 00:00:14,283
+Aujourd'hui :
+
+9
+00:00:14,467 --> 00:00:15,877
+lire des gaz du sang,
+
+10
+00:00:15,847 --> 00:00:17,010
+étape par étape.
+
+11
+00:00:17,285 --> 00:00:19,958
+Les gaz du sang artériels mesurent le
+
+12
+00:00:19,917 --> 00:00:23,145
+pH, la pression partielle de gaz carbonique,
+
+13
+00:00:23,142 --> 00:00:25,428
+la PaCO deux, les bicarbonates,
+
+14
+00:00:25,433 --> 00:00:28,072
+et la pression partielle d'oxygène,
+
+15
+00:00:28,064 --> 00:00:28,942
+la PaO deux.
+
+16
+00:00:29,593 --> 00:00:33,013
+Ils sont disponibles en quelques minutes à
+
+17
+00:00:32,967 --> 00:00:37,034
+l'hôpital, et leur interprétation peut sauver une
+
+18
+00:00:36,998 --> 00:00:37,404
+vie.
+
+19
+00:00:37,563 --> 00:00:39,284
+Les valeurs de référence varient un peu
+
+20
+00:00:39,242 --> 00:00:40,358
+selon les laboratoires :
+
+21
+00:00:40,476 --> 00:00:43,563
+on retient un pH autour de sept
+
+22
+00:00:43,538 --> 00:00:45,492
+virgule quarante.
+
+23
+00:00:45,724 --> 00:00:46,496
+Étape un :
+
+24
+00:00:46,716 --> 00:00:48,061
+le pH.
+
+25
+00:00:48,397 --> 00:00:49,033
+En dessous de la normale,
+
+26
+00:00:48,994 --> 00:00:49,515
+c'est une acidémie.
+
+27
+00:00:49,935 --> 00:00:51,577
+Au-dessus, une alcalémie.
+
+28
+00:00:52,072 --> 00:00:52,761
+Étape deux :
+
+29
+00:00:53,103 --> 00:00:56,709
+la PaCO deux, qui reflète la ventilation.
+
+30
+00:00:57,092 --> 00:00:58,824
+C'est la composante respiratoire.
+
+31
+00:00:59,123 --> 00:00:59,919
+Étape trois :
+
+32
+00:01:00,162 --> 00:01:04,046
+les bicarbonates, qui reflètent la composante métabolique.
+
+33
+00:01:04,659 --> 00:01:05,661
+Étape quatre :
+
+34
+00:01:05,796 --> 00:01:08,316
+quel paramètre explique le pH ?
+
+35
+00:01:08,537 --> 00:01:10,209
+Dans notre cas, le pH est bas,
+
+36
+00:01:10,172 --> 00:01:11,077
+donc acidémie.
+
+37
+00:01:11,251 --> 00:01:12,396
+Les bicarbonates sont bas :
+
+38
+00:01:12,633 --> 00:01:16,513
+c'est une acidose métabolique.
+
+39
+00:01:16,721 --> 00:01:17,431
+La PaCO deux est basse aussi :
+
+40
+00:01:17,574 --> 00:01:20,501
+c'est la réponse de compensation de la
+
+41
+00:01:20,460 --> 00:01:24,099
+ventilation, le patient respire plus vite pour
+
+42
+00:01:24,067 --> 00:01:26,232
+éliminer du gaz carbonique.
+
+43
+00:01:26,483 --> 00:01:27,840
+Dans une acidose métabolique,
+
+44
+00:01:27,820 --> 00:01:29,747
+la PaCO deux baisse d'environ un millimètre
+
+45
+00:01:29,723 --> 00:01:31,611
+de mercure pour chaque millimole par litre
+
+46
+00:01:31,574 --> 00:01:32,825
+de baisse des bicarbonates.
+
+47
+00:01:32,980 --> 00:01:35,908
+Étape cinq :
+
+48
+00:01:36,191 --> 00:01:38,700
+le trou anionique.
+
+49
+00:01:39,080 --> 00:01:40,154
+On le calcule ainsi :
+
+50
+00:01:40,335 --> 00:01:42,888
+sodium moins la somme des bicarbonates et
+
+51
+00:01:42,845 --> 00:01:43,515
+du chlore.
+
+52
+00:01:43,861 --> 00:01:45,189
+Il oriente le diagnostic.
+
+53
+00:01:45,444 --> 00:01:47,046
+S'il est élevé, on pense à une
+
+54
+00:01:47,006 --> 00:01:50,167
+accumulation d'acides, comme les corps cétoniques dans
+
+55
+00:01:50,130 --> 00:01:52,842
+l'acidocétose diabétique, ou le lactate dans un
+
+56
+00:01:52,799 --> 00:01:53,158
+choc.
+
+57
+00:01:53,552 --> 00:01:55,350
+S'il est normal, on pense à une
+
+58
+00:01:55,310 --> 00:01:58,216
+perte de bicarbonates, par exemple une diarrhée
+
+59
+00:01:58,194 --> 00:01:58,712
+sévère.
+
+60
+00:01:59,306 --> 00:02:00,751
+Les autres tableaux :
+
+61
+00:02:00,805 --> 00:02:03,511
+une acidose respiratoire, avec un pH bas
+
+62
+00:02:03,473 --> 00:02:05,065
+et une PaCO deux élevée,
+
+63
+00:02:05,043 --> 00:02:08,891
+évoque une hypoventilation, comme dans une insuffisance
+
+64
+00:02:08,888 --> 00:02:09,907
+respiratoire.
+
+65
+00:02:10,091 --> 00:02:13,207
+Une alcalose respiratoire, avec un pH élevé
+
+66
+00:02:13,178 --> 00:02:14,787
+et une PaCO deux basse,
+
+67
+00:02:14,762 --> 00:02:18,641
+évoque une hyperventilation, comme dans l'anxiété ou
+
+68
+00:02:18,599 --> 00:02:19,450
+la douleur.
+
+69
+00:02:19,983 --> 00:02:22,686
+Une alcalose métabolique, avec un pH élevé
+
+70
+00:02:22,655 --> 00:02:24,460
+et des bicarbonates élevés,
+
+71
+00:02:24,436 --> 00:02:27,351
+évoque par exemple des vomissements répétés.
+
+72
+00:02:27,736 --> 00:02:28,990
+N'oubliez pas la PaO deux :
+
+73
+00:02:29,187 --> 00:02:30,944
+elle évalue l'oxygénation.
+
+74
+00:02:31,111 --> 00:02:33,004
+Et surtout, un gaz du sang ne
+
+75
+00:02:32,962 --> 00:02:34,859
+s'interprète jamais seul :
+
+76
+00:02:35,140 --> 00:02:37,307
+il se lit avec le contexte clinique,
+
+77
+00:02:37,289 --> 00:02:39,452
+l'ionogramme et le trou anionique.
+
+78
+00:02:39,713 --> 00:02:40,249
+Retenez :
+
+79
+00:02:40,519 --> 00:02:42,676
+pH, PaCO deux, bicarbonates,
+
+80
+00:02:42,682 --> 00:02:46,073
+compensation, trou anionique, et le patient.
+
+81
+00:02:46,392 --> 00:02:46,689
+Quel est votre piège préféré ?
+
+82
+00:02:46,836 --> 00:02:47,858
+Dites-le en commentaire.
+
+83
+00:02:48,085 --> 00:02:51,754
+Cette vidéo est éducative et ne remplace
+
+84
+00:02:51,747 --> 00:02:54,986
+ni une formation ni un avis médical.
+
+85
+00:02:55,247 --> 00:02:57,295
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

@@ -642,5 +642,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100142658)",
   "statut_yt": "Programmée (Omnisocials 100142658)"
+ },
+ {
+  "vid": "VID-029",
+  "ep": 29,
+  "titre": "Gaz du sang : apprendre à les interpréter en 5 étapes",
+  "specialite": "Réanimation/biologie",
+  "categorie_yt": "Sémiologie et examens",
+  "duree_s": 177.0,
+  "icone": "drop",
+  "miniature": "GAZ DU SANG|5 étapes",
+  "accroche": "pH 7,29, PaCO₂ 30, HCO₃⁻ 14 : que se passe-t-il ?",
+  "description": "pH, PaCO₂, bicarbonates, compensation et trou anionique : une méthode pas à pas pour lire des gaz du sang.",
+  "hashtags": "#GazDuSang #Réanimation #Étudiants #Médecine #MedEssentiel",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
