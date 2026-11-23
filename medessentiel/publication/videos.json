@@ -734,5 +734,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-033",
+  "ep": 33,
+  "titre": "Méningite : reconnaître cette urgence à temps",
+  "specialite": "Infectiologie/neurologie",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 153.0,
+  "icone": "brain",
+  "miniature": "MÉNINGITE|reconnaître l'urgence",
+  "accroche": "Fièvre, mal de tête violent, nuque raide : faut-il craindre une méningite ?",
+  "description": "Signes chez l'adulte et le nourrisson, test du verre, prise en charge urgente et prévention de la méningite.",
+  "hashtags": "#Méningite #Urgence #Pédiatrie #Infection #MedEssentiel",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

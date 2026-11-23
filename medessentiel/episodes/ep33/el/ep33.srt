@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:02,266
+Fièvre, mal de tête violent,
+
+2
+00:00:02,254 --> 00:00:03,308
+nuque raide.
+
+3
+00:00:03,491 --> 00:00:05,271
+Faut-il craindre une méningite ?
+
+4
+00:00:05,658 --> 00:00:08,321
+Bienvenue sur MedEssentiel :
+
+5
+00:00:08,629 --> 00:00:09,557
+la médecine, clairement expliquée.
+
+6
+00:00:09,889 --> 00:00:10,486
+Aujourd'hui :
+
+7
+00:00:10,724 --> 00:00:12,798
+la méningite, reconnaître l'urgence.
+
+8
+00:00:13,114 --> 00:00:17,329
+La méningite est une inflammation des méninges,
+
+9
+00:00:17,325 --> 00:00:20,960
+les membranes qui entourent le cerveau et
+
+10
+00:00:20,920 --> 00:00:22,670
+la moelle épinière.
+
+11
+00:00:23,050 --> 00:00:24,523
+Elle peut être causée par un virus,
+
+12
+00:00:24,488 --> 00:00:26,250
+souvent moins grave, ou par une bactérie,
+
+13
+00:00:26,222 --> 00:00:27,977
+comme le méningocoque ou le pneumocoque,
+
+14
+00:00:27,957 --> 00:00:29,526
+ce qui constitue une urgence vitale.
+
+15
+00:00:30,016 --> 00:00:33,348
+Selon l'étude Global Burden of Disease 2016,
+
+16
+00:00:33,320 --> 00:00:37,178
+la méningite représentait encore environ huit pour
+
+17
+00:00:37,145 --> 00:00:40,029
+cent de la charge mondiale des maladies
+
+18
+00:00:40,014 --> 00:00:43,163
+neurologiques, même si son poids a diminué
+
+19
+00:00:43,143 --> 00:00:44,128
+depuis 1990.
+
+20
+00:00:44,516 --> 00:00:46,627
+Les signes chez l'adulte et l'enfant :
+
+21
+00:00:46,907 --> 00:00:49,067
+fièvre, mal de tête intense,
+
+22
+00:00:49,053 --> 00:00:50,596
+raideur de la nuque,
+
+23
+00:00:50,573 --> 00:00:51,928
+gêne à la lumière,
+
+24
+00:00:51,914 --> 00:00:56,565
+nausées, vomissements, et parfois confusion ou somnolence.
+
+25
+00:00:57,175 --> 00:00:59,383
+Chez le nourrisson, les signes sont moins
+
+26
+00:00:59,349 --> 00:00:59,954
+typiques :
+
+27
+00:01:00,126 --> 00:01:01,675
+fièvre ou température basse,
+
+28
+00:01:01,644 --> 00:01:04,693
+irritabilité, pleurs inhabituels, refus de s'alimenter,
+
+29
+00:01:04,679 --> 00:01:07,310
+somnolence, enfant mou, et parfois une fontanelle
+
+30
+00:01:07,290 --> 00:01:07,744
+bombée.
+
+31
+00:01:07,943 --> 00:01:09,472
+Un signe d'alarme majeur :
+
+32
+00:01:09,905 --> 00:01:11,223
+des taches rouges ou violacées sur la
+
+33
+00:01:11,178 --> 00:01:12,578
+peau, qui ne disparaissent pas quand on
+
+34
+00:01:12,532 --> 00:01:13,994
+appuie dessus avec un verre transparent.
+
+35
+00:01:14,168 --> 00:01:17,947
+C'est le test du verre.
+
+36
+00:01:18,057 --> 00:01:20,549
+Il peut indiquer une infection grave à
+
+37
+00:01:20,503 --> 00:01:22,980
+méningocoque, avec un risque de choc.
+
+38
+00:01:23,260 --> 00:01:25,863
+N'attendez pas que l'éruption apparaisse pour consulter,
+
+39
+00:01:25,839 --> 00:01:27,214
+car elle peut manquer au début.
+
+40
+00:01:27,507 --> 00:01:27,997
+Que faire ?
+
+41
+00:01:28,292 --> 00:01:29,221
+C'est une urgence :
+
+42
+00:01:29,469 --> 00:01:32,046
+appelez les secours ou rendez-vous immédiatement aux
+
+43
+00:01:32,004 --> 00:01:32,525
+urgences.
+
+44
+00:01:32,748 --> 00:01:33,961
+Chaque heure compte.
+
+45
+00:01:34,384 --> 00:01:37,678
+À l'hôpital, le diagnostic repose sur l'examen
+
+46
+00:01:37,661 --> 00:01:39,903
+clinique, les analyses de sang,
+
+47
+00:01:39,873 --> 00:01:43,168
+et souvent une ponction lombaire pour analyser
+
+48
+00:01:43,151 --> 00:01:45,544
+le liquide qui entoure le cerveau.
+
+49
+00:01:45,717 --> 00:01:48,318
+Selon les recommandations de la société européenne
+
+50
+00:01:48,298 --> 00:01:50,975
+ESCMID, les antibiotiques doivent être débutés sans
+
+51
+00:01:50,937 --> 00:01:52,837
+délai en cas de suspicion de méningite
+
+52
+00:01:52,814 --> 00:01:55,248
+bactérienne, et un corticoïde peut être associé
+
+53
+00:01:55,218 --> 00:01:56,195
+dans certains cas.
+
+54
+00:01:56,759 --> 00:01:59,546
+Quand un cas de méningite à méningocoque
+
+55
+00:01:59,545 --> 00:02:03,110
+est confirmé, l'entourage proche peut recevoir un
+
+56
+00:02:03,068 --> 00:02:07,424
+traitement antibiotique préventif, décidé par les autorités
+
+57
+00:02:07,411 --> 00:02:08,092
+de santé.
+
+58
+00:02:08,448 --> 00:02:11,349
+La prévention repose sur les vaccins :
+
+59
+00:02:11,632 --> 00:02:13,680
+contre le Haemophilus influenzae de type b,
+
+60
+00:02:13,635 --> 00:02:15,275
+le pneumocoque et le méningocoque,
+
+61
+00:02:15,260 --> 00:02:16,867
+selon le calendrier de votre pays.
+
+62
+00:02:17,358 --> 00:02:17,915
+Retenez :
+
+63
+00:02:18,224 --> 00:02:19,363
+fièvre, mal de tête,
+
+64
+00:02:19,329 --> 00:02:21,646
+nuque raide, taches qui ne s'effacent pas
+
+65
+00:02:21,606 --> 00:02:21,718
+:
+
+66
+00:02:21,949 --> 00:02:23,235
+urgence, sans attendre.
+
+67
+00:02:23,754 --> 00:02:25,014
+Quel signe vous a surpris ?
+
+68
+00:02:25,323 --> 00:02:26,428
+Dites-le en commentaire.
+
+69
+00:02:26,796 --> 00:02:29,045
+Cette vidéo est éducative et ne remplace
+
+70
+00:02:29,021 --> 00:02:30,158
+pas un avis médical.
+
+71
+00:02:30,699 --> 00:02:33,460
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
