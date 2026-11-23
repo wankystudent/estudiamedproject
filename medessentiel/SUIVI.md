@@ -150,3 +150,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - **File de rendu (un à la fois)** : VID-025 (51 %) → 026 → 027 → 028. Dès chaque fin : upload Omnisocials + programmation (créneaux : 025→26/11 17:30 ; 026→27/11 08:00 ; 027→27/11 17:30 ; 028→28/11 08:00 AST).
 - **VID-025 Sepsis** rendu (145 s, 3D vérifiée à l'image) et **programmé** : 26/11 17:30 AST (post 100142607, FB+YT). 10 posts programmés au total, 0 publié (Infarctus part à 08:00 AST le 23/11). Prochain créneau libre : 27/11 08:00 AST.
 - **VID-027 Paludisme** rendu (159,4 s) et **programmé** : 27/11 17:30 AST (post 100142610). 11 posts programmés, 0 publié. Le créneau 27/11 08:00 AST est réservé à VID-026 (anémie, rendu à ~25 %), puis VID-028 → 28/11 08:00.
+- **VID-026 Anémie** rendu (159,3 s) et **programmé** : 27/11 08:00 AST (post 100142653). 12 posts programmés, 0 publié. Reste VID-028 (rendu en cours) → 28/11 08:00 AST.
