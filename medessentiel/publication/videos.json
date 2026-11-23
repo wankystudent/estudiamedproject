@@ -619,5 +619,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-028",
+  "ep": 28,
+  "titre": "Gastrite et ulcère : signes, causes et traitement",
+  "specialite": "Gastro-entérologie",
+  "categorie_yt": "Comprendre les maladies",
+  "duree_s": 157.0,
+  "icone": "abdomen",
+  "miniature": "ULCÈRE|gastrite, H. pylori",
+  "accroche": "Une brûlure d'estomac qui revient : gastrite ou ulcère ?",
+  "description": "Causes (Helicobacter pylori, anti-inflammatoires), signes d'alerte, diagnostic et traitement de la gastrite et de l'ulcère.",
+  "hashtags": "#Ulcère #Gastrite #HPylori #Digestif #MedEssentiel",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
