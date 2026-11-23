@@ -1,9 +1,10 @@
 {
- "note": "17 posts programmés (0 publié) au 2026-11-23. Prochain créneau libre : 2026-11-30T21:30Z (17:30 AST) → VID-033.",
+ "note": "1 post PUBLIÉ (VID-015) et 17 programmés au 2026-11-23. Prochain créneau libre : 2026-12-01T... voir calendrier (30/11 plein ; 01/12 08:00 et 17:30 pris).",
  "VID-015": {
   "post": "100142102",
   "media": "272263",
-  "thumb": "271171"
+  "thumb": "271171",
+  "statut": "PUBLIÉ le 2026-11-23 12:00Z (08:00 AST) — FB https://www.facebook.com/reel/1324778896469891/ ; YouTube https://youtube.com/shorts/kqxeEfGCaA4"
  },
  "VID-004": {
   "post": "100142103",
@@ -189,5 +190,11 @@
   "media": "275060",
   "thumb": "275061",
   "slot": "2026-11-30T12:00Z"
+ },
+ "VID-033": {
+  "post": "100144115",
+  "media": "275066",
+  "thumb": "275067",
+  "slot": "2026-11-30T21:30Z"
  }
 }

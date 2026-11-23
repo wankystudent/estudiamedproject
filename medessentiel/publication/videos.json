@@ -340,9 +340,9 @@
   "scheduled_at_utc": "2026-11-23T12:00:00Z",
   "statut_production": "Vidéo finalisée",
   "statut_miniature": "Miniature finalisée",
-  "statut_fb": "Programmée (Omnisocials 100142102)",
-  "statut_yt": "Programmée (Omnisocials 100142102)",
-  "lien": ""
+  "statut_fb": "PUBLIÉE 2026-11-23",
+  "statut_yt": "PUBLIÉE 2026-11-23",
+  "lien": "FB https://www.facebook.com/reel/1324778896469891/ | YT https://youtube.com/shorts/kqxeEfGCaA4"
  },
  {
   "vid": "VID-016",
@@ -749,13 +749,13 @@
   "hashtags": "#Méningite #Urgence #Pédiatrie #Infection #MedEssentiel",
   "vitesse": 1.0,
   "plateformes": "FB+YT",
-  "date": "",
-  "heure_AST": "",
-  "scheduled_at_utc": "",
+  "date": "2026-11-30",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-11-30T21:30:00Z",
   "lien": "",
-  "statut_production": "Rendu en cours",
-  "statut_miniature": "À créer",
-  "statut_fb": "Non programmée",
-  "statut_yt": "Non programmée"
+  "statut_production": "Vidéo finalisée",
+  "statut_miniature": "Miniature finalisée",
+  "statut_fb": "Programmée (Omnisocials 100144115)",
+  "statut_yt": "Programmée (Omnisocials 100144115)"
  }
 ]

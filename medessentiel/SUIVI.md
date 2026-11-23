@@ -172,3 +172,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - File de rendu : VID-031 (≈ 50 %) → 032 → 033. Créneaux : 031→29/11 17:30 ; 032→30/11 08:00 ; 033→30/11 17:30 AST.
 - **VID-031 Vaccins et maladies cibles** rendu (171,4 s) et **programmé** : 29/11 17:30 AST (post 100144044). **16 posts programmés, 0 publié.** Prochain créneau libre : 30/11 08:00 AST → VID-032.
 - **VID-032 Vaccins du nouveau-né** rendu (162,8 s) et **programmé** : 30/11 08:00 AST (post 100144087). **17 posts programmés, 0 publié.** Prochain créneau libre : 30/11 17:30 AST → VID-033 (méningite, en rendu).
+
+## 2026-11-23 — PREMIÈRE PUBLICATION CONFIRMÉE
+- **VID-015 Infarctus publié** le 2026-11-23 à 12:00Z (08:00 AST) par Omnisocials (statut `Published`, vérifié `list_posts` + `get_post`) : Facebook https://www.facebook.com/reel/1324778896469891/ — YouTube Shorts https://youtube.com/shorts/kqxeEfGCaA4. Aucun statut d'erreur.
+- **VID-033 Méningite** rendu (153,5 s) et **programmé** : 30/11 17:30 AST (post 100144115). État du calendrier : **1 publié, 17 programmés** (vérifié). Créneaux 23→30/11 tous occupés ; 01/12 : Aliments (08:00) et Apgar (17:30). Prochain créneau libre : **02/12 08:00 AST**.
