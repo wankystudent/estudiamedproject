@@ -711,5 +711,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-032",
+  "ep": 32,
+  "titre": "Vaccins du nouveau-né : lesquels dès la naissance ?",
+  "specialite": "Néonatologie/vaccinologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 162.8,
+  "icone": "baby",
+  "miniature": "NOUVEAU-NÉ|ses vaccins",
+  "accroche": "Votre bébé vient de naître : quels vaccins dès les premières heures ?",
+  "description": "BCG, hépatite B dans les 24 heures, polio oral selon le pays : les vaccins de la naissance et la suite du calendrier.",
+  "hashtags": "#Vaccins #NouveauNé #BCG #HépatiteB #MedEssentiel",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
