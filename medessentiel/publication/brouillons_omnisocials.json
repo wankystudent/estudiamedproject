@@ -1,5 +1,5 @@
 {
- "note": "12 posts programmés (0 publié) au 2026-11-23. Prochain créneau libre : 2026-11-28T12:00Z (08:00 AST) → VID-028.",
+ "note": "13 posts programmés (0 publié) au 2026-11-23. Prochain créneau libre : 2026-11-28T21:30Z (17:30 AST) → VID-029.",
  "VID-015": {
   "post": "100142102",
   "media": "272263",
@@ -159,5 +159,11 @@
   "media": "273349",
   "thumb": "273350",
   "slot": "2026-11-27T12:00Z"
+ },
+ "VID-028": {
+  "post": "100142658",
+  "media": "273386",
+  "thumb": "273387",
+  "slot": "2026-11-28T12:00Z"
  }
 }
