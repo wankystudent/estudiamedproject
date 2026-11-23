@@ -4,7 +4,7 @@
 set -euo pipefail
 S=$1; shift
 M=$(cd "$(dirname "$0")" && pwd); D=$S/dl; P=$S/speech; ROOT=$(dirname "$M")
-declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 )
+declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 [27]=159.39 )
 declare -A PH
 PH[01]='s01=x s02=Bonjour s03=D'"'"'abord s04=Premier_signe s05=Deuxième_signe s06=Troisième_signe s07=Quatrième_signe s08=Cinquième_signe s09=Certaines_situations s10=Que_faire s11=Cette_vidéo_est'
 PH[02]='c01=x c02=Bonjour c03=Le_cœur_est_une_pompe c04=On_peut_le_voir c05=Suivons_une_goutte c06=Comment_le_sang_évite c07=Et_le_cœur_lui-même c08=Cette_vidéo_est_éducative'
@@ -32,6 +32,7 @@ PH[23]='f01=x f02=Bienvenue_sur_MedEssentiel f03=D'"'"'abord,_une_idée f04=Par_
 PH[24]='h01=x h02=Bienvenue_sur_MedEssentiel h03=L'"'"'hypoglycémie_est_une h04=Elle_survient_surtout h05=Les_signes h06=Que_faire_si h07=Si_la_personne_est_inconsciente h08=Après_un_épisode h09=Retenez h10=Cette_vidéo_est_éducative'
 PH[25]='t01=x t02=Bienvenue_sur_MedEssentiel t03=Selon_la_définition t04=Comment_le_reconnaître t05=Dans_la_vie_courante t06=Les_personnes_les_plus_à_risque t07=Que_faire t08=Pour_prévenir t09=Retenez t10=Cette_vidéo_est_éducative'
 PH[26]='n01=x n02=Bienvenue_sur_MedEssentiel n03=L'"'"'anémie_est_une n04=Les_signes n05=Quelles_sont_les_causes n06=Comment_faire_le_diagnostic n07=Le_traitement_dépend n08=Pour_mieux_absorber n09=Retenez n10=Cette_vidéo_est_éducative'
+PH[27]='m01=x m02=Bienvenue_sur_MedEssentiel m03=Le_paludisme_est_une m04=Les_signes m05=Quand_faut-il_s'"'"'alarmer m06=Le_diagnostic_repose m07=Le_traitement_dépend m08=Comment_se_protéger m09=Retenez m10=Cette_vidéo_est_éducative'
 for ep in "$@"; do
   if [[ 10#$ep -ge 10 ]]; then SRT=$P/ep$ep.srt; WAV=$P/ep$ep.wav; WORDS=$P/ep${ep}_words.json
   else SRT=$D/ep$ep.srt; WAV=$S/hf_audio_$ep.wav; ffmpeg -v error -y -i $D/ep${ep}_raw.mp4 -vn -ac 1 -ar 44100 $WAV; WORDS=$S/hf_words_$ep.json; python3 $M/srt_words.py $SRT $WORDS >/dev/null; fi

@@ -596,5 +596,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-027",
+  "ep": 27,
+  "titre": "Paludisme : reconnaître les signes et se protéger",
+  "specialite": "Infectiologie",
+  "categorie_yt": "Comprendre les maladies",
+  "duree_s": 159.0,
+  "icone": "blood",
+  "miniature": "PALUDISME|fièvre = tester",
+  "accroche": "Fièvre et frissons après un séjour en zone à risque : et si c'était un paludisme ?",
+  "description": "Transmission, signes, formes graves, diagnostic, traitement et prévention du paludisme.",
+  "hashtags": "#Paludisme #Malaria #Moustique #Santé #MedEssentiel",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "date": "",
+  "heure_AST": "",
+  "scheduled_at_utc": "",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

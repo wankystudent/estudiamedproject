@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:01,801
+De la fièvre, des frissons,
+
+2
+00:00:01,786 --> 00:00:02,904
+des maux de tête,
+
+3
+00:00:02,874 --> 00:00:04,838
+au retour d'une zone à risque.
+
+4
+00:00:04,915 --> 00:00:08,173
+Et si c'était un paludisme ?
+
+5
+00:00:08,345 --> 00:00:09,052
+Bienvenue sur MedEssentiel :
+
+6
+00:00:09,245 --> 00:00:10,130
+la médecine, clairement expliquée.
+
+7
+00:00:10,457 --> 00:00:11,066
+Aujourd'hui :
+
+8
+00:00:11,364 --> 00:00:12,185
+le paludisme, reconnaître et agir.
+
+9
+00:00:12,357 --> 00:00:15,845
+Le paludisme est une maladie parasitaire transmise
+
+10
+00:00:15,831 --> 00:00:17,815
+par la piqûre d'un moustique,
+
+11
+00:00:17,805 --> 00:00:21,368
+l'anophèle femelle, qui pique surtout au crépuscule
+
+12
+00:00:21,357 --> 00:00:22,098
+et la nuit.
+
+13
+00:00:22,232 --> 00:00:23,989
+Selon le rapport de l'OMS,
+
+14
+00:00:23,963 --> 00:00:27,443
+on estimait environ deux cent trente-deux millions
+
+15
+00:00:27,425 --> 00:00:28,399
+de cas en 2019,
+
+16
+00:00:28,369 --> 00:00:31,936
+dont quatre-vingt-quatorze pour cent dans la région
+
+17
+00:00:31,910 --> 00:00:34,611
+Afrique, avec les formes les plus graves
+
+18
+00:00:34,585 --> 00:00:36,637
+dues à Plasmodium falciparum.
+
+19
+00:00:36,730 --> 00:00:38,554
+Sans prise en charge rapide,
+
+20
+00:00:38,531 --> 00:00:40,370
+un enfant de moins de cinq ans
+
+21
+00:00:40,331 --> 00:00:41,330
+peut en mourir.
+
+22
+00:00:41,664 --> 00:00:42,311
+Les signes :
+
+23
+00:00:42,484 --> 00:00:45,004
+fièvre, frissons, sueurs, maux de tête,
+
+24
+00:00:44,972 --> 00:00:48,048
+douleurs musculaires, nausées ou vomissements.
+
+25
+00:00:48,421 --> 00:00:50,504
+Une fièvre dans les semaines ou les
+
+26
+00:00:50,465 --> 00:00:52,474
+mois qui suivent un séjour en zone
+
+27
+00:00:52,438 --> 00:00:55,159
+d'endémie est un paludisme jusqu'à preuve du
+
+28
+00:00:55,116 --> 00:00:55,836
+contraire.
+
+29
+00:00:56,271 --> 00:00:57,772
+Quand faut-il s'alarmer ?
+
+30
+00:00:58,078 --> 00:01:00,427
+Les formes graves se manifestent par une
+
+31
+00:01:00,387 --> 00:01:03,667
+confusion, des convulsions, une difficulté à respirer,
+
+32
+00:01:03,648 --> 00:01:05,912
+une jaunisse, des urines très foncées,
+
+33
+00:01:05,889 --> 00:01:08,309
+une anémie sévère, une hypoglycémie ou un
+
+34
+00:01:08,266 --> 00:01:09,046
+état de choc.
+
+35
+00:01:09,275 --> 00:01:11,295
+Les enfants de moins de cinq ans
+
+36
+00:01:11,257 --> 00:01:14,935
+et les femmes enceintes sont particulièrement exposés.
+
+37
+00:01:15,211 --> 00:01:16,252
+C'est une urgence.
+
+38
+00:01:16,548 --> 00:01:18,839
+Le diagnostic repose sur la recherche du
+
+39
+00:01:18,795 --> 00:01:20,098
+parasite dans le sang :
+
+40
+00:01:20,416 --> 00:01:22,088
+un test de diagnostic rapide,
+
+41
+00:01:22,061 --> 00:01:24,059
+ou un frottis et une goutte épaisse,
+
+42
+00:01:24,035 --> 00:01:26,368
+à faire sans attendre devant toute fièvre
+
+43
+00:01:26,338 --> 00:01:26,951
+suspecte.
+
+44
+00:01:27,186 --> 00:01:29,168
+Le traitement dépend de l'espèce,
+
+45
+00:01:29,149 --> 00:01:30,800
+de la gravité et de la région.
+
+46
+00:01:30,873 --> 00:01:33,717
+Pour les formes non compliquées à Plasmodium
+
+47
+00:01:33,705 --> 00:01:36,720
+falciparum, on utilise des associations à base
+
+48
+00:01:36,685 --> 00:01:37,797
+d'artémisinine.
+
+49
+00:01:37,963 --> 00:01:39,160
+Pour les formes graves,
+
+50
+00:01:39,131 --> 00:01:41,895
+l'artésunate par voie intraveineuse est le traitement
+
+51
+00:01:41,874 --> 00:01:42,596
+de référence.
+
+52
+00:01:42,879 --> 00:01:45,369
+Il faut suivre les protocoles nationaux,
+
+53
+00:01:45,354 --> 00:01:47,120
+et ne jamais s'automédiquer.
+
+54
+00:01:47,572 --> 00:01:48,880
+Comment se protéger ?
+
+55
+00:01:49,002 --> 00:01:52,382
+Dormez sous une moustiquaire imprégnée d'insecticide.
+
+56
+00:01:52,778 --> 00:01:55,694
+Utilisez des répulsifs et portez des vêtements
+
+57
+00:01:55,676 --> 00:01:56,868
+couvrants le soir.
+
+58
+00:01:57,285 --> 00:02:00,185
+Éliminez les eaux stagnantes autour de la
+
+59
+00:02:00,143 --> 00:02:03,161
+maison, où les moustiques se reproduisent.
+
+60
+00:02:03,353 --> 00:02:06,478
+Les voyageurs doivent demander un traitement préventif
+
+61
+00:02:06,457 --> 00:02:08,812
+adapté à leur destination avant le départ.
+
+62
+00:02:08,884 --> 00:02:11,529
+Et des vaccins contre le paludisme sont
+
+63
+00:02:11,495 --> 00:02:14,918
+maintenant recommandés par l'OMS pour les enfants
+
+64
+00:02:14,896 --> 00:02:16,646
+dans les zones d'endémie.
+
+65
+00:02:17,045 --> 00:02:19,633
+Retenez :
+
+66
+00:02:19,794 --> 00:02:20,995
+fièvre en zone ou après un voyage,
+
+67
+00:02:20,960 --> 00:02:22,007
+test sanguin sans attendre ;
+
+68
+00:02:21,959 --> 00:02:22,548
+signes graves :
+
+69
+00:02:22,668 --> 00:02:22,957
+urgence ;
+
+70
+00:02:22,909 --> 00:02:23,289
+protection :
+
+71
+00:02:23,535 --> 00:02:25,982
+moustiquaire, répulsif, eaux stagnantes ;
+
+72
+00:02:25,936 --> 00:02:27,228
+pas d'automédication.
+
+73
+00:02:27,549 --> 00:02:30,999
+Quelle mesure de protection utilisez-vous ?
+
+74
+00:02:31,120 --> 00:02:32,684
+Dites-le en commentaire.
+
+75
+00:02:32,838 --> 00:02:35,786
+Cette vidéo est éducative et ne remplace
+
+76
+00:02:35,770 --> 00:02:37,252
+pas un avis médical.
+
+77
+00:02:37,461 --> 00:02:39,417
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
