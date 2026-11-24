@@ -1,0 +1,276 @@
+1
+00:00:00,000 --> 00:00:01,910
+Pas de douleur, pas de symptôme,
+
+2
+00:00:01,892 --> 00:00:04,667
+et pourtant, vos reins s'abîment peut-être en
+
+3
+00:00:04,624 --> 00:00:05,206
+silence.
+
+4
+00:00:05,522 --> 00:00:09,727
+Bienvenue sur MedEssentiel :
+
+5
+00:00:10,238 --> 00:00:10,803
+la médecine, clairement expliquée.
+
+6
+00:00:11,143 --> 00:00:09,922
+Aujourd'hui :
+
+7
+00:00:09,967 --> 00:00:13,437
+l'insuffisance rénale chronique.
+
+8
+00:00:13,796 --> 00:00:17,561
+L'insuffisance rénale chronique est une diminution progressive
+
+9
+00:00:17,548 --> 00:00:19,588
+et durable de la fonction des reins.
+
+10
+00:00:20,006 --> 00:00:22,062
+Selon une revue publiée dans The Lancet
+
+11
+00:00:22,030 --> 00:00:24,030
+en 2026, elle touche environ huit cent
+
+12
+00:00:23,993 --> 00:00:26,478
+cinquante millions de personnes dans le monde,
+
+13
+00:00:26,446 --> 00:00:28,692
+et environ quatre millions ont besoin d'un
+
+14
+00:00:28,654 --> 00:00:31,568
+traitement de suppléance pour une insuffisance rénale
+
+15
+00:00:31,536 --> 00:00:32,169
+terminale.
+
+16
+00:00:32,250 --> 00:00:34,930
+Elle pourrait devenir la cinquième cause de
+
+17
+00:00:34,887 --> 00:00:36,773
+décès dans le monde d'ici 2050.
+
+18
+00:00:36,841 --> 00:00:39,956
+Elle survient surtout chez les personnes atteintes
+
+19
+00:00:39,938 --> 00:00:42,483
+de diabète ou d'hypertension artérielle,
+
+20
+00:00:42,472 --> 00:00:44,468
+mais elle a de nombreuses causes.
+
+21
+00:00:44,893 --> 00:00:46,527
+Pourquoi est-elle dangereuse ?
+
+22
+00:00:46,788 --> 00:00:48,732
+Parce qu'elle reste longtemps silencieuse.
+
+23
+00:00:49,068 --> 00:00:51,118
+Quand des symptômes apparaissent,
+
+24
+00:00:51,112 --> 00:00:53,660
+comme la fatigue, un gonflement des jambes,
+
+25
+00:00:53,634 --> 00:00:55,770
+des urines modifiées ou des nausées,
+
+26
+00:00:55,747 --> 00:00:57,610
+la maladie est souvent avancée.
+
+27
+00:00:57,911 --> 00:00:58,954
+Comment la dépister ?
+
+28
+00:00:59,328 --> 00:01:01,279
+La bonne nouvelle, selon la revue,
+
+29
+00:01:01,249 --> 00:01:03,059
+est qu'elle peut être dépistée,
+
+30
+00:01:03,038 --> 00:01:05,401
+diagnostiquée et classée en stades par de
+
+31
+00:01:05,358 --> 00:01:07,289
+simples analyses de laboratoire.
+
+32
+00:01:07,586 --> 00:01:08,894
+Si vous avez du diabète,
+
+33
+00:01:08,869 --> 00:01:11,541
+de l'hypertension, une maladie cardiaque ou des
+
+34
+00:01:11,501 --> 00:01:14,368
+antécédents familiaux, demandez à votre médecin si
+
+35
+00:01:14,325 --> 00:01:15,822
+vos reins ont été vérifiés.
+
+36
+00:01:16,147 --> 00:01:17,334
+Autre point essentiel :
+
+37
+00:01:17,527 --> 00:01:20,675
+la plupart des patients souffrant d'insuffisance rénale
+
+38
+00:01:20,644 --> 00:01:23,476
+chronique développent un handicap ou meurent d'une
+
+39
+00:01:23,442 --> 00:01:26,656
+maladie cardiovasculaire avant même d'atteindre le stade
+
+40
+00:01:26,622 --> 00:01:27,410
+de la dialyse.
+
+41
+00:01:27,836 --> 00:01:29,132
+Peut-on agir ?
+
+42
+00:01:29,313 --> 00:01:29,658
+Oui.
+
+43
+00:01:29,807 --> 00:01:32,447
+Depuis 2019, de grands essais randomisés ont
+
+44
+00:01:32,408 --> 00:01:35,093
+identifié plusieurs traitements efficaces,
+
+45
+00:01:35,077 --> 00:01:37,495
+qui ralentissent le déclin de la fonction
+
+46
+00:01:37,472 --> 00:01:40,338
+rénale et réduisent le risque cardiovasculaire.
+
+47
+00:01:40,446 --> 00:01:42,013
+Selon la revue de 2021,
+
+48
+00:01:41,983 --> 00:01:44,746
+une alimentation à dominante végétale,
+
+49
+00:01:44,733 --> 00:01:47,331
+pauvre en sel et modérée en protéines,
+
+50
+00:01:47,321 --> 00:01:49,789
+ainsi que les ajustements du mode de
+
+51
+00:01:49,747 --> 00:01:52,677
+vie, peuvent aider à préserver la fonction
+
+52
+00:01:52,659 --> 00:01:53,247
+rénale.
+
+53
+00:01:53,466 --> 00:01:56,619
+Contrôlez votre tension artérielle et votre glycémie,
+
+54
+00:01:56,599 --> 00:01:58,240
+ne fumez pas, et ne prenez pas
+
+55
+00:01:58,200 --> 00:02:01,624
+d'anti-inflammatoires de façon répétée sans avis médical.
+
+56
+00:02:01,806 --> 00:02:03,650
+Si vous avez une maladie rénale,
+
+57
+00:02:03,623 --> 00:02:06,479
+discutez de votre alimentation avec votre équipe
+
+58
+00:02:06,450 --> 00:02:07,075
+médicale.
+
+59
+00:02:07,505 --> 00:02:08,111
+Retenez :
+
+60
+00:02:08,250 --> 00:02:09,771
+maladie silencieuse ;
+
+61
+00:02:09,725 --> 00:02:11,945
+dépistage par analyses simples ;
+
+62
+00:02:11,899 --> 00:02:14,251
+contrôle du diabète et de la tension
+
+63
+00:02:14,228 --> 00:02:14,352
+;
+
+64
+00:02:14,306 --> 00:02:16,506
+traitements efficaces et suivi.
+
+65
+00:02:16,788 --> 00:02:17,699
+Quelle question avez-vous ?
+
+66
+00:02:18,021 --> 00:02:19,455
+Posez-la en commentaire.
+
+67
+00:02:19,544 --> 00:02:21,974
+Cette vidéo est éducative et ne remplace
+
+68
+00:02:21,953 --> 00:02:23,179
+pas un avis médical.
+
+69
+00:02:23,441 --> 00:02:26,260
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

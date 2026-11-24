@@ -218,3 +218,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Correction : miniature VID-038 régénérée (apostrophe) et remplacée sur Omnisocials (média 277341, post 100146241 mis à jour).
 - Note outils : Remotion et Canva non utilisés (montage = HyperFrames + three.js ; miniatures = Playwright). Pixabay, ElevenLabs, Omnisocials, HyperFrames confirmés utilisés.
 - VID-040 : programmée Omnisocials 100146275 le 05/12 12:00Z (08:00 AST), média 277349, miniature 277350. Statuts Omnisocials vérifiés : 2 publiés (VID-015, VID-019), 0 échec. Prochain créneau libre : 05/12 17:30 AST.
+
+## 2026-11-24 — VID-041 Insuffisance rénale chronique (en rendu)
+- Sources : Herrington et al., Lancet 2026 (PMID 41314225, niveau A : ~850 M, ~4 M en suppléance, 5e cause de décès en 2050, dépistage par analyses simples, risque cardiovasculaire, traitements depuis 2019) ; Kalantar-Zadeh et al., Lancet 2021 (PMID 34175022, niveau A : diabète/HTA, alimentation à dominante végétale, pauvre en sel et en protéines). Symptômes tardifs, conseils AINS = pratique courante, à valider (D4).
+- Narration 146,3 s ; 3D goutte ; B-roll Pixabay 136458 (machine de dialyse, plan recadré sans visage) ; miniature (icône reins). Créneau prévu : 05/12 17:30 AST.

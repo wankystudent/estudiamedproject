@@ -918,5 +918,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146275)",
   "statut_yt": "Programmée (Omnisocials 100146275)"
+ },
+ {
+  "vid": "VID-041",
+  "ep": 41,
+  "titre": "Insuffisance rénale chronique : la maladie silencieuse des reins",
+  "specialite": "Néphrologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 146.3,
+  "icone": "kidneys",
+  "miniature": "REINS|la maladie silencieuse",
+  "accroche": "Pas de douleur, pas de symptôme : et si vos reins s'abîmaient en silence ?",
+  "description": "Chiffres mondiaux, terrain à risque, dépistage par analyses simples, traitements efficaces et conseils pour protéger ses reins. Plans de coupe : Pixabay.",
+  "hashtags": "#Reins #InsuffisanceRénale #Néphrologie #Santé #MedEssentiel",
+  "date": "2026-12-05",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-05T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
