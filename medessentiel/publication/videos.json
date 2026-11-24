@@ -455,9 +455,9 @@
   "scheduled_at_utc": "2026-11-24T12:00:00Z",
   "statut_production": "Vidéo finalisée",
   "statut_miniature": "Miniature finalisée",
-  "statut_fb": "Programmée (Omnisocials 100142217)",
-  "statut_yt": "Programmée (Omnisocials 100142217)",
-  "lien": ""
+  "statut_fb": "PUBLIÉE (Omnisocials 100142217)",
+  "statut_yt": "PUBLIÉE (Omnisocials 100142217)",
+  "lien": "FB https://www.facebook.com/reel/1158943633491756/ | YT https://youtube.com/shorts/mvy0sq55OTA"
  },
  {
   "vid": "VID-021",
@@ -1006,9 +1006,9 @@
   "vitesse": 1.0,
   "plateformes": "FB+YT",
   "lien": "",
-  "statut_production": "Rendu en cours",
-  "statut_miniature": "À créer",
-  "statut_fb": "Non programmée",
-  "statut_yt": "Non programmée"
+  "statut_production": "Vidéo finalisée",
+  "statut_miniature": "Miniature finalisée",
+  "statut_fb": "Programmée (Omnisocials 100148085)",
+  "statut_yt": "Programmée (Omnisocials 100148085)"
  }
 ]

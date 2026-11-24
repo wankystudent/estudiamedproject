@@ -240,3 +240,5 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 151,9 s ; 3D globules ; B-roll Pixabay 49815 (tensiomètre, mains seulement) ; miniature (icône jauge). Créneau prévu : 07/12 08:00 AST.
 - Incident : scratchpad et cache de polices vidés (redémarrage du conteneur) → dossiers recréés, three.module.min.js restauré depuis hyperframes_cenit/ep43/lib ; polices re-téléchargées par le rendu.
 - Idée suivante préparée : medessentiel/idees/anatomie_humaine_vrai_faux.md (VID-045, anatomie humaine, infographie tierce non reprise).
+- VID-044 : programmée Omnisocials 100148085 le 07/12 12:00Z (08:00 AST), média 278622, miniature 278623. Prochain créneau libre : 07/12 17:30 AST (prévu VID-045 anatomie).
+- Publication confirmée (24/11 12:00Z) : VID-020 ECG, post 100142217, Facebook https://www.facebook.com/reel/1158943633491756/ , YouTube https://youtube.com/shorts/mvy0sq55OTA . État Omnisocials : 3 publiés (VID-015, VID-019, VID-020), 0 échec.
