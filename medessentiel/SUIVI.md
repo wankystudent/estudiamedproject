@@ -223,3 +223,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Sources : Herrington et al., Lancet 2026 (PMID 41314225, niveau A : ~850 M, ~4 M en suppléance, 5e cause de décès en 2050, dépistage par analyses simples, risque cardiovasculaire, traitements depuis 2019) ; Kalantar-Zadeh et al., Lancet 2021 (PMID 34175022, niveau A : diabète/HTA, alimentation à dominante végétale, pauvre en sel et en protéines). Symptômes tardifs, conseils AINS = pratique courante, à valider (D4).
 - Narration 146,3 s ; 3D goutte ; B-roll Pixabay 136458 (machine de dialyse, plan recadré sans visage) ; miniature (icône reins). Créneau prévu : 05/12 17:30 AST.
 - VID-041 : programmée Omnisocials 100146293 le 05/12 21:30Z (17:30 AST), média 277370, miniature 277371. Prochain créneau libre : 06/12 08:00 AST.
+
+## 2026-11-24 — VID-042 Bronchiolite du nourrisson (en rendu)
+- Source : Dalziel et al., Lancet 2022 (PMID 35785792, niveau A : 1re cause d'hospitalisation des nourrissons dans les pays à revenu élevé, VRS 60–80 %, diagnostic clinique, soutien hydratation/oxygénation, pas de bénéfice des corticoïdes/bronchodilatateurs, haut débit en recours). Signes d'urgence, conseils domicile (sérum physiologique, repas fractionnés) = pratique courante, à valider (D4).
+- Narration 135,1 s ; 3D pathogène (22–34 s) ; B-roll Pixabay 33267 (virus 3D, sans personne, en boucle) ; miniature. Créneau prévu : 06/12 08:00 AST.
+- Outil : broll.mjs accepte maintenant LOOP=1 (boucle) et CX (décalage de recadrage).

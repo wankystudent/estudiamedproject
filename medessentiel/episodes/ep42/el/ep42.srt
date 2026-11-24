@@ -1,0 +1,276 @@
+1
+00:00:00,000 --> 00:00:01,331
+Un bébé qui tousse,
+
+2
+00:00:01,310 --> 00:00:03,722
+qui siffle, qui respire vite et qui
+
+3
+00:00:03,684 --> 00:00:06,076
+n'arrive plus à boire son biberon.
+
+4
+00:00:06,232 --> 00:00:06,627
+Pensez à la bronchiolite.
+
+5
+00:00:06,688 --> 00:00:10,494
+Bienvenue sur MedEssentiel :
+
+6
+00:00:10,734 --> 00:00:12,007
+la médecine, clairement expliquée.
+
+7
+00:00:12,222 --> 00:00:10,972
+Aujourd'hui :
+
+8
+00:00:11,017 --> 00:00:12,665
+la bronchiolite du nourrisson.
+
+9
+00:00:12,748 --> 00:00:15,000
+La bronchiolite est une infection virale des
+
+10
+00:00:14,959 --> 00:00:17,127
+petites voies aériennes, les bronchioles,
+
+11
+00:00:17,112 --> 00:00:18,119
+chez le nourrisson.
+
+12
+00:00:18,609 --> 00:00:20,940
+Selon la revue publiée dans The Lancet
+
+13
+00:00:20,912 --> 00:00:22,746
+en 2022, c'est la cause la plus
+
+14
+00:00:22,711 --> 00:00:26,419
+fréquente d'hospitalisation chez les nourrissons dans les
+
+15
+00:00:26,380 --> 00:00:27,632
+pays à revenu élevé.
+
+16
+00:00:27,991 --> 00:00:30,664
+Le virus respiratoire syncytial est responsable de
+
+17
+00:00:30,620 --> 00:00:32,870
+soixante à quatre-vingts pour cent des cas.
+
+18
+00:00:33,089 --> 00:00:35,592
+Elle commence souvent comme un simple rhume,
+
+19
+00:00:35,561 --> 00:00:36,941
+puis la toux s'installe,
+
+20
+00:00:36,927 --> 00:00:38,711
+la respiration devient rapide,
+
+21
+00:00:38,683 --> 00:00:40,646
+sifflante, et le bébé s'essouffle.
+
+22
+00:00:41,085 --> 00:00:42,040
+Quand s'inquiéter ?
+
+23
+00:00:42,411 --> 00:00:44,179
+Si votre bébé respire très vite,
+
+24
+00:00:44,145 --> 00:00:45,778
+creuse le thorax ou le ventre,
+
+25
+00:00:45,750 --> 00:00:46,991
+a les lèvres bleutées,
+
+26
+00:00:46,970 --> 00:00:49,454
+des pauses respiratoires, refuse de boire ou
+
+27
+00:00:49,410 --> 00:00:50,911
+de manger de façon répétée,
+
+28
+00:00:50,887 --> 00:00:52,664
+est très somnolent, ou a moins de
+
+29
+00:00:52,621 --> 00:00:54,561
+couches mouillées que d'habitude.
+
+30
+00:00:54,713 --> 00:00:56,675
+Allez aux urgences sans attendre.
+
+31
+00:00:56,942 --> 00:00:58,363
+Comment fait-on le diagnostic ?
+
+32
+00:00:58,821 --> 00:00:59,743
+Il est clinique :
+
+33
+00:01:00,017 --> 00:01:01,688
+le médecin écoute le bébé,
+
+34
+00:01:01,657 --> 00:01:04,651
+observe sa respiration et mesure la saturation
+
+35
+00:01:04,638 --> 00:01:05,403
+en oxygène.
+
+36
+00:01:05,701 --> 00:01:07,120
+Selon la revue du Lancet,
+
+37
+00:01:07,093 --> 00:01:09,646
+aucun test viral n'est nécessaire pour poser
+
+38
+00:01:09,612 --> 00:01:10,488
+le diagnostic.
+
+39
+00:01:10,671 --> 00:01:12,885
+Les nourrissons les plus jeunes et ceux
+
+40
+00:01:12,848 --> 00:01:14,474
+qui ont une maladie du cœur ou
+
+41
+00:01:14,431 --> 00:01:16,255
+des poumons sont plus à risque de
+
+42
+00:01:16,211 --> 00:01:16,967
+forme grave.
+
+43
+00:01:17,387 --> 00:01:18,643
+Quel est le traitement ?
+
+44
+00:01:18,888 --> 00:01:21,054
+D'après la revue, les recommandations,
+
+45
+00:01:21,055 --> 00:01:23,256
+fondées surtout sur des preuves de bonne
+
+46
+00:01:23,221 --> 00:01:25,942
+qualité, se limitent à soutenir l'hydratation et
+
+47
+00:01:25,898 --> 00:01:26,796
+l'oxygénation.
+
+48
+00:01:27,285 --> 00:01:31,181
+Les corticoïdes et les bronchodilatateurs n'ont pas
+
+49
+00:01:31,144 --> 00:01:32,613
+montré de bénéfice.
+
+50
+00:01:32,702 --> 00:01:35,160
+L'oxygène à haut débit est réservé aux
+
+51
+00:01:35,122 --> 00:01:39,221
+nourrissons en détresse malgré une oxygénothérapie standard.
+
+52
+00:01:39,378 --> 00:01:42,351
+À la maison :
+
+53
+00:01:42,491 --> 00:01:44,313
+nettoyer le nez avec du sérum physiologique,
+
+54
+00:01:44,296 --> 00:01:46,408
+fractionner les repas, surveiller la respiration,
+
+55
+00:01:46,386 --> 00:01:48,090
+garder le bébé dans un environnement sans
+
+56
+00:01:48,049 --> 00:01:48,370
+fumée.
+
+57
+00:01:49,051 --> 00:01:51,074
+Se laver les mains et éviter les
+
+58
+00:01:51,036 --> 00:01:54,357
+contacts avec les personnes enrhumées protège les
+
+59
+00:01:54,318 --> 00:01:55,181
+plus petits.
+
+60
+00:01:55,739 --> 00:01:56,107
+Retenez :
+
+61
+00:01:56,322 --> 00:01:59,286
+toux, respiration rapide, difficulté à boire ;
+
+62
+00:01:59,240 --> 00:02:01,037
+signes de gravité, urgence ;
+
+63
+00:02:00,990 --> 00:02:02,495
+traitement de soutien ;
+
+64
+00:02:02,449 --> 00:02:05,468
+prévention par l'hygiène et l'absence de tabac.
+
+65
+00:02:05,947 --> 00:02:06,829
+Quelle question avez-vous ?
+
+66
+00:02:07,150 --> 00:02:08,234
+Posez-la en commentaire.
+
+67
+00:02:08,482 --> 00:02:10,811
+Cette vidéo est éducative et ne remplace
+
+68
+00:02:10,788 --> 00:02:11,964
+pas un avis médical.
+
+69
+00:02:12,342 --> 00:02:15,116
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

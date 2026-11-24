@@ -941,5 +941,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146293)",
   "statut_yt": "Programmée (Omnisocials 100146293)"
+ },
+ {
+  "vid": "VID-042",
+  "ep": 42,
+  "titre": "Bronchiolite du nourrisson : quand s'inquiéter ?",
+  "specialite": "Pédiatrie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 135.1,
+  "icone": "baby",
+  "miniature": "BRONCHIOLITE|quand s'inquiéter ?",
+  "accroche": "Un bébé qui tousse, siffle, respire vite et ne boit plus : pensez à la bronchiolite.",
+  "description": "Cause virale, signes de gravité, diagnostic clinique, traitement de soutien et prévention de la bronchiolite du nourrisson. Plans de coupe : Pixabay.",
+  "hashtags": "#Bronchiolite #Pédiatrie #Nourrisson #Santé #MedEssentiel",
+  "date": "2026-12-06",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-06T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
