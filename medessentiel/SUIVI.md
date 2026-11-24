@@ -195,3 +195,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-24 — VID-036 Hypothyroïdie (en rendu)
 - Source : Chaker et al., Lancet 2017 (PMID 28336049, résumé lu, niveau A : symptômes, lévothyroxine, plaintes persistantes). Dépistage néonatal, TSH + T4 libre, causes (auto-immune, chirurgie, médicaments, iode), prise à jeun, urgences = pratique courante, à valider (D4).
 - Narration 136,1 s ; 3D goutte ; B-roll Pixabay 197486 (mains/boîte de Pétri, sans visage) ; miniature (icône pouls, pas d'icône thyroïde dédiée). Créneau prévu : 03/12 08:00 AST.
+- VID-036 : programmée Omnisocials 100146215 le 03/12 12:00Z (08:00 AST), média 277299, miniature 277300.

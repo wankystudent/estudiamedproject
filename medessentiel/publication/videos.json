@@ -822,9 +822,9 @@
   "vitesse": 1.0,
   "plateformes": "FB+YT",
   "lien": "",
-  "statut_production": "Rendu en cours",
-  "statut_miniature": "À créer",
-  "statut_fb": "Non programmée",
-  "statut_yt": "Non programmée"
+  "statut_production": "Vidéo finalisée",
+  "statut_miniature": "Miniature finalisée",
+  "statut_fb": "Programmée (Omnisocials 100146215)",
+  "statut_yt": "Programmée (Omnisocials 100146215)"
  }
 ]
