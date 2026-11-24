@@ -233,3 +233,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-24 — VID-043 Thrombose veineuse profonde / embolie pulmonaire (en rendu)
 - Source : Khan et al., Lancet 2021 (PMID 33984268, résumé lu, niveau A : ~10 M/an, chirurgie majeure et cancer actif, score de Wells + D-dimères + imagerie, AOD en 1re intention, durée selon la cause, prophylaxie chirurgie orthopédique/cancer). Signes cliniques détaillés = pratique courante, à valider (D4).
 - Narration 136,8 s ; 3D globules rouges (50–62 s) ; B-roll Pixabay 21617 (autre segment, déjà utilisé VID-034/039) ; miniature (icône goutte). Créneau prévu : 06/12 17:30 AST.
+- VID-043 : programmée Omnisocials 100146338 le 06/12 21:30Z (17:30 AST), média 277419, miniature 277420 (faute de hashtag corrigée et vérifiée via get_post). Prochain créneau libre : 07/12 08:00 AST.
