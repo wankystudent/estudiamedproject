@@ -757,5 +757,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100144115)",
   "statut_yt": "Programmée (Omnisocials 100144115)"
+ },
+ {
+  "vid": "VID-034",
+  "ep": 34,
+  "titre": "Pneumonie : reconnaître les signes et agir",
+  "specialite": "Pneumologie/infectiologie",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 142.4,
+  "icone": "lungs",
+  "miniature": "PNEUMONIE|reconnaître et agir",
+  "accroche": "Une toux qui dure, de la fièvre, une respiration rapide : est-ce une pneumonie ?",
+  "description": "Signes, signes de gravité, particularités chez l enfant et la personne âgée, diagnostic, traitement et prévention de la pneumonie. Plans de coupe : Pixabay.",
+  "hashtags": "#Pneumonie #Poumons #Infection #Santé #MedEssentiel",
+  "date": "2026-12-02",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-02T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

@@ -1,0 +1,280 @@
+1
+00:00:00,000 --> 00:00:01,143
+Une toux qui dure,
+
+2
+00:00:01,111 --> 00:00:03,373
+de la fièvre, et une respiration qui
+
+3
+00:00:03,334 --> 00:00:04,158
+s'accélère.
+
+4
+00:00:04,475 --> 00:00:05,542
+Est-ce une pneumonie ?
+
+5
+00:00:05,755 --> 00:00:07,602
+Bienvenue sur MedEssentiel :
+
+6
+00:00:07,789 --> 00:00:09,884
+la médecine, clairement expliquée.
+
+7
+00:00:10,296 --> 00:00:10,875
+Aujourd'hui :
+
+8
+00:00:11,094 --> 00:00:12,881
+la pneumonie, reconnaître et agir.
+
+9
+00:00:13,013 --> 00:00:15,760
+La pneumonie est une infection des poumons,
+
+10
+00:00:15,739 --> 00:00:17,377
+qui atteint les alvéoles,
+
+11
+00:00:17,360 --> 00:00:19,167
+ces petits sacs où se font les
+
+12
+00:00:19,128 --> 00:00:20,468
+échanges d'oxygène.
+
+13
+00:00:20,971 --> 00:00:22,879
+Elle peut être due à des bactéries,
+
+14
+00:00:22,862 --> 00:00:24,783
+comme le pneumocoque, à des virus,
+
+15
+00:00:24,752 --> 00:00:26,735
+ou plus rarement à d'autres germes.
+
+16
+00:00:27,114 --> 00:00:30,016
+Selon l'étude Global Burden of Disease 2021,
+
+17
+00:00:29,985 --> 00:00:33,559
+les infections respiratoires basses ont causé environ
+
+18
+00:00:33,536 --> 00:00:36,743
+deux millions cent quatre-vingt mille décès dans
+
+19
+00:00:36,708 --> 00:00:38,707
+le monde, dont plus de cinq cent
+
+20
+00:00:38,672 --> 00:00:40,830
+mille chez les enfants de moins de
+
+21
+00:00:40,787 --> 00:00:41,427
+cinq ans.
+
+22
+00:00:41,492 --> 00:00:43,465
+Le pneumocoque est le germe le plus
+
+23
+00:00:43,428 --> 00:00:44,460
+souvent en cause.
+
+24
+00:00:44,683 --> 00:00:45,351
+Les signes :
+
+25
+00:00:45,621 --> 00:00:48,128
+fièvre, toux, parfois avec des crachats,
+
+26
+00:00:48,110 --> 00:00:51,044
+douleur thoracique, essoufflement, frissons,
+
+27
+00:00:51,026 --> 00:00:51,616
+fatigue.
+
+28
+00:00:52,045 --> 00:00:53,914
+Quels sont les signes de gravité ?
+
+29
+00:00:54,186 --> 00:00:57,123
+Une respiration très rapide ou difficile,
+
+30
+00:00:57,114 --> 00:00:59,644
+des lèvres bleutées, une confusion,
+
+31
+00:00:59,634 --> 00:01:02,929
+une somnolence, une impossibilité de parler en
+
+32
+00:01:02,887 --> 00:01:04,279
+phrases complètes.
+
+33
+00:01:04,448 --> 00:01:05,697
+C'est une urgence :
+
+34
+00:01:05,831 --> 00:01:07,282
+appelez les secours ou rendez-vous aux urgences.
+
+35
+00:01:07,447 --> 00:01:10,371
+Chez l'enfant, il faut surveiller la respiration
+
+36
+00:01:10,359 --> 00:01:12,746
+rapide, le creusement du thorax à chaque
+
+37
+00:01:12,717 --> 00:01:14,840
+inspiration, le refus de boire ou de
+
+38
+00:01:14,797 --> 00:01:16,826
+manger, une somnolence anormale.
+
+39
+00:01:17,135 --> 00:01:18,459
+Chez la personne âgée,
+
+40
+00:01:18,426 --> 00:01:20,981
+la pneumonie peut se manifester surtout par
+
+41
+00:01:20,941 --> 00:01:23,139
+de la confusion, sans fièvre marquée.
+
+42
+00:01:23,393 --> 00:01:24,798
+Comment fait-on le diagnostic ?
+
+43
+00:01:25,036 --> 00:01:27,328
+Par l'examen clinique, la mesure de la
+
+44
+00:01:27,285 --> 00:01:30,384
+saturation en oxygène, et souvent une radiographie
+
+45
+00:01:30,376 --> 00:01:33,139
+du thorax, parfois complétée par des analyses
+
+46
+00:01:33,117 --> 00:01:33,641
+de sang.
+
+47
+00:01:34,228 --> 00:01:36,326
+Le traitement dépend de la cause et
+
+48
+00:01:36,284 --> 00:01:37,156
+de la gravité.
+
+49
+00:01:37,324 --> 00:01:40,364
+Les pneumonies bactériennes sont traitées par antibiotiques,
+
+50
+00:01:40,353 --> 00:01:41,615
+prescrits par un médecin.
+
+51
+00:01:41,939 --> 00:01:44,443
+On associe si besoin de l'oxygène,
+
+52
+00:01:44,436 --> 00:01:46,871
+une bonne hydratation, du repos,
+
+53
+00:01:46,847 --> 00:01:49,019
+et le traitement de la fièvre.
+
+54
+00:01:49,186 --> 00:01:52,244
+Les formes sévères nécessitent une hospitalisation.
+
+55
+00:01:52,536 --> 00:01:53,273
+Pour prévenir :
+
+56
+00:01:53,326 --> 00:01:55,539
+les vaccins contre le pneumocoque,
+
+57
+00:01:55,533 --> 00:01:58,077
+l'Haemophilus influenzae de type b et la
+
+58
+00:01:58,034 --> 00:02:00,031
+grippe selon votre calendrier,
+
+59
+00:02:00,021 --> 00:02:03,213
+l'allaitement du nourrisson, le lavage des mains,
+
+60
+00:02:03,185 --> 00:02:04,464
+et l'arrêt du tabac.
+
+61
+00:02:04,738 --> 00:02:05,247
+Retenez :
+
+62
+00:02:05,572 --> 00:02:07,583
+fièvre, toux, respiration rapide ;
+
+63
+00:02:07,536 --> 00:02:09,155
+signes de gravité, urgence ;
+
+64
+00:02:09,108 --> 00:02:11,251
+antibiotiques si cause bactérienne ;
+
+65
+00:02:11,204 --> 00:02:11,752
+vaccins.
+
+66
+00:02:11,956 --> 00:02:14,448
+Quel signe vous inquiète le plus ?
+
+67
+00:02:14,625 --> 00:02:15,754
+Dites-le en commentaire.
+
+68
+00:02:16,081 --> 00:02:18,979
+Cette vidéo est éducative et ne remplace
+
+69
+00:02:18,962 --> 00:02:20,419
+pas un avis médical.
+
+70
+00:02:20,672 --> 00:02:22,377
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

@@ -10,7 +10,7 @@ execFileSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', '-ss', ss, '-t', String
   '-c:v', 'libx264', '-crf', '24', '-preset', 'veryfast', '-movflags', '+faststart', out]);
 let html = fs.readFileSync(path.join(proj, 'index.html'), 'utf-8');
 html = html.replace(/<video id="broll"[^>]*><\/video>\n?/g, '').replace(/<style id="brollcss">[\s\S]*?<\/style>\n?/g, '');
-const css = scenes.split(',').map(s => `#${s} .dk`).join(',') + '{background:linear-gradient(180deg,rgba(6,41,92,.62) 0%,rgba(3,22,52,.82) 100%)!important}';
+const css = scenes.split(',').map(s => `#${s} .dk`).join(',') + '{background:linear-gradient(180deg,rgba(6,41,92,.30) 0%,rgba(3,22,52,.55) 100%)!important}';
 html = html.replace('</head>', `<style id="brollcss">${css}</style></head>`);
 const vid = `<video id="broll" class="clip" data-start="0" data-duration="${end}" data-track-index="0" muted playsinline src="assets/broll.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;z-index:0"></video>`;
 html = html.replace(/(<div id="root"[^>]*>)/, `$1\n${vid}`);
