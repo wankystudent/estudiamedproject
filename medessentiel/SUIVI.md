@@ -211,3 +211,9 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Source : Colombatti et al., Lancet 2026 (PMID 41831848, résumé lu, niveau A : physiopathologie, complications, hydroxyurée, transfusion, greffe, thérapies géniques). Génétique (deux parents), liste des signes d'urgence, conseils quotidiens = pratique courante, à valider (D4).
 - Narration 137,2 s ; 3D globules rouges ; B-roll Pixabay 21617 (globules rouges 3D, sans visage, réutilisé de VID-034 avec décalage 3 s) ; miniature. Créneau prévu : 04/12 17:30 AST.
 - VID-039 : programmée Omnisocials 100146257 le 04/12 21:30Z (17:30 AST), média 277339, miniature 277340. Prochain créneau libre : 05/12 08:00 AST.
+
+## 2026-11-24 — VID-040 Hémorragie du post-partum (en rendu)
+- Source : Yunas et al., Lancet 2025 (PMID 40188841, résumé lu, niveau A : 327 études, > 840 M de femmes, atonie 70,6 %, lésions génitales 16,9 %, rétention placentaire 16,4 %, anomalies du placenta 3,9 %, coagulopathie 2,7 % ; facteurs de risque forts ; recommandation OMS utérotoniques en prophylaxie ; protocoles groupés). Signes d'alerte cliniques = pratique courante, à valider (D4).
+- Narration 148,8 s ; 3D globules ; B-roll Pixabay 44580 (encre rouge dans l'eau, sans personne) ; miniature (icône utérus). Créneau prévu : 05/12 08:00 AST. Rendu relancé après redémarrage du worker (interrompu à 48 %).
+- Correction : miniature VID-038 régénérée (apostrophe) et remplacée sur Omnisocials (média 277341, post 100146241 mis à jour).
+- Note outils : Remotion et Canva non utilisés (montage = HyperFrames + three.js ; miniatures = Playwright). Pixabay, ElevenLabs, Omnisocials, HyperFrames confirmés utilisés.

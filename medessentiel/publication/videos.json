@@ -853,12 +853,12 @@
  {
   "vid": "VID-038",
   "ep": 38,
-  "titre": "Dengue : les signes d alerte à connaître",
+  "titre": "Dengue : les signes d'alerte à connaître",
   "specialite": "Infectiologie tropicale",
   "categorie_yt": "Prévention et conseils",
   "duree_s": 140.5,
   "icone": "blood",
-  "miniature": "DENGUE|savoir quand s inquiéter",
+  "miniature": "DENGUE|savoir quand s'inquiéter",
   "accroche": "Forte fièvre, douleurs derrière les yeux, courbatures : est-ce la dengue ?",
   "description": "Virus et moustique, prévention, signes, signes d alerte, diagnostic et prise en charge de la dengue. Plans de coupe : Pixabay.",
   "hashtags": "#Dengue #Moustique #MaladiesTropicales #Santé #MedEssentiel",
@@ -895,5 +895,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146257)",
   "statut_yt": "Programmée (Omnisocials 100146257)"
+ },
+ {
+  "vid": "VID-040",
+  "ep": 40,
+  "titre": "Hémorragie du post-partum : une urgence obstétricale",
+  "specialite": "Obstétrique",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 148.8,
+  "icone": "uterus",
+  "miniature": "HÉMORRAGIE|après l'accouchement",
+  "accroche": "Elle vient d'accoucher et saigne beaucoup : que se passe-t-il ?",
+  "description": "Causes, facteurs de risque, signes d'alerte et prévention de l'hémorragie du post-partum selon la revue du Lancet 2025. Plans de coupe : Pixabay.",
+  "hashtags": "#HémorragiePostPartum #Obstétrique #Accouchement #Santé #MedEssentiel",
+  "date": "2026-12-05",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-05T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

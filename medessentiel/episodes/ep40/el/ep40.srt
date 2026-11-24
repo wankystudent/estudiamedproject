@@ -1,0 +1,272 @@
+1
+00:00:00,000 --> 00:00:03,103
+Une femme vient d'accoucher et elle saigne
+
+2
+00:00:03,078 --> 00:00:05,591
+beaucoup, le sang ne s'arrête pas.
+
+3
+00:00:05,936 --> 00:00:08,829
+Que se passe-t-il ?
+
+4
+00:00:09,014 --> 00:00:10,106
+Bienvenue sur MedEssentiel :
+
+5
+00:00:10,344 --> 00:00:10,486
+la médecine, clairement expliquée.
+
+6
+00:00:10,538 --> 00:00:11,347
+Aujourd'hui :
+
+7
+00:00:11,401 --> 00:00:15,143
+l'hémorragie du post-partum, une urgence obstétricale.
+
+8
+00:00:15,305 --> 00:00:18,645
+L'hémorragie du post-partum est un saignement abondant
+
+9
+00:00:18,622 --> 00:00:19,812
+après la naissance.
+
+10
+00:00:19,897 --> 00:00:23,049
+Selon une revue systématique publiée dans The
+
+11
+00:00:23,011 --> 00:00:25,356
+Lancet en 2025, qui a analysé trois
+
+12
+00:00:25,326 --> 00:00:27,915
+cent vingt-sept études et plus de huit
+
+13
+00:00:27,881 --> 00:00:30,218
+cent quarante millions de femmes,
+
+14
+00:00:30,196 --> 00:00:32,849
+la cause la plus fréquente est l'atonie
+
+15
+00:00:32,831 --> 00:00:33,516
+utérine :
+
+16
+00:00:33,812 --> 00:00:36,061
+l'utérus ne se contracte pas assez après
+
+17
+00:00:36,028 --> 00:00:37,006
+l'accouchement.
+
+18
+00:00:37,350 --> 00:00:39,249
+Elle est en cause dans environ sept
+
+19
+00:00:39,212 --> 00:00:39,891
+cas sur dix.
+
+20
+00:00:40,095 --> 00:00:40,763
+Les autres causes :
+
+21
+00:00:41,158 --> 00:00:43,440
+les lésions des voies génitales,
+
+22
+00:00:43,431 --> 00:00:45,230
+la rétention du placenta,
+
+23
+00:00:45,216 --> 00:00:48,338
+les anomalies d'insertion du placenta et les
+
+24
+00:00:48,300 --> 00:00:50,249
+troubles de la coagulation.
+
+25
+00:00:50,698 --> 00:00:53,429
+Quels sont les facteurs de risque fortement
+
+26
+00:00:53,412 --> 00:00:54,119
+associés ?
+
+27
+00:00:54,315 --> 00:00:58,068
+L'anémie, une hémorragie lors d'un accouchement précédent,
+
+28
+00:00:58,054 --> 00:01:00,239
+la césarienne, l'infection grave,
+
+29
+00:01:00,210 --> 00:01:02,025
+l'absence de suivi prénatal,
+
+30
+00:01:02,008 --> 00:01:04,693
+la grossesse multiple, le placenta prævia,
+
+31
+00:01:04,668 --> 00:01:06,558
+un très gros bébé et la dystocie
+
+32
+00:01:06,537 --> 00:01:07,349
+des épaules.
+
+33
+00:01:07,559 --> 00:01:11,189
+Les mutilations génitales féminines sont aussi concernées.
+
+34
+00:01:11,357 --> 00:01:12,389
+Pourquoi est-ce important ?
+
+35
+00:01:12,832 --> 00:01:15,125
+Parce que les femmes à haut risque
+
+36
+00:01:15,100 --> 00:01:19,231
+peuvent bénéficier d'une prévention et d'une surveillance
+
+37
+00:01:19,230 --> 00:01:20,126
+renforcées.
+
+38
+00:01:20,455 --> 00:01:23,133
+Mais l'hémorragie peut aussi survenir sans aucun
+
+39
+00:01:23,099 --> 00:01:24,134
+facteur de risque.
+
+40
+00:01:24,502 --> 00:01:25,483
+Les signes d'alerte :
+
+41
+00:01:25,660 --> 00:01:27,888
+un saignement qui ne diminue pas,
+
+42
+00:01:27,854 --> 00:01:29,600
+des vertiges, une pâleur,
+
+43
+00:01:29,578 --> 00:01:31,152
+un cœur qui s'accélère,
+
+44
+00:01:31,145 --> 00:01:33,906
+une faiblesse, une sensation de malaise.
+
+45
+00:01:34,497 --> 00:01:36,243
+Comment la prévenir et la traiter ?
+
+46
+00:01:36,513 --> 00:01:38,620
+Selon la conclusion de la revue,
+
+47
+00:01:38,593 --> 00:01:41,528
+l'atonie utérine étant la cause principale,
+
+48
+00:01:41,520 --> 00:01:44,947
+l'Organisation mondiale de la santé recommande que
+
+49
+00:01:44,909 --> 00:01:48,610
+toutes les femmes reçoivent un médicament utérotonique
+
+50
+00:01:48,606 --> 00:01:51,063
+pour la prévention à l'accouchement.
+
+51
+00:01:51,385 --> 00:01:54,210
+Et comme plusieurs causes peuvent coexister,
+
+52
+00:01:54,196 --> 00:01:57,038
+les équipes utilisent des protocoles de prise
+
+53
+00:01:57,006 --> 00:01:59,481
+en charge regroupant plusieurs gestes.
+
+54
+00:01:59,874 --> 00:02:01,165
+Pour toute femme enceinte :
+
+55
+00:02:01,421 --> 00:02:02,917
+un suivi prénatal régulier,
+
+56
+00:02:02,894 --> 00:02:04,328
+le traitement de l'anémie,
+
+57
+00:02:04,306 --> 00:02:06,729
+et un accouchement dans une structure équipée
+
+58
+00:02:06,700 --> 00:02:08,687
+et assisté par un personnel qualifié.
+
+59
+00:02:08,890 --> 00:02:09,578
+Retenez :
+
+60
+00:02:09,718 --> 00:02:12,649
+accouchement, saignement abondant, urgence ;
+
+61
+00:02:12,603 --> 00:02:15,102
+l'atonie utérine est la première cause ;
+
+62
+00:02:15,055 --> 00:02:18,030
+prévention par utérotoniques, suivi prénatal,
+
+63
+00:02:18,013 --> 00:02:19,477
+accouchement assisté.
+
+64
+00:02:19,900 --> 00:02:20,882
+Quelle question avez-vous ?
+
+65
+00:02:21,223 --> 00:02:22,418
+Posez-la en commentaire.
+
+66
+00:02:22,580 --> 00:02:24,801
+Cette vidéo est éducative et ne remplace
+
+67
+00:02:24,776 --> 00:02:25,899
+pas un avis médical.
+
+68
+00:02:26,066 --> 00:02:28,815
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
