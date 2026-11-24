@@ -826,5 +826,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146215)",
   "statut_yt": "Programmée (Omnisocials 100146215)"
+ },
+ {
+  "vid": "VID-037",
+  "ep": 37,
+  "titre": "Goutte : comprendre la crise et le traitement",
+  "specialite": "Rhumatologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 140.5,
+  "icone": "drop",
+  "miniature": "GOUTTE|crise et traitement",
+  "accroche": "Douleur brutale au gros orteil, en pleine nuit : est-ce la goutte ?",
+  "description": "Cristaux d urate, crise, quand consulter, diagnostic, traitement de la crise et traitement de fond de la goutte. Plans de coupe : Pixabay.",
+  "hashtags": "#Goutte #Rhumatologie #AcideUrique #Santé #MedEssentiel",
+  "date": "2026-12-03",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-03T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

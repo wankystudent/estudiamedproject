@@ -1,0 +1,284 @@
+1
+00:00:00,178 --> 00:00:02,493
+Une douleur brutale au gros orteil,
+
+2
+00:00:02,469 --> 00:00:04,719
+en pleine nuit, si intense que même
+
+3
+00:00:04,685 --> 00:00:05,789
+le drap fait mal.
+
+4
+00:00:05,995 --> 00:00:06,869
+Est-ce la goutte ?
+
+5
+00:00:07,307 --> 00:00:09,110
+Bienvenue sur MedEssentiel :
+
+6
+00:00:09,349 --> 00:00:11,245
+la médecine, clairement expliquée.
+
+7
+00:00:11,766 --> 00:00:12,421
+Aujourd'hui :
+
+8
+00:00:12,774 --> 00:00:14,385
+la goutte, comprendre et traiter.
+
+9
+00:00:14,557 --> 00:00:16,625
+La goutte est la forme la plus
+
+10
+00:00:16,592 --> 00:00:19,380
+fréquente d'arthrite inflammatoire.
+
+11
+00:00:19,668 --> 00:00:21,296
+Elle est causée par le dépôt de
+
+12
+00:00:21,253 --> 00:00:24,010
+cristaux d'urate dans les articulations et autour
+
+13
+00:00:23,979 --> 00:00:24,510
+d'elles.
+
+14
+00:00:24,676 --> 00:00:26,572
+Le facteur de risque principal est un
+
+15
+00:00:26,528 --> 00:00:28,534
+taux élevé d'acide urique dans le sang,
+
+16
+00:00:28,499 --> 00:00:29,701
+appelé hyperuricémie.
+
+17
+00:00:29,865 --> 00:00:33,033
+Selon une revue publiée dans Nature Reviews
+
+18
+00:00:33,013 --> 00:00:36,287
+Rheumatology en 2020, la prévalence varie de
+
+19
+00:00:36,246 --> 00:00:38,069
+moins de un pour cent à six
+
+20
+00:00:38,032 --> 00:00:41,349
+virgule huit pour cent selon les populations,
+
+21
+00:00:41,350 --> 00:00:44,020
+et la maladie est plus fréquente chez
+
+22
+00:00:43,987 --> 00:00:45,628
+l'homme et avec l'âge.
+
+23
+00:00:45,804 --> 00:00:47,222
+Les facteurs favorisants :
+
+24
+00:00:47,506 --> 00:00:50,161
+l'obésité, certains aliments et l'alcool,
+
+25
+00:00:50,143 --> 00:00:53,252
+et des maladies associées comme l'hypertension ou
+
+26
+00:00:53,209 --> 00:00:54,731
+l'insuffisance rénale.
+
+27
+00:00:55,156 --> 00:00:57,066
+Comment se manifeste une crise ?
+
+28
+00:00:57,224 --> 00:00:59,360
+Une articulation rouge, chaude,
+
+29
+00:00:59,336 --> 00:01:01,227
+gonflée et très douloureuse,
+
+30
+00:01:01,222 --> 00:01:02,755
+souvent le gros orteil,
+
+31
+00:01:02,731 --> 00:01:04,256
+mais aussi la cheville,
+
+32
+00:01:04,240 --> 00:01:05,693
+le genou ou le poignet.
+
+33
+00:01:06,166 --> 00:01:07,815
+La crise survient de façon intermittente,
+
+34
+00:01:07,797 --> 00:01:09,500
+mais la goutte reste une maladie chronique.
+
+35
+00:01:09,645 --> 00:01:10,983
+Quand consulter ?
+
+36
+00:01:11,304 --> 00:01:12,375
+Dès la première crise,
+
+37
+00:01:12,342 --> 00:01:13,781
+pour confirmer le diagnostic.
+
+38
+00:01:13,998 --> 00:01:16,332
+Consultez en urgence en cas de fièvre
+
+39
+00:01:16,304 --> 00:01:18,561
+avec une articulation très chaude,
+
+40
+00:01:18,537 --> 00:01:21,634
+car une infection articulaire peut ressembler à
+
+41
+00:01:21,588 --> 00:01:22,876
+une crise de goutte.
+
+42
+00:01:23,341 --> 00:01:25,944
+Le diagnostic repose sur l'examen clinique,
+
+43
+00:01:25,924 --> 00:01:27,939
+le dosage de l'acide urique dans le
+
+44
+00:01:27,896 --> 00:01:30,162
+sang, et idéalement la mise en évidence
+
+45
+00:01:30,139 --> 00:01:32,596
+des cristaux dans le liquide articulaire.
+
+46
+00:01:33,037 --> 00:01:34,257
+Le traitement a deux volets.
+
+47
+00:01:34,576 --> 00:01:35,241
+Pour la crise :
+
+48
+00:01:35,445 --> 00:01:39,251
+des médicaments anti-inflammatoires prescrits par le médecin,
+
+49
+00:01:39,229 --> 00:01:40,620
+selon votre situation.
+
+50
+00:01:40,803 --> 00:01:42,839
+Pour le long terme :
+
+51
+00:01:43,055 --> 00:01:43,757
+un traitement qui abaisse l'acide urique,
+
+52
+00:01:43,714 --> 00:01:44,099
+comme l'allopurinol.
+
+53
+00:01:44,436 --> 00:01:46,446
+Selon la revue du Lancet de 2021,
+
+54
+00:01:46,415 --> 00:01:48,733
+il dissout les cristaux et prévient à
+
+55
+00:01:48,687 --> 00:01:51,057
+terme les crises et les dépôts appelés
+
+56
+00:01:51,033 --> 00:01:51,500
+tophi.
+
+57
+00:01:51,992 --> 00:01:54,474
+Pourtant, selon l'étude de 2020,
+
+58
+00:01:54,446 --> 00:01:56,587
+seuls un tiers à la moitié des
+
+59
+00:01:56,550 --> 00:01:59,444
+patients reçoivent un tel traitement,
+
+60
+00:01:59,442 --> 00:02:01,824
+et moins de la moitié le suivent.
+
+61
+00:02:02,052 --> 00:02:02,696
+Ne l'arrêtez pas sans avis médical.
+
+62
+00:02:02,899 --> 00:02:04,841
+Retenez :
+
+63
+00:02:05,135 --> 00:02:06,781
+douleur brutale d'une articulation ;
+
+64
+00:02:06,734 --> 00:02:08,180
+consulter dès la première crise ;
+
+65
+00:02:08,133 --> 00:02:09,167
+traitement de la crise,
+
+66
+00:02:09,132 --> 00:02:10,219
+puis traitement de fond.
+
+67
+00:02:10,636 --> 00:02:12,387
+Quel est votre plus grand doute ?
+
+68
+00:02:12,651 --> 00:02:14,119
+Dites-le en commentaire.
+
+69
+00:02:14,208 --> 00:02:16,619
+Cette vidéo est éducative et ne remplace
+
+70
+00:02:16,597 --> 00:02:17,814
+pas un avis médical.
+
+71
+00:02:17,892 --> 00:02:20,505
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
