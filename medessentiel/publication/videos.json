@@ -872,5 +872,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146241)",
   "statut_yt": "Programmée (Omnisocials 100146241)"
+ },
+ {
+  "vid": "VID-039",
+  "ep": 39,
+  "titre": "Drépanocytose : comprendre et prévenir les crises",
+  "specialite": "Hématologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 137.2,
+  "icone": "blood",
+  "miniature": "DRÉPANOCYTOSE|prévenir les crises",
+  "accroche": "Douleurs dans les os, mains et pieds gonflés, grande pâleur : pensez à la drépanocytose.",
+  "description": "Globules rouges en faucille, transmission génétique, complications aiguës, signes d urgence, suivi et traitements de la drépanocytose. Plans de coupe : Pixabay.",
+  "hashtags": "#Drépanocytose #Hématologie #Santé #MaladieGénétique #MedEssentiel",
+  "date": "2026-12-04",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-04T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

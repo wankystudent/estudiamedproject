@@ -1,0 +1,264 @@
+1
+00:00:00,172 --> 00:00:02,187
+Un enfant qui hurle de douleur dans
+
+2
+00:00:02,151 --> 00:00:03,821
+les os, des mains et des pieds
+
+3
+00:00:03,788 --> 00:00:05,451
+gonflés, une grande pâleur.
+
+4
+00:00:05,846 --> 00:00:07,602
+Pensez à la drépanocytose.
+
+5
+00:00:07,833 --> 00:00:09,625
+Bienvenue sur MedEssentiel :
+
+6
+00:00:09,857 --> 00:00:11,500
+la médecine, clairement expliquée.
+
+7
+00:00:11,864 --> 00:00:13,810
+Aujourd'hui :
+
+8
+00:00:13,984 --> 00:00:15,728
+la drépanocytose, comprendre et prévenir les crises.
+
+9
+00:00:16,003 --> 00:00:19,087
+La drépanocytose est une maladie génétique des
+
+10
+00:00:19,048 --> 00:00:21,908
+globules rouges, qui touche des millions de
+
+11
+00:00:21,866 --> 00:00:23,492
+personnes dans le monde,
+
+12
+00:00:23,465 --> 00:00:26,157
+selon le séminaire publié dans The Lancet
+
+13
+00:00:26,130 --> 00:00:26,694
+en 2026.
+
+14
+00:00:26,828 --> 00:00:30,368
+L'hémoglobine anormale, appelée hémoglobine S,
+
+15
+00:00:30,326 --> 00:00:33,516
+se polymérise et déforme les globules rouges
+
+16
+00:00:33,491 --> 00:00:34,420
+en faucille.
+
+17
+00:00:34,587 --> 00:00:37,012
+Ils se bloquent dans les petits vaisseaux,
+
+18
+00:00:36,995 --> 00:00:39,627
+c'est la vaso-occlusion, et ils sont détruits
+
+19
+00:00:39,604 --> 00:00:41,289
+trop vite, c'est l'hémolyse.
+
+20
+00:00:41,691 --> 00:00:43,665
+La maladie se transmet quand les deux
+
+21
+00:00:43,628 --> 00:00:45,674
+parents transmettent chacun le gène :
+
+22
+00:00:45,727 --> 00:00:47,945
+on peut être porteur sain sans être
+
+23
+00:00:47,910 --> 00:00:48,460
+malade.
+
+24
+00:00:48,887 --> 00:00:51,081
+Quelles sont les complications aiguës ?
+
+25
+00:00:51,320 --> 00:00:54,518
+La crise vaso-occlusive, avec une douleur intense.
+
+26
+00:00:54,709 --> 00:00:56,451
+Le syndrome thoracique aigu,
+
+27
+00:00:56,418 --> 00:00:58,297
+avec douleur thoracique, toux,
+
+28
+00:00:58,264 --> 00:00:59,794
+essoufflement et fièvre.
+
+29
+00:01:00,025 --> 00:01:00,758
+L'accident vasculaire cérébral.
+
+30
+00:01:00,908 --> 00:01:04,627
+Et les infections, qui sont graves chez
+
+31
+00:01:04,600 --> 00:01:05,606
+l'enfant.
+
+32
+00:01:05,807 --> 00:01:06,456
+Quels sont les signes d'urgence ?
+
+33
+00:01:06,714 --> 00:01:09,204
+Une fièvre, une douleur thoracique,
+
+34
+00:01:09,198 --> 00:01:11,056
+une difficulté à respirer,
+
+35
+00:01:11,042 --> 00:01:13,312
+une faiblesse d'un côté du corps,
+
+36
+00:01:13,286 --> 00:01:14,911
+un trouble de la parole,
+
+37
+00:01:14,889 --> 00:01:16,354
+un mal de tête brutal,
+
+38
+00:01:16,332 --> 00:01:18,990
+un ventre gonflé, une pâleur soudaine.
+
+39
+00:01:19,183 --> 00:01:21,185
+Consultez immédiatement.
+
+40
+00:01:21,393 --> 00:01:24,094
+Avec le temps, la maladie peut atteindre
+
+41
+00:01:24,079 --> 00:01:25,836
+presque tous les organes.
+
+42
+00:01:26,118 --> 00:01:28,629
+D'où l'importance d'un suivi régulier dans un
+
+43
+00:01:28,586 --> 00:01:29,676
+centre spécialisé.
+
+44
+00:01:30,111 --> 00:01:31,842
+Quels sont les traitements ?
+
+45
+00:01:31,895 --> 00:01:33,595
+D'après la revue du Lancet,
+
+46
+00:01:33,570 --> 00:01:36,282
+l'hydroxyurée est de plus en plus utilisée,
+
+47
+00:01:36,264 --> 00:01:38,463
+y compris dans les pays à ressources
+
+48
+00:01:38,449 --> 00:01:39,122
+limitées.
+
+49
+00:01:39,204 --> 00:01:41,666
+S'y ajoutent des transfusions adaptées,
+
+50
+00:01:41,647 --> 00:01:44,252
+la greffe de cellules souches pour certains
+
+51
+00:01:44,230 --> 00:01:47,801
+patients, et des thérapies géniques désormais approuvées.
+
+52
+00:01:48,030 --> 00:01:50,059
+Au quotidien, boire suffisamment,
+
+53
+00:01:50,053 --> 00:01:52,683
+éviter le froid intense et la déshydratation,
+
+54
+00:01:52,684 --> 00:01:55,870
+suivre les vaccinations et les traitements préventifs
+
+55
+00:01:55,854 --> 00:01:58,055
+prescrits, et consulter vite en cas de
+
+56
+00:01:58,012 --> 00:01:58,511
+fièvre.
+
+57
+00:01:58,795 --> 00:02:00,793
+Retenez :
+
+58
+00:02:01,007 --> 00:02:02,861
+maladie génétique des globules rouges ;
+
+59
+00:02:02,814 --> 00:02:04,740
+douleurs, fièvre, signes neurologiques,
+
+60
+00:02:04,727 --> 00:02:05,200
+urgence ;
+
+61
+00:02:05,152 --> 00:02:06,996
+suivi spécialisé et traitement de fond.
+
+62
+00:02:07,325 --> 00:02:08,405
+Quelle question avez-vous ?
+
+63
+00:02:08,686 --> 00:02:10,034
+Posez-la en commentaire.
+
+64
+00:02:10,357 --> 00:02:12,965
+Cette vidéo est éducative et ne remplace
+
+65
+00:02:12,946 --> 00:02:14,260
+pas un avis médical.
+
+66
+00:02:14,502 --> 00:02:17,252
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

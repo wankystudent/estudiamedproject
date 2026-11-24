@@ -206,3 +206,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Sources : Paz-Bailey et al., Lancet 2024 (PMID 38280388, niveau A : 4 virus, > 100 pays, vaccins partiellement efficaces) ; Wilder-Smith et al., Lancet 2019 (PMID 30696575, niveau A : surveillance + hydratation IV si fuite plasmatique). Signes d'alerte détaillés, plaquettes, éviter aspirine/AINS = pratique courante OMS, à valider (D4).
 - Narration 140,5 s ; 3D pathogène ; B-roll Pixabay 274935 (moustique macro sur peau, sans visage) ; miniature. Créneau prévu : 04/12 08:00 AST.
 - VID-038 : programmée Omnisocials 100146241 le 04/12 12:00Z (08:00 AST), média 277324, miniature 277325. Prochain créneau libre : 04/12 17:30 AST.
+
+## 2026-11-24 — VID-039 Drépanocytose (en rendu)
+- Source : Colombatti et al., Lancet 2026 (PMID 41831848, résumé lu, niveau A : physiopathologie, complications, hydroxyurée, transfusion, greffe, thérapies géniques). Génétique (deux parents), liste des signes d'urgence, conseils quotidiens = pratique courante, à valider (D4).
+- Narration 137,2 s ; 3D globules rouges ; B-roll Pixabay 21617 (globules rouges 3D, sans visage, réutilisé de VID-034 avec décalage 3 s) ; miniature. Créneau prévu : 04/12 17:30 AST.
