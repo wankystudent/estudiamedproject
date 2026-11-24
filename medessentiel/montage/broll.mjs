@@ -6,7 +6,7 @@ const [proj, clip, end = '12', ss = '0', scenes = 's0,s1'] = process.argv.slice(
 fs.mkdirSync(path.join(proj, 'assets'), { recursive: true });
 const out = path.join(proj, 'assets/broll.mp4');
 execFileSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', '-ss', ss, '-t', String(+end + 0.5), '-i', clip, '-an',
-  '-vf', 'crop=ih*9/16:ih,scale=1080:1920,eq=brightness=-0.08:saturation=0.85,fps=24,format=yuv420p',
+  '-vf', `crop=ih*9/16:ih:(iw-ih*9/16)*${process.env.CX||0.5}:0,scale=1080:1920,eq=brightness=-0.08:saturation=0.85,fps=24,format=yuv420p`,
   '-c:v', 'libx264', '-crf', '24', '-preset', 'veryfast', '-movflags', '+faststart', out]);
 let html = fs.readFileSync(path.join(proj, 'index.html'), 'utf-8');
 html = html.replace(/<video id="broll"[^>]*><\/video>\n?/g, '').replace(/<style id="brollcss">[\s\S]*?<\/style>\n?/g, '');

@@ -1,0 +1,268 @@
+1
+00:00:00,165 --> 00:00:01,814
+Un essoufflement à l'effort,
+
+2
+00:00:01,793 --> 00:00:03,377
+des chevilles qui gonflent,
+
+3
+00:00:03,356 --> 00:00:04,487
+une grande fatigue.
+
+4
+00:00:04,999 --> 00:00:06,235
+Et si c'était le cœur ?
+
+5
+00:00:06,402 --> 00:00:08,228
+Bienvenue sur MedEssentiel :
+
+6
+00:00:08,482 --> 00:00:10,382
+la médecine, clairement expliquée.
+
+7
+00:00:11,047 --> 00:00:11,675
+Aujourd'hui :
+
+8
+00:00:11,846 --> 00:00:13,265
+l'insuffisance cardiaque.
+
+9
+00:00:13,594 --> 00:00:15,852
+L'insuffisance cardiaque est un syndrome :
+
+10
+00:00:16,102 --> 00:00:17,961
+le cœur ne parvient plus à pomper
+
+11
+00:00:17,931 --> 00:00:20,193
+assez de sang pour répondre aux besoins
+
+12
+00:00:20,167 --> 00:00:22,219
+du corps, ou il y parvient seulement
+
+13
+00:00:22,200 --> 00:00:24,120
+avec des pressions trop élevées.
+
+14
+00:00:24,514 --> 00:00:28,154
+Selon une revue publiée dans Cardiovascular Research
+
+15
+00:00:28,135 --> 00:00:31,118
+en 2023, elle touche plus de soixante-quatre
+
+16
+00:00:31,127 --> 00:00:33,594
+millions de personnes dans le monde.
+
+17
+00:00:33,814 --> 00:00:36,088
+Sa fréquence augmente avec le vieillissement de
+
+18
+00:00:36,043 --> 00:00:38,036
+la population et la meilleure survie après
+
+19
+00:00:38,000 --> 00:00:38,675
+un infarctus.
+
+20
+00:00:38,970 --> 00:00:41,961
+Les causes fréquentes :
+
+21
+00:00:42,142 --> 00:00:46,114
+l'hypertension artérielle, les maladies des artères coronaires,
+
+22
+00:00:46,103 --> 00:00:47,587
+les maladies des valves,
+
+23
+00:00:47,562 --> 00:00:50,356
+les cardiomyopathies et certaines arythmies.
+
+24
+00:00:50,791 --> 00:00:52,029
+Quels sont les signes ?
+
+25
+00:00:52,203 --> 00:00:53,944
+Un essoufflement à l'effort,
+
+26
+00:00:53,925 --> 00:00:56,148
+puis au repos ou en position allongée.
+
+27
+00:00:56,508 --> 00:00:58,927
+Une fatigue.
+
+28
+00:00:59,179 --> 00:00:59,996
+Un gonflement des chevilles et des jambes.
+
+29
+00:01:00,120 --> 00:01:01,427
+Une prise de poids rapide.
+
+30
+00:01:01,498 --> 00:01:03,664
+Une toux nocturne, ou le besoin de
+
+31
+00:01:03,622 --> 00:01:05,834
+dormir avec plusieurs oreillers.
+
+32
+00:01:06,110 --> 00:01:09,165
+Quels sont les signes d'alarme ?
+
+33
+00:01:09,311 --> 00:01:11,842
+Un essoufflement brutal, une difficulté à parler,
+
+34
+00:01:11,812 --> 00:01:13,833
+des lèvres bleutées, une douleur dans la
+
+35
+00:01:13,789 --> 00:01:16,256
+poitrine, une syncope, ou des crachats mousseux.
+
+36
+00:01:16,496 --> 00:01:17,430
+C'est une urgence :
+
+37
+00:01:17,706 --> 00:01:18,870
+appelez les secours.
+
+38
+00:01:19,029 --> 00:01:20,752
+Comment fait-on le diagnostic ?
+
+39
+00:01:20,805 --> 00:01:23,771
+Par l'examen clinique, l'électrocardiogramme,
+
+40
+00:01:23,800 --> 00:01:25,764
+une prise de sang avec dosage des
+
+41
+00:01:25,725 --> 00:01:29,411
+peptides natriurétiques, et surtout l'échocardiographie,
+
+42
+00:01:29,433 --> 00:01:31,319
+qui mesure la fonction du cœur.
+
+43
+00:01:31,736 --> 00:01:33,677
+Le traitement associe plusieurs volets.
+
+44
+00:01:33,910 --> 00:01:36,728
+Des médicaments prescrits par le médecin,
+
+45
+00:01:36,710 --> 00:01:38,926
+qui améliorent les symptômes et,
+
+46
+00:01:38,887 --> 00:01:40,621
+pour beaucoup, la survie.
+
+47
+00:01:40,918 --> 00:01:42,044
+Un suivi régulier.
+
+48
+00:01:42,342 --> 00:01:44,741
+Le traitement de la cause.
+
+49
+00:01:44,999 --> 00:01:45,662
+Et dans certains cas,
+
+50
+00:01:45,619 --> 00:01:46,989
+un appareil implantable ou une intervention.
+
+51
+00:01:47,463 --> 00:01:48,849
+Au quotidien :
+
+52
+00:01:49,025 --> 00:01:52,630
+pesez-vous régulièrement, surveillez les gonflements,
+
+53
+00:01:52,624 --> 00:01:54,871
+limitez le sel selon les conseils de
+
+54
+00:01:54,828 --> 00:01:57,570
+votre médecin, restez actif à votre rythme,
+
+55
+00:01:57,546 --> 00:01:59,998
+arrêtez le tabac, et ne modifiez jamais
+
+56
+00:01:59,970 --> 00:02:02,194
+vos médicaments sans avis médical.
+
+57
+00:02:02,453 --> 00:02:03,643
+Retenez :
+
+58
+00:02:03,844 --> 00:02:06,141
+essoufflement, gonflement des chevilles,
+
+59
+00:02:06,122 --> 00:02:06,662
+fatigue ;
+
+60
+00:02:06,615 --> 00:02:08,078
+signes d'alarme, urgence ;
+
+61
+00:02:08,031 --> 00:02:09,988
+échocardiographie pour confirmer ;
+
+62
+00:02:09,941 --> 00:02:11,564
+traitement et suivi régulier.
+
+63
+00:02:12,336 --> 00:02:13,460
+Quel signe vous parle le plus ?
+
+64
+00:02:13,650 --> 00:02:15,632
+Dites-le en commentaire.
+
+65
+00:02:15,981 --> 00:02:18,207
+Cette vidéo est éducative et ne remplace
+
+66
+00:02:18,183 --> 00:02:19,308
+pas un avis médical.
+
+67
+00:02:19,480 --> 00:02:22,221
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

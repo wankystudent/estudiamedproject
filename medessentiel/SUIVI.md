@@ -185,3 +185,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-24 — VID-034 Pneumonie (en production)
 - Source : GBD 2021 LRI, Lancet Infect Dis 2024, PMID 38636536 (résumé lu, niveau A). Reste (signes de gravité, traitement, prévention) = pratique courante, à valider (D4).
 - Narration ElevenLabs (voix wanky33) 142,4 s ; 3D pathogène ; B-roll Pixabay 21617 (globules rouges 3D, sans visage) sur hook+intro ; miniature créée ; rendu lancé. Créneau prévu : 02/12 08:00 AST.
+
+## 2026-11-24 — VID-035 Insuffisance cardiaque (préparée)
+- Source : Savarese et al., Cardiovasc Res 2023 (PMID 35150240, résumé lu, niveau A : > 64 millions de personnes). Le reste (signes, diagnostic, traitement, conseils) = pratique courante, à valider (D4).
+- Narration 142,2 s ; 3D globules ; B-roll Pixabay 23125 (ligne ECG sur paysage marin, sans personne) ; miniature créée. Créneau prévu : 02/12 17:30 AST. Rendu en file d'attente après VID-034.

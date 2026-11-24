@@ -780,5 +780,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-035",
+  "ep": 35,
+  "titre": "Insuffisance cardiaque : les signes à connaître",
+  "specialite": "Cardiologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 142.2,
+  "icone": "heart",
+  "miniature": "INSUFFISANCE CARDIAQUE|signes et suivi",
+  "accroche": "Essoufflement à l effort, chevilles gonflées, grande fatigue : et si c était le cœur ?",
+  "description": "Causes, signes, signes d alarme, diagnostic, traitement et suivi de l insuffisance cardiaque. Plans de coupe : Pixabay.",
+  "hashtags": "#InsuffisanceCardiaque #Cardiologie #Cœur #Santé #MedEssentiel",
+  "date": "2026-12-02",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-02T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
