@@ -228,3 +228,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Source : Dalziel et al., Lancet 2022 (PMID 35785792, niveau A : 1re cause d'hospitalisation des nourrissons dans les pays à revenu élevé, VRS 60–80 %, diagnostic clinique, soutien hydratation/oxygénation, pas de bénéfice des corticoïdes/bronchodilatateurs, haut débit en recours). Signes d'urgence, conseils domicile (sérum physiologique, repas fractionnés) = pratique courante, à valider (D4).
 - Narration 135,1 s ; 3D pathogène (22–34 s) ; B-roll Pixabay 33267 (virus 3D, sans personne, en boucle) ; miniature. Créneau prévu : 06/12 08:00 AST.
 - Outil : broll.mjs accepte maintenant LOOP=1 (boucle) et CX (décalage de recadrage).
+- VID-042 : programmée Omnisocials 100146323 le 06/12 12:00Z (08:00 AST), média 277383, miniature 277384. Prochain créneau libre : 06/12 17:30 AST.
