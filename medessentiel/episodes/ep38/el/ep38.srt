@@ -1,0 +1,256 @@
+1
+00:00:00,178 --> 00:00:02,658
+Une forte fièvre, des douleurs derrière les
+
+2
+00:00:02,618 --> 00:00:04,970
+yeux, des courbatures qui broient tout le
+
+3
+00:00:04,927 --> 00:00:07,120
+corps, après des piqûres de moustique.
+
+4
+00:00:07,481 --> 00:00:08,499
+Est-ce la dengue ?
+
+5
+00:00:08,763 --> 00:00:10,693
+Bienvenue sur MedEssentiel :
+
+6
+00:00:11,009 --> 00:00:11,820
+la médecine, clairement expliquée.
+
+7
+00:00:12,021 --> 00:00:13,070
+Aujourd'hui :
+
+8
+00:00:13,465 --> 00:00:15,087
+la dengue, savoir quand s'inquiéter.
+
+9
+00:00:15,272 --> 00:00:18,746
+La dengue est une infection virale transmise
+
+10
+00:00:18,737 --> 00:00:20,287
+par des moustiques.
+
+11
+00:00:20,633 --> 00:00:22,597
+Elle est due à quatre virus étroitement
+
+12
+00:00:22,580 --> 00:00:23,246
+apparentés.
+
+13
+00:00:23,666 --> 00:00:25,762
+Selon une revue publiée dans The Lancet
+
+14
+00:00:25,731 --> 00:00:27,707
+en 2024, elle est endémique dans plus
+
+15
+00:00:27,670 --> 00:00:29,715
+de cent pays des régions tropicales et
+
+16
+00:00:29,671 --> 00:00:32,573
+subtropicales, et l'extension du moustique vecteur,
+
+17
+00:00:32,548 --> 00:00:34,753
+en partie liée au changement climatique,
+
+18
+00:00:34,738 --> 00:00:37,083
+augmente le risque dans de nouvelles zones.
+
+19
+00:00:37,599 --> 00:00:39,508
+La prévention repose d'abord sur la lutte
+
+20
+00:00:39,471 --> 00:00:40,589
+contre les moustiques :
+
+21
+00:00:40,883 --> 00:00:43,193
+supprimer les eaux stagnantes autour de la
+
+22
+00:00:43,150 --> 00:00:44,937
+maison, se protéger des piqûres,
+
+23
+00:00:44,912 --> 00:00:46,492
+utiliser des moustiquaires.
+
+24
+00:00:46,936 --> 00:00:48,276
+Comment se manifeste-t-elle ?
+
+25
+00:00:48,621 --> 00:00:50,983
+Par une fièvre élevée d'apparition brutale,
+
+26
+00:00:50,958 --> 00:00:51,854
+des maux de tête,
+
+27
+00:00:51,819 --> 00:00:53,514
+des douleurs derrière les yeux,
+
+28
+00:00:53,479 --> 00:00:55,765
+des douleurs musculaires et articulaires,
+
+29
+00:00:55,755 --> 00:00:57,379
+parfois une éruption cutanée.
+
+30
+00:00:57,552 --> 00:01:00,166
+Beaucoup de formes sont modérées.
+
+31
+00:01:00,430 --> 00:01:02,132
+Quels sont les signes d'alerte ?
+
+32
+00:01:02,353 --> 00:01:05,065
+Des douleurs abdominales fortes et persistantes,
+
+33
+00:01:05,056 --> 00:01:08,098
+des vomissements répétés, des saignements des gencives
+
+34
+00:01:08,074 --> 00:01:09,749
+ou du nez, une somnolence ou une
+
+35
+00:01:09,708 --> 00:01:11,550
+agitation, une grande faiblesse.
+
+36
+00:01:11,740 --> 00:01:15,200
+Ils apparaissent souvent quand la fièvre baisse.
+
+37
+00:01:15,513 --> 00:01:16,451
+Allez immédiatement aux urgences.
+
+38
+00:01:16,620 --> 00:01:18,981
+Comment fait-on le diagnostic ?
+
+39
+00:01:19,206 --> 00:01:21,246
+Par l'examen clinique et des analyses de
+
+40
+00:01:21,202 --> 00:01:22,946
+sang, qui détectent le virus ou les
+
+41
+00:01:22,905 --> 00:01:23,513
+anticorps.
+
+42
+00:01:23,852 --> 00:01:26,336
+La numération des plaquettes est aussi surveillée.
+
+43
+00:01:26,946 --> 00:01:31,831
+Il n'existe pas de traitement antiviral spécifique.
+
+44
+00:01:32,004 --> 00:01:33,914
+Selon la revue du Lancet de 2019,
+
+45
+00:01:33,881 --> 00:01:35,798
+la prise en charge repose sur une
+
+46
+00:01:35,759 --> 00:01:38,295
+surveillance attentive et, en cas de fuite
+
+47
+00:01:38,262 --> 00:01:42,227
+plasmatique importante, une hydratation par voie intraveineuse,
+
+48
+00:01:42,226 --> 00:01:43,499
+prudente et adaptée.
+
+49
+00:01:43,681 --> 00:01:46,523
+Pour la fièvre, demandez conseil à votre
+
+50
+00:01:46,493 --> 00:01:49,563
+médecin, et évitez de prendre de l'aspirine
+
+51
+00:01:49,554 --> 00:01:52,880
+ou des anti-inflammatoires sans avis médical.
+
+52
+00:01:53,116 --> 00:01:56,540
+Des vaccins partiellement efficaces existent désormais,
+
+53
+00:01:56,524 --> 00:01:59,008
+et de nouvelles stratégies de lutte contre
+
+54
+00:01:58,978 --> 00:02:00,828
+les moustiques se développent.
+
+55
+00:02:01,186 --> 00:02:01,806
+Retenez :
+
+56
+00:02:02,157 --> 00:02:04,091
+fièvre brutale et douleurs ;
+
+57
+00:02:04,044 --> 00:02:05,900
+signes d'alerte, urgence ;
+
+58
+00:02:05,854 --> 00:02:07,945
+surveillance et hydratation ;
+
+59
+00:02:07,899 --> 00:02:09,872
+lutte contre les moustiques.
+
+60
+00:02:10,239 --> 00:02:11,380
+Quelle question avez-vous ?
+
+61
+00:02:11,662 --> 00:02:12,827
+Posez-la en commentaire.
+
+62
+00:02:13,206 --> 00:02:15,785
+Cette vidéo est éducative et ne remplace
+
+63
+00:02:15,765 --> 00:02:17,065
+pas un avis médical.
+
+64
+00:02:17,379 --> 00:02:20,450
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

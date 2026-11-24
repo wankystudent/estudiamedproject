@@ -201,3 +201,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Sources : Dalbeth et al., Lancet 2021 (PMID 33798500, niveau A) ; Dehlin et al., Nat Rev Rheumatol 2020 (PMID 32541923, niveau A : prévalence < 1 % à 6,8 %, 1/3–1/2 traités, < 1/2 observants). Crise = anti-inflammatoires (sans dose), urgence fièvre + articulation chaude (arthrite septique) = pratique courante, à valider (D4).
 - Narration 140,5 s ; 3D goutte ; B-roll Pixabay 38220 (verre avec comprimé effervescent, sans visage) ; miniature. Créneau prévu : 03/12 17:30 AST.
 - VID-037 : programmée Omnisocials 100146216 le 03/12 21:30Z (17:30 AST), média 277301, miniature 277302. Prochain créneau libre : 04/12 08:00 AST.
+
+## 2026-11-24 — VID-038 Dengue (en rendu)
+- Sources : Paz-Bailey et al., Lancet 2024 (PMID 38280388, niveau A : 4 virus, > 100 pays, vaccins partiellement efficaces) ; Wilder-Smith et al., Lancet 2019 (PMID 30696575, niveau A : surveillance + hydratation IV si fuite plasmatique). Signes d'alerte détaillés, plaquettes, éviter aspirine/AINS = pratique courante OMS, à valider (D4).
+- Narration 140,5 s ; 3D pathogène ; B-roll Pixabay 274935 (moustique macro sur peau, sans visage) ; miniature. Créneau prévu : 04/12 08:00 AST.
