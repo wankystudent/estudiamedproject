@@ -190,3 +190,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Source : Savarese et al., Cardiovasc Res 2023 (PMID 35150240, résumé lu, niveau A : > 64 millions de personnes). Le reste (signes, diagnostic, traitement, conseils) = pratique courante, à valider (D4).
 - Narration 142,2 s ; 3D globules ; B-roll Pixabay 23125 (ligne ECG sur paysage marin, sans personne) ; miniature créée. Créneau prévu : 02/12 17:30 AST. Rendu en file d'attente après VID-034.
 - VID-034 : vidéo envoyée (média 277291), miniature (277290), programmée Omnisocials 100146181 le 02/12 12:00Z (08:00 AST), FB + YouTube Shorts, vérifiée par get_post (statut Scheduled, titre YT, couverture personnalisée). Vidéo transmise à l'utilisateur pour aperçu.
+- VID-035 : envoyée (média 277295, miniature 277296), programmée Omnisocials 100146189 le 02/12 21:30Z (17:30 AST), FB + YT, vérifiée (liste Scheduled : 18 posts, aucun échec).
