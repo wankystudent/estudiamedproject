@@ -205,3 +205,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-24 — VID-038 Dengue (en rendu)
 - Sources : Paz-Bailey et al., Lancet 2024 (PMID 38280388, niveau A : 4 virus, > 100 pays, vaccins partiellement efficaces) ; Wilder-Smith et al., Lancet 2019 (PMID 30696575, niveau A : surveillance + hydratation IV si fuite plasmatique). Signes d'alerte détaillés, plaquettes, éviter aspirine/AINS = pratique courante OMS, à valider (D4).
 - Narration 140,5 s ; 3D pathogène ; B-roll Pixabay 274935 (moustique macro sur peau, sans visage) ; miniature. Créneau prévu : 04/12 08:00 AST.
+- VID-038 : programmée Omnisocials 100146241 le 04/12 12:00Z (08:00 AST), média 277324, miniature 277325. Prochain créneau libre : 04/12 17:30 AST.
