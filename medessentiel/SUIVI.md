@@ -217,3 +217,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 148,8 s ; 3D globules ; B-roll Pixabay 44580 (encre rouge dans l'eau, sans personne) ; miniature (icône utérus). Créneau prévu : 05/12 08:00 AST. Rendu relancé après redémarrage du worker (interrompu à 48 %).
 - Correction : miniature VID-038 régénérée (apostrophe) et remplacée sur Omnisocials (média 277341, post 100146241 mis à jour).
 - Note outils : Remotion et Canva non utilisés (montage = HyperFrames + three.js ; miniatures = Playwright). Pixabay, ElevenLabs, Omnisocials, HyperFrames confirmés utilisés.
+- VID-040 : programmée Omnisocials 100146275 le 05/12 12:00Z (08:00 AST), média 277349, miniature 277350. Statuts Omnisocials vérifiés : 2 publiés (VID-015, VID-019), 0 échec. Prochain créneau libre : 05/12 17:30 AST.
