@@ -803,5 +803,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146189)",
   "statut_yt": "Programmée (Omnisocials 100146189)"
+ },
+ {
+  "vid": "VID-036",
+  "ep": 36,
+  "titre": "Hypothyroïdie : fatigue, froid, prise de poids",
+  "specialite": "Endocrinologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 136.1,
+  "icone": "pulse",
+  "miniature": "HYPOTHYROÏDIE|quand la thyroïde ralentit",
+  "accroche": "Fatigue persistante, peau sèche, prise de poids : et si c était la thyroïde ?",
+  "description": "Causes, symptômes, dépistage néonatal, diagnostic par la TSH et traitement par lévothyroxine de l hypothyroïdie. Plans de coupe : Pixabay.",
+  "hashtags": "#Hypothyroïdie #Thyroïde #Endocrinologie #Santé #MedEssentiel",
+  "date": "2026-12-03",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-03T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

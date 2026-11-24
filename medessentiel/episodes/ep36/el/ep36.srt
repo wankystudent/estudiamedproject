@@ -1,0 +1,264 @@
+1
+00:00:00,162 --> 00:00:03,328
+Une fatigue persistante, la peau sèche,
+
+2
+00:00:03,306 --> 00:00:06,168
+une prise de poids sans explication.
+
+3
+00:00:06,624 --> 00:00:09,364
+Et si c'était la thyroïde ?
+
+4
+00:00:09,536 --> 00:00:10,462
+Bienvenue sur MedEssentiel :
+
+5
+00:00:10,840 --> 00:00:11,417
+la médecine, clairement expliquée.
+
+6
+00:00:11,636 --> 00:00:12,554
+Aujourd'hui :
+
+7
+00:00:12,795 --> 00:00:12,635
+l'hypothyroïdie.
+
+8
+00:00:12,674 --> 00:00:14,966
+La thyroïde est une petite glande située
+
+9
+00:00:14,936 --> 00:00:15,838
+à la base du cou.
+
+10
+00:00:16,145 --> 00:00:18,822
+Elle produit des hormones qui règlent le
+
+11
+00:00:18,779 --> 00:00:20,375
+rythme de l'organisme :
+
+12
+00:00:20,568 --> 00:00:22,743
+l'énergie, la température, le cœur,
+
+13
+00:00:22,711 --> 00:00:23,555
+la digestion.
+
+14
+00:00:23,703 --> 00:00:26,939
+Dans l'hypothyroïdie, ces hormones sont en quantité
+
+15
+00:00:26,917 --> 00:00:27,850
+insuffisante.
+
+16
+00:00:28,243 --> 00:00:30,624
+Selon un article de synthèse publié dans
+
+17
+00:00:30,588 --> 00:00:31,725
+The Lancet en 2017,
+
+18
+00:00:31,692 --> 00:00:33,570
+c'est une affection fréquente,
+
+19
+00:00:33,554 --> 00:00:35,715
+facile à diagnostiquer et à traiter,
+
+20
+00:00:35,692 --> 00:00:38,960
+mais potentiellement mortelle dans ses formes sévères
+
+21
+00:00:38,934 --> 00:00:40,474
+si elle n'est pas soignée.
+
+22
+00:00:40,628 --> 00:00:41,810
+Les causes :
+
+23
+00:00:42,281 --> 00:00:45,037
+le plus souvent une thyroïdite auto-immune,
+
+24
+00:00:45,031 --> 00:00:47,606
+parfois une opération ou un traitement de
+
+25
+00:00:47,564 --> 00:00:49,814
+la thyroïde, certains médicaments,
+
+26
+00:00:49,807 --> 00:00:51,062
+ou un manque d'iode.
+
+27
+00:00:51,654 --> 00:00:54,294
+Quels sont les symptômes les plus fréquents
+
+28
+00:00:54,276 --> 00:00:55,244
+chez l'adulte ?
+
+29
+00:00:55,424 --> 00:00:56,934
+La fatigue, la lenteur,
+
+30
+00:00:56,914 --> 00:00:58,356
+la sensation de froid,
+
+31
+00:00:58,328 --> 00:00:59,473
+la prise de poids,
+
+32
+00:00:59,445 --> 00:01:01,945
+la constipation, la voix modifiée et la
+
+33
+00:01:01,902 --> 00:01:02,675
+peau sèche.
+
+34
+00:01:03,011 --> 00:01:05,704
+Mais la présentation varie selon l'âge et
+
+35
+00:01:05,662 --> 00:01:08,495
+le sexe, et certaines personnes n'ont aucun
+
+36
+00:01:08,464 --> 00:01:08,946
+signe.
+
+37
+00:01:09,279 --> 00:01:12,162
+Chez le nouveau-né, une hypothyroïdie non traitée
+
+38
+00:01:12,135 --> 00:01:13,842
+peut gêner le développement :
+
+39
+00:01:14,086 --> 00:01:16,409
+c'est pourquoi un dépistage est organisé à
+
+40
+00:01:16,362 --> 00:01:18,293
+la naissance dans de nombreux pays.
+
+41
+00:01:18,561 --> 00:01:20,031
+Comment fait-on le diagnostic ?
+
+42
+00:01:20,255 --> 00:01:22,180
+Par une prise de sang qui dose
+
+43
+00:01:22,146 --> 00:01:25,076
+la TSH, l'hormone qui commande la thyroïde,
+
+44
+00:01:25,062 --> 00:01:27,137
+associée à la thyroxine libre.
+
+45
+00:01:27,794 --> 00:01:30,481
+Votre médecin pourra aussi rechercher la cause.
+
+46
+00:01:31,078 --> 00:01:34,167
+Le traitement standard est un remplacement hormonal
+
+47
+00:01:34,145 --> 00:01:36,774
+par la lévothyroxine, prescrit et ajusté par
+
+48
+00:01:36,734 --> 00:01:37,438
+le médecin.
+
+49
+00:01:37,775 --> 00:01:39,455
+Il se prend en général à jeun,
+
+50
+00:01:39,422 --> 00:01:41,116
+et la dose est adaptée grâce à
+
+51
+00:01:41,069 --> 00:01:43,144
+des contrôles sanguins réguliers.
+
+52
+00:01:43,473 --> 00:01:46,502
+Une partie des patients garde pourtant des
+
+53
+00:01:46,464 --> 00:01:49,584
+plaintes malgré des analyses normalisées :
+
+54
+00:01:50,179 --> 00:01:52,770
+parlez-en à votre médecin.
+
+55
+00:01:52,930 --> 00:01:54,072
+Les formes très sévères,
+
+56
+00:01:54,043 --> 00:01:56,780
+avec confusion, somnolence profonde ou température basse,
+
+57
+00:01:56,746 --> 00:01:57,620
+sont des urgences.
+
+58
+00:01:58,120 --> 00:01:58,739
+Retenez :
+
+59
+00:01:58,978 --> 00:02:01,496
+fatigue, frilosité, prise de poids ;
+
+60
+00:02:01,450 --> 00:02:02,692
+prise de sang TSH ;
+
+61
+00:02:02,646 --> 00:02:06,249
+traitement par lévothyroxine, avec suivi régulier.
+
+62
+00:02:06,700 --> 00:02:08,246
+Quel symptôme vous parle le plus ?
+
+63
+00:02:08,556 --> 00:02:09,641
+Dites-le en commentaire.
+
+64
+00:02:09,799 --> 00:02:11,976
+Cette vidéo est éducative et ne remplace
+
+65
+00:02:11,951 --> 00:02:13,052
+pas un avis médical.
+
+66
+00:02:13,352 --> 00:02:16,137
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

@@ -191,3 +191,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 142,2 s ; 3D globules ; B-roll Pixabay 23125 (ligne ECG sur paysage marin, sans personne) ; miniature créée. Créneau prévu : 02/12 17:30 AST. Rendu en file d'attente après VID-034.
 - VID-034 : vidéo envoyée (média 277291), miniature (277290), programmée Omnisocials 100146181 le 02/12 12:00Z (08:00 AST), FB + YouTube Shorts, vérifiée par get_post (statut Scheduled, titre YT, couverture personnalisée). Vidéo transmise à l'utilisateur pour aperçu.
 - VID-035 : envoyée (média 277295, miniature 277296), programmée Omnisocials 100146189 le 02/12 21:30Z (17:30 AST), FB + YT, vérifiée (liste Scheduled : 18 posts, aucun échec).
+
+## 2026-11-24 — VID-036 Hypothyroïdie (en rendu)
+- Source : Chaker et al., Lancet 2017 (PMID 28336049, résumé lu, niveau A : symptômes, lévothyroxine, plaintes persistantes). Dépistage néonatal, TSH + T4 libre, causes (auto-immune, chirurgie, médicaments, iode), prise à jeun, urgences = pratique courante, à valider (D4).
+- Narration 136,1 s ; 3D goutte ; B-roll Pixabay 197486 (mains/boîte de Pétri, sans visage) ; miniature (icône pouls, pas d'icône thyroïde dédiée). Créneau prévu : 03/12 08:00 AST.
