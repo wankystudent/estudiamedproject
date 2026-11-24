@@ -242,3 +242,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Idée suivante préparée : medessentiel/idees/anatomie_humaine_vrai_faux.md (VID-045, anatomie humaine, infographie tierce non reprise).
 - VID-044 : programmée Omnisocials 100148085 le 07/12 12:00Z (08:00 AST), média 278622, miniature 278623. Prochain créneau libre : 07/12 17:30 AST (prévu VID-045 anatomie).
 - Publication confirmée (24/11 12:00Z) : VID-020 ECG, post 100142217, Facebook https://www.facebook.com/reel/1158943633491756/ , YouTube https://youtube.com/shorts/mvy0sq55OTA . État Omnisocials : 3 publiés (VID-015, VID-019, VID-020), 0 échec.
+
+## 2026-11-24 — VID-045 Anatomie du corps humain (en rendu) — idée soumise par l'utilisateur (infographie tierce, non reprise)
+- Contenu : chiffres moyens (206 os adulte ; cerveau ≈ 1,3–1,4 kg ; cœur ≈ 300 g, ≈ 100 000 battements/j ; poumon droit un peu plus grand ; fonctions des organes) — niveau B (manuels d'anatomie, American Heart Association, Cleveland Clinic via recherche web), annoncés comme moyennes dans la narration ; à valider (D4).
+- Narration 139,6 s ; 3D globules rouges ; B-roll Pixabay 23125 (ECG sur paysage marin, réutilisé de VID-035) ; miniature (icône abdomen). Créneau prévu : 07/12 17:30 AST.
+- Incident ElevenLabs : un appel de génération a expiré (timeout 60 s) ; le nœud avait été créé mais non exécuté ; relancé via creative_run_flow_nodes (pas de doublon payé : une seule génération pour cette partie).

@@ -1010,5 +1010,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100148085)",
   "statut_yt": "Programmée (Omnisocials 100148085)"
+ },
+ {
+  "vid": "VID-045",
+  "ep": 45,
+  "titre": "Anatomie du corps humain : les organes essentiels",
+  "specialite": "Anatomie",
+  "categorie_yt": "Éducation",
+  "duree_s": 139.6,
+  "icone": "abdomen",
+  "miniature": "ANATOMIE|les organes essentiels",
+  "accroche": "Combien d'os avez-vous ? Combien pèse votre cœur ? Quel poumon est le plus grand ?",
+  "description": "Squelette, cerveau, cœur, poumons, digestion, sang et autres organes : les repères d'anatomie à connaître (valeurs moyennes). Plans de coupe : Pixabay.",
+  "hashtags": "#Anatomie #CorpsHumain #Santé #Éducation #MedEssentiel",
+  "date": "2026-12-07",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-07T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

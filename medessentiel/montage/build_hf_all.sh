@@ -4,7 +4,7 @@
 set -euo pipefail
 S=$1; shift
 M=$(cd "$(dirname "$0")" && pwd); D=$S/dl; P=$S/speech; ROOT=$(dirname "$M")
-declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 [27]=159.39 [28]=157.58 [29]=177.27 [30]=167.75 [31]=171.38 [32]=162.83 [33]=153.45 [34]=142.35 [35]=142.21 [36]=136.13 [37]=140.49 [38]=140.45 [39]=137.24 [40]=148.81 [41]=146.25 [42]=135.11 [43]=136.82 [44]=151.92 )
+declare -A DUR=( [01]=130.64 [02]=109.85 [03]=209.84 [04]=106.15 [05]=192.42 [06]=104.09 [07]=187.90 [08]=189.99 [09]=203.34 [10]=191.51 [11]=205.81 [12]=183.71 [13]=190.34 [14]=174.49 [15]=168.24 [16]=169.73 [17]=548.69 [18]=193.29 [19]=168.46 [20]=163.25 [21]=151.69 [22]=143.98 [23]=133.53 [24]=146.34 [25]=145.04 [26]=159.26 [27]=159.39 [28]=157.58 [29]=177.27 [30]=167.75 [31]=171.38 [32]=162.83 [33]=153.45 [34]=142.35 [35]=142.21 [36]=136.13 [37]=140.49 [38]=140.45 [39]=137.24 [40]=148.81 [41]=146.25 [42]=135.11 [43]=136.82 [44]=151.92 [45]=139.56 )
 declare -A PH
 PH[01]='s01=x s02=Bonjour s03=D'"'"'abord s04=Premier_signe s05=Deuxième_signe s06=Troisième_signe s07=Quatrième_signe s08=Cinquième_signe s09=Certaines_situations s10=Que_faire s11=Cette_vidéo_est'
 PH[02]='c01=x c02=Bonjour c03=Le_cœur_est_une_pompe c04=On_peut_le_voir c05=Suivons_une_goutte c06=Comment_le_sang_évite c07=Et_le_cœur_lui-même c08=Cette_vidéo_est_éducative'
@@ -50,6 +50,7 @@ PH[41]='x01=x x02=Bienvenue_sur_MedEssentiel x03=diminution_progressive x04=Elle
 PH[42]='x01=x x02=Bienvenue_sur_MedEssentiel x03=La_bronchiolite_est_une x04=Quand_s'"'"'inquiéter x05=Comment_fait-on x06=Les_nourrissons_les_plus x07=Quel_est_le_traitement x08=À_la_maison x09=Se_laver_les_mains x10=Retenez'
 PH[43]='x01=x x02=Bienvenue_sur_MedEssentiel x03=La_thrombose_veineuse_profonde_est x04=Les_facteurs_déclenchants x05=Quels_sont_les_signes x06=Comment_fait-on x07=Comment_la_traite-t-on x08=La_durée_dépend x09=La_prévention x10=Retenez'
 PH[44]='x01=x x02=Bienvenue_sur_MedEssentiel x03=Commençons_par_l'"'"'essentiel x04=Donc_les_chiffres x05=Et_le_sommeil x06=Retenir_sa_respiration x07=Et_la_fréquence x08=La_longévité x09=Et_le_reste x10=Retenez'
+PH[45]='x01=x x02=Bienvenue_sur_MedEssentiel x03=L'"'"'anatomie_est_la x04=Le_squelette_adulte x05=Le_cerveau_pèse x06=Le_cœur_est x07=Les_poumons_assurent x08=Le_système_digestif x09=Et_d'"'"'autres_organes x10=Retenez'
 for ep in "$@"; do
   if [[ 10#$ep -ge 10 ]]; then SRT=$P/ep$ep.srt; WAV=$P/ep$ep.wav; WORDS=$P/ep${ep}_words.json
   else SRT=$D/ep$ep.srt; WAV=$S/hf_audio_$ep.wav; ffmpeg -v error -y -i $D/ep${ep}_raw.mp4 -vn -ac 1 -ar 44100 $WAV; WORDS=$S/hf_words_$ep.json; python3 $M/srt_words.py $SRT $WORDS >/dev/null; fi
