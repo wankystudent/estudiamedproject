@@ -964,5 +964,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146323)",
   "statut_yt": "Programmée (Omnisocials 100146323)"
+ },
+ {
+  "vid": "VID-043",
+  "ep": 43,
+  "titre": "Thrombose veineuse et embolie pulmonaire : reconnaître le caillot",
+  "specialite": "Médecine vasculaire",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 136.8,
+  "icone": "drop",
+  "miniature": "CAILLOT|thrombose et embolie",
+  "accroche": "Un mollet gonflé, rouge, douloureux d'un seul côté : et si c'était un caillot ?",
+  "description": "Signes de thrombose veineuse profonde et d'embolie pulmonaire, diagnostic par score, D-dimères et imagerie, anticoagulants et prévention. Plans de coupe : Pixabay.",
+  "hashtags": "#Thrombose #EmboliePulmonaire #Phlébite #Santé #MedEssentiel",
+  "date": "2026-12-06",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-06T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

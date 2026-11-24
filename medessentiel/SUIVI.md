@@ -229,3 +229,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 135,1 s ; 3D pathogène (22–34 s) ; B-roll Pixabay 33267 (virus 3D, sans personne, en boucle) ; miniature. Créneau prévu : 06/12 08:00 AST.
 - Outil : broll.mjs accepte maintenant LOOP=1 (boucle) et CX (décalage de recadrage).
 - VID-042 : programmée Omnisocials 100146323 le 06/12 12:00Z (08:00 AST), média 277383, miniature 277384. Prochain créneau libre : 06/12 17:30 AST.
+
+## 2026-11-24 — VID-043 Thrombose veineuse profonde / embolie pulmonaire (en rendu)
+- Source : Khan et al., Lancet 2021 (PMID 33984268, résumé lu, niveau A : ~10 M/an, chirurgie majeure et cancer actif, score de Wells + D-dimères + imagerie, AOD en 1re intention, durée selon la cause, prophylaxie chirurgie orthopédique/cancer). Signes cliniques détaillés = pratique courante, à valider (D4).
+- Narration 136,8 s ; 3D globules rouges (50–62 s) ; B-roll Pixabay 21617 (autre segment, déjà utilisé VID-034/039) ; miniature (icône goutte). Créneau prévu : 06/12 17:30 AST.
