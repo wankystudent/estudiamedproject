@@ -210,3 +210,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-24 — VID-039 Drépanocytose (en rendu)
 - Source : Colombatti et al., Lancet 2026 (PMID 41831848, résumé lu, niveau A : physiopathologie, complications, hydroxyurée, transfusion, greffe, thérapies géniques). Génétique (deux parents), liste des signes d'urgence, conseils quotidiens = pratique courante, à valider (D4).
 - Narration 137,2 s ; 3D globules rouges ; B-roll Pixabay 21617 (globules rouges 3D, sans visage, réutilisé de VID-034 avec décalage 3 s) ; miniature. Créneau prévu : 04/12 17:30 AST.
+- VID-039 : programmée Omnisocials 100146257 le 04/12 21:30Z (17:30 AST), média 277339, miniature 277340. Prochain créneau libre : 05/12 08:00 AST.
