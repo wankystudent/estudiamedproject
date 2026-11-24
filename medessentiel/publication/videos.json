@@ -987,5 +987,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100146338)",
   "statut_yt": "Programmée (Omnisocials 100146338)"
+ },
+ {
+  "vid": "VID-044",
+  "ep": 44,
+  "titre": "Les limites du corps humain : vrai ou faux ?",
+  "specialite": "Physiologie",
+  "categorie_yt": "Éducation",
+  "duree_s": 151.9,
+  "icone": "gauge",
+  "miniature": "LIMITES DU CORPS|vrai ou faux ?",
+  "accroche": "Sans eau, sans manger, sans dormir, sans air : combien de temps on tient ?",
+  "description": "Vérification d'une liste virale : oxygène, eau, nourriture, sommeil, apnée, fréquence cardiaque, longévité. Ce qui est vrai, approximatif ou non vérifié. Plans de coupe : Pixabay.",
+  "hashtags": "#CorpsHumain #Physiologie #Santé #FactCheck #MedEssentiel",
+  "date": "2026-12-07",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-07T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

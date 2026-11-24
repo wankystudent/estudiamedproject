@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:01,814
+Sans eau, sans nourriture,
+
+2
+00:00:01,807 --> 00:00:03,424
+sans sommeil, sans air :
+
+3
+00:00:03,560 --> 00:00:05,800
+combien de temps le corps humain peut-il
+
+4
+00:00:05,773 --> 00:00:06,210
+tenir ?
+
+5
+00:00:06,263 --> 00:00:08,284
+Une liste de chiffres circule sur les
+
+6
+00:00:08,243 --> 00:00:09,226
+réseaux sociaux.
+
+7
+00:00:09,407 --> 00:00:11,515
+Bienvenue sur MedEssentiel :
+
+8
+00:00:11,686 --> 00:00:13,543
+la médecine, clairement expliquée.
+
+9
+00:00:13,723 --> 00:00:14,590
+Aujourd'hui :
+
+10
+00:00:14,818 --> 00:00:16,394
+les limites du corps humain,
+
+11
+00:00:16,367 --> 00:00:17,634
+ce qui est vrai et ce qui
+
+12
+00:00:17,593 --> 00:00:18,634
+est approximatif.
+
+13
+00:00:18,884 --> 00:00:20,263
+Commençons par l'essentiel.
+
+14
+00:00:20,479 --> 00:00:22,478
+L'oxygène est la limite la plus rapide
+
+15
+00:00:22,447 --> 00:00:22,555
+:
+
+16
+00:00:22,695 --> 00:00:25,948
+on perd connaissance en quelques secondes sans
+
+17
+00:00:25,914 --> 00:00:28,351
+air, et le cerveau subit des lésions
+
+18
+00:00:28,329 --> 00:00:30,512
+en quelques minutes seulement.
+
+19
+00:00:30,724 --> 00:00:32,648
+Viennent ensuite l'eau, puis la nourriture.
+
+20
+00:00:33,105 --> 00:00:34,299
+La règle des trois,
+
+21
+00:00:34,271 --> 00:00:36,050
+trois minutes, trois jours,
+
+22
+00:00:36,021 --> 00:00:38,934
+trois semaines, est un repère mnémotechnique,
+
+23
+00:00:38,938 --> 00:00:39,714
+pas une loi :
+
+24
+00:00:39,987 --> 00:00:42,164
+elle varie beaucoup selon la chaleur,
+
+25
+00:00:42,141 --> 00:00:44,191
+l'effort, l'âge et l'état de santé.
+
+26
+00:00:44,437 --> 00:00:46,317
+Donc les chiffres de la liste,
+
+27
+00:00:46,290 --> 00:00:48,030
+trois à cinq jours sans eau,
+
+28
+00:00:47,994 --> 00:00:50,909
+ou quarante à soixante-dix jours sans manger,
+
+29
+00:00:50,885 --> 00:00:53,051
+ne sont que des ordres de grandeur.
+
+30
+00:00:53,658 --> 00:00:54,477
+Et le sommeil ?
+
+31
+00:00:54,725 --> 00:00:56,407
+Le chiffre de onze jours vient d'une
+
+32
+00:00:56,371 --> 00:00:57,406
+expérience célèbre :
+
+33
+00:00:57,613 --> 00:00:59,403
+en 1964, un lycéen américain,
+
+34
+00:00:59,388 --> 00:01:01,980
+Randy Gardner, est resté éveillé deux cent
+
+35
+00:01:01,945 --> 00:01:03,532
+soixante-quatre heures.
+
+36
+00:01:03,685 --> 00:01:06,520
+Guinness a ensuite cessé de suivre ce
+
+37
+00:01:06,479 --> 00:01:08,738
+record, car il est dangereux.
+
+38
+00:01:09,037 --> 00:01:10,328
+Retenir sa respiration.
+
+39
+00:01:10,750 --> 00:01:13,975
+Le record officiel d'apnée statique chez l'homme
+
+40
+00:01:13,952 --> 00:01:16,792
+est de vingt-neuf minutes et trois secondes
+
+41
+00:01:16,772 --> 00:01:18,389
+en 2025, selon Guinness,
+
+42
+00:01:18,373 --> 00:01:20,847
+après avoir respiré de l'oxygène pur.
+
+43
+00:01:21,307 --> 00:01:23,573
+Sans oxygène préalable, le record est d'environ
+
+44
+00:01:23,548 --> 00:01:24,232
+onze minutes.
+
+45
+00:01:24,455 --> 00:01:25,260
+N'essayez jamais :
+
+46
+00:01:25,533 --> 00:01:28,262
+l'apnée prolongée peut provoquer une perte de
+
+47
+00:01:28,219 --> 00:01:29,828
+connaissance et la noyade.
+
+48
+00:01:30,045 --> 00:01:30,833
+Et la fréquence cardiaque maximale ?
+
+49
+00:01:31,187 --> 00:01:35,744
+Deux cent vingt battements par minute n'est
+
+50
+00:01:35,725 --> 00:01:38,712
+pas une limite universelle :
+
+51
+00:01:38,865 --> 00:01:38,186
+elle dépend surtout de l'âge.
+
+52
+00:01:38,227 --> 00:01:40,676
+La formule deux cent vingt moins l'âge
+
+53
+00:01:40,644 --> 00:01:43,974
+n'est qu'une estimation, et selon une méta-analyse
+
+54
+00:01:43,969 --> 00:01:46,493
+publiée en 2001, une formule plus juste
+
+55
+00:01:46,462 --> 00:01:48,828
+est deux cent huit moins zéro virgule
+
+56
+00:01:48,804 --> 00:01:49,889
+sept fois l'âge.
+
+57
+00:01:50,486 --> 00:01:51,300
+La longévité.
+
+58
+00:01:51,546 --> 00:01:53,276
+Le record de longévité vérifié reste celui
+
+59
+00:01:53,237 --> 00:01:54,956
+de Jeanne Calment, morte à cent vingt-deux
+
+60
+00:01:54,929 --> 00:01:55,437
+ans en 1997.
+
+61
+00:01:55,565 --> 00:01:58,652
+Et le reste ?
+
+62
+00:01:58,718 --> 00:02:01,425
+Le froid extrême pendant trente minutes,
+
+63
+00:02:01,405 --> 00:02:04,270
+la marche sans arrêt pendant trente heures,
+
+64
+00:02:04,247 --> 00:02:06,808
+l'isolement total pendant sept jours,
+
+65
+00:02:06,781 --> 00:02:08,363
+la plus longue miction :
+
+66
+00:02:08,417 --> 00:02:11,407
+ces chiffres ne reposent sur aucune source
+
+67
+00:02:11,381 --> 00:02:12,638
+médicale fiable.
+
+68
+00:02:13,000 --> 00:02:13,571
+Retenez :
+
+69
+00:02:13,801 --> 00:02:16,158
+les limites du corps dépendent de la
+
+70
+00:02:16,116 --> 00:02:17,782
+personne et du contexte ;
+
+71
+00:02:17,736 --> 00:02:19,789
+l'oxygène est la plus urgente ;
+
+72
+00:02:19,742 --> 00:02:22,080
+et un record n'est jamais un modèle.
+
+73
+00:02:22,523 --> 00:02:23,828
+Quel chiffre vous a surpris ?
+
+74
+00:02:24,030 --> 00:02:25,107
+Dites-le en commentaire.
+
+75
+00:02:25,336 --> 00:02:27,597
+Cette vidéo est éducative et ne remplace
+
+76
+00:02:27,574 --> 00:02:28,717
+pas un avis médical.
+
+77
+00:02:28,921 --> 00:02:31,922
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
