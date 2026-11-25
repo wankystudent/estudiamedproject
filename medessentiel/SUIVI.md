@@ -248,3 +248,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 139,6 s ; 3D globules rouges ; B-roll Pixabay 23125 (ECG sur paysage marin, réutilisé de VID-035) ; miniature (icône abdomen). Créneau prévu : 07/12 17:30 AST.
 - Incident ElevenLabs : un appel de génération a expiré (timeout 60 s) ; le nœud avait été créé mais non exécuté ; relancé via creative_run_flow_nodes (pas de doublon payé : une seule génération pour cette partie).
 - VID-045 : programmée Omnisocials 100148098 le 07/12 21:30Z (17:30 AST), média 278635, miniature 278636. Prochain créneau libre : 08/12 08:00 AST. Sujets restants : cancer du col de l'utérus, hépatite B, ictère néonatal, leucémie, calendrier vaccinal (document officiel attendu), etc.
+
+## 2026-11-25 — VID-046 Intoxication : premiers gestes (en rendu) — idée soumise par l'utilisateur
+- Recherche complète : medessentiel/idees/intoxications_antidotes.md (sources lues niveau A : Lancet 2008 organophosphorés, NEJM 2017 idarucizumab, Am J Emerg Med 2022 LAST/émulsion lipidique, Br J Clin Pharmacol 2024 paracétamol, JAMA 2026 opioïdes, Crit Care Clin 2021 CO, Neurocrit Care 2016 réversion antithrombotiques, Lancet 2019 insuffisance hépatique aiguë).
+- VID-046 (grand public) : OMS 2019 (≈ 193 000 décès, niveau B web) ; gestes MedlinePlus/Mayo/Poison.org (niveau B, D4) ; CO (PMID 34053712, A) ; paracétamol/NAC (PMID 37683599, A). Aucune posologie.
+- Narration 159,3 s ; 3D goutte ; B-roll Pixabay 40948 (gélules, sans personne, en boucle) ; miniature icône seringue. Créneau prévu : 08/12 08:00 AST. VID-047 « Les antidotes à connaître » à produire ensuite (08/12 17:30 AST).

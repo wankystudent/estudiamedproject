@@ -1,0 +1,304 @@
+1
+00:00:00,000 --> 00:00:03,188
+Votre enfant vient d'avaler un produit ménager,
+
+2
+00:00:03,169 --> 00:00:05,600
+ou un médicament qui n'était pas pour
+
+3
+00:00:05,565 --> 00:00:05,909
+lui.
+
+4
+00:00:06,097 --> 00:00:07,311
+Que faites-vous en premier ?
+
+5
+00:00:07,364 --> 00:00:10,283
+Bienvenue sur MedEssentiel :
+
+6
+00:00:10,503 --> 00:00:13,109
+la médecine, clairement expliquée.
+
+7
+00:00:13,365 --> 00:00:11,968
+Aujourd'hui :
+
+8
+00:00:12,012 --> 00:00:14,911
+l'intoxication, les premiers gestes qui sauvent.
+
+9
+00:00:14,987 --> 00:00:18,456
+Une intoxication survient quand une substance toxique
+
+10
+00:00:18,431 --> 00:00:19,723
+entre dans le corps :
+
+11
+00:00:19,991 --> 00:00:22,502
+avalée, respirée, ou en contact avec la
+
+12
+00:00:22,460 --> 00:00:23,539
+peau ou les yeux.
+
+13
+00:00:23,778 --> 00:00:24,515
+Les causes sont variées :
+
+14
+00:00:24,699 --> 00:00:27,548
+médicaments, produits ménagers, pesticides,
+
+15
+00:00:27,537 --> 00:00:30,043
+alcool, drogues, ou gaz comme le monoxyde
+
+16
+00:00:30,021 --> 00:00:30,752
+de carbone.
+
+17
+00:00:31,285 --> 00:00:34,366
+Selon les estimations de l'Organisation mondiale de
+
+18
+00:00:34,323 --> 00:00:37,853
+la santé, environ cent quatre-vingt-treize mille personnes
+
+19
+00:00:37,834 --> 00:00:40,983
+sont mortes d'une intoxication non intentionnelle en
+
+20
+00:00:40,939 --> 00:00:43,197
+2019, surtout des enfants et des jeunes
+
+21
+00:00:43,167 --> 00:00:43,730
+adultes.
+
+22
+00:00:43,892 --> 00:00:45,817
+Les premiers instants sont décisifs.
+
+23
+00:00:45,984 --> 00:00:47,625
+Voici l'ordre des gestes.
+
+24
+00:00:48,229 --> 00:00:48,619
+Un :
+
+25
+00:00:48,913 --> 00:00:51,566
+protégez-vous et éloignez la personne du danger.
+
+26
+00:00:51,778 --> 00:00:53,432
+En cas de fumée ou de gaz,
+
+27
+00:00:53,399 --> 00:00:55,548
+aérez et sortez à l'air libre si
+
+28
+00:00:55,506 --> 00:00:56,824
+c'est sans risque.
+
+29
+00:00:57,020 --> 00:00:57,429
+Deux :
+
+30
+00:00:57,714 --> 00:01:02,136
+appelez immédiatement les secours ou le centre
+
+31
+00:01:02,119 --> 00:01:04,564
+antipoison de votre pays.
+
+32
+00:01:04,927 --> 00:01:05,308
+Restez en ligne et suivez les consignes.
+
+33
+00:01:05,589 --> 00:01:07,583
+Trois :
+
+34
+00:01:07,754 --> 00:01:07,992
+gardez l'emballage, l'étiquette ou le flacon.
+
+35
+00:01:08,123 --> 00:01:11,059
+Il aidera les soignants à identifier le
+
+36
+00:01:11,018 --> 00:01:11,734
+produit.
+
+37
+00:01:12,169 --> 00:01:12,533
+Quatre :
+
+38
+00:01:12,785 --> 00:01:14,388
+ne faites pas vomir la personne.
+
+39
+00:01:14,719 --> 00:01:16,408
+Ne lui donnez rien à boire ni
+
+40
+00:01:16,365 --> 00:01:18,307
+à manger si elle est somnolente.
+
+41
+00:01:18,620 --> 00:01:21,032
+N'essayez pas de neutraliser le poison avec
+
+42
+00:01:20,995 --> 00:01:22,363
+du citron ou du vinaigre,
+
+43
+00:01:22,342 --> 00:01:24,311
+sauf si un centre antipoison vous le
+
+44
+00:01:24,268 --> 00:01:24,927
+conseille.
+
+45
+00:01:25,380 --> 00:01:25,893
+Cinq :
+
+46
+00:01:26,262 --> 00:01:28,583
+appelez les secours sans attendre si la
+
+47
+00:01:28,540 --> 00:01:30,346
+personne est très somnolente,
+
+48
+00:01:30,334 --> 00:01:32,699
+inconsciente, respire mal ou convulse.
+
+49
+00:01:33,130 --> 00:01:36,263
+Deux situations méritent une attention particulière.
+
+50
+00:01:36,486 --> 00:01:38,853
+Le monoxyde de carbone est un gaz
+
+51
+00:01:38,816 --> 00:01:40,817
+sans odeur et sans couleur,
+
+52
+00:01:40,802 --> 00:01:43,394
+issu d'une combustion incomplète.
+
+53
+00:01:43,654 --> 00:01:45,506
+Il peut donner de simples maux de
+
+54
+00:01:45,463 --> 00:01:47,426
+tête, mais aussi un état critique.
+
+55
+00:01:47,803 --> 00:01:50,480
+Le traitement repose sur l'oxygène,
+
+56
+00:01:50,473 --> 00:01:53,086
+comme le rappelle une revue de 2021.
+
+57
+00:01:53,661 --> 00:01:56,208
+Le paracétamol, lui, peut ne causer aucun
+
+58
+00:01:56,176 --> 00:01:58,805
+symptôme au début, alors que l'atteinte du
+
+59
+00:01:58,762 --> 00:02:01,305
+foie apparaît au bout de plusieurs jours.
+
+60
+00:02:01,910 --> 00:02:03,641
+Selon une revue de 2024,
+
+61
+00:02:03,612 --> 00:02:07,542
+le traitement par N-acétylcystéine est très efficace
+
+62
+00:02:07,526 --> 00:02:08,934
+s'il est donné tôt :
+
+63
+00:02:09,311 --> 00:02:11,295
+consultez, même si vous vous sentez bien.
+
+64
+00:02:11,706 --> 00:02:12,290
+Prévenir :
+
+65
+00:02:12,589 --> 00:02:15,333
+rangez les médicaments et produits hors de
+
+66
+00:02:15,291 --> 00:02:17,855
+portée, dans leur emballage d'origine,
+
+67
+00:02:17,843 --> 00:02:20,355
+et ne transvasez jamais un produit dans
+
+68
+00:02:20,320 --> 00:02:21,699
+une bouteille d'eau.
+
+69
+00:02:21,931 --> 00:02:22,828
+Retenez :
+
+70
+00:02:23,196 --> 00:02:26,535
+sécurité, appel, emballage, pas de vomissement,
+
+71
+00:02:26,533 --> 00:02:28,931
+urgence si somnolence ou détresse.
+
+72
+00:02:29,281 --> 00:02:30,398
+Quelle question avez-vous ?
+
+73
+00:02:30,749 --> 00:02:32,111
+Posez-la en commentaire.
+
+74
+00:02:32,398 --> 00:02:34,845
+Cette vidéo est éducative et ne remplace
+
+75
+00:02:34,823 --> 00:02:36,057
+pas un avis médical.
+
+76
+00:02:36,214 --> 00:02:39,305
+Abonnez-vous, et à bientôt sur MedEssentiel.
+

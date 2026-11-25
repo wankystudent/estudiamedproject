@@ -1033,5 +1033,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100148098)",
   "statut_yt": "Programmée (Omnisocials 100148098)"
+ },
+ {
+  "vid": "VID-046",
+  "ep": 46,
+  "titre": "Intoxication : les premiers gestes qui sauvent",
+  "specialite": "Toxicologie/urgences",
+  "categorie_yt": "Urgences médicales",
+  "duree_s": 159.3,
+  "icone": "syringe",
+  "miniature": "INTOXICATION|les premiers gestes",
+  "accroche": "Votre enfant a avalé un produit ménager ou un médicament : que faites-vous en premier ?",
+  "description": "Intoxication : les gestes à faire et à éviter, signes d'urgence, monoxyde de carbone, paracétamol et prévention. Plans de coupe : Pixabay.",
+  "hashtags": "#Intoxication #Urgences #PremiersSecours #Santé #MedEssentiel",
+  "date": "2026-12-08",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-08T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

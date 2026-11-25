@@ -1,0 +1,5 @@
+file '/home/user/estudiamedproject/medessentiel/episodes/ep46/el/p1.wav'
+file '/home/user/estudiamedproject/medessentiel/episodes/ep46/el/_pause_1.wav'
+file '/home/user/estudiamedproject/medessentiel/episodes/ep46/el/p2.wav'
+file '/home/user/estudiamedproject/medessentiel/episodes/ep46/el/_pause_3.wav'
+file '/home/user/estudiamedproject/medessentiel/episodes/ep46/el/p3.wav'
