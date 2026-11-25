@@ -1102,5 +1102,28 @@
   "statut_miniature": "À créer",
   "statut_fb": "Non programmée",
   "statut_yt": "Non programmée"
+ },
+ {
+  "vid": "VID-049",
+  "ep": 49,
+  "titre": "Hippocrate : ce que l'histoire sait vraiment",
+  "specialite": "Histoire de la médecine",
+  "categorie_yt": "Éducation",
+  "duree_s": 135.2,
+  "icone": "column",
+  "miniature": "HIPPOCRATE|le serment, vrai ou faux ?",
+  "accroche": "Presque tous les médecins connaissent son serment : l'a-t-il vraiment écrit ?",
+  "description": "Un peu d'histoire : Hippocrate, le Corpus hippocratique, une médecine d'observation et l'origine du serment. Plans de coupe : Pixabay (illustratif).",
+  "hashtags": "#Hippocrate #HistoireDeLaMédecine #Médecine #Santé #MedEssentiel",
+  "date": "2026-12-09",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-09T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

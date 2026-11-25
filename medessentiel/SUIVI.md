@@ -265,3 +265,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 148,4 s ; 3D goutte (112–128 s, scène « théorie des canaux/liquides ») ; B-roll Pixabay 205415 (pyramides de Gizeh, vertical, illustratif — pas les pyramides de Djoser) ; miniature : nouvelle icône pyramide (thumbs.mjs). Créneau prévu : 09/12 08:00 AST.
 - Série « Un peu d'Histoire » proposée (à vérifier au cas par cas) : Hippocrate, Galien, Avicenne, Vésale, Jenner, Pasteur, Semmelweis, Fleming…
 - Décision utilisateur (2026-11-25) : série « Un peu d'Histoire » approuvée (« pagen problem »). Ordre prévu : Imhotep (VID-048), Hippocrate, Galien, Avicenne, Vésale, Jenner, Semmelweis, Pasteur, Fleming — chacun avec fiche de vérification (medessentiel/idees/histoire_*.md), sources PubMed lues, aucun visuel tiers repris.
+
+## 2026-11-25 — VID-049 « Un peu d'Histoire » : Hippocrate (projet prêt, rendu en file d'attente après VID-048)
+- Fiche : medessentiel/idees/histoire_hippocrate.md. Source A : Koutserimpas et al., Surg Innov 2024 (PMID 37978930). Niveau B (encyclopédies) : naissance ≈ 460 av. J.-C. à Cos, Corpus > 60 textes (compilé à l'époque hellénistique), auteurs débattus, observation clinique/histoires de cas/pronostic, serment probablement postérieur. Lancet 2009 (Miles) : titre seul lu → rien d'affirmé. Citations (« primum non nocere ») non reprises. D4 à faire.
+- Narration 135,2 s ; 3D goutte ; B-roll Pixabay 30096 (statue antique, illustratif) ; miniature : nouvelle icône colonne (temple). Créneau prévu : 09/12 17:30 AST.

@@ -1,0 +1,276 @@
+1
+00:00:00,000 --> 00:00:02,511
+Presque tous les médecins du monde connaissent
+
+2
+00:00:02,495 --> 00:00:04,029
+le serment qui porte son nom.
+
+3
+00:00:04,187 --> 00:00:06,125
+Pourtant, il ne l'a très probablement pas
+
+4
+00:00:06,083 --> 00:00:06,442
+écrit.
+
+5
+00:00:06,886 --> 00:00:09,402
+Bienvenue sur MedEssentiel :
+
+6
+00:00:09,560 --> 00:00:10,638
+la médecine, clairement expliquée.
+
+7
+00:00:11,066 --> 00:00:13,593
+Aujourd'hui, un peu d'histoire :
+
+8
+00:00:13,869 --> 00:00:16,361
+Hippocrate.
+
+9
+00:00:16,732 --> 00:00:17,224
+Hippocrate est considéré comme le père de
+
+10
+00:00:17,175 --> 00:00:17,359
+la médecine.
+
+11
+00:00:17,415 --> 00:00:20,107
+Les historiens situent sa naissance vers 460
+
+12
+00:00:20,067 --> 00:00:22,058
+avant notre ère, sur l'île de Cos,
+
+13
+00:00:22,022 --> 00:00:22,609
+en Grèce.
+
+14
+00:00:23,004 --> 00:00:24,543
+Mais, au-delà de cette date,
+
+15
+00:00:24,508 --> 00:00:25,802
+ce que l'on sait de sa vie
+
+16
+00:00:25,762 --> 00:00:26,936
+est assez incertain :
+
+17
+00:00:27,351 --> 00:00:29,736
+une grande partie de sa biographie antique
+
+18
+00:00:29,709 --> 00:00:31,848
+se mêle aux œuvres d'autres auteurs et
+
+19
+00:00:31,805 --> 00:00:33,545
+de praticiens venus après lui.
+
+20
+00:00:34,091 --> 00:00:36,179
+Son nom est attaché à un ensemble
+
+21
+00:00:36,160 --> 00:00:38,551
+de plus de soixante textes médicaux,
+
+22
+00:00:38,536 --> 00:00:40,678
+appelé le Corpus hippocratique.
+
+23
+00:00:41,131 --> 00:00:42,583
+Qui a écrit ce Corpus ?
+
+24
+00:00:42,636 --> 00:00:47,045
+Les spécialistes pensent que certains textes viennent
+
+25
+00:00:47,032 --> 00:00:50,220
+d'Hippocrate lui-même, mais lesquels,
+
+26
+00:00:50,212 --> 00:00:51,815
+cela reste débattu.
+
+27
+00:00:51,978 --> 00:00:53,081
+La collection a été rassemblée plus tard,
+
+28
+00:00:53,039 --> 00:00:53,765
+à l'époque hellénistique.
+
+29
+00:00:54,122 --> 00:00:57,276
+Que contient-elle ?
+
+30
+00:00:57,410 --> 00:00:58,341
+Surtout une médecine fondée sur l'observation du
+
+31
+00:00:58,293 --> 00:00:58,489
+malade :
+
+32
+00:00:58,647 --> 00:00:59,960
+des histoires de cas,
+
+33
+00:00:59,925 --> 00:01:01,493
+le suivi des traitements,
+
+34
+00:01:01,486 --> 00:01:03,771
+et une grande attention au pronostic,
+
+35
+00:01:03,757 --> 00:01:06,901
+c'est-à-dire à l'évolution probable de la maladie.
+
+36
+00:01:07,237 --> 00:01:09,024
+Un exemple précis :
+
+37
+00:01:09,140 --> 00:01:11,336
+selon une étude historique de 2024,
+
+38
+00:01:11,304 --> 00:01:14,064
+le Corpus décrit des techniques de réduction
+
+39
+00:01:14,046 --> 00:01:16,008
+des fractures et des luxations,
+
+40
+00:01:15,994 --> 00:01:18,021
+la façon dont les os consolident,
+
+41
+00:01:18,014 --> 00:01:19,619
+les signes de la gangrène,
+
+42
+00:01:19,601 --> 00:01:22,451
+le traitement des infections osseuses et même
+
+43
+00:01:22,415 --> 00:01:25,037
+la biomécanique des maladies de la colonne
+
+44
+00:01:25,013 --> 00:01:25,817
+vertébrale.
+
+45
+00:01:26,257 --> 00:01:27,724
+Et le serment d'Hippocrate ?
+
+46
+00:01:27,981 --> 00:01:29,217
+Les sources s'accordent :
+
+47
+00:01:29,417 --> 00:01:31,156
+il n'en est probablement pas l'auteur.
+
+48
+00:01:31,559 --> 00:01:33,451
+Il aurait été rédigé après sa mort
+
+49
+00:01:33,414 --> 00:01:36,417
+par d'autres médecins, influencés par les pratiques
+
+50
+00:01:36,397 --> 00:01:37,020
+du Corpus.
+
+51
+00:01:37,412 --> 00:01:41,271
+Des versions modernes sont encore prononcées par
+
+52
+00:01:41,234 --> 00:01:44,461
+de nombreux étudiants en médecine dans le
+
+53
+00:01:44,420 --> 00:01:44,988
+monde.
+
+54
+00:01:45,384 --> 00:01:47,662
+Alors, qui était Hippocrate ?
+
+55
+00:01:47,786 --> 00:01:48,688
+Un médecin de Cos,
+
+56
+00:01:48,650 --> 00:01:50,768
+certainement, devenu au fil des siècles le
+
+57
+00:01:50,724 --> 00:01:52,583
+symbole d'une médecine rationnelle,
+
+58
+00:01:52,568 --> 00:01:54,283
+qui observe, décrit et se soucie du
+
+59
+00:01:54,239 --> 00:01:54,727
+patient.
+
+60
+00:01:55,176 --> 00:01:55,769
+Retenez :
+
+61
+00:01:56,129 --> 00:01:58,422
+un homme dont la vie reste incertaine,
+
+62
+00:01:58,412 --> 00:02:00,648
+un Corpus de plus de soixante textes,
+
+63
+00:02:00,623 --> 00:02:03,580
+une médecine d'observation, et un serment écrit
+
+64
+00:02:03,548 --> 00:02:04,421
+par d'autres.
+
+65
+00:02:04,783 --> 00:02:07,358
+Quel personnage voulez-vous voir dans un prochain
+
+66
+00:02:07,332 --> 00:02:08,446
+épisode d'histoire ?
+
+67
+00:02:08,682 --> 00:02:10,802
+Dites-le en commentaire.
+
+68
+00:02:10,989 --> 00:02:11,956
+Cette vidéo est éducative.
+
+69
+00:02:12,193 --> 00:02:15,204
+Abonnez-vous, et à bientôt sur MedEssentiel.
+
