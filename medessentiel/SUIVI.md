@@ -258,3 +258,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-25 — VID-047 Les antidotes à connaître (en rendu)
 - Sources lues (niveau A) : Eddleston, Lancet 2008 (PMID 17706760) ; Pollack, NEJM 2017 (PMID 28693366) ; Long, Am J Emerg Med 2022 (PMID 35777259) ; Prescott, BJCP 2024 (PMID 37683599) ; Harris, JAMA 2026 (PMID 41671014, naloxone : résumé tronqué, niveau B) ; Chenoweth, Crit Care Clin 2021 (PMID 34053712). Protamine/héparine = pratique courante (NL) → D4. Aucune posologie.
 - Narration 170,3 s (< 3 min, YouTube OK) ; 3D pathogène ; B-roll Pixabay 44580 (encre rouge dans l'eau, réutilisé de VID-040, segment différent) ; miniature icône seringue. Créneau prévu : 08/12 17:30 AST.
+- VID-047 : programmée Omnisocials 100149710 le 08/12 21:30Z (17:30 AST), média 280407, miniature 280408. Prochain créneau libre : 09/12 08:00 AST. Reste : cancer du col, hépatite B, ictère néonatal, leucémie, calendrier vaccinal (document attendu), etc.
