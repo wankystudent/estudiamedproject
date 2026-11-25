@@ -269,3 +269,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 ## 2026-11-25 — VID-049 « Un peu d'Histoire » : Hippocrate (projet prêt, rendu en file d'attente après VID-048)
 - Fiche : medessentiel/idees/histoire_hippocrate.md. Source A : Koutserimpas et al., Surg Innov 2024 (PMID 37978930). Niveau B (encyclopédies) : naissance ≈ 460 av. J.-C. à Cos, Corpus > 60 textes (compilé à l'époque hellénistique), auteurs débattus, observation clinique/histoires de cas/pronostic, serment probablement postérieur. Lancet 2009 (Miles) : titre seul lu → rien d'affirmé. Citations (« primum non nocere ») non reprises. D4 à faire.
 - Narration 135,2 s ; 3D goutte ; B-roll Pixabay 30096 (statue antique, illustratif) ; miniature : nouvelle icône colonne (temple). Créneau prévu : 09/12 17:30 AST.
+- VID-048 : programmée Omnisocials 100149763 le 09/12 12:00Z (08:00 AST), média 280490, miniature 280491. VID-049 (Hippocrate) en rendu.
