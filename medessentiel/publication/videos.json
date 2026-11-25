@@ -1079,5 +1079,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100149710)",
   "statut_yt": "Programmée (Omnisocials 100149710)"
+ },
+ {
+  "vid": "VID-048",
+  "ep": 48,
+  "titre": "Imhotep : le premier médecin de l'histoire ?",
+  "specialite": "Histoire de la médecine",
+  "categorie_yt": "Éducation",
+  "duree_s": 148.4,
+  "icone": "pyramid",
+  "miniature": "IMHOTEP|premier médecin ?",
+  "accroche": "Il aurait bâti la première grande pyramide : fut-il le premier médecin de l'histoire ?",
+  "description": "Un peu d'histoire : qui était Imhotep, ce que l'on sait vraiment de sa médecine et ce que les papyrus Ebers et Smith nous apprennent. Plans de coupe : Pixabay (illustratif).",
+  "hashtags": "#Imhotep #HistoireDeLaMédecine #ÉgypteAncienne #Santé #MedEssentiel",
+  "date": "2026-12-09",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-09T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]

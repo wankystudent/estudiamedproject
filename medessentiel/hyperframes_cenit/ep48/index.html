@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;position:relative;overflow:hidden;font-family:'Inter',sans-serif;color:#fff;
+ background:radial-gradient(1200px 800px at 75% 20%,#14396b 0%,#0B2545 60%,#071a33 100%)}
+.brand{position:absolute;left:60px;top:38px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:34px;letter-spacing:.2px}
+.brand b{color:#13A8A8}
+.logo{width:46px;height:46px;border-radius:12px;background:#13A8A8;display:grid;place-items:center}
+.card{position:absolute;left:880px;top:120px;width:990px;height:790px;background:#F4F8FB;border-radius:28px;color:#0B2545;
+ box-shadow:0 30px 80px rgba(0,0,0,.45);padding:40px 48px;overflow:hidden}
+.chip{display:inline-block;background:#13A8A8;color:#fff;font-weight:800;font-size:26px;padding:8px 22px;border-radius:999px;letter-spacing:1px}
+.chip.red{background:#E5484D}
+h1{font-size:50px;line-height:1.1;font-weight:800;margin:18px 0 10px}
+h2{font-size:38px;line-height:1.15;font-weight:800}
+p,li{font-size:33px;line-height:1.3;font-weight:500}
+.sub{color:#4a5f7a}
+.frame{position:absolute;border-radius:28px;border:6px solid #13A8A8;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.foot{position:absolute;right:50px;top:50px;font-size:22px;color:#9fb4cf;font-weight:600}
+.row{display:flex;align-items:center;gap:22px}
+.pill{border-radius:20px;padding:20px 26px;background:#fff;border:2px solid #dbe6f0;font-weight:700;font-size:32px}
+
+
+.card{background:#051a3a!important;color:#fff!important;border:2px solid #1c5a96;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.card h1,.card h2{color:#fff!important}
+.chip{background:#19D3C5!important;color:#01214a!important}.chip.red{background:#E5484D!important;color:#fff!important}
+.sub{color:#bcd6ee!important}
+.pill{background:#0a2a55!important;color:#fff!important;border-color:#2a6fb0}
+.card h1{display:none!important}
+.card{height:auto!important;min-height:300px;padding:34px 36px 44px!important;width:780px!important}
+.chip{font-size:24px!important}
+.card svg{max-width:100%;height:auto}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#EEF4F9;font-family:'Inter',sans-serif;color:#022F72}
+#root{position:absolute;inset:0;overflow:hidden;background-color:#EEF4F9;background-image:radial-gradient(#b7cde2 2.2px,transparent 2.4px);background-size:46px 46px}
+.glow{position:absolute;border-radius:50%;filter:blur(110px)}
+#g1{width:800px;height:800px;left:-260px;top:700px;background:#0195B1;opacity:.16}
+#g2{width:700px;height:700px;right:-250px;top:1100px;background:#0274BB;opacity:.14}
+.scene{position:absolute;inset:0}.inner{position:absolute;inset:0}
+.dk{position:absolute;inset:0;background:linear-gradient(180deg,#06295c 0%,#031634 100%)}
+.top{position:absolute;left:44px;top:46px;display:flex;align-items:center;gap:16px;font-weight:900;font-size:34px;color:#fff}.top b{color:#19D3C5}
+.top.lt{color:#022F72}.top.lt b{color:#0195B1}
+.badge{width:92px;height:76px;border-radius:18px;background:#fff;display:grid;place-items:center;box-shadow:0 6px 18px rgba(2,47,114,.18)}.badge img{width:78px}
+.lab{position:absolute;left:60px;top:176px;font-family:'JetBrains Mono',monospace;font-size:30px;font-weight:600;color:#0195B1;letter-spacing:1px}
+.head{position:absolute;left:60px;right:60px;top:226px;height:330px;display:flex;flex-wrap:wrap;align-content:center;font-weight:800;line-height:1.08;gap:0 22px;color:#022F72;letter-spacing:-1.5px}
+.hw{display:inline-block}.hw.em{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;color:#0274BB;letter-spacing:0}
+.blk{position:absolute;left:60px;right:60px;top:590px;display:flex;align-items:center;justify-content:space-between}
+.bk{display:inline-block;background:#022F72;color:#fff;font-family:'League Gothic','Oswald',sans-serif;font-size:128px;line-height:1;padding:6px 30px 0;border-radius:16px;letter-spacing:1px;max-width:780px;white-space:nowrap}
+.num{width:150px;height:130px;border-radius:30px;background:#022F72;color:#fff;font-family:'League Gothic',sans-serif;font-size:104px;line-height:1;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 14px 34px rgba(2,47,114,.35)}
+.num i{font-style:normal;font-size:30px;letter-spacing:4px;line-height:.4;color:#19D3C5}
+.cardzone{position:absolute;left:50px;top:800px;width:980px}
+.cardscale{width:780px}
+.cardx{position:relative!important;left:auto!important;top:auto!important;box-shadow:0 26px 60px rgba(2,47,114,.35)}
+.cardx .chip{display:none!important}
+.big{position:absolute;left:60px;right:60px;text-align:center;color:#fff}
+.ln{display:block}.biglogo{width:520px;height:auto;margin:0 auto 34px;background:#fff;border-radius:32px;padding:8px}.biglogo img{width:100%;display:block}
+.cap{position:absolute;left:40px;right:40px;top:1500px;text-align:center;font-weight:800;font-size:56px;line-height:1.2;color:#fff;background:#022F72;border-radius:32px;padding:26px 28px;box-shadow:0 14px 34px rgba(2,47,114,.35)}
+.cw{display:inline-block;margin:0 .14em}
+#wave{position:absolute;left:50px;right:50px;top:1760px;height:70px;display:flex;align-items:center;justify-content:space-between}
+.wb{display:block;width:12px;border-radius:6px;background:#022F72}
+#bar{position:absolute;left:0;bottom:0;height:12px;width:1080px;background:#0195B1;transform-origin:left center}
+</style><style id="brollcss">#s0 .dk,#s1 .dk{background:linear-gradient(180deg,rgba(6,41,92,.30) 0%,rgba(3,22,52,.55) 100%)!important}</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="148.43" data-width="1080" data-height="1920">
+<video id="broll" class="clip" data-start="0" data-duration="18.37" data-track-index="0" muted playsinline src="assets/broll.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;z-index:0"></video>
+<div id="g1" class="glow"></div><div id="g2" class="glow"></div>
+<div id="s0" class="clip scene" data-start="0" data-duration="13.21" data-track-index="1"><div id="i0" class="inner"><div class="dk"></div><div class="top"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div><div class="big" style="top:300px"><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">Il y a ≈ 4 700 ans,</div><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">il aurait bâti</div><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">la première grande pyramide…</div>
+   <div class="ln" style="font-size:92px;font-weight:900;margin-top:64px;line-height:1.08;color:#19D3C5">Premier médecin<br>de l'histoire ?</div></div></div></div>
+<div id="s1" class="clip scene" data-start="13.21" data-duration="5.16" data-track-index="1"><div id="i1" class="inner"><div class="dk"></div><div class="top"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div><div class="big" style="top:300px"><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">MEDESSENTIEL</div><div class="ln" style="font-size:78px;font-weight:900;line-height:1.2">La médecine en 3 minutes</div>
+   <div class="ln" style="font-size:92px;font-weight:900;margin-top:64px;line-height:1.08;color:#19D3C5">Un peu d'histoire : Imhotep</div></div></div></div>
+<div id="s2" class="clip scene" data-start="18.37" data-duration="15.39" data-track-index="1"><div id="i2" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 1/7</div>
+<div class="head" style="font-size:94px"><span class="hw">IIIe</span> <span class="hw em">dynastie</span></div>
+<div class="blk"><span class="bk">QUI ÉTAIT-IL ?</span><span class="num">1<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">QUI ÉTAIT-IL ?</span><h1>IIIe dynastie</h1>
+  <div class="pill" style="display:flex;justify-content:space-between;align-items:center;border-color:#13A8A8;margin-top:16px;font-size:30px;font-weight:800"><span>Pharaon</span><span style="color:#13A8A8;text-align:right">Djoser (≈ 2650 av. J.-C.)</span></div><div class="pill" style="display:flex;justify-content:space-between;align-items:center;border-color:#13A8A8;margin-top:16px;font-size:30px;font-weight:800"><span>Vizir</span><span style="color:#13A8A8;text-align:right">principal ministre</span></div><div class="pill" style="display:flex;justify-content:space-between;align-items:center;border-color:#13A8A8;margin-top:16px;font-size:30px;font-weight:800"><span>Grand prêtre</span><span style="color:#13A8A8;text-align:right">chef des bâtisseurs</span></div></div></div></div></div></div>
+<div id="s3" class="clip scene" data-start="33.76" data-duration="13.42" data-track-index="1"><div id="i3" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 2/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Pyramide</span> <span class="hw">à</span> <span class="hw em">degrés</span></div>
+<div class="blk"><span class="bk">ARCHITECTE</span><span class="num">2<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">ARCHITECTE</span><h1>Pyramide à degrés</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg></div><div style="font-size:36px;font-weight:700">Saqqarah : conception attribuée à Imhotep</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"></path><path d="M4 12h16"></path></svg></div><div style="font-size:36px;font-weight:700">1er architecte connu par son nom</div></div><div style="margin-top:22px"><span style="display:inline-block;padding:6px 20px;border-radius:999px;background:#E8912D;color:#fff;font-weight:900;font-size:28px;letter-spacing:1px">GÉNÉRALEMENT ADMIS · PAS CERTAIN</span></div></div></div></div></div></div>
+<div id="s4" class="clip scene" data-start="47.18" data-duration="15.91" data-track-index="1"><div id="i4" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 3/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Médecin</span> <span class="hw em">?</span></div>
+<div class="blk"><span class="bk">TRADITION</span><span class="num">3<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">TRADITION</span><h1>Médecin ?</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="20" rx="3"></rect><path d="M12 8v4M10 10h4"></path></svg></div><div style="font-size:36px;font-weight:700">Médecin principal, comme grand prêtre (on croit)</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3"></path></svg></div><div style="font-size:36px;font-weight:700">Fondateur de la médecine égyptienne</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 8h10"></path><path d="M6 21h12"></path></svg></div><div style="font-size:36px;font-weight:700">Auteur du papyrus Smith</div></div><div style="margin-top:22px"><span style="display:inline-block;padding:6px 20px;border-radius:999px;background:#E8912D;color:#fff;font-weight:900;font-size:28px;letter-spacing:1px">ATTRIBUTIONS NON PROUVÉES</span></div></div></div></div></div></div>
+<div id="s5" class="clip scene" data-start="63.09" data-duration="14.62" data-track-index="1"><div id="i5" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 4/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Réputation</span> <span class="hw em">tardive</span></div>
+<div class="blk"><span class="bk">ATTENTION</span><span class="num">4<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx" style="background:#2a0d0a"><span class="chip red">ATTENTION</span><h1 style="color:#ff9a9a">Réputation tardive</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"></path><path d="M12 10v5M12 18v.5"></path></svg></div><div style="font-size:36px;font-weight:700">Aucun document de son époque : « médecin »</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg></div><div style="font-size:36px;font-weight:700">≈ 3 000 ans de glorification</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#E5484D;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M8 9l2 2M10 9l-2 2M14 9l2 2M16 9l-2 2M9 16c2-1.5 4-1.5 6 0"></path></svg></div><div style="font-size:36px;font-weight:700">Divinisé</div></div></div></div></div></div></div>
+<div id="s6" class="clip scene" data-start="77.71" data-duration="11.7" data-track-index="1"><div id="i6" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 5/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Ebers</span> <span class="hw">et</span> <span class="hw em">Smith</span></div>
+<div class="blk"><span class="bk">PAPYRUS</span><span class="num">5<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">PAPYRUS</span><h1>Ebers et Smith</h1>
+  <div class="pill" style="display:flex;justify-content:space-between;align-items:center;border-color:#13A8A8;margin-top:16px;font-size:30px;font-weight:800"><span>Début du Nouvel Empire</span><span style="color:#13A8A8;text-align:right">≈ 1 000 ans après</span></div><div class="pill" style="display:flex;justify-content:space-between;align-items:center;border-color:#2EAD6B;margin-top:16px;font-size:30px;font-weight:800"><span>Textes en partie</span><span style="color:#2EAD6B;text-align:right">dès l'Ancien Empire</span></div></div></div></div></div></div>
+<div id="s7" class="clip scene" data-start="89.41" data-duration="21.41" data-track-index="1"><div id="i7" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 6/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Observer</span> <span class="hw">pour</span> <span class="hw em">soigner</span></div>
+<div class="blk"><span class="bk">MÉDECINE ÉGYPTIENNE</span><span class="num">6<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">MÉDECINE ÉGYPTIENNE</span><h1>Observer pour soigner</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="20" rx="3"></rect><path d="M12 8v4M10 10h4"></path></svg></div><div style="font-size:36px;font-weight:700">Antécédents · examen manuel</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"></path><path d="M4 12h16"></path></svg></div><div style="font-size:36px;font-weight:700">Signes cliniques → diagnostic</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 8h10"></path><path d="M6 21h12"></path></svg></div><div style="font-size:36px;font-weight:700">Plaies soignées par étapes · hygiène</div></div></div></div></div></div></div>
+<div id="s8" class="clip scene" data-start="110.82" data-duration="18.85" data-track-index="1"><div id="i8" class="inner"><div class="top lt"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div>
+<div class="lab">// étape 7/7</div>
+<div class="head" style="font-size:94px"><span class="hw">Précurseur</span> <span class="hw">des</span> <span class="hw em">humeurs</span></div>
+<div class="blk"><span class="bk">THÉORIE DES CANAUX</span><span class="num">7<i>......</i></span></div>
+<div class="cardzone"><div class="cardscale" style="zoom:1.256"><div class="card cardx"><span class="chip">THÉORIE DES CANAUX</span><h1>Précurseur des humeurs</h1>
+  <div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 10a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3"></path></svg></div><div style="font-size:36px;font-weight:700">Circulation libre des liquides = santé</div></div><div class="row" style="margin:14px 0"><div style="width:76px;height:76px;border-radius:20px;background:#13A8A8;display:grid;place-items:center;flex:none"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg></div><div style="font-size:36px;font-weight:700">Vue comme précurseur de la théorie grecque</div></div><div style="margin-top:22px"><span style="display:inline-block;padding:6px 20px;border-radius:999px;background:#2EAD6B;color:#fff;font-weight:900;font-size:28px;letter-spacing:1px">IMHOTEP = FIGURE FONDATRICE</span></div></div></div></div></div></div>
+<div id="s9" class="clip scene" data-start="129.67" data-duration="18.76" data-track-index="1"><div id="i9" class="inner"><div class="dk"></div><div class="top"><div class="badge"><img src="assets/logo_icon.png"></div><span>Med<b>Essentiel</b></span></div><div class="big" style="top:230px"><div class="ln biglogo"><img src="assets/logo.jpg"></div>
+     <div class="ln" style="font-size:104px;font-weight:900;color:#19D3C5;line-height:1">Abonnez-vous</div>
+     <div class="ln" style="font-size:58px;font-weight:700;margin-top:26px">pour plus de médecine simple</div>
+     <div class="ln" style="font-size:40px;font-weight:400;margin-top:36px;color:#bcd6ee">Quel sujet médical voulez-vous voir expliqué ? Dites-le en commentaire.</div>
+     <div class="ln" style="font-size:28px;font-weight:700;margin-top:56px;color:#19D3C5;letter-spacing:2px">SOURCES</div>
+     <div class="ln" style="font-size:30px;font-weight:400;margin-top:8px;color:#bcd6ee;line-height:1.3">Mikić, Med Pregl 2008 (PMID 19203075) · Hartmann, J Dtsch Dermatol Ges 2016 (PMID 27027749)<br>Vidéos : Pixabay (illustratif)</div>
+     <div class="ln" style="font-size:26px;font-weight:400;margin-top:30px;color:#8fb3d6">Information éducative — ne remplace pas une consultation médicale.</div></div></div></div>
+
+<div id="wave"><i id="wb0" class="wb" style="height:28px"></i><i id="wb1" class="wb" style="height:55px"></i><i id="wb2" class="wb" style="height:17px"></i><i id="wb3" class="wb" style="height:45px"></i><i id="wb4" class="wb" style="height:18px"></i><i id="wb5" class="wb" style="height:24px"></i><i id="wb6" class="wb" style="height:48px"></i><i id="wb7" class="wb" style="height:39px"></i><i id="wb8" class="wb" style="height:41px"></i><i id="wb9" class="wb" style="height:35px"></i><i id="wb10" class="wb" style="height:29px"></i><i id="wb11" class="wb" style="height:23px"></i><i id="wb12" class="wb" style="height:53px"></i><i id="wb13" class="wb" style="height:17px"></i><i id="wb14" class="wb" style="height:50px"></i><i id="wb15" class="wb" style="height:16px"></i><i id="wb16" class="wb" style="height:27px"></i><i id="wb17" class="wb" style="height:42px"></i><i id="wb18" class="wb" style="height:39px"></i><i id="wb19" class="wb" style="height:43px"></i><i id="wb20" class="wb" style="height:42px"></i><i id="wb21" class="wb" style="height:27px"></i><i id="wb22" class="wb" style="height:16px"></i><i id="wb23" class="wb" style="height:48px"></i><i id="wb24" class="wb" style="height:16px"></i><i id="wb25" class="wb" style="height:55px"></i><i id="wb26" class="wb" style="height:21px"></i><i id="wb27" class="wb" style="height:30px"></i><i id="wb28" class="wb" style="height:34px"></i><i id="wb29" class="wb" style="height:37px"></i></div>
+<div id="c0" class="cap clip" data-start="0.12" data-duration="1.43" data-track-index="3"><span id="w0" class="cw">Il</span> <span id="w1" class="cw">y</span> <span id="w2" class="cw">a</span> <span id="w3" class="cw">environ</span> <span id="w4" class="cw">quatre</span></div>
+<div id="c1" class="cap clip" data-start="1.42" data-duration="1.67" data-track-index="3"><span id="w5" class="cw">mille</span> <span id="w6" class="cw">sept</span> <span id="w7" class="cw">cents</span> <span id="w8" class="cw">ans,</span> <span id="w9" class="cw">un</span></div>
+<div id="c2" class="cap clip" data-start="2.95" data-duration="2.47" data-track-index="3"><span id="w10" class="cw">homme</span> <span id="w11" class="cw">aurait</span> <span id="w12" class="cw">dirigé</span> <span id="w13" class="cw">la</span> <span id="w14" class="cw">construction</span></div>
+<div id="c3" class="cap clip" data-start="5.32" data-duration="2.18" data-track-index="3"><span id="w15" class="cw">de</span> <span id="w16" class="cw">la</span> <span id="w17" class="cw">première</span> <span id="w18" class="cw">grande</span> <span id="w19" class="cw">pyramide,</span></div>
+<div id="c4" class="cap clip" data-start="7.38" data-duration="1.29" data-track-index="3"><span id="w20" class="cw">et</span> <span id="w21" class="cw">on</span> <span id="w22" class="cw">dit</span> <span id="w23" class="cw">qu'il</span> <span id="w24" class="cw">fut</span></div>
+<div id="c5" class="cap clip" data-start="8.53" data-duration="1.90" data-track-index="3"><span id="w25" class="cw">aussi</span> <span id="w26" class="cw">le</span> <span id="w27" class="cw">premier</span> <span id="w28" class="cw">médecin</span> <span id="w29" class="cw">de</span></div>
+<div id="c6" class="cap clip" data-start="10.29" data-duration="0.95" data-track-index="3"><span id="w30" class="cw">l'histoire.</span></div>
+<div id="c7" class="cap clip" data-start="11.42" data-duration="2.24" data-track-index="3"><span id="w31" class="cw">Que</span> <span id="w32" class="cw">sait-on</span> <span id="w33" class="cw">vraiment</span> <span id="w34" class="cw">?</span> <span id="w35" class="cw">Bienvenue</span></div>
+<div id="c8" class="cap clip" data-start="13.52" data-duration="1.17" data-track-index="3"><span id="w36" class="cw">sur</span> <span id="w37" class="cw">MedEssentiel</span> <span id="w38" class="cw">:</span> <span id="w39" class="cw">la</span> <span id="w40" class="cw">médecine,</span></div>
+<div id="c9" class="cap clip" data-start="14.56" data-duration="0.85" data-track-index="3"><span id="w41" class="cw">clairement</span> <span id="w42" class="cw">expliquée.</span></div>
+<div id="c10" class="cap clip" data-start="15.69" data-duration="2.54" data-track-index="3"><span id="w43" class="cw">Aujourd'hui,</span> <span id="w44" class="cw">un</span> <span id="w45" class="cw">peu</span> <span id="w46" class="cw">d'histoire</span> <span id="w47" class="cw">:</span></div>
+<div id="c11" class="cap clip" data-start="18.42" data-duration="1.88" data-track-index="3"><span id="w48" class="cw">Imhotep.</span> <span id="w49" class="cw">Imhotep</span> <span id="w50" class="cw">a</span> <span id="w51" class="cw">vécu</span> <span id="w52" class="cw">sous</span></div>
+<div id="c12" class="cap clip" data-start="20.17" data-duration="2.47" data-track-index="3"><span id="w53" class="cw">la</span> <span id="w54" class="cw">troisième</span> <span id="w55" class="cw">dynastie</span> <span id="w56" class="cw">de</span> <span id="w57" class="cw">l'Ancien</span></div>
+<div id="c13" class="cap clip" data-start="22.52" data-duration="2.55" data-track-index="3"><span id="w58" class="cw">Empire</span> <span id="w59" class="cw">égyptien,</span> <span id="w60" class="cw">auprès</span> <span id="w61" class="cw">du</span> <span id="w62" class="cw">pharaon</span></div>
+<div id="c14" class="cap clip" data-start="24.95" data-duration="1.76" data-track-index="3"><span id="w63" class="cw">Djoser,</span> <span id="w64" class="cw">dont</span> <span id="w65" class="cw">le</span> <span id="w66" class="cw">règne</span> <span id="w67" class="cw">se</span></div>
+<div id="c15" class="cap clip" data-start="26.58" data-duration="1.59" data-track-index="3"><span id="w68" class="cw">situe</span> <span id="w69" class="cw">vers</span> <span id="w70" class="cw">2</span> <span id="w71" class="cw">650</span> <span id="w72" class="cw">avant</span></div>
+<div id="c16" class="cap clip" data-start="28.04" data-duration="0.86" data-track-index="3"><span id="w73" class="cw">notre</span> <span id="w74" class="cw">ère.</span></div>
+<div id="c17" class="cap clip" data-start="29.15" data-duration="1.63" data-track-index="3"><span id="w75" class="cw">Il</span> <span id="w76" class="cw">fut</span> <span id="w77" class="cw">son</span> <span id="w78" class="cw">vizir,</span> <span id="w79" class="cw">c'est-à-dire</span></div>
+<div id="c18" class="cap clip" data-start="30.67" data-duration="2.00" data-track-index="3"><span id="w80" class="cw">son</span> <span id="w81" class="cw">principal</span> <span id="w82" class="cw">ministre,</span> <span id="w83" class="cw">grand</span> <span id="w84" class="cw">prêtre</span></div>
+<div id="c19" class="cap clip" data-start="32.54" data-duration="1.56" data-track-index="3"><span id="w85" class="cw">et</span> <span id="w86" class="cw">chef</span> <span id="w87" class="cw">des</span> <span id="w88" class="cw">bâtisseurs.</span> <span id="w89" class="cw">On</span></div>
+<div id="c20" class="cap clip" data-start="33.96" data-duration="2.02" data-track-index="3"><span id="w90" class="cw">lui</span> <span id="w91" class="cw">attribue</span> <span id="w92" class="cw">la</span> <span id="w93" class="cw">conception</span> <span id="w94" class="cw">de</span></div>
+<div id="c21" class="cap clip" data-start="35.83" data-duration="1.57" data-track-index="3"><span id="w95" class="cw">la</span> <span id="w96" class="cw">pyramide</span> <span id="w97" class="cw">à</span> <span id="w98" class="cw">degrés</span> <span id="w99" class="cw">de</span></div>
+<div id="c22" class="cap clip" data-start="37.26" data-duration="1.99" data-track-index="3"><span id="w100" class="cw">Saqqarah,</span> <span id="w101" class="cw">et</span> <span id="w102" class="cw">il</span> <span id="w103" class="cw">est</span> <span id="w104" class="cw">considéré</span></div>
+<div id="c23" class="cap clip" data-start="39.13" data-duration="2.31" data-track-index="3"><span id="w105" class="cw">comme</span> <span id="w106" class="cw">le</span> <span id="w107" class="cw">premier</span> <span id="w108" class="cw">architecte</span> <span id="w109" class="cw">connu</span></div>
+<div id="c24" class="cap clip" data-start="41.30" data-duration="2.10" data-track-index="3"><span id="w110" class="cw">par</span> <span id="w111" class="cw">son</span> <span id="w112" class="cw">nom.</span> <span id="w113" class="cw">Cette</span> <span id="w114" class="cw">attribution</span></div>
+<div id="c25" class="cap clip" data-start="43.29" data-duration="2.26" data-track-index="3"><span id="w115" class="cw">est</span> <span id="w116" class="cw">généralement</span> <span id="w117" class="cw">admise,</span> <span id="w118" class="cw">mais</span> <span id="w119" class="cw">elle</span></div>
+<div id="c26" class="cap clip" data-start="45.42" data-duration="1.32" data-track-index="3"><span id="w120" class="cw">n'est</span> <span id="w121" class="cw">pas</span> <span id="w122" class="cw">certaine.</span></div>
+<div id="c27" class="cap clip" data-start="47.24" data-duration="1.17" data-track-index="3"><span id="w123" class="cw">Et</span> <span id="w124" class="cw">la</span> <span id="w125" class="cw">médecine</span> <span id="w126" class="cw">?</span></div>
+<div id="c28" class="cap clip" data-start="48.66" data-duration="1.37" data-track-index="3"><span id="w127" class="cw">Selon</span> <span id="w128" class="cw">une</span> <span id="w129" class="cw">étude</span> <span id="w130" class="cw">d'histoire</span> <span id="w131" class="cw">de</span></div>
+<div id="c29" class="cap clip" data-start="49.89" data-duration="1.22" data-track-index="3"><span id="w132" class="cw">la</span> <span id="w133" class="cw">médecine,</span> <span id="w134" class="cw">on</span> <span id="w135" class="cw">croit</span> <span id="w136" class="cw">que,</span></div>
+<div id="c30" class="cap clip" data-start="50.97" data-duration="1.36" data-track-index="3"><span id="w137" class="cw">comme</span> <span id="w138" class="cw">grand</span> <span id="w139" class="cw">prêtre,</span> <span id="w140" class="cw">il</span> <span id="w141" class="cw">aurait</span></div>
+<div id="c31" class="cap clip" data-start="52.20" data-duration="1.40" data-track-index="3"><span id="w142" class="cw">aussi</span> <span id="w143" class="cw">été</span> <span id="w144" class="cw">le</span> <span id="w145" class="cw">médecin</span> <span id="w146" class="cw">principal</span></div>
+<div id="c32" class="cap clip" data-start="53.47" data-duration="1.98" data-track-index="3"><span id="w147" class="cw">de</span> <span id="w148" class="cw">son</span> <span id="w149" class="cw">temps.</span> <span id="w150" class="cw">La</span> <span id="w151" class="cw">tradition</span></div>
+<div id="c33" class="cap clip" data-start="55.35" data-duration="2.20" data-track-index="3"><span id="w152" class="cw">fait</span> <span id="w153" class="cw">de</span> <span id="w154" class="cw">lui</span> <span id="w155" class="cw">le</span> <span id="w156" class="cw">fondateur</span></div>
+<div id="c34" class="cap clip" data-start="57.45" data-duration="2.66" data-track-index="3"><span id="w157" class="cw">de</span> <span id="w158" class="cw">la</span> <span id="w159" class="cw">médecine</span> <span id="w160" class="cw">égyptienne</span> <span id="w161" class="cw">et</span></div>
+<div id="c35" class="cap clip" data-start="59.97" data-duration="2.95" data-track-index="3"><span id="w162" class="cw">même</span> <span id="w163" class="cw">l'auteur</span> <span id="w164" class="cw">du</span> <span id="w165" class="cw">papyrus</span> <span id="w166" class="cw">Smith.</span></div>
+<div id="c36" class="cap clip" data-start="63.14" data-duration="0.75" data-track-index="3"><span id="w167" class="cw">Mais</span> <span id="w168" class="cw">attention.</span></div>
+<div id="c37" class="cap clip" data-start="64.07" data-duration="1.83" data-track-index="3"><span id="w169" class="cw">Aucun</span> <span id="w170" class="cw">document</span> <span id="w171" class="cw">de</span> <span id="w172" class="cw">son</span> <span id="w173" class="cw">époque</span></div>
+<div id="c38" class="cap clip" data-start="65.77" data-duration="1.68" data-track-index="3"><span id="w174" class="cw">ne</span> <span id="w175" class="cw">le</span> <span id="w176" class="cw">décrit</span> <span id="w177" class="cw">comme</span> <span id="w178" class="cw">médecin</span></div>
+<div id="c39" class="cap clip" data-start="67.33" data-duration="2.52" data-track-index="3"><span id="w179" class="cw">en</span> <span id="w180" class="cw">exercice.</span> <span id="w181" class="cw">Sa</span> <span id="w182" class="cw">réputation</span> <span id="w183" class="cw">médicale</span></div>
+<div id="c40" class="cap clip" data-start="69.73" data-duration="1.97" data-track-index="3"><span id="w184" class="cw">s'est</span> <span id="w185" class="cw">construite</span> <span id="w186" class="cw">plus</span> <span id="w187" class="cw">tard</span> <span id="w188" class="cw">:</span></div>
+<div id="c41" class="cap clip" data-start="71.80" data-duration="2.21" data-track-index="3"><span id="w189" class="cw">pendant</span> <span id="w190" class="cw">environ</span> <span id="w191" class="cw">trois</span> <span id="w192" class="cw">mille</span> <span id="w193" class="cw">ans,</span></div>
+<div id="c42" class="cap clip" data-start="73.88" data-duration="1.03" data-track-index="3"><span id="w194" class="cw">il</span> <span id="w195" class="cw">a</span> <span id="w196" class="cw">été</span> <span id="w197" class="cw">de</span> <span id="w198" class="cw">plus</span></div>
+<div id="c43" class="cap clip" data-start="74.77" data-duration="2.07" data-track-index="3"><span id="w199" class="cw">en</span> <span id="w200" class="cw">plus</span> <span id="w201" class="cw">glorifié,</span> <span id="w202" class="cw">jusqu'à</span> <span id="w203" class="cw">être</span></div>
+<div id="c44" class="cap clip" data-start="76.70" data-duration="0.78" data-track-index="3"><span id="w204" class="cw">divinisé.</span></div>
+<div id="c45" class="cap clip" data-start="77.76" data-duration="2.31" data-track-index="3"><span id="w205" class="cw">Quant</span> <span id="w206" class="cw">aux</span> <span id="w207" class="cw">grands</span> <span id="w208" class="cw">papyrus</span> <span id="w209" class="cw">médicaux,</span></div>
+<div id="c46" class="cap clip" data-start="79.95" data-duration="1.73" data-track-index="3"><span id="w210" class="cw">Ebers</span> <span id="w211" class="cw">et</span> <span id="w212" class="cw">Smith,</span> <span id="w213" class="cw">ils</span> <span id="w214" class="cw">datent</span></div>
+<div id="c47" class="cap clip" data-start="81.56" data-duration="1.73" data-track-index="3"><span id="w215" class="cw">du</span> <span id="w216" class="cw">début</span> <span id="w217" class="cw">du</span> <span id="w218" class="cw">Nouvel</span> <span id="w219" class="cw">Empire,</span></div>
+<div id="c48" class="cap clip" data-start="83.16" data-duration="1.82" data-track-index="3"><span id="w220" class="cw">donc</span> <span id="w221" class="cw">environ</span> <span id="w222" class="cw">mille</span> <span id="w223" class="cw">ans</span> <span id="w224" class="cw">plus</span></div>
+<div id="c49" class="cap clip" data-start="84.84" data-duration="1.45" data-track-index="3"><span id="w225" class="cw">tard,</span> <span id="w226" class="cw">mais</span> <span id="w227" class="cw">ils</span> <span id="w228" class="cw">ont</span> <span id="w229" class="cw">été</span></div>
+<div id="c50" class="cap clip" data-start="86.16" data-duration="1.66" data-track-index="3"><span id="w230" class="cw">écrits</span> <span id="w231" class="cw">au</span> <span id="w232" class="cw">moins</span> <span id="w233" class="cw">en</span> <span id="w234" class="cw">partie</span></div>
+<div id="c51" class="cap clip" data-start="87.69" data-duration="1.44" data-track-index="3"><span id="w235" class="cw">dès</span> <span id="w236" class="cw">l'Ancien</span> <span id="w237" class="cw">Empire.</span></div>
+<div id="c52" class="cap clip" data-start="89.46" data-duration="1.35" data-track-index="3"><span id="w238" class="cw">Que</span> <span id="w239" class="cw">contenait</span> <span id="w240" class="cw">cette</span> <span id="w241" class="cw">médecine</span> <span id="w242" class="cw">?</span></div>
+<div id="c53" class="cap clip" data-start="90.82" data-duration="1.57" data-track-index="3"><span id="w243" class="cw">Selon</span> <span id="w244" class="cw">une</span> <span id="w245" class="cw">revue</span> <span id="w246" class="cw">de</span> <span id="w247" class="cw">2016,</span></div>
+<div id="c54" class="cap clip" data-start="92.26" data-duration="2.73" data-track-index="3"><span id="w248" class="cw">les</span> <span id="w249" class="cw">médecins</span> <span id="w250" class="cw">égyptiens</span> <span id="w251" class="cw">recueillaient</span> <span id="w252" class="cw">les</span></div>
+<div id="c55" class="cap clip" data-start="94.85" data-duration="2.66" data-track-index="3"><span id="w253" class="cw">antécédents</span> <span id="w254" class="cw">du</span> <span id="w255" class="cw">patient,</span> <span id="w256" class="cw">pratiquaient</span> <span id="w257" class="cw">un</span></div>
+<div id="c56" class="cap clip" data-start="97.37" data-duration="2.49" data-track-index="3"><span id="w258" class="cw">examen</span> <span id="w259" class="cw">manuel</span> <span id="w260" class="cw">minutieux</span> <span id="w261" class="cw">et</span> <span id="w262" class="cw">évaluaient</span></div>
+<div id="c57" class="cap clip" data-start="99.74" data-duration="2.07" data-track-index="3"><span id="w263" class="cw">les</span> <span id="w264" class="cw">signes</span> <span id="w265" class="cw">cliniques</span> <span id="w266" class="cw">pour</span> <span id="w267" class="cw">poser</span></div>
+<div id="c58" class="cap clip" data-start="101.68" data-duration="1.04" data-track-index="3"><span id="w268" class="cw">un</span> <span id="w269" class="cw">diagnostic.</span></div>
+<div id="c59" class="cap clip" data-start="103.10" data-duration="2.28" data-track-index="3"><span id="w270" class="cw">Ils</span> <span id="w271" class="cw">soignaient</span> <span id="w272" class="cw">les</span> <span id="w273" class="cw">plaies</span> <span id="w274" class="cw">et</span></div>
+<div id="c60" class="cap clip" data-start="105.24" data-duration="2.28" data-track-index="3"><span id="w275" class="cw">les</span> <span id="w276" class="cw">blessures</span> <span id="w277" class="cw">par</span> <span id="w278" class="cw">étapes,</span> <span id="w279" class="cw">et</span></div>
+<div id="c61" class="cap clip" data-start="107.38" data-duration="3.31" data-track-index="3"><span id="w280" class="cw">attachaient</span> <span id="w281" class="cw">de</span> <span id="w282" class="cw">l'importance</span> <span id="w283" class="cw">à</span> <span id="w284" class="cw">l'hygiène.</span></div>
+<div id="c62" class="cap clip" data-start="110.87" data-duration="1.94" data-track-index="3"><span id="w285" class="cw">Leur</span> <span id="w286" class="cw">théorie</span> <span id="w287" class="cw">des</span> <span id="w288" class="cw">canaux,</span> <span id="w289" class="cw">selon</span></div>
+<div id="c63" class="cap clip" data-start="112.68" data-duration="2.16" data-track-index="3"><span id="w290" class="cw">laquelle</span> <span id="w291" class="cw">la</span> <span id="w292" class="cw">circulation</span> <span id="w293" class="cw">libre</span> <span id="w294" class="cw">des</span></div>
+<div id="c64" class="cap clip" data-start="114.70" data-duration="2.09" data-track-index="3"><span id="w295" class="cw">liquides</span> <span id="w296" class="cw">du</span> <span id="w297" class="cw">corps</span> <span id="w298" class="cw">conditionne</span> <span id="w299" class="cw">la</span></div>
+<div id="c65" class="cap clip" data-start="116.64" data-duration="1.47" data-track-index="3"><span id="w300" class="cw">santé,</span> <span id="w301" class="cw">est</span> <span id="w302" class="cw">vue</span> <span id="w303" class="cw">comme</span> <span id="w304" class="cw">un</span></div>
+<div id="c66" class="cap clip" data-start="117.97" data-duration="1.81" data-track-index="3"><span id="w305" class="cw">précurseur</span> <span id="w306" class="cw">de</span> <span id="w307" class="cw">la</span> <span id="w308" class="cw">théorie</span> <span id="w309" class="cw">des</span></div>
+<div id="c67" class="cap clip" data-start="119.64" data-duration="1.24" data-track-index="3"><span id="w310" class="cw">humeurs</span> <span id="w311" class="cw">des</span> <span id="w312" class="cw">Grecs.</span></div>
+<div id="c68" class="cap clip" data-start="121.17" data-duration="1.18" data-track-index="3"><span id="w313" class="cw">Alors,</span> <span id="w314" class="cw">Imhotep,</span> <span id="w315" class="cw">premier</span> <span id="w316" class="cw">médecin</span> <span id="w317" class="cw">?</span></div>
+<div id="c69" class="cap clip" data-start="122.36" data-duration="1.53" data-track-index="3"><span id="w318" class="cw">Le</span> <span id="w319" class="cw">mieux</span> <span id="w320" class="cw">est</span> <span id="w321" class="cw">d'y</span> <span id="w322" class="cw">voir</span></div>
+<div id="c70" class="cap clip" data-start="123.76" data-duration="2.76" data-track-index="3"><span id="w323" class="cw">une</span> <span id="w324" class="cw">figure</span> <span id="w325" class="cw">fondatrice,</span> <span id="w326" class="cw">symbole</span> <span id="w327" class="cw">d'une</span></div>
+<div id="c71" class="cap clip" data-start="126.39" data-duration="2.45" data-track-index="3"><span id="w328" class="cw">médecine</span> <span id="w329" class="cw">qui</span> <span id="w330" class="cw">observe,</span> <span id="w331" class="cw">connaît</span> <span id="w332" class="cw">et</span></div>
+<div id="c72" class="cap clip" data-start="128.70" data-duration="0.70" data-track-index="3"><span id="w333" class="cw">soigne.</span></div>
+<div id="c73" class="cap clip" data-start="129.72" data-duration="2.35" data-track-index="3"><span id="w334" class="cw">Retenez</span> <span id="w335" class="cw">:</span> <span id="w336" class="cw">un</span> <span id="w337" class="cw">vizir</span> <span id="w338" class="cw">bâtisseur,</span></div>
+<div id="c74" class="cap clip" data-start="131.94" data-duration="1.78" data-track-index="3"><span id="w339" class="cw">une</span> <span id="w340" class="cw">réputation</span> <span id="w341" class="cw">médicale</span> <span id="w342" class="cw">tardive,</span> <span id="w343" class="cw">et</span></div>
+<div id="c75" class="cap clip" data-start="133.58" data-duration="1.77" data-track-index="3"><span id="w344" class="cw">une</span> <span id="w345" class="cw">médecine</span> <span id="w346" class="cw">égyptienne</span> <span id="w347" class="cw">déjà</span> <span id="w348" class="cw">fondée</span></div>
+<div id="c76" class="cap clip" data-start="135.21" data-duration="1.01" data-track-index="3"><span id="w349" class="cw">sur</span> <span id="w350" class="cw">l'observation.</span></div>
+<div id="c77" class="cap clip" data-start="137.02" data-duration="3.03" data-track-index="3"><span id="w351" class="cw">Quel</span> <span id="w352" class="cw">personnage</span> <span id="w353" class="cw">voulez-vous</span> <span id="w354" class="cw">voir</span> <span id="w355" class="cw">dans</span></div>
+<div id="c78" class="cap clip" data-start="139.91" data-duration="2.60" data-track-index="3"><span id="w356" class="cw">un</span> <span id="w357" class="cw">prochain</span> <span id="w358" class="cw">épisode</span> <span id="w359" class="cw">d'histoire</span> <span id="w360" class="cw">?</span></div>
+<div id="c79" class="cap clip" data-start="142.80" data-duration="1.92" data-track-index="3"><span id="w361" class="cw">Dites-le</span> <span id="w362" class="cw">en</span> <span id="w363" class="cw">commentaire.</span> <span id="w364" class="cw">Cette</span> <span id="w365" class="cw">vidéo</span></div>
+<div id="c80" class="cap clip" data-start="144.59" data-duration="1.27" data-track-index="3"><span id="w366" class="cw">est</span> <span id="w367" class="cw">éducative.</span></div>
+<div id="c81" class="cap clip" data-start="146.17" data-duration="1.62" data-track-index="3"><span id="w368" class="cw">Abonnez-vous,</span> <span id="w369" class="cw">et</span> <span id="w370" class="cw">à</span> <span id="w371" class="cw">bientôt</span> <span id="w372" class="cw">sur</span></div>
+<div id="c82" class="cap clip" data-start="147.65" data-duration="0.85" data-track-index="3"><span id="w373" class="cw">MedEssentiel.</span></div>
+
+<div id="bar"></div>
+<audio id="vo" src="assets/vo.wav" data-start="0" data-duration="148.43" data-track-index="0"></audio>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.to("#g1",{x:260,y:-160,duration:148.43,ease:"none"},0);
+tl.to("#g2",{x:-220,y:140,duration:148.43,ease:"none"},0);
+tl.fromTo("#bar",{scaleX:0},{scaleX:1,duration:148.43,ease:"none"},0);
+tl.to("#wb0",{scaleY:0.35,duration:0.28,repeat:264,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb1",{scaleY:0.63,duration:0.33,repeat:223,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb2",{scaleY:0.91,duration:0.38,repeat:194,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb3",{scaleY:1.19,duration:0.43,repeat:171,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb4",{scaleY:1.47,duration:0.48,repeat:153,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb5",{scaleY:0.35,duration:0.53,repeat:139,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb6",{scaleY:0.63,duration:0.58,repeat:126,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb7",{scaleY:0.91,duration:0.28,repeat:264,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb8",{scaleY:1.19,duration:0.33,repeat:223,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb9",{scaleY:1.47,duration:0.38,repeat:194,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb10",{scaleY:0.35,duration:0.43,repeat:171,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb11",{scaleY:0.63,duration:0.48,repeat:153,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb12",{scaleY:0.91,duration:0.53,repeat:139,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb13",{scaleY:1.19,duration:0.58,repeat:126,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb14",{scaleY:1.47,duration:0.28,repeat:264,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb15",{scaleY:0.35,duration:0.33,repeat:223,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb16",{scaleY:0.63,duration:0.38,repeat:194,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb17",{scaleY:0.91,duration:0.43,repeat:171,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb18",{scaleY:1.19,duration:0.48,repeat:153,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb19",{scaleY:1.47,duration:0.53,repeat:139,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb20",{scaleY:0.35,duration:0.58,repeat:126,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb21",{scaleY:0.63,duration:0.28,repeat:264,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb22",{scaleY:0.91,duration:0.33,repeat:223,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb23",{scaleY:1.19,duration:0.38,repeat:194,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb24",{scaleY:1.47,duration:0.43,repeat:171,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb25",{scaleY:0.35,duration:0.48,repeat:153,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb26",{scaleY:0.63,duration:0.53,repeat:139,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb27",{scaleY:0.91,duration:0.58,repeat:126,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb28",{scaleY:1.19,duration:0.28,repeat:264,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.to("#wb29",{scaleY:1.47,duration:0.33,repeat:223,yoyo:true,ease:"sine.inOut",transformOrigin:"50% 50%"},0);
+tl.from("#s0 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},0.10);
+tl.to("#i0",{opacity:0,duration:.25,ease:"power2.in"},12.94);
+tl.from("#s1 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},13.31);
+tl.to("#i1",{opacity:0,duration:.25,ease:"power2.in"},18.10);
+tl.from("#s2 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},18.39);
+tl.from("#s2 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},18.45);
+tl.from("#s2 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},18.82);
+tl.from("#s2 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},18.97);
+tl.from("#s2 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},18.87);
+tl.from("#s2 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},19.17);
+tl.to("#s2 .cardzone",{y:-10,duration:14.19,ease:"sine.inOut"},19.27);
+tl.to("#i2",{opacity:0,duration:.25,ease:"power2.in"},33.49);
+tl.from("#s3 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},33.78);
+tl.from("#s3 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},33.84);
+tl.from("#s3 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},34.21);
+tl.from("#s3 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},34.36);
+tl.from("#s3 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},34.26);
+tl.from("#s3 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},34.56);
+tl.to("#s3 .cardzone",{y:-10,duration:12.22,ease:"sine.inOut"},34.66);
+tl.to("#i3",{opacity:0,duration:.25,ease:"power2.in"},46.91);
+tl.from("#s4 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},47.20);
+tl.from("#s4 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},47.26);
+tl.from("#s4 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},47.63);
+tl.from("#s4 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},47.78);
+tl.from("#s4 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},47.68);
+tl.from("#s4 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},47.98);
+tl.to("#s4 .cardzone",{y:-10,duration:14.71,ease:"sine.inOut"},48.08);
+tl.to("#i4",{opacity:0,duration:.25,ease:"power2.in"},62.82);
+tl.from("#s5 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},63.11);
+tl.from("#s5 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},63.17);
+tl.from("#s5 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},63.54);
+tl.from("#s5 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},63.69);
+tl.from("#s5 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},63.59);
+tl.from("#s5 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},63.89);
+tl.to("#s5 .cardzone",{y:-10,duration:13.42,ease:"sine.inOut"},63.99);
+tl.to("#i5",{opacity:0,duration:.25,ease:"power2.in"},77.44);
+tl.from("#s6 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},77.73);
+tl.from("#s6 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},77.79);
+tl.from("#s6 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},78.16);
+tl.from("#s6 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},78.31);
+tl.from("#s6 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},78.21);
+tl.from("#s6 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},78.51);
+tl.to("#s6 .cardzone",{y:-10,duration:10.50,ease:"sine.inOut"},78.61);
+tl.to("#i6",{opacity:0,duration:.25,ease:"power2.in"},89.14);
+tl.from("#s7 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},89.43);
+tl.from("#s7 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},89.49);
+tl.from("#s7 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},89.86);
+tl.from("#s7 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},90.01);
+tl.from("#s7 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},89.91);
+tl.from("#s7 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},90.21);
+tl.to("#s7 .cardzone",{y:-10,duration:20.21,ease:"sine.inOut"},90.31);
+tl.to("#i7",{opacity:0,duration:.25,ease:"power2.in"},110.55);
+tl.from("#s8 .lab",{x:-40,opacity:0,duration:.4,ease:"power2.out"},110.84);
+tl.from("#s8 .hw",{y:60,opacity:0,duration:.5,stagger:.08,ease:"power3.out"},110.90);
+tl.from("#s8 .bk",{scaleX:0,transformOrigin:"left center",duration:.45,ease:"power3.out"},111.27);
+tl.from("#s8 .num",{scale:.4,opacity:0,duration:.4,ease:"back.out(2.2)"},111.42);
+tl.from("#s8 .cardx",{y:110,scale:.9,opacity:0,duration:.6,ease:"back.out(1.5)"},111.32);
+tl.from("#s8 .cardx > *:not(.chip)",{y:34,opacity:0,duration:.42,stagger:.16,ease:"power2.out"},111.62);
+tl.to("#s8 .cardzone",{y:-10,duration:17.65,ease:"sine.inOut"},111.72);
+tl.to("#i8",{opacity:0,duration:.25,ease:"power2.in"},129.40);
+tl.from("#s9 .ln",{y:80,opacity:0,scale:.94,duration:.6,stagger:.18,ease:"back.out(1.3)"},129.77);
+tl.to("#i9",{opacity:0,duration:.25,ease:"power2.in"},148.16);
+
+tl.from("#c0",{y:24,opacity:0,duration:.14,ease:"power2.out"},0.12);
+tl.fromTo("#w0",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.17);tl.to("#w0",{color:"#ffffff",scale:1,duration:.12},0.32);
+tl.fromTo("#w1",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.33);tl.to("#w1",{color:"#ffffff",scale:1,duration:.12},0.45);
+tl.fromTo("#w2",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.40);tl.to("#w2",{color:"#ffffff",scale:1,duration:.12},0.52);
+tl.fromTo("#w3",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},0.48);tl.to("#w3",{color:"#ffffff",scale:1,duration:.12},0.99);
+tl.fromTo("#w4",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.01);tl.to("#w4",{color:"#ffffff",scale:1,duration:.12},1.45);
+tl.to("#c0",{opacity:0,duration:.1,ease:"power2.in"},1.45);
+tl.from("#c1",{y:24,opacity:0,duration:.14,ease:"power2.out"},1.42);
+tl.fromTo("#w5",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.47);tl.to("#w5",{color:"#ffffff",scale:1,duration:.12},1.83);
+tl.fromTo("#w6",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},1.85);tl.to("#w6",{color:"#ffffff",scale:1,duration:.12},2.15);
+tl.fromTo("#w7",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.16);tl.to("#w7",{color:"#ffffff",scale:1,duration:.12},2.52);
+tl.fromTo("#w8",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.54);tl.to("#w8",{color:"#ffffff",scale:1,duration:.12},2.83);
+tl.fromTo("#w9",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},2.85);tl.to("#w9",{color:"#ffffff",scale:1,duration:.12},2.99);
+tl.to("#c1",{opacity:0,duration:.1,ease:"power2.in"},2.99);
+tl.from("#c2",{y:24,opacity:0,duration:.14,ease:"power2.out"},2.95);
+tl.fromTo("#w10",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.00);tl.to("#w10",{color:"#ffffff",scale:1,duration:.12},3.36);
+tl.fromTo("#w11",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.38);tl.to("#w11",{color:"#ffffff",scale:1,duration:.12},3.82);
+tl.fromTo("#w12",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},3.84);tl.to("#w12",{color:"#ffffff",scale:1,duration:.12},4.28);
+tl.fromTo("#w13",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},4.30);tl.to("#w13",{color:"#ffffff",scale:1,duration:.12},4.45);
+tl.fromTo("#w14",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},4.45);tl.to("#w14",{color:"#ffffff",scale:1,duration:.12},5.32);
+tl.to("#c2",{opacity:0,duration:.1,ease:"power2.in"},5.32);
+tl.from("#c3",{y:24,opacity:0,duration:.14,ease:"power2.out"},5.32);
+tl.fromTo("#w15",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.37);tl.to("#w15",{color:"#ffffff",scale:1,duration:.12},5.51);
+tl.fromTo("#w16",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.52);tl.to("#w16",{color:"#ffffff",scale:1,duration:.12},5.67);
+tl.fromTo("#w17",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},5.68);tl.to("#w17",{color:"#ffffff",scale:1,duration:.12},6.26);
+tl.fromTo("#w18",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},6.29);tl.to("#w18",{color:"#ffffff",scale:1,duration:.12},6.72);
+tl.fromTo("#w19",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},6.75);tl.to("#w19",{color:"#ffffff",scale:1,duration:.12},7.40);
+tl.to("#c3",{opacity:0,duration:.1,ease:"power2.in"},7.40);
+tl.from("#c4",{y:24,opacity:0,duration:.14,ease:"power2.out"},7.38);
+tl.fromTo("#w20",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.43);tl.to("#w20",{color:"#ffffff",scale:1,duration:.12},7.58);
+tl.fromTo("#w21",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.59);tl.to("#w21",{color:"#ffffff",scale:1,duration:.12},7.73);
+tl.fromTo("#w22",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.74);tl.to("#w22",{color:"#ffffff",scale:1,duration:.12},7.96);
+tl.fromTo("#w23",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},7.97);tl.to("#w23",{color:"#ffffff",scale:1,duration:.12},8.33);
+tl.fromTo("#w24",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.35);tl.to("#w24",{color:"#ffffff",scale:1,duration:.12},8.57);
+tl.to("#c4",{opacity:0,duration:.1,ease:"power2.in"},8.57);
+tl.from("#c5",{y:24,opacity:0,duration:.14,ease:"power2.out"},8.53);
+tl.fromTo("#w25",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.58);tl.to("#w25",{color:"#ffffff",scale:1,duration:.12},8.94);
+tl.fromTo("#w26",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},8.96);tl.to("#w26",{color:"#ffffff",scale:1,duration:.12},9.11);
+tl.fromTo("#w27",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},9.12);tl.to("#w27",{color:"#ffffff",scale:1,duration:.12},9.62);
+tl.fromTo("#w28",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},9.65);tl.to("#w28",{color:"#ffffff",scale:1,duration:.12},10.16);
+tl.fromTo("#w29",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},10.19);tl.to("#w29",{color:"#ffffff",scale:1,duration:.12},10.33);
+tl.to("#c5",{opacity:0,duration:.1,ease:"power2.in"},10.33);
+tl.from("#c6",{y:24,opacity:0,duration:.14,ease:"power2.out"},10.29);
+tl.fromTo("#w30",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},10.34);tl.to("#w30",{color:"#ffffff",scale:1,duration:.12},11.14);
+tl.to("#c6",{opacity:0,duration:.1,ease:"power2.in"},11.14);
+tl.from("#c7",{y:24,opacity:0,duration:.14,ease:"power2.out"},11.42);
+tl.fromTo("#w31",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},11.47);tl.to("#w31",{color:"#ffffff",scale:1,duration:.12},11.71);
+tl.fromTo("#w32",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},11.72);tl.to("#w32",{color:"#ffffff",scale:1,duration:.12},12.27);
+tl.fromTo("#w33",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},12.30);tl.to("#w33",{color:"#ffffff",scale:1,duration:.12},12.93);
+tl.fromTo("#w34",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},12.96);tl.to("#w34",{color:"#ffffff",scale:1,duration:.12},13.08);
+tl.fromTo("#w35",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},13.31);tl.to("#w35",{color:"#ffffff",scale:1,duration:.12},13.55);
+tl.to("#c7",{opacity:0,duration:.1,ease:"power2.in"},13.55);
+tl.from("#c8",{y:24,opacity:0,duration:.14,ease:"power2.out"},13.52);
+tl.fromTo("#w36",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},13.57);tl.to("#w36",{color:"#ffffff",scale:1,duration:.12},13.69);
+tl.fromTo("#w37",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},13.65);tl.to("#w37",{color:"#ffffff",scale:1,duration:.12},13.98);
+tl.fromTo("#w38",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.00);tl.to("#w38",{color:"#ffffff",scale:1,duration:.12},14.12);
+tl.fromTo("#w39",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.21);tl.to("#w39",{color:"#ffffff",scale:1,duration:.12},14.33);
+tl.fromTo("#w40",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.29);tl.to("#w40",{color:"#ffffff",scale:1,duration:.12},14.59);
+tl.to("#c8",{opacity:0,duration:.1,ease:"power2.in"},14.59);
+tl.from("#c9",{y:24,opacity:0,duration:.14,ease:"power2.out"},14.56);
+tl.fromTo("#w41",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.61);tl.to("#w41",{color:"#ffffff",scale:1,duration:.12},14.95);
+tl.fromTo("#w42",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},14.96);tl.to("#w42",{color:"#ffffff",scale:1,duration:.12},15.30);
+tl.to("#c9",{opacity:0,duration:.1,ease:"power2.in"},15.30);
+tl.from("#c10",{y:24,opacity:0,duration:.14,ease:"power2.out"},15.69);
+tl.fromTo("#w43",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},15.74);tl.to("#w43",{color:"#ffffff",scale:1,duration:.12},16.71);
+tl.fromTo("#w44",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},16.76);tl.to("#w44",{color:"#ffffff",scale:1,duration:.12},16.93);
+tl.fromTo("#w45",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},16.93);tl.to("#w45",{color:"#ffffff",scale:1,duration:.12},17.18);
+tl.fromTo("#w46",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},17.19);tl.to("#w46",{color:"#ffffff",scale:1,duration:.12},18.00);
+tl.fromTo("#w47",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},18.05);tl.to("#w47",{color:"#ffffff",scale:1,duration:.12},18.17);
+tl.to("#c10",{opacity:0,duration:.1,ease:"power2.in"},18.13);
+tl.from("#c11",{y:24,opacity:0,duration:.14,ease:"power2.out"},18.42);
+tl.fromTo("#w48",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},18.47);tl.to("#w48",{color:"#ffffff",scale:1,duration:.12},18.80);
+tl.fromTo("#w49",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},18.92);tl.to("#w49",{color:"#ffffff",scale:1,duration:.12},19.46);
+tl.fromTo("#w50",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},19.49);tl.to("#w50",{color:"#ffffff",scale:1,duration:.12},19.61);
+tl.fromTo("#w51",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},19.57);tl.to("#w51",{color:"#ffffff",scale:1,duration:.12},19.88);
+tl.fromTo("#w52",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},19.90);tl.to("#w52",{color:"#ffffff",scale:1,duration:.12},20.20);
+tl.to("#c11",{opacity:0,duration:.1,ease:"power2.in"},20.20);
+tl.from("#c12",{y:24,opacity:0,duration:.14,ease:"power2.out"},20.17);
+tl.fromTo("#w53",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},20.22);tl.to("#w53",{color:"#ffffff",scale:1,duration:.12},20.37);
+tl.fromTo("#w54",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},20.38);tl.to("#w54",{color:"#ffffff",scale:1,duration:.12},21.08);
+tl.fromTo("#w55",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.11);tl.to("#w55",{color:"#ffffff",scale:1,duration:.12},21.73);
+tl.fromTo("#w56",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.76);tl.to("#w56",{color:"#ffffff",scale:1,duration:.12},21.91);
+tl.fromTo("#w57",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},21.92);tl.to("#w57",{color:"#ffffff",scale:1,duration:.12},22.54);
+tl.to("#c12",{opacity:0,duration:.1,ease:"power2.in"},22.54);
+tl.from("#c13",{y:24,opacity:0,duration:.14,ease:"power2.out"},22.52);
+tl.fromTo("#w58",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},22.57);tl.to("#w58",{color:"#ffffff",scale:1,duration:.12},23.03);
+tl.fromTo("#w59",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.06);tl.to("#w59",{color:"#ffffff",scale:1,duration:.12},23.75);
+tl.fromTo("#w60",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},23.79);tl.to("#w60",{color:"#ffffff",scale:1,duration:.12},24.25);
+tl.fromTo("#w61",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},24.27);tl.to("#w61",{color:"#ffffff",scale:1,duration:.12},24.43);
+tl.fromTo("#w62",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},24.44);tl.to("#w62",{color:"#ffffff",scale:1,duration:.12},24.98);
+tl.to("#c13",{opacity:0,duration:.1,ease:"power2.in"},24.98);
+tl.from("#c14",{y:24,opacity:0,duration:.14,ease:"power2.out"},24.95);
+tl.fromTo("#w63",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.00);tl.to("#w63",{color:"#ffffff",scale:1,duration:.12},25.54);
+tl.fromTo("#w64",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.57);tl.to("#w64",{color:"#ffffff",scale:1,duration:.12},25.88);
+tl.fromTo("#w65",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},25.90);tl.to("#w65",{color:"#ffffff",scale:1,duration:.12},26.05);
+tl.fromTo("#w66",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.06);tl.to("#w66",{color:"#ffffff",scale:1,duration:.12},26.44);
+tl.fromTo("#w67",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.46);tl.to("#w67",{color:"#ffffff",scale:1,duration:.12},26.62);
+tl.to("#c14",{opacity:0,duration:.1,ease:"power2.in"},26.62);
+tl.from("#c15",{y:24,opacity:0,duration:.14,ease:"power2.out"},26.58);
+tl.fromTo("#w68",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},26.63);tl.to("#w68",{color:"#ffffff",scale:1,duration:.12},27.01);
+tl.fromTo("#w69",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.03);tl.to("#w69",{color:"#ffffff",scale:1,duration:.12},27.34);
+tl.fromTo("#w70",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.36);tl.to("#w70",{color:"#ffffff",scale:1,duration:.12},27.48);
+tl.fromTo("#w71",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.44);tl.to("#w71",{color:"#ffffff",scale:1,duration:.12},27.67);
+tl.fromTo("#w72",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},27.68);tl.to("#w72",{color:"#ffffff",scale:1,duration:.12},28.07);
+tl.to("#c15",{opacity:0,duration:.1,ease:"power2.in"},28.07);
+tl.from("#c16",{y:24,opacity:0,duration:.14,ease:"power2.out"},28.04);
+tl.fromTo("#w73",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},28.09);tl.to("#w73",{color:"#ffffff",scale:1,duration:.12},28.47);
+tl.fromTo("#w74",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},28.49);tl.to("#w74",{color:"#ffffff",scale:1,duration:.12},28.80);
+tl.to("#c16",{opacity:0,duration:.1,ease:"power2.in"},28.80);
+tl.from("#c17",{y:24,opacity:0,duration:.14,ease:"power2.out"},29.15);
+tl.fromTo("#w75",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.20);tl.to("#w75",{color:"#ffffff",scale:1,duration:.12},29.32);
+tl.fromTo("#w76",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.32);tl.to("#w76",{color:"#ffffff",scale:1,duration:.12},29.49);
+tl.fromTo("#w77",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.50);tl.to("#w77",{color:"#ffffff",scale:1,duration:.12},29.66);
+tl.fromTo("#w78",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},29.67);tl.to("#w78",{color:"#ffffff",scale:1,duration:.12},30.00);
+tl.fromTo("#w79",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.02);tl.to("#w79",{color:"#ffffff",scale:1,duration:.12},30.69);
+tl.to("#c17",{opacity:0,duration:.1,ease:"power2.in"},30.69);
+tl.from("#c18",{y:24,opacity:0,duration:.14,ease:"power2.out"},30.67);
+tl.fromTo("#w80",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.72);tl.to("#w80",{color:"#ffffff",scale:1,duration:.12},30.89);
+tl.fromTo("#w81",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},30.90);tl.to("#w81",{color:"#ffffff",scale:1,duration:.12},31.40);
+tl.fromTo("#w82",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.42);tl.to("#w82",{color:"#ffffff",scale:1,duration:.12},31.92);
+tl.fromTo("#w83",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},31.95);tl.to("#w83",{color:"#ffffff",scale:1,duration:.12},32.23);
+tl.fromTo("#w84",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.24);tl.to("#w84",{color:"#ffffff",scale:1,duration:.12},32.57);
+tl.to("#c18",{opacity:0,duration:.1,ease:"power2.in"},32.57);
+tl.from("#c19",{y:24,opacity:0,duration:.14,ease:"power2.out"},32.54);
+tl.fromTo("#w85",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.59);tl.to("#w85",{color:"#ffffff",scale:1,duration:.12},32.71);
+tl.fromTo("#w86",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.71);tl.to("#w86",{color:"#ffffff",scale:1,duration:.12},32.93);
+tl.fromTo("#w87",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},32.94);tl.to("#w87",{color:"#ffffff",scale:1,duration:.12},33.11);
+tl.fromTo("#w88",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},33.12);tl.to("#w88",{color:"#ffffff",scale:1,duration:.12},33.73);
+tl.fromTo("#w89",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},33.86);tl.to("#w89",{color:"#ffffff",scale:1,duration:.12},34.00);
+tl.to("#c19",{opacity:0,duration:.1,ease:"power2.in"},34.00);
+tl.from("#c20",{y:24,opacity:0,duration:.14,ease:"power2.out"},33.96);
+tl.fromTo("#w90",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.01);tl.to("#w90",{color:"#ffffff",scale:1,duration:.12},34.22);
+tl.fromTo("#w91",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.23);tl.to("#w91",{color:"#ffffff",scale:1,duration:.12},34.80);
+tl.fromTo("#w92",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.83);tl.to("#w92",{color:"#ffffff",scale:1,duration:.12},34.98);
+tl.fromTo("#w93",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},34.98);tl.to("#w93",{color:"#ffffff",scale:1,duration:.12},35.70);
+tl.fromTo("#w94",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},35.73);tl.to("#w94",{color:"#ffffff",scale:1,duration:.12},35.87);
+tl.to("#c20",{opacity:0,duration:.1,ease:"power2.in"},35.87);
+tl.from("#c21",{y:24,opacity:0,duration:.14,ease:"power2.out"},35.83);
+tl.fromTo("#w95",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},35.88);tl.to("#w95",{color:"#ffffff",scale:1,duration:.12},36.02);
+tl.fromTo("#w96",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},36.03);tl.to("#w96",{color:"#ffffff",scale:1,duration:.12},36.60);
+tl.fromTo("#w97",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},36.63);tl.to("#w97",{color:"#ffffff",scale:1,duration:.12},36.75);
+tl.fromTo("#w98",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},36.71);tl.to("#w98",{color:"#ffffff",scale:1,duration:.12},37.13);
+tl.fromTo("#w99",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.16);tl.to("#w99",{color:"#ffffff",scale:1,duration:.12},37.30);
+tl.to("#c21",{opacity:0,duration:.1,ease:"power2.in"},37.30);
+tl.from("#c22",{y:24,opacity:0,duration:.14,ease:"power2.out"},37.26);
+tl.fromTo("#w100",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.31);tl.to("#w100",{color:"#ffffff",scale:1,duration:.12},37.95);
+tl.fromTo("#w101",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},37.98);tl.to("#w101",{color:"#ffffff",scale:1,duration:.12},38.12);
+tl.fromTo("#w102",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.13);tl.to("#w102",{color:"#ffffff",scale:1,duration:.12},38.27);
+tl.fromTo("#w103",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.28);tl.to("#w103",{color:"#ffffff",scale:1,duration:.12},38.49);
+tl.fromTo("#w104",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},38.51);tl.to("#w104",{color:"#ffffff",scale:1,duration:.12},39.15);
+tl.to("#c22",{opacity:0,duration:.1,ease:"power2.in"},39.15);
+tl.from("#c23",{y:24,opacity:0,duration:.14,ease:"power2.out"},39.13);
+tl.fromTo("#w105",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.18);tl.to("#w105",{color:"#ffffff",scale:1,duration:.12},39.54);
+tl.fromTo("#w106",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.55);tl.to("#w106",{color:"#ffffff",scale:1,duration:.12},39.70);
+tl.fromTo("#w107",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},39.70);tl.to("#w107",{color:"#ffffff",scale:1,duration:.12},40.20);
+tl.fromTo("#w108",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},40.23);tl.to("#w108",{color:"#ffffff",scale:1,duration:.12},40.94);
+tl.fromTo("#w109",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},40.98);tl.to("#w109",{color:"#ffffff",scale:1,duration:.12},41.34);
+tl.to("#c23",{opacity:0,duration:.1,ease:"power2.in"},41.34);
+tl.from("#c24",{y:24,opacity:0,duration:.14,ease:"power2.out"},41.30);
+tl.fromTo("#w110",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.35);tl.to("#w110",{color:"#ffffff",scale:1,duration:.12},41.57);
+tl.fromTo("#w111",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.58);tl.to("#w111",{color:"#ffffff",scale:1,duration:.12},41.79);
+tl.fromTo("#w112",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},41.80);tl.to("#w112",{color:"#ffffff",scale:1,duration:.12},42.09);
+tl.fromTo("#w113",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},42.20);tl.to("#w113",{color:"#ffffff",scale:1,duration:.12},42.54);
+tl.fromTo("#w114",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},42.56);tl.to("#w114",{color:"#ffffff",scale:1,duration:.12},43.30);
+tl.to("#c24",{opacity:0,duration:.1,ease:"power2.in"},43.30);
+tl.from("#c25",{y:24,opacity:0,duration:.14,ease:"power2.out"},43.29);
+tl.fromTo("#w115",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},43.34);tl.to("#w115",{color:"#ffffff",scale:1,duration:.12},43.54);
+tl.fromTo("#w116",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},43.55);tl.to("#w116",{color:"#ffffff",scale:1,duration:.12},44.36);
+tl.fromTo("#w117",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.40);tl.to("#w117",{color:"#ffffff",scale:1,duration:.12},44.87);
+tl.fromTo("#w118",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},44.90);tl.to("#w118",{color:"#ffffff",scale:1,duration:.12},45.17);
+tl.fromTo("#w119",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},45.18);tl.to("#w119",{color:"#ffffff",scale:1,duration:.12},45.45);
+tl.to("#c25",{opacity:0,duration:.1,ease:"power2.in"},45.45);
+tl.from("#c26",{y:24,opacity:0,duration:.14,ease:"power2.out"},45.42);
+tl.fromTo("#w120",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},45.47);tl.to("#w120",{color:"#ffffff",scale:1,duration:.12},45.80);
+tl.fromTo("#w121",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},45.82);tl.to("#w121",{color:"#ffffff",scale:1,duration:.12},46.02);
+tl.fromTo("#w122",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},46.03);tl.to("#w122",{color:"#ffffff",scale:1,duration:.12},46.64);
+tl.to("#c26",{opacity:0,duration:.1,ease:"power2.in"},46.64);
+tl.from("#c27",{y:24,opacity:0,duration:.14,ease:"power2.out"},47.24);
+tl.fromTo("#w123",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},47.29);tl.to("#w123",{color:"#ffffff",scale:1,duration:.12},47.44);
+tl.fromTo("#w124",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},47.44);tl.to("#w124",{color:"#ffffff",scale:1,duration:.12},47.59);
+tl.fromTo("#w125",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},47.60);tl.to("#w125",{color:"#ffffff",scale:1,duration:.12},48.20);
+tl.fromTo("#w126",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.23);tl.to("#w126",{color:"#ffffff",scale:1,duration:.12},48.35);
+tl.to("#c27",{opacity:0,duration:.1,ease:"power2.in"},48.31);
+tl.from("#c28",{y:24,opacity:0,duration:.14,ease:"power2.out"},48.66);
+tl.fromTo("#w127",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.71);tl.to("#w127",{color:"#ffffff",scale:1,duration:.12},48.95);
+tl.fromTo("#w128",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},48.96);tl.to("#w128",{color:"#ffffff",scale:1,duration:.12},49.10);
+tl.fromTo("#w129",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.11);tl.to("#w129",{color:"#ffffff",scale:1,duration:.12},49.34);
+tl.fromTo("#w130",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.35);tl.to("#w130",{color:"#ffffff",scale:1,duration:.12},49.82);
+tl.fromTo("#w131",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.84);tl.to("#w131",{color:"#ffffff",scale:1,duration:.12},49.96);
+tl.to("#c28",{opacity:0,duration:.1,ease:"power2.in"},49.94);
+tl.from("#c29",{y:24,opacity:0,duration:.14,ease:"power2.out"},49.89);
+tl.fromTo("#w132",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},49.94);tl.to("#w132",{color:"#ffffff",scale:1,duration:.12},50.06);
+tl.fromTo("#w133",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.04);tl.to("#w133",{color:"#ffffff",scale:1,duration:.12},50.46);
+tl.fromTo("#w134",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.48);tl.to("#w134",{color:"#ffffff",scale:1,duration:.12},50.60);
+tl.fromTo("#w135",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.58);tl.to("#w135",{color:"#ffffff",scale:1,duration:.12},50.81);
+tl.fromTo("#w136",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},50.82);tl.to("#w136",{color:"#ffffff",scale:1,duration:.12},51.01);
+tl.to("#c29",{opacity:0,duration:.1,ease:"power2.in"},51.01);
+tl.from("#c30",{y:24,opacity:0,duration:.14,ease:"power2.out"},50.97);
+tl.fromTo("#w137",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.02);tl.to("#w137",{color:"#ffffff",scale:1,duration:.12},51.25);
+tl.fromTo("#w138",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.27);tl.to("#w138",{color:"#ffffff",scale:1,duration:.12},51.50);
+tl.fromTo("#w139",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.51);tl.to("#w139",{color:"#ffffff",scale:1,duration:.12},51.84);
+tl.fromTo("#w140",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.86);tl.to("#w140",{color:"#ffffff",scale:1,duration:.12},51.98);
+tl.fromTo("#w141",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},51.95);tl.to("#w141",{color:"#ffffff",scale:1,duration:.12},52.23);
+tl.to("#c30",{opacity:0,duration:.1,ease:"power2.in"},52.23);
+tl.from("#c31",{y:24,opacity:0,duration:.14,ease:"power2.out"},52.20);
+tl.fromTo("#w142",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.25);tl.to("#w142",{color:"#ffffff",scale:1,duration:.12},52.48);
+tl.fromTo("#w143",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.49);tl.to("#w143",{color:"#ffffff",scale:1,duration:.12},52.63);
+tl.fromTo("#w144",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.64);tl.to("#w144",{color:"#ffffff",scale:1,duration:.12},52.76);
+tl.fromTo("#w145",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},52.74);tl.to("#w145",{color:"#ffffff",scale:1,duration:.12},53.07);
+tl.fromTo("#w146",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.08);tl.to("#w146",{color:"#ffffff",scale:1,duration:.12},53.50);
+tl.to("#c31",{opacity:0,duration:.1,ease:"power2.in"},53.50);
+tl.from("#c32",{y:24,opacity:0,duration:.14,ease:"power2.out"},53.47);
+tl.fromTo("#w147",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.52);tl.to("#w147",{color:"#ffffff",scale:1,duration:.12},53.64);
+tl.fromTo("#w148",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.62);tl.to("#w148",{color:"#ffffff",scale:1,duration:.12},53.76);
+tl.fromTo("#w149",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},53.77);tl.to("#w149",{color:"#ffffff",scale:1,duration:.12},54.05);
+tl.fromTo("#w150",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},54.25);tl.to("#w150",{color:"#ffffff",scale:1,duration:.12},54.45);
+tl.fromTo("#w151",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},54.46);tl.to("#w151",{color:"#ffffff",scale:1,duration:.12},55.36);
+tl.to("#c32",{opacity:0,duration:.1,ease:"power2.in"},55.36);
+tl.from("#c33",{y:24,opacity:0,duration:.14,ease:"power2.out"},55.35);
+tl.fromTo("#w152",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},55.40);tl.to("#w152",{color:"#ffffff",scale:1,duration:.12},55.80);
+tl.fromTo("#w153",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},55.82);tl.to("#w153",{color:"#ffffff",scale:1,duration:.12},56.02);
+tl.fromTo("#w154",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},56.03);tl.to("#w154",{color:"#ffffff",scale:1,duration:.12},56.33);
+tl.fromTo("#w155",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},56.35);tl.to("#w155",{color:"#ffffff",scale:1,duration:.12},56.55);
+tl.fromTo("#w156",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},56.56);tl.to("#w156",{color:"#ffffff",scale:1,duration:.12},57.46);
+tl.to("#c33",{opacity:0,duration:.1,ease:"power2.in"},57.46);
+tl.from("#c34",{y:24,opacity:0,duration:.14,ease:"power2.out"},57.45);
+tl.fromTo("#w157",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.50);tl.to("#w157",{color:"#ffffff",scale:1,duration:.12},57.70);
+tl.fromTo("#w158",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.71);tl.to("#w158",{color:"#ffffff",scale:1,duration:.12},57.91);
+tl.fromTo("#w159",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},57.92);tl.to("#w159",{color:"#ffffff",scale:1,duration:.12},58.72);
+tl.fromTo("#w160",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},58.76);tl.to("#w160",{color:"#ffffff",scale:1,duration:.12},59.76);
+tl.fromTo("#w161",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},59.81);tl.to("#w161",{color:"#ffffff",scale:1,duration:.12},60.01);
+tl.to("#c34",{opacity:0,duration:.1,ease:"power2.in"},60.01);
+tl.from("#c35",{y:24,opacity:0,duration:.14,ease:"power2.out"},59.97);
+tl.fromTo("#w162",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},60.02);tl.to("#w162",{color:"#ffffff",scale:1,duration:.12},60.42);
+tl.fromTo("#w163",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},60.44);tl.to("#w163",{color:"#ffffff",scale:1,duration:.12},61.24);
+tl.fromTo("#w164",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.28);tl.to("#w164",{color:"#ffffff",scale:1,duration:.12},61.48);
+tl.fromTo("#w165",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},61.49);tl.to("#w165",{color:"#ffffff",scale:1,duration:.12},62.19);
+tl.fromTo("#w166",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},62.23);tl.to("#w166",{color:"#ffffff",scale:1,duration:.12},62.83);
+tl.to("#c35",{opacity:0,duration:.1,ease:"power2.in"},62.83);
+tl.from("#c36",{y:24,opacity:0,duration:.14,ease:"power2.out"},63.14);
+tl.fromTo("#w167",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},63.19);tl.to("#w167",{color:"#ffffff",scale:1,duration:.12},63.36);
+tl.fromTo("#w168",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},63.36);tl.to("#w168",{color:"#ffffff",scale:1,duration:.12},63.78);
+tl.to("#c36",{opacity:0,duration:.1,ease:"power2.in"},63.78);
+tl.from("#c37",{y:24,opacity:0,duration:.14,ease:"power2.out"},64.07);
+tl.fromTo("#w169",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},64.12);tl.to("#w169",{color:"#ffffff",scale:1,duration:.12},64.46);
+tl.fromTo("#w170",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},64.47);tl.to("#w170",{color:"#ffffff",scale:1,duration:.12},65.01);
+tl.fromTo("#w171",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.04);tl.to("#w171",{color:"#ffffff",scale:1,duration:.12},65.18);
+tl.fromTo("#w172",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.18);tl.to("#w172",{color:"#ffffff",scale:1,duration:.12},65.38);
+tl.fromTo("#w173",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.39);tl.to("#w173",{color:"#ffffff",scale:1,duration:.12},65.80);
+tl.to("#c37",{opacity:0,duration:.1,ease:"power2.in"},65.80);
+tl.from("#c38",{y:24,opacity:0,duration:.14,ease:"power2.out"},65.77);
+tl.fromTo("#w174",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.82);tl.to("#w174",{color:"#ffffff",scale:1,duration:.12},65.95);
+tl.fromTo("#w175",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},65.96);tl.to("#w175",{color:"#ffffff",scale:1,duration:.12},66.09);
+tl.fromTo("#w176",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.10);tl.to("#w176",{color:"#ffffff",scale:1,duration:.12},66.51);
+tl.fromTo("#w177",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.53);tl.to("#w177",{color:"#ffffff",scale:1,duration:.12},66.86);
+tl.fromTo("#w178",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},66.88);tl.to("#w178",{color:"#ffffff",scale:1,duration:.12},67.35);
+tl.to("#c38",{opacity:0,duration:.1,ease:"power2.in"},67.35);
+tl.from("#c39",{y:24,opacity:0,duration:.14,ease:"power2.out"},67.33);
+tl.fromTo("#w179",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},67.38);tl.to("#w179",{color:"#ffffff",scale:1,duration:.12},67.51);
+tl.fromTo("#w180",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},67.52);tl.to("#w180",{color:"#ffffff",scale:1,duration:.12},68.12);
+tl.fromTo("#w181",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.25);tl.to("#w181",{color:"#ffffff",scale:1,duration:.12},68.40);
+tl.fromTo("#w182",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},68.41);tl.to("#w182",{color:"#ffffff",scale:1,duration:.12},69.13);
+tl.fromTo("#w183",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.17);tl.to("#w183",{color:"#ffffff",scale:1,duration:.12},69.74);
+tl.to("#c39",{opacity:0,duration:.1,ease:"power2.in"},69.74);
+tl.from("#c40",{y:24,opacity:0,duration:.14,ease:"power2.out"},69.73);
+tl.fromTo("#w184",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},69.78);tl.to("#w184",{color:"#ffffff",scale:1,duration:.12},70.14);
+tl.fromTo("#w185",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},70.16);tl.to("#w185",{color:"#ffffff",scale:1,duration:.12},70.88);
+tl.fromTo("#w186",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},70.92);tl.to("#w186",{color:"#ffffff",scale:1,duration:.12},71.21);
+tl.fromTo("#w187",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},71.22);tl.to("#w187",{color:"#ffffff",scale:1,duration:.12},71.51);
+tl.fromTo("#w188",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},71.53);tl.to("#w188",{color:"#ffffff",scale:1,duration:.12},71.65);
+tl.to("#c40",{opacity:0,duration:.1,ease:"power2.in"},71.60);
+tl.from("#c41",{y:24,opacity:0,duration:.14,ease:"power2.out"},71.80);
+tl.fromTo("#w189",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},71.85);tl.to("#w189",{color:"#ffffff",scale:1,duration:.12},72.34);
+tl.fromTo("#w190",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},72.37);tl.to("#w190",{color:"#ffffff",scale:1,duration:.12},72.86);
+tl.fromTo("#w191",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},72.89);tl.to("#w191",{color:"#ffffff",scale:1,duration:.12},73.24);
+tl.fromTo("#w192",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.26);tl.to("#w192",{color:"#ffffff",scale:1,duration:.12},73.61);
+tl.fromTo("#w193",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.63);tl.to("#w193",{color:"#ffffff",scale:1,duration:.12},73.91);
+tl.to("#c41",{opacity:0,duration:.1,ease:"power2.in"},73.91);
+tl.from("#c42",{y:24,opacity:0,duration:.14,ease:"power2.out"},73.88);
+tl.fromTo("#w194",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},73.93);tl.to("#w194",{color:"#ffffff",scale:1,duration:.12},74.07);
+tl.fromTo("#w195",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.08);tl.to("#w195",{color:"#ffffff",scale:1,duration:.12},74.20);
+tl.fromTo("#w196",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.15);tl.to("#w196",{color:"#ffffff",scale:1,duration:.12},74.36);
+tl.fromTo("#w197",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.38);tl.to("#w197",{color:"#ffffff",scale:1,duration:.12},74.52);
+tl.fromTo("#w198",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.52);tl.to("#w198",{color:"#ffffff",scale:1,duration:.12},74.81);
+tl.to("#c42",{opacity:0,duration:.1,ease:"power2.in"},74.81);
+tl.from("#c43",{y:24,opacity:0,duration:.14,ease:"power2.out"},74.77);
+tl.fromTo("#w199",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.82);tl.to("#w199",{color:"#ffffff",scale:1,duration:.12},74.96);
+tl.fromTo("#w200",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},74.97);tl.to("#w200",{color:"#ffffff",scale:1,duration:.12},75.25);
+tl.fromTo("#w201",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},75.27);tl.to("#w201",{color:"#ffffff",scale:1,duration:.12},75.90);
+tl.fromTo("#w202",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},75.93);tl.to("#w202",{color:"#ffffff",scale:1,duration:.12},76.43);
+tl.fromTo("#w203",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},76.45);tl.to("#w203",{color:"#ffffff",scale:1,duration:.12},76.74);
+tl.to("#c43",{opacity:0,duration:.1,ease:"power2.in"},76.74);
+tl.from("#c44",{y:24,opacity:0,duration:.14,ease:"power2.out"},76.70);
+tl.fromTo("#w204",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},76.75);tl.to("#w204",{color:"#ffffff",scale:1,duration:.12},77.39);
+tl.to("#c44",{opacity:0,duration:.1,ease:"power2.in"},77.39);
+tl.from("#c45",{y:24,opacity:0,duration:.14,ease:"power2.out"},77.76);
+tl.fromTo("#w205",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},77.81);tl.to("#w205",{color:"#ffffff",scale:1,duration:.12},78.16);
+tl.fromTo("#w206",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.18);tl.to("#w206",{color:"#ffffff",scale:1,duration:.12},78.38);
+tl.fromTo("#w207",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.39);tl.to("#w207",{color:"#ffffff",scale:1,duration:.12},78.81);
+tl.fromTo("#w208",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},78.83);tl.to("#w208",{color:"#ffffff",scale:1,duration:.12},79.32);
+tl.fromTo("#w209",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},79.34);tl.to("#w209",{color:"#ffffff",scale:1,duration:.12},79.97);
+tl.to("#c45",{opacity:0,duration:.1,ease:"power2.in"},79.97);
+tl.from("#c46",{y:24,opacity:0,duration:.14,ease:"power2.out"},79.95);
+tl.fromTo("#w210",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.00);tl.to("#w210",{color:"#ffffff",scale:1,duration:.12},80.35);
+tl.fromTo("#w211",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.37);tl.to("#w211",{color:"#ffffff",scale:1,duration:.12},80.51);
+tl.fromTo("#w212",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.51);tl.to("#w212",{color:"#ffffff",scale:1,duration:.12},80.93);
+tl.fromTo("#w213",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},80.95);tl.to("#w213",{color:"#ffffff",scale:1,duration:.12},81.16);
+tl.fromTo("#w214",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.17);tl.to("#w214",{color:"#ffffff",scale:1,duration:.12},81.59);
+tl.to("#c46",{opacity:0,duration:.1,ease:"power2.in"},81.59);
+tl.from("#c47",{y:24,opacity:0,duration:.14,ease:"power2.out"},81.56);
+tl.fromTo("#w215",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.61);tl.to("#w215",{color:"#ffffff",scale:1,duration:.12},81.75);
+tl.fromTo("#w216",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},81.75);tl.to("#w216",{color:"#ffffff",scale:1,duration:.12},82.10);
+tl.fromTo("#w217",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.12);tl.to("#w217",{color:"#ffffff",scale:1,duration:.12},82.26);
+tl.fromTo("#w218",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.27);tl.to("#w218",{color:"#ffffff",scale:1,duration:.12},82.68);
+tl.fromTo("#w219",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},82.70);tl.to("#w219",{color:"#ffffff",scale:1,duration:.12},83.19);
+tl.to("#c47",{opacity:0,duration:.1,ease:"power2.in"},83.19);
+tl.from("#c48",{y:24,opacity:0,duration:.14,ease:"power2.out"},83.16);
+tl.fromTo("#w220",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},83.21);tl.to("#w220",{color:"#ffffff",scale:1,duration:.12},83.49);
+tl.fromTo("#w221",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},83.51);tl.to("#w221",{color:"#ffffff",scale:1,duration:.12},83.99);
+tl.fromTo("#w222",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.02);tl.to("#w222",{color:"#ffffff",scale:1,duration:.12},84.37);
+tl.fromTo("#w223",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.38);tl.to("#w223",{color:"#ffffff",scale:1,duration:.12},84.59);
+tl.fromTo("#w224",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.60);tl.to("#w224",{color:"#ffffff",scale:1,duration:.12},84.88);
+tl.to("#c48",{opacity:0,duration:.1,ease:"power2.in"},84.88);
+tl.from("#c49",{y:24,opacity:0,duration:.14,ease:"power2.out"},84.84);
+tl.fromTo("#w225",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},84.89);tl.to("#w225",{color:"#ffffff",scale:1,duration:.12},85.24);
+tl.fromTo("#w226",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.26);tl.to("#w226",{color:"#ffffff",scale:1,duration:.12},85.54);
+tl.fromTo("#w227",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.55);tl.to("#w227",{color:"#ffffff",scale:1,duration:.12},85.76);
+tl.fromTo("#w228",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.77);tl.to("#w228",{color:"#ffffff",scale:1,duration:.12},85.98);
+tl.fromTo("#w229",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},85.99);tl.to("#w229",{color:"#ffffff",scale:1,duration:.12},86.20);
+tl.to("#c49",{opacity:0,duration:.1,ease:"power2.in"},86.20);
+tl.from("#c50",{y:24,opacity:0,duration:.14,ease:"power2.out"},86.16);
+tl.fromTo("#w230",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.21);tl.to("#w230",{color:"#ffffff",scale:1,duration:.12},86.63);
+tl.fromTo("#w231",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.65);tl.to("#w231",{color:"#ffffff",scale:1,duration:.12},86.79);
+tl.fromTo("#w232",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},86.79);tl.to("#w232",{color:"#ffffff",scale:1,duration:.12},87.14);
+tl.fromTo("#w233",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.16);tl.to("#w233",{color:"#ffffff",scale:1,duration:.12},87.30);
+tl.fromTo("#w234",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.30);tl.to("#w234",{color:"#ffffff",scale:1,duration:.12},87.72);
+tl.to("#c50",{opacity:0,duration:.1,ease:"power2.in"},87.72);
+tl.from("#c51",{y:24,opacity:0,duration:.14,ease:"power2.out"},87.69);
+tl.fromTo("#w235",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.74);tl.to("#w235",{color:"#ffffff",scale:1,duration:.12},87.95);
+tl.fromTo("#w236",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},87.96);tl.to("#w236",{color:"#ffffff",scale:1,duration:.12},88.52);
+tl.fromTo("#w237",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},88.55);tl.to("#w237",{color:"#ffffff",scale:1,duration:.12},89.03);
+tl.to("#c51",{opacity:0,duration:.1,ease:"power2.in"},89.03);
+tl.from("#c52",{y:24,opacity:0,duration:.14,ease:"power2.out"},89.46);
+tl.fromTo("#w238",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.51);tl.to("#w238",{color:"#ffffff",scale:1,duration:.12},89.64);
+tl.fromTo("#w239",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},89.65);tl.to("#w239",{color:"#ffffff",scale:1,duration:.12},90.04);
+tl.fromTo("#w240",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.06);tl.to("#w240",{color:"#ffffff",scale:1,duration:.12},90.28);
+tl.fromTo("#w241",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.29);tl.to("#w241",{color:"#ffffff",scale:1,duration:.12},90.65);
+tl.fromTo("#w242",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.66);tl.to("#w242",{color:"#ffffff",scale:1,duration:.12},90.78);
+tl.to("#c52",{opacity:0,duration:.1,ease:"power2.in"},90.71);
+tl.from("#c53",{y:24,opacity:0,duration:.14,ease:"power2.out"},90.82);
+tl.fromTo("#w243",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},90.87);tl.to("#w243",{color:"#ffffff",scale:1,duration:.12},91.22);
+tl.fromTo("#w244",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.23);tl.to("#w244",{color:"#ffffff",scale:1,duration:.12},91.44);
+tl.fromTo("#w245",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.45);tl.to("#w245",{color:"#ffffff",scale:1,duration:.12},91.79);
+tl.fromTo("#w246",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.81);tl.to("#w246",{color:"#ffffff",scale:1,duration:.12},91.95);
+tl.fromTo("#w247",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},91.95);tl.to("#w247",{color:"#ffffff",scale:1,duration:.12},92.29);
+tl.to("#c53",{opacity:0,duration:.1,ease:"power2.in"},92.29);
+tl.from("#c54",{y:24,opacity:0,duration:.14,ease:"power2.out"},92.26);
+tl.fromTo("#w248",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},92.31);tl.to("#w248",{color:"#ffffff",scale:1,duration:.12},92.52);
+tl.fromTo("#w249",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},92.53);tl.to("#w249",{color:"#ffffff",scale:1,duration:.12},93.07);
+tl.fromTo("#w250",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},93.10);tl.to("#w250",{color:"#ffffff",scale:1,duration:.12},93.72);
+tl.fromTo("#w251",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},93.75);tl.to("#w251",{color:"#ffffff",scale:1,duration:.12},94.64);
+tl.fromTo("#w252",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},94.68);tl.to("#w252",{color:"#ffffff",scale:1,duration:.12},94.89);
+tl.to("#c54",{opacity:0,duration:.1,ease:"power2.in"},94.89);
+tl.from("#c55",{y:24,opacity:0,duration:.14,ease:"power2.out"},94.85);
+tl.fromTo("#w253",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},94.90);tl.to("#w253",{color:"#ffffff",scale:1,duration:.12},95.65);
+tl.fromTo("#w254",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},95.69);tl.to("#w254",{color:"#ffffff",scale:1,duration:.12},95.83);
+tl.fromTo("#w255",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},95.83);tl.to("#w255",{color:"#ffffff",scale:1,duration:.12},96.38);
+tl.fromTo("#w256",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},96.41);tl.to("#w256",{color:"#ffffff",scale:1,duration:.12},97.23);
+tl.fromTo("#w257",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.27);tl.to("#w257",{color:"#ffffff",scale:1,duration:.12},97.41);
+tl.to("#c55",{opacity:0,duration:.1,ease:"power2.in"},97.41);
+tl.from("#c56",{y:24,opacity:0,duration:.14,ease:"power2.out"},97.37);
+tl.fromTo("#w258",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.42);tl.to("#w258",{color:"#ffffff",scale:1,duration:.12},97.83);
+tl.fromTo("#w259",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},97.85);tl.to("#w259",{color:"#ffffff",scale:1,duration:.12},98.26);
+tl.fromTo("#w260",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},98.28);tl.to("#w260",{color:"#ffffff",scale:1,duration:.12},98.89);
+tl.fromTo("#w261",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},98.93);tl.to("#w261",{color:"#ffffff",scale:1,duration:.12},99.06);
+tl.fromTo("#w262",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},99.07);tl.to("#w262",{color:"#ffffff",scale:1,duration:.12},99.75);
+tl.to("#c56",{opacity:0,duration:.1,ease:"power2.in"},99.75);
+tl.from("#c57",{y:24,opacity:0,duration:.14,ease:"power2.out"},99.74);
+tl.fromTo("#w263",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},99.79);tl.to("#w263",{color:"#ffffff",scale:1,duration:.12},99.99);
+tl.fromTo("#w264",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},100.00);tl.to("#w264",{color:"#ffffff",scale:1,duration:.12},100.41);
+tl.fromTo("#w265",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},100.44);tl.to("#w265",{color:"#ffffff",scale:1,duration:.12},101.05);
+tl.fromTo("#w266",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.08);tl.to("#w266",{color:"#ffffff",scale:1,duration:.12},101.36);
+tl.fromTo("#w267",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.37);tl.to("#w267",{color:"#ffffff",scale:1,duration:.12},101.71);
+tl.to("#c57",{opacity:0,duration:.1,ease:"power2.in"},101.71);
+tl.from("#c58",{y:24,opacity:0,duration:.14,ease:"power2.out"},101.68);
+tl.fromTo("#w268",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.73);tl.to("#w268",{color:"#ffffff",scale:1,duration:.12},101.87);
+tl.fromTo("#w269",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},101.87);tl.to("#w269",{color:"#ffffff",scale:1,duration:.12},102.62);
+tl.to("#c58",{opacity:0,duration:.1,ease:"power2.in"},102.62);
+tl.from("#c59",{y:24,opacity:0,duration:.14,ease:"power2.out"},103.10);
+tl.fromTo("#w270",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},103.15);tl.to("#w270",{color:"#ffffff",scale:1,duration:.12},103.41);
+tl.fromTo("#w271",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},103.42);tl.to("#w271",{color:"#ffffff",scale:1,duration:.12},104.27);
+tl.fromTo("#w272",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},104.31);tl.to("#w272",{color:"#ffffff",scale:1,duration:.12},104.56);
+tl.fromTo("#w273",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},104.58);tl.to("#w273",{color:"#ffffff",scale:1,duration:.12},105.08);
+tl.fromTo("#w274",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.11);tl.to("#w274",{color:"#ffffff",scale:1,duration:.12},105.28);
+tl.to("#c59",{opacity:0,duration:.1,ease:"power2.in"},105.28);
+tl.from("#c60",{y:24,opacity:0,duration:.14,ease:"power2.out"},105.24);
+tl.fromTo("#w275",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.29);tl.to("#w275",{color:"#ffffff",scale:1,duration:.12},105.54);
+tl.fromTo("#w276",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},105.56);tl.to("#w276",{color:"#ffffff",scale:1,duration:.12},106.32);
+tl.fromTo("#w277",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},106.36);tl.to("#w277",{color:"#ffffff",scale:1,duration:.12},106.61);
+tl.fromTo("#w278",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},106.62);tl.to("#w278",{color:"#ffffff",scale:1,duration:.12},107.22);
+tl.fromTo("#w279",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},107.25);tl.to("#w279",{color:"#ffffff",scale:1,duration:.12},107.42);
+tl.to("#c60",{opacity:0,duration:.1,ease:"power2.in"},107.42);
+tl.from("#c61",{y:24,opacity:0,duration:.14,ease:"power2.out"},107.38);
+tl.fromTo("#w280",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},107.43);tl.to("#w280",{color:"#ffffff",scale:1,duration:.12},108.36);
+tl.fromTo("#w281",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},108.41);tl.to("#w281",{color:"#ffffff",scale:1,duration:.12},108.57);
+tl.fromTo("#w282",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},108.58);tl.to("#w282",{color:"#ffffff",scale:1,duration:.12},109.60);
+tl.fromTo("#w283",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.65);tl.to("#w283",{color:"#ffffff",scale:1,duration:.12},109.77);
+tl.fromTo("#w284",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},109.74);tl.to("#w284",{color:"#ffffff",scale:1,duration:.12},110.59);
+tl.to("#c61",{opacity:0,duration:.1,ease:"power2.in"},110.59);
+tl.from("#c62",{y:24,opacity:0,duration:.14,ease:"power2.out"},110.87);
+tl.fromTo("#w285",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},110.92);tl.to("#w285",{color:"#ffffff",scale:1,duration:.12},111.18);
+tl.fromTo("#w286",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},111.20);tl.to("#w286",{color:"#ffffff",scale:1,duration:.12},111.66);
+tl.fromTo("#w287",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},111.68);tl.to("#w287",{color:"#ffffff",scale:1,duration:.12},111.88);
+tl.fromTo("#w288",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},111.89);tl.to("#w288",{color:"#ffffff",scale:1,duration:.12},112.36);
+tl.fromTo("#w289",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.38);tl.to("#w289",{color:"#ffffff",scale:1,duration:.12},112.71);
+tl.to("#c62",{opacity:0,duration:.1,ease:"power2.in"},112.71);
+tl.from("#c63",{y:24,opacity:0,duration:.14,ease:"power2.out"},112.68);
+tl.fromTo("#w290",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},112.73);tl.to("#w290",{color:"#ffffff",scale:1,duration:.12},113.26);
+tl.fromTo("#w291",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},113.28);tl.to("#w291",{color:"#ffffff",scale:1,duration:.12},113.42);
+tl.fromTo("#w292",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},113.42);tl.to("#w292",{color:"#ffffff",scale:1,duration:.12},114.15);
+tl.fromTo("#w293",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},114.19);tl.to("#w293",{color:"#ffffff",scale:1,duration:.12},114.52);
+tl.fromTo("#w294",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},114.54);tl.to("#w294",{color:"#ffffff",scale:1,duration:.12},114.74);
+tl.to("#c63",{opacity:0,duration:.1,ease:"power2.in"},114.74);
+tl.from("#c64",{y:24,opacity:0,duration:.14,ease:"power2.out"},114.70);
+tl.fromTo("#w295",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},114.75);tl.to("#w295",{color:"#ffffff",scale:1,duration:.12},115.28);
+tl.fromTo("#w296",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.30);tl.to("#w296",{color:"#ffffff",scale:1,duration:.12},115.44);
+tl.fromTo("#w297",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.44);tl.to("#w297",{color:"#ffffff",scale:1,duration:.12},115.77);
+tl.fromTo("#w298",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},115.79);tl.to("#w298",{color:"#ffffff",scale:1,duration:.12},116.52);
+tl.fromTo("#w299",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},116.56);tl.to("#w299",{color:"#ffffff",scale:1,duration:.12},116.69);
+tl.to("#c64",{opacity:0,duration:.1,ease:"power2.in"},116.69);
+tl.from("#c65",{y:24,opacity:0,duration:.14,ease:"power2.out"},116.64);
+tl.fromTo("#w300",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},116.69);tl.to("#w300",{color:"#ffffff",scale:1,duration:.12},117.09);
+tl.fromTo("#w301",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.11);tl.to("#w301",{color:"#ffffff",scale:1,duration:.12},117.31);
+tl.fromTo("#w302",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.32);tl.to("#w302",{color:"#ffffff",scale:1,duration:.12},117.52);
+tl.fromTo("#w303",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.53);tl.to("#w303",{color:"#ffffff",scale:1,duration:.12},117.86);
+tl.fromTo("#w304",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},117.88);tl.to("#w304",{color:"#ffffff",scale:1,duration:.12},118.01);
+tl.to("#c65",{opacity:0,duration:.1,ease:"power2.in"},118.01);
+tl.from("#c66",{y:24,opacity:0,duration:.14,ease:"power2.out"},117.97);
+tl.fromTo("#w305",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},118.02);tl.to("#w305",{color:"#ffffff",scale:1,duration:.12},118.68);
+tl.fromTo("#w306",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},118.71);tl.to("#w306",{color:"#ffffff",scale:1,duration:.12},118.85);
+tl.fromTo("#w307",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},118.85);tl.to("#w307",{color:"#ffffff",scale:1,duration:.12},118.98);
+tl.fromTo("#w308",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},118.99);tl.to("#w308",{color:"#ffffff",scale:1,duration:.12},119.45);
+tl.fromTo("#w309",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},119.48);tl.to("#w309",{color:"#ffffff",scale:1,duration:.12},119.68);
+tl.to("#c66",{opacity:0,duration:.1,ease:"power2.in"},119.68);
+tl.from("#c67",{y:24,opacity:0,duration:.14,ease:"power2.out"},119.64);
+tl.fromTo("#w310",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},119.69);tl.to("#w310",{color:"#ffffff",scale:1,duration:.12},120.15);
+tl.fromTo("#w311",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},120.17);tl.to("#w311",{color:"#ffffff",scale:1,duration:.12},120.37);
+tl.fromTo("#w312",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},120.38);tl.to("#w312",{color:"#ffffff",scale:1,duration:.12},120.78);
+tl.to("#c67",{opacity:0,duration:.1,ease:"power2.in"},120.78);
+tl.from("#c68",{y:24,opacity:0,duration:.14,ease:"power2.out"},121.17);
+tl.fromTo("#w313",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.22);tl.to("#w313",{color:"#ffffff",scale:1,duration:.12},121.43);
+tl.fromTo("#w314",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.44);tl.to("#w314",{color:"#ffffff",scale:1,duration:.12},121.71);
+tl.fromTo("#w315",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.72);tl.to("#w315",{color:"#ffffff",scale:1,duration:.12},121.96);
+tl.fromTo("#w316",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},121.97);tl.to("#w316",{color:"#ffffff",scale:1,duration:.12},122.20);
+tl.fromTo("#w317",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.22);tl.to("#w317",{color:"#ffffff",scale:1,duration:.12},122.34);
+tl.to("#c68",{opacity:0,duration:.1,ease:"power2.in"},122.25);
+tl.from("#c69",{y:24,opacity:0,duration:.14,ease:"power2.out"},122.36);
+tl.fromTo("#w318",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.41);tl.to("#w318",{color:"#ffffff",scale:1,duration:.12},122.57);
+tl.fromTo("#w319",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.58);tl.to("#w319",{color:"#ffffff",scale:1,duration:.12},122.97);
+tl.fromTo("#w320",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},122.99);tl.to("#w320",{color:"#ffffff",scale:1,duration:.12},123.22);
+tl.fromTo("#w321",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.24);tl.to("#w321",{color:"#ffffff",scale:1,duration:.12},123.47);
+tl.fromTo("#w322",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.48);tl.to("#w322",{color:"#ffffff",scale:1,duration:.12},123.79);
+tl.to("#c69",{opacity:0,duration:.1,ease:"power2.in"},123.79);
+tl.from("#c70",{y:24,opacity:0,duration:.14,ease:"power2.out"},123.76);
+tl.fromTo("#w323",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},123.81);tl.to("#w323",{color:"#ffffff",scale:1,duration:.12},124.05);
+tl.fromTo("#w324",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},124.06);tl.to("#w324",{color:"#ffffff",scale:1,duration:.12},124.53);
+tl.fromTo("#w325",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},124.55);tl.to("#w325",{color:"#ffffff",scale:1,duration:.12},125.41);
+tl.fromTo("#w326",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},125.46);tl.to("#w326",{color:"#ffffff",scale:1,duration:.12},126.00);
+tl.fromTo("#w327",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.03);tl.to("#w327",{color:"#ffffff",scale:1,duration:.12},126.42);
+tl.to("#c70",{opacity:0,duration:.1,ease:"power2.in"},126.42);
+tl.from("#c71",{y:24,opacity:0,duration:.14,ease:"power2.out"},126.39);
+tl.fromTo("#w328",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},126.44);tl.to("#w328",{color:"#ffffff",scale:1,duration:.12},127.07);
+tl.fromTo("#w329",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},127.10);tl.to("#w329",{color:"#ffffff",scale:1,duration:.12},127.34);
+tl.fromTo("#w330",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},127.35);tl.to("#w330",{color:"#ffffff",scale:1,duration:.12},127.98);
+tl.fromTo("#w331",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.01);tl.to("#w331",{color:"#ffffff",scale:1,duration:.12},128.56);
+tl.fromTo("#w332",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.58);tl.to("#w332",{color:"#ffffff",scale:1,duration:.12},128.74);
+tl.to("#c71",{opacity:0,duration:.1,ease:"power2.in"},128.74);
+tl.from("#c72",{y:24,opacity:0,duration:.14,ease:"power2.out"},128.70);
+tl.fromTo("#w333",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},128.75);tl.to("#w333",{color:"#ffffff",scale:1,duration:.12},129.30);
+tl.to("#c72",{opacity:0,duration:.1,ease:"power2.in"},129.30);
+tl.from("#c73",{y:24,opacity:0,duration:.14,ease:"power2.out"},129.72);
+tl.fromTo("#w334",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},129.77);tl.to("#w334",{color:"#ffffff",scale:1,duration:.12},130.72);
+tl.fromTo("#w335",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},130.78);tl.to("#w335",{color:"#ffffff",scale:1,duration:.12},130.91);
+tl.fromTo("#w336",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.09);tl.to("#w336",{color:"#ffffff",scale:1,duration:.12},131.21);
+tl.fromTo("#w337",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.20);tl.to("#w337",{color:"#ffffff",scale:1,duration:.12},131.45);
+tl.fromTo("#w338",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.46);tl.to("#w338",{color:"#ffffff",scale:1,duration:.12},131.97);
+tl.to("#c73",{opacity:0,duration:.1,ease:"power2.in"},131.97);
+tl.from("#c74",{y:24,opacity:0,duration:.14,ease:"power2.out"},131.94);
+tl.fromTo("#w339",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},131.99);tl.to("#w339",{color:"#ffffff",scale:1,duration:.12},132.14);
+tl.fromTo("#w340",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.15);tl.to("#w340",{color:"#ffffff",scale:1,duration:.12},132.65);
+tl.fromTo("#w341",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},132.68);tl.to("#w341",{color:"#ffffff",scale:1,duration:.12},133.08);
+tl.fromTo("#w342",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.10);tl.to("#w342",{color:"#ffffff",scale:1,duration:.12},133.50);
+tl.fromTo("#w343",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.52);tl.to("#w343",{color:"#ffffff",scale:1,duration:.12},133.64);
+tl.to("#c74",{opacity:0,duration:.1,ease:"power2.in"},133.62);
+tl.from("#c75",{y:24,opacity:0,duration:.14,ease:"power2.out"},133.58);
+tl.fromTo("#w344",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.63);tl.to("#w344",{color:"#ffffff",scale:1,duration:.12},133.78);
+tl.fromTo("#w345",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},133.79);tl.to("#w345",{color:"#ffffff",scale:1,duration:.12},134.19);
+tl.fromTo("#w346",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.21);tl.to("#w346",{color:"#ffffff",scale:1,duration:.12},134.71);
+tl.fromTo("#w347",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.74);tl.to("#w347",{color:"#ffffff",scale:1,duration:.12},134.94);
+tl.fromTo("#w348",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},134.95);tl.to("#w348",{color:"#ffffff",scale:1,duration:.12},135.25);
+tl.to("#c75",{opacity:0,duration:.1,ease:"power2.in"},135.25);
+tl.from("#c76",{y:24,opacity:0,duration:.14,ease:"power2.out"},135.21);
+tl.fromTo("#w349",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},135.26);tl.to("#w349",{color:"#ffffff",scale:1,duration:.12},135.41);
+tl.fromTo("#w350",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},135.42);tl.to("#w350",{color:"#ffffff",scale:1,duration:.12},136.12);
+tl.to("#c76",{opacity:0,duration:.1,ease:"power2.in"},136.12);
+tl.from("#c77",{y:24,opacity:0,duration:.14,ease:"power2.out"},137.02);
+tl.fromTo("#w351",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},137.07);tl.to("#w351",{color:"#ffffff",scale:1,duration:.12},137.40);
+tl.fromTo("#w352",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},137.42);tl.to("#w352",{color:"#ffffff",scale:1,duration:.12},138.25);
+tl.fromTo("#w353",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},138.29);tl.to("#w353",{color:"#ffffff",scale:1,duration:.12},139.21);
+tl.fromTo("#w354",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.26);tl.to("#w354",{color:"#ffffff",scale:1,duration:.12},139.59);
+tl.fromTo("#w355",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.61);tl.to("#w355",{color:"#ffffff",scale:1,duration:.12},139.94);
+tl.to("#c77",{opacity:0,duration:.1,ease:"power2.in"},139.94);
+tl.from("#c78",{y:24,opacity:0,duration:.14,ease:"power2.out"},139.91);
+tl.fromTo("#w356",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},139.96);tl.to("#w356",{color:"#ffffff",scale:1,duration:.12},140.13);
+tl.fromTo("#w357",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.14);tl.to("#w357",{color:"#ffffff",scale:1,duration:.12},140.80);
+tl.fromTo("#w358",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},140.84);tl.to("#w358",{color:"#ffffff",scale:1,duration:.12},141.42);
+tl.fromTo("#w359",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},141.45);tl.to("#w359",{color:"#ffffff",scale:1,duration:.12},142.28);
+tl.fromTo("#w360",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},142.33);tl.to("#w360",{color:"#ffffff",scale:1,duration:.12},142.45);
+tl.to("#c78",{opacity:0,duration:.1,ease:"power2.in"},142.41);
+tl.from("#c79",{y:24,opacity:0,duration:.14,ease:"power2.out"},142.80);
+tl.fromTo("#w361",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},142.85);tl.to("#w361",{color:"#ffffff",scale:1,duration:.12},143.10);
+tl.fromTo("#w362",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},143.11);tl.to("#w362",{color:"#ffffff",scale:1,duration:.12},143.23);
+tl.fromTo("#w363",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},143.18);tl.to("#w363",{color:"#ffffff",scale:1,duration:.12},143.55);
+tl.fromTo("#w364",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},143.75);tl.to("#w364",{color:"#ffffff",scale:1,duration:.12},144.17);
+tl.fromTo("#w365",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},144.19);tl.to("#w365",{color:"#ffffff",scale:1,duration:.12},144.62);
+tl.to("#c79",{opacity:0,duration:.1,ease:"power2.in"},144.62);
+tl.from("#c80",{y:24,opacity:0,duration:.14,ease:"power2.out"},144.59);
+tl.fromTo("#w366",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},144.64);tl.to("#w366",{color:"#ffffff",scale:1,duration:.12},144.90);
+tl.fromTo("#w367",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},144.91);tl.to("#w367",{color:"#ffffff",scale:1,duration:.12},145.76);
+tl.to("#c80",{opacity:0,duration:.1,ease:"power2.in"},145.76);
+tl.from("#c81",{y:24,opacity:0,duration:.14,ease:"power2.out"},146.17);
+tl.fromTo("#w368",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},146.22);tl.to("#w368",{color:"#ffffff",scale:1,duration:.12},146.92);
+tl.fromTo("#w369",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},146.96);tl.to("#w369",{color:"#ffffff",scale:1,duration:.12},147.08);
+tl.fromTo("#w370",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.08);tl.to("#w370",{color:"#ffffff",scale:1,duration:.12},147.20);
+tl.fromTo("#w371",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.13);tl.to("#w371",{color:"#ffffff",scale:1,duration:.12},147.51);
+tl.fromTo("#w372",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.53);tl.to("#w372",{color:"#ffffff",scale:1,duration:.12},147.69);
+tl.to("#c81",{opacity:0,duration:.1,ease:"power2.in"},147.69);
+tl.from("#c82",{y:24,opacity:0,duration:.14,ease:"power2.out"},147.65);
+tl.fromTo("#w373",{color:"#ffffff",scale:1},{color:"#19D3C5",scale:1.12,duration:.1,ease:"power2.out"},147.70);tl.to("#w373",{color:"#ffffff",scale:1,duration:.12},148.40);
+tl.to("#c82",{opacity:0,duration:.1,ease:"power2.in"},148.40);
+
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script><canvas id="d3_0" width="820" height="820" style="position:absolute;left:130px;top:900px;width:820px;height:820px;z-index:50;pointer-events:none;opacity:0"></canvas>
+<script type="module">
+import * as THREE from './lib/three.module.min.js';
+const INST=[{"kind":"drop","ranges":[[112,128]],"x":130,"y":900,"size":820,"id":"d3_0"}];
+const mk=(col,r=.2,em=0)=>new THREE.MeshPhysicalMaterial({color:col,roughness:r,clearcoat:1,clearcoatRoughness:.12,emissive:em,emissiveIntensity:.4});
+function scene3(kind){
+  const S=new THREE.Scene();S.add(new THREE.HemisphereLight(0xcfe8ff,0x0a2a55,1.1));
+  const k=new THREE.DirectionalLight(0xffffff,3.2);k.position.set(4,6,6);S.add(k);
+  const rim=new THREE.DirectionalLight(0x19D3C5,2.6);rim.position.set(-6,2,-4);S.add(rim);
+  const hero=new THREE.Group();S.add(hero);const parts=[];
+  if(kind==='drop'||kind==='glucose'){
+    const pts=[];for(let i=0;i<=72;i++){const t=Math.PI*i/72;pts.push(new THREE.Vector2(Math.max(.0008,Math.sin(t)*Math.sin(t/2)*1.35),-Math.cos(t)*1.45));}
+    hero.add(new THREE.Mesh(new THREE.LatheGeometry(pts,72),mk(0xE5484D,.2,0x5a0a12)));
+    const sg=new THREE.SphereGeometry(.2,32,24),sm=mk(0x19D3C5,.15,0x0a6a66);
+    for(let i=0;i<8;i++){const s=new THREE.Mesh(sg,sm);hero.add(s);parts.push(s)}
+  }
+  if(kind==='pathogen'){
+    hero.add(new THREE.Mesh(new THREE.SphereGeometry(1,64,48),mk(0x19D3C5,.25,0x0a6a66)));
+    const N=42,cg=new THREE.ConeGeometry(.12,.55,14),cm=mk(0xffffff,.3,0x335577);
+    for(let i=0;i<N;i++){const y=1-2*(i+.5)/N,r=Math.sqrt(1-y*y),a=i*2.399963;const d=new THREE.Vector3(Math.cos(a)*r,y,Math.sin(a)*r);
+      const c=new THREE.Mesh(cg,cm);c.position.copy(d).multiplyScalar(1.22);c.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),d);hero.add(c);}
+    const rg=(()=>{const p=[];for(let i=0;i<=24;i++){const t=i/24;const x=t*.9;const y=.2*Math.cos(Math.PI*t)*(1-t*.2)+.05;p.push(new THREE.Vector2(Math.max(.001,x),y));}return new THREE.LatheGeometry(p.concat(p.slice().reverse().map(v=>new THREE.Vector2(v.x,-v.y+.0))),48)})();
+    for(let i=0;i<5;i++){const m=new THREE.Mesh(rg,mk(0xE5484D,.3,0x4a0a10));m.userData.i=i;hero.add(m);parts.push(m)}
+  }
+  if(kind==='rbc'){
+    const p=[];for(let i=0;i<=30;i++){const t=i/30;const x=t*1.0;const y=.32*Math.pow(Math.sin(Math.PI*Math.min(1,t*1.05)),.6)*(.35+.65*t)+.04;p.push(new THREE.Vector2(Math.max(.001,x),y));}
+    const prof=p.concat(p.slice().reverse().map(v=>new THREE.Vector2(v.x,-v.y)));
+    const g=new THREE.LatheGeometry(prof,64);
+    for(let i=0;i<5;i++){const m=new THREE.Mesh(g,mk(0xE5484D,.28,0x5a0a12));m.userData.i=i;m.scale.setScalar(i===0?1.5:.95);hero.add(m);parts.push(m)}
+  }
+  return {S,hero,parts};
+}
+const R=INST.map(s=>{
+  const cv=document.getElementById(s.id);
+  const r=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true,preserveDrawingBuffer:true});
+  r.setPixelRatio(1);r.setSize(s.size,s.size,false);r.setClearColor(0x000000,0);r.outputColorSpace=THREE.SRGBColorSpace;r.toneMapping=THREE.ACESFilmicToneMapping;r.toneMappingExposure=1.15;
+  const C=new THREE.PerspectiveCamera(32,1,.1,50);C.position.set(0,.2,(s.kind==='pathogen'||s.kind==='rbc')?13.5:9);
+  return {s,cv,r,C,...scene3(s.kind)};
+});
+function inRange(ranges,t){for(const [a,b] of ranges) if(t>=a&&t<b) return [a,b];return null}
+function draw(o,t){
+  const {s,cv,r,C,S,hero,parts}=o;const rg=inRange(s.ranges,t);
+  if(!rg){cv.style.opacity=0;return}
+  const f=Math.min(1,(t-rg[0])/.6),op=Math.min(f,Math.min(1,(rg[1]-t)/.5));cv.style.opacity=Math.max(0,op);
+  hero.rotation.y=t*.7;hero.rotation.z=Math.sin(t*.9)*.08;hero.position.y=Math.sin(t*1.3)*.12;
+  const prog=(t-rg[0])/(rg[1]-rg[0]);
+  if(s.kind==='drop'||s.kind==='glucose'){
+    parts.forEach((p,i)=>{const a=t*.9+i*(Math.PI*2/parts.length),rad=2.05+.1*Math.sin(t*1.7+i);p.position.set(Math.cos(a)*rad,Math.sin(a*1.3+i)*.9+.2,Math.sin(a)*rad);
+      p.visible=s.kind==='glucose'?i<Math.max(1,Math.ceil(8*(1-prog)+.01)):true});
+  }
+  if(s.kind==='pathogen'){parts.forEach(p=>{const i=p.userData.i,a=t*.6+i*1.25,rad=2.5+.15*Math.sin(t+i);p.position.set(Math.cos(a)*rad,Math.sin(a*1.2+i)*1.0,Math.sin(a)*rad);p.rotation.set(t*.8+i,t*.5,0)})}
+  if(s.kind==='rbc'){parts.forEach(p=>{const i=p.userData.i;if(i===0){p.position.set(0,0,0);p.rotation.set(Math.PI/2.4,t*.9,0)}else{const a=t*.7+i*1.57,rad=2.3+.15*Math.sin(t*1.1+i);p.position.set(Math.cos(a)*rad,Math.sin(a*1.3+i)*.9,Math.sin(a)*rad);p.rotation.set(t*.9+i,t*.6,0)}})}
+  r.render(S,C);
+}
+window.addEventListener('hf-seek',e=>{for(const o of R)draw(o,e.detail.time)});
+for(const o of R)draw(o,0);
+</script>
+</body></html>
