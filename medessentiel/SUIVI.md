@@ -254,3 +254,7 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - VID-046 (grand public) : OMS 2019 (≈ 193 000 décès, niveau B web) ; gestes MedlinePlus/Mayo/Poison.org (niveau B, D4) ; CO (PMID 34053712, A) ; paracétamol/NAC (PMID 37683599, A). Aucune posologie.
 - Narration 159,3 s ; 3D goutte ; B-roll Pixabay 40948 (gélules, sans personne, en boucle) ; miniature icône seringue. Créneau prévu : 08/12 08:00 AST. VID-047 « Les antidotes à connaître » à produire ensuite (08/12 17:30 AST).
 - VID-046 : programmée Omnisocials 100149708 le 08/12 12:00Z (08:00 AST), média 280403, miniature 280404. Publication confirmée (24/11 21:30Z) : VID-021 Asthme, post 100142218, FB https://www.facebook.com/reel/2398630894219988/ , YT https://youtube.com/shorts/eUaQI10BqSk . Omnisocials : 4 publiés, 0 échec. Prochain créneau libre : 08/12 17:30 AST (VID-047 antidotes).
+
+## 2026-11-25 — VID-047 Les antidotes à connaître (en rendu)
+- Sources lues (niveau A) : Eddleston, Lancet 2008 (PMID 17706760) ; Pollack, NEJM 2017 (PMID 28693366) ; Long, Am J Emerg Med 2022 (PMID 35777259) ; Prescott, BJCP 2024 (PMID 37683599) ; Harris, JAMA 2026 (PMID 41671014, naloxone : résumé tronqué, niveau B) ; Chenoweth, Crit Care Clin 2021 (PMID 34053712). Protamine/héparine = pratique courante (NL) → D4. Aucune posologie.
+- Narration 170,3 s (< 3 min, YouTube OK) ; 3D pathogène ; B-roll Pixabay 44580 (encre rouge dans l'eau, réutilisé de VID-040, segment différent) ; miniature icône seringue. Créneau prévu : 08/12 17:30 AST.

@@ -1056,5 +1056,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100149708)",
   "statut_yt": "Programmée (Omnisocials 100149708)"
+ },
+ {
+  "vid": "VID-047",
+  "ep": 47,
+  "titre": "Les antidotes à connaître en urgence",
+  "specialite": "Toxicologie/urgences",
+  "categorie_yt": "Éducation",
+  "duree_s": 170.3,
+  "icone": "syringe",
+  "miniature": "ANTIDOTES|à connaître en urgence",
+  "accroche": "Il saigne sous anticoagulant, un autre a avalé un pesticide : quel antidote pour chacun ?",
+  "description": "Organophosphorés, dabigatran, héparine, anesthésiques locaux, paracétamol, opioïdes, monoxyde de carbone : les antidotes à connaître. Plans de coupe : Pixabay.",
+  "hashtags": "#Antidotes #Toxicologie #Urgences #Médecine #MedEssentiel",
+  "date": "2026-12-08",
+  "heure_AST": "17:30",
+  "scheduled_at_utc": "2026-12-08T21:30:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
