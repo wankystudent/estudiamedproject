@@ -276,3 +276,4 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Fiche de vérification : medessentiel/idees/cephalees.md. Sources A : Cumplido-Trasmonte 2021 (PMID 34537167), Dodick Lancet 2018 (PMID 29523342), Petersen Lancet Neurol 2024 (PMID 38876749), Do et al. Neurology 2019 (PMID 30587518, SNNOOP10). Coup de tonnerre = urgence (sources web, B). Localisations du visuel (hypertension, sinusite, ATM) non étayées → non affirmées. D4 à faire.
 - Narration 150,9 s ; 3D globules rouges ; B-roll Pixabay 314346 (neurones animés, boucle) ; miniature icône nerf. Créneau prévu : 10/12 08:00 AST.
 - État Omnisocials (27/11) : 10 publiés (VID-015, 019 à 026, ...), 0 échec ; programmations à jour jusqu'au 09/12 21:30Z.
+- VID-050 : programmée Omnisocials 100153938 le 10/12 12:00Z (08:00 AST), média 285158, miniature 285159. Prochain créneau libre : 10/12 17:30 AST.
