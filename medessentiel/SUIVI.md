@@ -271,3 +271,8 @@ Statuts : à rédiger → à vérifier → prêt pour HeyGen → généré → c
 - Narration 135,2 s ; 3D goutte ; B-roll Pixabay 30096 (statue antique, illustratif) ; miniature : nouvelle icône colonne (temple). Créneau prévu : 09/12 17:30 AST.
 - VID-048 : programmée Omnisocials 100149763 le 09/12 12:00Z (08:00 AST), média 280490, miniature 280491. VID-049 (Hippocrate) en rendu.
 - VID-049 : programmée Omnisocials 100149771 le 09/12 21:30Z (17:30 AST), média 280497, miniature 280498. Publication confirmée (25/11 12:00Z) : VID-022 Épilepsie, post 100142219, FB https://www.facebook.com/reel/1859305108752895/ , YT https://youtube.com/shorts/14h6IT1sNDo . Omnisocials : 5 publiés, 0 échec. Prochain créneau libre : 10/12 08:00 AST.
+
+## 2026-11-27 — VID-050 Maux de tête : signes d'alarme (en rendu) — idée soumise par l'utilisateur (infographie Club de Santé non reprise)
+- Fiche de vérification : medessentiel/idees/cephalees.md. Sources A : Cumplido-Trasmonte 2021 (PMID 34537167), Dodick Lancet 2018 (PMID 29523342), Petersen Lancet Neurol 2024 (PMID 38876749), Do et al. Neurology 2019 (PMID 30587518, SNNOOP10). Coup de tonnerre = urgence (sources web, B). Localisations du visuel (hypertension, sinusite, ATM) non étayées → non affirmées. D4 à faire.
+- Narration 150,9 s ; 3D globules rouges ; B-roll Pixabay 314346 (neurones animés, boucle) ; miniature icône nerf. Créneau prévu : 10/12 08:00 AST.
+- État Omnisocials (27/11) : 10 publiés (VID-015, 019 à 026, ...), 0 échec ; programmations à jour jusqu'au 09/12 21:30Z.

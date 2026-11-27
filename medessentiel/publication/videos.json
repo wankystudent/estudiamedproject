@@ -1125,5 +1125,28 @@
   "statut_miniature": "Miniature finalisée",
   "statut_fb": "Programmée (Omnisocials 100149771)",
   "statut_yt": "Programmée (Omnisocials 100149771)"
+ },
+ {
+  "vid": "VID-050",
+  "ep": 50,
+  "titre": "Maux de tête : les signes d'alarme à connaître",
+  "specialite": "Neurologie",
+  "categorie_yt": "Prévention et conseils",
+  "duree_s": 151.8,
+  "icone": "nerve",
+  "miniature": "MAUX DE TÊTE|les signes d'alarme",
+  "accroche": "Mal de tête : banal ou inquiétant ? Comment faire la différence ?",
+  "description": "Céphalée de tension, migraine, algie vasculaire de la face, céphalées secondaires, signaux d'alarme SNNOOP10 et céphalée en coup de tonnerre. Plans de coupe : Pixabay.",
+  "hashtags": "#MauxDeTête #Migraine #Neurologie #Santé #MedEssentiel",
+  "date": "2026-12-10",
+  "heure_AST": "08:00",
+  "scheduled_at_utc": "2026-12-10T12:00:00Z",
+  "vitesse": 1.0,
+  "plateformes": "FB+YT",
+  "lien": "",
+  "statut_production": "Rendu en cours",
+  "statut_miniature": "À créer",
+  "statut_fb": "Non programmée",
+  "statut_yt": "Non programmée"
  }
 ]
